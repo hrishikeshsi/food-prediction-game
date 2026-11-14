@@ -1,0 +1,366 @@
+[
+{
+  "name": "Koshari", "aliases": ["kushari", "koshary"],
+  "cuisine": "Egyptian", "region": "North Africa", "country": "Egypt",
+  "course": "main", "protein": "legume", "carb": "rice", "method": "assembled", "temp": "hot", "difficulty": 3,
+  "flags": ["vegetarian", "vegan", "street_food", "saucy", "noodle", "crispy", "one_pot"],
+  "key_ingredients": ["brown lentils", "rice", "macaroni", "chickpeas", "fried onions", "tomato sauce"],
+  "clues": [
+    "It is a colonial accident: three continents' pantries collided in one bowl and nobody thought to separate them again.",
+    "Sold from tiled shopfronts along the Nile for a handful of coins, and eaten standing up with a tin of vinegar on the counter.",
+    "Starch upon starch — small pasta, grains and two kinds of pulse in one heap, crowned with something crisp and sweet.",
+    "Egypt's national street dish: lentils, rice and macaroni under spiced tomato sauce, garlic vinegar and fried onions."
+  ],
+  "fact": "It emerged in the nineteenth century, blending Indian lentil-and-rice traditions brought by British troops with Italian pasta."
+},
+{
+  "name": "Molokhia", "aliases": ["mulukhiyah", "jute leaf soup"],
+  "cuisine": "Egyptian", "region": "North Africa", "country": "Egypt",
+  "course": "soup", "protein": "chicken", "carb": "rice", "method": "boiled", "temp": "hot", "difficulty": 4,
+  "flags": ["soup", "saucy", "one_pot"],
+  "key_ingredients": ["jute mallow leaves", "chicken stock", "garlic", "ground coriander", "ghee", "lemon"],
+  "clues": [
+    "A Fatimid caliph is said to have banned it outright, which only made people want it more.",
+    "The final garlic tempering is poured in hissing, and cooks say the sound itself is part of the recipe.",
+    "Finely minced green leaves that thicken the broth to something viscous and rope-like, poured over rice.",
+    "The Egyptian soup of chopped jute mallow leaves in chicken broth, finished with a hiss of fried garlic and coriander."
+  ],
+  "fact": "The mucilaginous texture divides people completely; boiling it too long destroys both the colour and the viscosity."
+},
+{
+  "name": "Ful Medames", "aliases": ["foul medames", "ful"],
+  "cuisine": "Egyptian", "region": "North Africa", "country": "Egypt",
+  "course": "breakfast", "protein": "legume", "carb": "none", "method": "stewed", "temp": "hot", "difficulty": 3,
+  "flags": ["vegetarian", "vegan", "street_food", "one_pot"],
+  "key_ingredients": ["fava beans", "olive oil", "cumin", "lemon", "garlic", "parsley"],
+  "clues": [
+    "Traces of it have been found in pharaonic tombs, and the second half of its name refers to the buried pot it cooked in.",
+    "It is the breakfast of the working morning across the Nile valley and the Levant, ladled from a bulbous copper vessel.",
+    "Brown beans stewed overnight and crushed at the table with oil, lemon and a heavy hand of cumin.",
+    "Egypt's slow-cooked fava bean breakfast, mashed with olive oil, garlic and lemon and scooped with flatbread."
+  ],
+  "fact": "The traditional vessel, a qidra, is a narrow-necked pot set into embers so the beans cook overnight without boiling dry."
+},
+{
+  "name": "Harira", "aliases": ["hrira"],
+  "cuisine": "Moroccan", "region": "North Africa", "country": "Morocco",
+  "course": "soup", "protein": "lamb", "carb": "noodle", "method": "stewed", "temp": "hot", "difficulty": 3,
+  "flags": ["soup", "one_pot", "festive", "noodle"],
+  "key_ingredients": ["chickpeas", "lentils", "tomato", "vermicelli", "celery leaf", "tadouira flour"],
+  "clues": [
+    "During one month of the year it is the first thing to touch the lips at sunset, eaten with dates and a honeyed pastry.",
+    "It is thickened at the very end with a fermented flour-and-water mixture whisked in as the pot boils.",
+    "A cloudy tomato-based broth thick with two pulses and fine pasta, sharp with celery leaf and coriander.",
+    "Morocco's Ramadan soup of chickpeas, lentils and lamb, thickened with a flour slurry and finished with lemon."
+  ],
+  "fact": "The thickener, tadouira, is flour and water left to sour for a day or two, which adds a subtle tang as well as body."
+},
+{
+  "name": "Bastilla", "aliases": ["pastilla", "b'stilla"],
+  "cuisine": "Moroccan", "region": "North Africa", "country": "Morocco",
+  "course": "main", "protein": "chicken", "carb": "wheat", "method": "baked", "temp": "hot", "difficulty": 4,
+  "flags": ["sweet", "festive", "crispy", "nuts", "layered", "stuffed", "egg_based"],
+  "key_ingredients": ["warqa pastry", "pigeon or chicken", "almonds", "cinnamon", "icing sugar", "orange blossom water"],
+  "clues": [
+    "Its name descends from the Spanish word for a small pie, carried across the strait by Andalusian exiles.",
+    "It is the show-stopper of the Fez wedding table, dusted in a pattern before it reaches the guests.",
+    "Layers of tissue-thin pastry over shredded poultry, a lemony egg curd and ground nuts — then sugar and cinnamon on top.",
+    "The Moroccan sweet-savoury pie of pigeon or chicken in paper-thin warqa, finished with icing sugar and cinnamon."
+  ],
+  "fact": "Warqa is not filo — it is dabbed onto a hot dome in overlapping circles rather than rolled and stretched."
+},
+{
+  "name": "Zaalouk", "aliases": ["zalouk"],
+  "cuisine": "Moroccan", "region": "North Africa", "country": "Morocco",
+  "course": "side", "protein": "none", "carb": "none", "method": "stewed", "temp": "room", "difficulty": 5,
+  "flags": ["vegetarian", "vegan", "saucy", "smoky"],
+  "key_ingredients": ["aubergine", "tomato", "garlic", "paprika", "cumin", "olive oil"],
+  "clues": [
+    "It belongs to a family of small cooked salads that arrive together at the start of a meal, a dozen little dishes at once.",
+    "In Morocco it is one of the standard kemia, scooped up with bread before anything else appears.",
+    "A soft, almost jammy purée of charred nightshades cooked down with garlic and sweet paprika until the oil separates.",
+    "The Moroccan cooked salad of smoky mashed aubergine and tomato, served cool with bread."
+  ],
+  "fact": "The aubergine is usually grilled or roasted whole first, so the smoke goes into the flesh before it is ever mashed."
+},
+{
+  "name": "Ghormeh Sabzi", "aliases": ["qormeh sabzi", "herb stew"],
+  "cuisine": "Persian", "region": "Middle East", "country": "Iran",
+  "course": "main", "protein": "lamb", "carb": "rice", "method": "stewed", "temp": "hot", "difficulty": 3,
+  "flags": ["saucy", "one_pot", "pickled", "festive"],
+  "key_ingredients": ["parsley", "fenugreek leaf", "dried lime", "red kidney beans", "lamb", "leek"],
+  "clues": [
+    "The herbs must be fried until they turn almost black, and rushing that step is the classic beginner's mistake.",
+    "It is routinely voted the national dish of its country, and diaspora families judge each other by it.",
+    "A very dark green stew, sour rather than spicy, with beans and lamb, punctured by whole shrivelled citrus.",
+    "Iran's herb stew of parsley and fenugreek with dried limes and kidney beans, served over saffron rice."
+  ],
+  "fact": "The sourness comes from limu omani — limes boiled in brine and sun-dried until hollow, pierced before going into the pot."
+},
+{
+  "name": "Fesenjan", "aliases": ["khoresh fesenjan", "fesenjoon"],
+  "cuisine": "Persian", "region": "Middle East", "country": "Iran",
+  "course": "main", "protein": "chicken", "carb": "rice", "method": "stewed", "temp": "hot", "difficulty": 4,
+  "flags": ["saucy", "nuts", "festive", "sweet", "one_pot"],
+  "key_ingredients": ["ground walnuts", "pomegranate molasses", "chicken or duck", "onion", "saffron", "sugar"],
+  "clues": [
+    "Its two defining ingredients both appear on the reliefs of Persepolis, and it may be one of the oldest stews still cooked.",
+    "It belongs to the Caspian north, and the winter solstice table, where duck is the traditional protein.",
+    "A thick sauce that darkens from beige to near-black as ground nuts release their oil, balanced sweet against sharply sour.",
+    "The Iranian stew of ground walnuts and pomegranate molasses, usually with chicken or duck, over rice."
+  ],
+  "fact": "The colour change is the doneness test — the walnut oil must separate and the sauce must go glossy and almost black."
+},
+{
+  "name": "Ash Reshteh", "aliases": ["aash reshteh", "noodle soup"],
+  "cuisine": "Persian", "region": "Middle East", "country": "Iran",
+  "course": "soup", "protein": "legume", "carb": "noodle", "method": "boiled", "temp": "hot", "difficulty": 4,
+  "flags": ["vegetarian", "soup", "noodle", "dairy", "fermented", "festive", "one_pot"],
+  "key_ingredients": ["reshteh noodles", "chickpeas", "kidney beans", "spinach", "kashk", "fried mint"],
+  "clues": [
+    "The noodles in it are symbolic: pulling strands is associated with untangling the threads of one's fate.",
+    "It is cooked for Nowruz and for charitable vows, in cauldrons big enough to feed a whole street.",
+    "A thick green pottage of pulses and herbs with flat wheat strands, swirled with a sour whey and dark fried mint.",
+    "The Persian new year soup of noodles, beans and herbs, topped with fermented whey, crisp onion and mint oil."
+  ],
+  "fact": "Kashk, the drizzle on top, is drained fermented whey — sharp and salty, and quite unlike yogurt or sour cream."
+},
+{
+  "name": "Tahchin", "aliases": ["tah chin", "saffron rice cake"],
+  "cuisine": "Persian", "region": "Middle East", "country": "Iran",
+  "course": "main", "protein": "chicken", "carb": "rice", "method": "baked", "temp": "hot", "difficulty": 5,
+  "flags": ["dairy", "festive", "crispy", "layered", "egg_based"],
+  "key_ingredients": ["basmati rice", "yogurt", "egg yolk", "saffron", "chicken", "barberries"],
+  "clues": [
+    "Its name means arranged at the bottom, and the bottom is precisely the part everyone fights over.",
+    "It is turned out of the dish upside down at the table, and a crack in the crust is a small domestic tragedy.",
+    "Grains bound with yogurt and yolk, baked until the base sets into a burnished golden shell around a soft interior.",
+    "The Iranian saffron rice cake layered with chicken and barberries, inverted to show its crisp crust."
+  ],
+  "fact": "The prized bottom crust belongs to the wider tahdig tradition, but here yogurt and egg yolk make it a solid, sliceable layer."
+},
+{
+  "name": "Mansaf", "aliases": ["mensaf"],
+  "cuisine": "Jordanian", "region": "Middle East", "country": "Jordan",
+  "course": "main", "protein": "lamb", "carb": "rice", "method": "boiled", "temp": "hot", "difficulty": 4,
+  "flags": ["dairy", "festive", "fermented", "nuts", "bread_based", "one_pot"],
+  "key_ingredients": ["jameed", "lamb", "rice", "shrak bread", "almonds", "pine nuts"],
+  "clues": [
+    "It is eaten standing, with the right hand only, from a communal tray, and the guest of honour is handed the head.",
+    "The sauce depends on hard discs of dried, salted, fermented sheep's milk that must be soaked back to life.",
+    "Lamb poached in a tart white dairy broth over rice and a layer of thin bread, scattered with toasted nuts.",
+    "Jordan's national dish: lamb cooked in fermented dried yogurt, served over rice and flatbread."
+  ],
+  "fact": "Jameed is sun-dried fermented ewe's milk pressed into rock-hard balls, and its sourness is the whole point of the dish."
+},
+{
+  "name": "Maqluba", "aliases": ["maqlooba", "makloubeh"],
+  "cuisine": "Palestinian", "region": "Middle East", "country": "Palestine",
+  "course": "main", "protein": "chicken", "carb": "rice", "method": "boiled", "temp": "hot", "difficulty": 3,
+  "flags": ["layered", "festive", "one_pot", "nuts"],
+  "key_ingredients": ["rice", "fried aubergine", "cauliflower", "chicken", "allspice", "pine nuts"],
+  "clues": [
+    "Its name is a warning about how it is served: the pot goes over, and everyone holds their breath.",
+    "A thirteenth-century Baghdadi cookbook already describes something very like it.",
+    "Fried vegetables lining the base of the pot become the top of a moulded tower of spiced rice and meat.",
+    "The Palestinian upside-down pot of rice layered with fried aubergine, cauliflower and chicken."
+  ],
+  "fact": "The layering order is reversed deliberately, so the browned aubergine ends up as the crown once the pot is inverted."
+},
+{
+  "name": "Musakhan", "aliases": ["muhammar"],
+  "cuisine": "Palestinian", "region": "Middle East", "country": "Palestine",
+  "course": "main", "protein": "chicken", "carb": "bread", "method": "roasted", "temp": "hot", "difficulty": 4,
+  "flags": ["bread_based", "nuts", "festive", "pickled"],
+  "key_ingredients": ["taboon bread", "sumac", "olive oil", "chicken", "onions", "pine nuts"],
+  "clues": [
+    "It was invented to celebrate the year's first pressing, and it uses that liquid with a generosity that shocks outsiders.",
+    "The flatbread underneath is baked on hot stones, and its dimples exist precisely to hold what soaks into it.",
+    "Roast poultry over bread saturated purple-red with a tart ground berry and a great quantity of onion.",
+    "The Palestinian dish of sumac-and-onion chicken roasted over taboon flatbread, drenched in olive oil."
+  ],
+  "fact": "It is traditionally made at olive harvest, and the amount of fresh oil poured over is the measure of the host's generosity."
+},
+{
+  "name": "Muhammara", "aliases": ["mhammara"],
+  "cuisine": "Syrian", "region": "Middle East", "country": "Syria",
+  "course": "appetizer", "protein": "none", "carb": "bread", "method": "assembled", "temp": "room", "difficulty": 4,
+  "flags": ["vegetarian", "vegan", "spicy", "chilli", "nuts", "sweet"],
+  "key_ingredients": ["roasted red pepper", "walnuts", "pomegranate molasses", "breadcrumbs", "aleppo pepper", "cumin"],
+  "clues": [
+    "Its name simply means reddened, and it comes from a city whose particular dried chilli is famous worldwide.",
+    "It arrives as part of the mezze spread, usually next to its paler chickpea neighbour.",
+    "A coarse, slightly gritty paste of charred sweet peppers and ground nuts, sweet-sour and gently hot.",
+    "The Aleppan dip of roasted red pepper and walnut with pomegranate molasses, eaten with flatbread."
+  ],
+  "fact": "Breadcrumbs are the traditional binder, and the texture is meant to stay rough rather than being blended smooth."
+},
+{
+  "name": "Manakish", "aliases": ["manaqish", "man'oushe"],
+  "cuisine": "Lebanese", "region": "Middle East", "country": "Lebanon",
+  "course": "breakfast", "protein": "none", "carb": "bread", "method": "baked", "temp": "hot", "difficulty": 3,
+  "flags": ["vegetarian", "street_food", "handheld", "bread_based", "cheese"],
+  "key_ingredients": ["zaatar", "olive oil", "flatbread dough", "akkawi cheese", "sesame", "sumac"],
+  "clues": [
+    "Its name refers to the dents pressed into the dough by the baker's fingertips before it goes into the oven.",
+    "Families once carried their own trays to the neighbourhood oven in the morning; students now eat it rolled up on the way to class.",
+    "A flatbread baked with a paste of oil and a green herb-and-sumac blend, folded in half around cucumber and mint.",
+    "The Levantine breakfast flatbread topped with zaatar and olive oil, or with stretchy white cheese."
+  ],
+  "fact": "The zaatar blend on top is a mix of dried thyme or hyssop, sesame seeds and sumac, and every family claims a different ratio."
+},
+{
+  "name": "Knafeh", "aliases": ["kunafa", "kanafeh"],
+  "cuisine": "Palestinian", "region": "Middle East", "country": "Palestine",
+  "course": "dessert", "protein": "none", "carb": "wheat", "method": "baked", "temp": "hot", "difficulty": 2,
+  "flags": ["sweet", "dairy", "cheese", "festive", "crispy", "layered", "nuts"],
+  "key_ingredients": ["nabulsi cheese", "kataifi or semolina", "sugar syrup", "orange food colouring", "ghee", "pistachio"],
+  "clues": [
+    "One West Bank city holds the record for the largest ever made, at over seventy metres long.",
+    "It is cut and served straight from a vast round tray, and eating it cold is considered a waste.",
+    "A layer of unsweetened brined cheese under a bright orange crust of shredded pastry, flooded with syrup while still hot.",
+    "The Levantine hot cheese dessert with a crisp orange topping, drenched in syrup and pistachios."
+  ],
+  "fact": "Nablus is its spiritual home, and the local sheep's-milk cheese is desalted by soaking before it can be used."
+},
+{
+  "name": "Lahmacun", "aliases": ["lahmajun", "turkish pizza"],
+  "cuisine": "Turkish", "region": "Middle East", "country": "Turkey",
+  "course": "main", "protein": "lamb", "carb": "bread", "method": "baked", "temp": "hot", "difficulty": 3,
+  "flags": ["street_food", "handheld", "bread_based", "spicy", "crispy"],
+  "key_ingredients": ["minced lamb", "thin dough", "red pepper paste", "parsley", "tomato", "lemon"],
+  "clues": [
+    "Its Arabic name means meat with dough, and it is eaten rolled around a fistful of leaves rather than sliced.",
+    "It belongs to the south-east of its country and to Armenian and Syrian kitchens that claim it too.",
+    "A cracker-thin round baked in seconds under fierce heat, with a paper-thin smear of spiced mince across the top.",
+    "The Turkish flatbread spread with minced lamb and pepper paste, squeezed with lemon and rolled up with parsley."
+  ],
+  "fact": "The meat layer must be spread almost translucently thin, which is why it cooks through in under two minutes."
+},
+{
+  "name": "İskender Kebab", "aliases": ["iskender kebab", "iskender"],
+  "cuisine": "Turkish", "region": "Middle East", "country": "Turkey",
+  "course": "main", "protein": "lamb", "carb": "bread", "method": "grilled", "temp": "hot", "difficulty": 3,
+  "flags": ["dairy", "saucy", "bread_based", "one_pot"],
+  "key_ingredients": ["döner lamb", "pide bread", "tomato sauce", "yogurt", "melted butter", "sheep's butter"],
+  "clues": [
+    "It is named after the nineteenth-century butcher who is credited with turning the roasting spit upright.",
+    "It comes from Bursa, and the family that invented it still trades on the name.",
+    "Sliced spit-roasted meat over cubes of bread, with tomato sauce and a ladle of foaming hot butter poured at the table.",
+    "The Bursa dish of döner lamb on bread with tomato sauce, yogurt and sizzling melted butter."
+  ],
+  "fact": "İskender Efendi's innovation of the vertical spit in the 1860s is what made döner as we know it possible."
+},
+{
+  "name": "Menemen", "aliases": ["turkish scrambled eggs"],
+  "cuisine": "Turkish", "region": "Middle East", "country": "Turkey",
+  "course": "breakfast", "protein": "egg", "carb": "none", "method": "pan-fried", "temp": "hot", "difficulty": 3,
+  "flags": ["vegetarian", "egg_based", "one_pot", "saucy"],
+  "key_ingredients": ["eggs", "green peppers", "tomato", "butter", "pul biber", "white cheese"],
+  "clues": [
+    "The great national argument about it concerns whether one particular allium belongs in it at all.",
+    "It arrives at the breakfast table in the same small two-handled copper pan it was cooked in.",
+    "Eggs stirred loosely into a base of softened peppers and tomato so it stays wet and spoonable, never set firm.",
+    "The Turkish breakfast of eggs cooked into stewed green peppers and tomato, eaten straight from the pan with bread."
+  ],
+  "fact": "Purists insist onion has no place in it; adding onion is widely held to make it a different dish altogether."
+},
+{
+  "name": "Doro Wat", "aliases": ["doro wot", "chicken stew"],
+  "cuisine": "Ethiopian", "region": "East Africa", "country": "Ethiopia",
+  "course": "main", "protein": "chicken", "carb": "bread", "method": "stewed", "temp": "hot", "difficulty": 3,
+  "flags": ["spicy", "chilli", "saucy", "festive", "egg_based", "one_pot", "fermented"],
+  "key_ingredients": ["berbere", "niter kibbeh", "chicken", "red onion", "hard-boiled egg", "injera"],
+  "clues": [
+    "Its foundation is an enormous quantity of one vegetable, cooked dry in a pan with no fat at all before anything else is added.",
+    "It is the dish that breaks the long fasts of the Orthodox calendar, and tradition allots twelve pieces of the bird.",
+    "A dark red, almost mahogany sauce built on a complex chilli blend and spiced clarified butter, with whole eggs sunk into it.",
+    "The Ethiopian chicken stew in berbere and spiced butter, served on a sour flatbread with boiled eggs."
+  ],
+  "fact": "The onions are dry-cooked first to drive off water and collapse them into the sauce, which can take well over an hour."
+},
+{
+  "name": "Kitfo", "aliases": ["ketfo"],
+  "cuisine": "Ethiopian", "region": "East Africa", "country": "Ethiopia",
+  "course": "main", "protein": "beef", "carb": "bread", "method": "raw", "temp": "room", "difficulty": 4,
+  "flags": ["raw", "spicy", "chilli", "dairy", "cheese", "festive"],
+  "key_ingredients": ["minced raw beef", "mitmita", "niter kibbeh", "ayib cheese", "gomen", "kocho"],
+  "clues": [
+    "You are asked how you want it, and the traditional answer is the one that involves no cooking whatsoever.",
+    "It belongs to the Gurage people, and is often served with a dense bread fermented from the false banana plant.",
+    "Finely minced meat warmed only by spiced clarified butter, dressed with a fierce bird's-eye chilli powder.",
+    "The Ethiopian raw minced beef dish with spiced butter and mitmita, served with fresh curd cheese and greens."
+  ],
+  "fact": "Ordering it leb leb means barely warmed through; yebesele means fully cooked, and purists consider that a different dish."
+},
+{
+  "name": "Bunny Chow", "aliases": ["bunny", "kota"],
+  "cuisine": "South African Indian", "region": "Southern Africa", "country": "South Africa",
+  "course": "main", "protein": "lamb", "carb": "bread", "method": "stewed", "temp": "hot", "difficulty": 4,
+  "flags": ["spicy", "chilli", "street_food", "handheld", "bread_based", "saucy"],
+  "key_ingredients": ["white loaf", "mutton curry", "potato", "curry leaves", "carrot sambal", "chilli"],
+  "clues": [
+    "Its name has nothing to do with rabbits; it most likely comes from the caste name of the Gujarati traders who sold it.",
+    "It was created under apartheid, when takeaway had to be sold to non-white customers through a hatch with no cutlery or plate.",
+    "A quarter or half of an unsliced white loaf, hollowed out and filled with curry, the removed crumb balanced on top as a lid.",
+    "The Durban street dish of curry served inside a hollowed-out loaf of bread."
+  ],
+  "fact": "The plug of bread pulled out of the loaf is called the virgin, and it is used to mop up what soaks into the walls."
+},
+{
+  "name": "Bobotie", "aliases": ["bobotjie"],
+  "cuisine": "Cape Malay", "region": "Southern Africa", "country": "South Africa",
+  "course": "main", "protein": "beef", "carb": "bread", "method": "baked", "temp": "hot", "difficulty": 4,
+  "flags": ["sweet", "dairy", "egg_based", "layered", "nuts"],
+  "key_ingredients": ["minced beef", "curry powder", "dried apricots", "bread soaked in milk", "egg custard", "bay leaves"],
+  "clues": [
+    "Bay leaves are stood upright in its surface before baking, more for scent and looks than for flavour.",
+    "It comes from the Cape Malay community, descended from people brought to the Cape from Southeast Asia.",
+    "Mildly curried mince, sweetened with dried fruit and chutney, sealed under a savoury egg-and-milk topping that bakes into custard.",
+    "South Africa's baked spiced mince dish with a golden egg custard crust, served with yellow rice."
+  ],
+  "fact": "It is usually served with turmeric-yellow rice studded with raisins, and the sweet-savoury balance is the point of the dish."
+},
+{
+  "name": "Thieboudienne", "aliases": ["ceebu jen", "thiebou dienne"],
+  "cuisine": "Senegalese", "region": "West Africa", "country": "Senegal",
+  "course": "main", "protein": "fish", "carb": "rice", "method": "stewed", "temp": "hot", "difficulty": 5,
+  "flags": ["one_pot", "spicy", "chilli", "fermented", "festive"],
+  "key_ingredients": ["broken rice", "grouper", "tomato paste", "cassava", "netetou", "tamarind"],
+  "clues": [
+    "The grain used is deliberately fractured, a legacy of colonial rice imports that turned out to suit the dish perfectly.",
+    "It is credited to a nineteenth-century cook from Saint-Louis and was inscribed by UNESCO in 2021.",
+    "Fish stuffed with a green herb paste, simmered with root vegetables, then the grain cooked in the same red broth.",
+    "Senegal's national one-pot of stuffed fish and vegetables with broken rice in tomato sauce."
+  ],
+  "fact": "Penda Mbaye of Saint-Louis is the cook traditionally credited with creating it in the 1800s."
+},
+{
+  "name": "Waakye", "aliases": ["waache"],
+  "cuisine": "Ghanaian", "region": "West Africa", "country": "Ghana",
+  "course": "breakfast", "protein": "legume", "carb": "rice", "method": "boiled", "temp": "hot", "difficulty": 5,
+  "flags": ["street_food", "one_pot", "spicy", "chilli", "egg_based"],
+  "key_ingredients": ["rice", "black-eyed beans", "sorghum leaves", "shito", "gari", "boiled egg"],
+  "clues": [
+    "Dried red leaves are boiled with it purely for colour, turning everything a deep reddish brown.",
+    "It came south with Hausa traders, and is sold from a covered basin at the roadside, wrapped in leaves.",
+    "Grains and pulses cooked together, served with a spoonful of black chilli paste, grated cassava, spaghetti and egg.",
+    "Ghana's rice-and-beans breakfast, coloured with sorghum leaves and served with shito and gari."
+  ],
+  "fact": "The dried sorghum leaf sheaths are alkaline as well as colouring, which also helps the beans soften."
+},
+{
+  "name": "Egusi Soup", "aliases": ["egusi", "melon seed soup"],
+  "cuisine": "Nigerian", "region": "West Africa", "country": "Nigeria",
+  "course": "soup", "protein": "mixed", "carb": "root", "method": "stewed", "temp": "hot", "difficulty": 4,
+  "flags": ["soup", "spicy", "chilli", "nuts", "saucy", "one_pot", "offal"],
+  "key_ingredients": ["ground melon seeds", "palm oil", "bitterleaf", "stockfish", "crayfish", "scotch bonnet"],
+  "clues": [
+    "The ground seed at its heart comes from a gourd grown not for its flesh but for what is inside it.",
+    "It is eaten with a swallow — a stiff starch dough that is pinched, dipped and swallowed without chewing.",
+    "A thick orange-green stew that sets into soft curds as the ground seeds cook, rich with red palm oil and dried fish.",
+    "The West African stew of ground melon seeds with leafy greens, palm oil and assorted meats."
+  ],
+  "fact": "The seeds are toasted and ground, then added in lumps so they steam into distinct curds rather than dissolving."
+}
+]

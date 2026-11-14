@@ -1,0 +1,2993 @@
+[
+ {
+  "name": "Okonomiyaki",
+  "aliases": [
+   "osaka pancake",
+   "japanese savoury pancake"
+  ],
+  "cuisine": "Japanese",
+  "region": "East Asia",
+  "country": "Japan",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "street_food",
+   "saucy",
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "cabbage",
+   "wheat batter",
+   "pork belly",
+   "bonito flakes",
+   "kewpie mayonnaise",
+   "nagaimo yam"
+  ],
+  "clues": [
+   "Its name is an instruction rather than a description: cook it however you like it.",
+   "Two cities argue over the true version, one mixing everything together, the other building it in layers with a nest of noodles.",
+   "Shredded cabbage bound in a thin batter, seared on a flat iron griddle, then crowned with dried fish flakes that curl in the heat.",
+   "A savoury Japanese griddle cake finished with sweet brown sauce, mayonnaise and seaweed powder."
+  ],
+  "fact": "Grated nagaimo yam in the batter is what gives it the light, almost custardy interior rather than a dense pancake crumb."
+ },
+ {
+  "name": "Chawanmushi",
+  "aliases": [
+   "tea cup steamed egg"
+  ],
+  "cuisine": "Japanese",
+  "region": "East Asia",
+  "country": "Japan",
+  "course": "appetizer",
+  "protein": "egg",
+  "carb": "none",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "egg",
+   "dashi",
+   "mirin",
+   "ginkgo nut",
+   "shiitake",
+   "shrimp"
+  ],
+  "clues": [
+   "It is the rare Japanese dish eaten with a spoon, and the vessel it is cooked in gives it half its name.",
+   "It appears in kaiseki menus as a palate-settler, and hides small treasures at the bottom for the diner to discover.",
+   "Barely set and trembling, the texture of a savoury custard, seasoned with kelp-and-bonito stock rather than sugar.",
+   "A Japanese steamed egg custard served in a lidded cup, with shrimp, mushroom and a bitter green nut submerged inside."
+  ],
+  "fact": "The ratio is roughly one part beaten egg to three parts dashi; more egg and it turns rubbery instead of silken."
+ },
+ {
+  "name": "Nikujaga",
+  "aliases": [
+   "meat and potatoes"
+  ],
+  "cuisine": "Japanese",
+  "region": "East Asia",
+  "country": "Japan",
+  "course": "main",
+  "protein": "beef",
+  "carb": "potato",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "one_pot",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "thinly sliced beef",
+   "potato",
+   "onion",
+   "soy sauce",
+   "mirin",
+   "shirataki"
+  ],
+  "clues": [
+   "It was reportedly invented by a navy cook trying to recreate a European stew he had eaten abroad, without any of the right ingredients.",
+   "It is the archetypal ofukuro no aji, the taste of one's mother's kitchen, and a benchmark by which home cooks are judged.",
+   "Tubers and thin ribbons of meat simmered until the broth has almost vanished, sweetened with rice wine.",
+   "A homely Japanese simmered dish of beef, potato and onion in a sweet soy broth."
+  ],
+  "fact": "The story credits Admiral Tōgō Heihachirō, who wanted his fleet to have something like the beef stew he had tasted in Britain."
+ },
+ {
+  "name": "Nattō",
+  "aliases": [
+   "natto",
+   "fermented soybeans"
+  ],
+  "cuisine": "Japanese",
+  "region": "East Asia",
+  "country": "Japan",
+  "course": "breakfast",
+  "protein": "legume",
+  "carb": "none",
+  "method": "fermented",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "fermented",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "soybeans",
+   "bacillus subtilis",
+   "karashi mustard",
+   "spring onion",
+   "soy sauce"
+  ],
+  "clues": [
+   "A single bacterium, traditionally carried in rice straw, transforms it — and divides a nation into devotees and refusers.",
+   "It is a breakfast fixture east of the old capital and quietly avoided west of it.",
+   "Stirring it draws long glossy threads; the aroma is ammoniac and the flavour deeply savoury.",
+   "Japanese fermented soybeans, sticky and pungent, stirred with mustard and eaten over rice."
+  ],
+  "fact": "The stringiness is polyglutamic acid, and the enzyme nattokinase produced during fermentation is studied for its effect on blood clots."
+ },
+ {
+  "name": "Mapo Tofu",
+  "aliases": [
+   "mapo doufu",
+   "pockmarked grandmother's tofu"
+  ],
+  "cuisine": "Sichuanese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "saucy",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "silken tofu",
+   "doubanjiang",
+   "sichuan peppercorn",
+   "minced pork",
+   "fermented black beans",
+   "chilli oil"
+  ],
+  "clues": [
+   "The dish is named for the complexion of the widow who supposedly first sold it to porters outside Chengdu.",
+   "It is the standard-bearer for a numbing sensation that is prized as a flavour in its own right.",
+   "Soft white cubes suspended in a fiery red gravy thickened with starch, dusted with a spice that makes the lips buzz.",
+   "A Sichuan braise of silken bean curd in broad-bean chilli paste, minced pork and tingling peppercorn."
+  ],
+  "fact": "Chefs judge it against seven criteria including má (numbing), là (hot) and tàng (scalding hot in the bowl)."
+ },
+ {
+  "name": "Xiaolongbao",
+  "aliases": [
+   "soup dumpling",
+   "xlb"
+  ],
+  "cuisine": "Jiangnan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "pork",
+   "aspic",
+   "wheat dough",
+   "ginger",
+   "shaoxing wine",
+   "black vinegar"
+  ],
+  "clues": [
+   "The liquid inside was solid when the cook sealed it; heat is what performs the trick.",
+   "Purists count the pleats at the crown, and eighteen is the number they are looking for.",
+   "A gossamer wrapper holds minced meat and a mouthful of scalding broth, eaten with ginger shreds in dark vinegar.",
+   "The Shanghai-region steamed dumpling that squirts hot soup when you bite it."
+  ],
+  "fact": "The broth comes from chilled pork-skin aspic folded into the filling, which melts back to liquid in the steamer."
+ },
+ {
+  "name": "Jianbing",
+  "aliases": [
+   "chinese crepe"
+  ],
+  "cuisine": "Northern Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "breakfast",
+  "protein": "egg",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "street_food",
+   "handheld",
+   "crispy",
+   "egg_based",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "mung bean batter",
+   "egg",
+   "baocui cracker",
+   "hoisin",
+   "chilli sauce",
+   "coriander"
+  ],
+  "clues": [
+   "Legend traces it to a Three Kingdoms army that cooked batter on their shields when the pots were lost.",
+   "It is the breakfast of the northern Chinese commuter, made to order on a rotating griddle in under ninety seconds.",
+   "A thin savoury batter round with an egg cracked straight onto it mid-cook, folded around a sheet of something deliberately shattering.",
+   "A folded Chinese street breakfast crepe of mung-bean batter, egg, sweet bean sauce and a crisp fried cracker."
+  ],
+  "fact": "The crunchy sheet inside is either baocui, a flat fried cracker, or a length of youtiao dough cruller."
+ },
+ {
+  "name": "Liangpi",
+  "aliases": [
+   "cold skin noodles"
+  ],
+  "cuisine": "Shaanxi",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "cold",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "chilli",
+   "noodle",
+   "street_food",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "wheat starch",
+   "seitan",
+   "black vinegar",
+   "chilli oil",
+   "garlic water",
+   "bean sprouts"
+  ],
+  "clues": [
+   "Making it starts by washing dough in water until the two halves of the flour go their separate ways — and both halves end up in the bowl.",
+   "It is the summer street food of the old Silk Road terminus, sold from carts along the Muslim Quarter.",
+   "Broad translucent ribbons served chilled, slippery and springy, dressed with black vinegar, raw garlic water and red oil.",
+   "A cold Shaanxi noodle of steamed wheat starch, topped with the spongy gluten left over from the same dough."
+  ],
+  "fact": "The washed-out gluten is steamed into a honeycombed sponge called mianjin, which is served on top of the noodles it came from."
+ },
+ {
+  "name": "Dan Dan Noodles",
+  "aliases": [
+   "dandanmian",
+   "dan dan mian"
+  ],
+  "cuisine": "Sichuanese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "noodle",
+   "street_food",
+   "saucy",
+   "nuts",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "wheat noodles",
+   "ya cai",
+   "minced pork",
+   "sesame paste",
+   "chilli oil",
+   "sichuan peppercorn"
+  ],
+  "clues": [
+   "It is named after the shoulder pole the hawkers used to carry it, one basket at each end.",
+   "The authentic street version is a small portion with almost no broth, meant to be eaten in a few mouthfuls while standing.",
+   "Noodles tossed rather than soaked, in a dark pool of sesame paste and red oil, with crumbled preserved mustard stem.",
+   "The Sichuan pole-carrier's noodle: chilli oil, sesame, numbing pepper and a scatter of crisp minced pork."
+  ],
+  "fact": "Ya cai, a salt-preserved mustard stem from Yibin, is the ingredient most often missing from Western versions."
+ },
+ {
+  "name": "Century Egg",
+  "aliases": [
+   "pidan",
+   "thousand year egg",
+   "preserved egg"
+  ],
+  "cuisine": "Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "egg",
+  "carb": "none",
+  "method": "fermented",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "fermented",
+   "egg_based",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "duck egg",
+   "quicklime",
+   "wood ash",
+   "salt",
+   "rice husk",
+   "tea"
+  ],
+  "clues": [
+   "Its common name wildly overstates the wait; weeks, not lifetimes, are what it actually takes.",
+   "It is served in slivers with pickled ginger, or stirred through a soft rice porridge for breakfast.",
+   "Alkali turns the white to a dark translucent jelly and the yolk to a soft grey-green with a sulphurous edge.",
+   "A Chinese duck egg cured in an alkaline coating until it becomes amber jelly around a creamy dark yolk."
+  ],
+  "fact": "Sometimes a pale crystalline pattern like pine needles forms on the set white, which is prized as a sign of good curing."
+ },
+ {
+  "name": "Tteokbokki",
+  "aliases": [
+   "ddeokbokki",
+   "spicy rice cakes"
+  ],
+  "cuisine": "Korean",
+  "region": "East Asia",
+  "country": "South Korea",
+  "course": "snack",
+  "protein": "none",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "street_food",
+   "saucy",
+   "fermented",
+   "sweet"
+  ],
+  "key_ingredients": [
+   "garae-tteok rice cakes",
+   "gochujang",
+   "fish cake",
+   "anchovy stock",
+   "spring onion",
+   "sugar"
+  ],
+  "clues": [
+   "The royal court version was brown, soy-based and mild; the version everyone knows now is a post-war invention of a market stall.",
+   "It is the archetypal food of the pojangmacha tent stall, eaten with fried squid and a paper cup of broth.",
+   "Chewy white cylinders simmered in a glossy red sauce that is as sweet as it is hot, with sheets of fish cake.",
+   "Korean cylindrical rice cakes stewed in fermented chilli paste, sold from every street cart in Seoul."
+  ],
+  "fact": "Ma Bok-lim of Sindang-dong is credited with the chilli-paste version in 1953, after accidentally dropping a rice cake into jjajang sauce."
+ },
+ {
+  "name": "Samgyetang",
+  "aliases": [
+   "ginseng chicken soup"
+  ],
+  "cuisine": "Korean",
+  "region": "East Asia",
+  "country": "South Korea",
+  "course": "soup",
+  "protein": "chicken",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "one_pot",
+   "stuffed",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "young chicken",
+   "ginseng",
+   "glutinous rice",
+   "jujube",
+   "garlic",
+   "chestnut"
+  ],
+  "clues": [
+   "It is eaten on the three hottest days of the year, on the principle of fighting heat with heat.",
+   "A whole young bird is used per person, and the pot is sealed so nothing escapes into the room.",
+   "Milky broth from long boiling, with sticky grains and a bitter medicinal root packed inside the cavity.",
+   "A Korean whole-chicken soup stuffed with glutinous rice, ginseng and jujube, served in a stone pot."
+  ],
+  "fact": "The custom of eating it on the sambok days rests on the idea of iyeolchiyeol — controlling heat with heat."
+ },
+ {
+  "name": "Jjajangmyeon",
+  "aliases": [
+   "jajangmyeon",
+   "black bean noodles"
+  ],
+  "cuisine": "Korean-Chinese",
+  "region": "East Asia",
+  "country": "South Korea",
+  "course": "main",
+  "protein": "pork",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "noodle",
+   "saucy",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "chunjang",
+   "wheat noodles",
+   "pork",
+   "onion",
+   "courgette",
+   "potato starch"
+  ],
+  "clues": [
+   "It was born in a port city's Chinese quarter, and is now eaten by the single and the lovelorn on a day in April named for its colour.",
+   "It is the default order for delivery, and the empty bowls are traditionally left outside the door to be collected.",
+   "Hand-pulled wheat strands buried under a thick dark sauce of caramelised fermented soybean paste and diced onion.",
+   "Korea's black bean sauce noodle dish, descended from a Shandong original and sold in every Chinese-Korean restaurant."
+  ],
+  "fact": "On Black Day, 14 April, people who received nothing on Valentine's or White Day traditionally eat it dressed in black."
+ },
+ {
+  "name": "Hotteok",
+  "aliases": [
+   "hoddeok",
+   "sweet pancake"
+  ],
+  "cuisine": "Korean",
+  "region": "East Asia",
+  "country": "South Korea",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "street_food",
+   "handheld",
+   "stuffed",
+   "nuts",
+   "vegetarian"
+  ],
+  "key_ingredients": [
+   "yeasted wheat dough",
+   "brown sugar",
+   "cinnamon",
+   "crushed peanuts",
+   "glutinous rice flour"
+  ],
+  "clues": [
+   "Chinese merchants brought it in the nineteenth century, and the first syllable of its name still marks it as foreign.",
+   "It is winter food, sold from a griddle behind a plastic sheet and handed over in a folded paper cup.",
+   "A yeasted round pressed flat on the griddle, whose filling turns to scalding syrup as it cooks.",
+   "A Korean street pancake stuffed with brown sugar, cinnamon and crushed nuts that liquefy into caramel."
+  ],
+  "fact": "It is served in a slit paper cup precisely because the molten sugar core will burn an unwary mouth."
+ },
+ {
+  "name": "Buuz",
+  "aliases": [
+   "buuts",
+   "mongolian dumpling"
+  ],
+  "cuisine": "Mongolian",
+  "region": "East Asia",
+  "country": "Mongolia",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "stuffed",
+   "festive"
+  ],
+  "key_ingredients": [
+   "mutton",
+   "onion",
+   "garlic",
+   "wheat dough",
+   "caraway"
+  ],
+  "clues": [
+   "Households count them in the hundreds and freeze them outdoors, because a single festival can call for a thousand.",
+   "It is the centrepiece of Tsagaan Sar, the white moon new year of the steppe.",
+   "A thick pleated wrapper around fatty minced meat, with juices that collect at the base as it steams.",
+   "The Mongolian steamed mutton dumpling eaten by the dozen at lunar new year."
+  ],
+  "fact": "Guests are expected to eat an odd number, and the host judges the household by how well the pleats are closed."
+ },
+ {
+  "name": "Beef Noodle Soup",
+  "aliases": [
+   "niurou mian",
+   "taiwanese beef noodle soup"
+  ],
+  "cuisine": "Taiwanese",
+  "region": "East Asia",
+  "country": "Taiwan",
+  "course": "soup",
+  "protein": "beef",
+  "carb": "noodle",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "noodle",
+   "spicy",
+   "chilli",
+   "fermented",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "beef shank",
+   "doubanjiang",
+   "star anise",
+   "wheat noodles",
+   "suan cai",
+   "soy sauce"
+  ],
+  "clues": [
+   "It was created by mainland veterans who settled on an island after 1949, in military dependants' villages.",
+   "Taipei holds an annual competition to crown the best bowl in the city.",
+   "Braised shin falling off the tendon in a dark spiced broth, with pickled mustard greens cutting the richness.",
+   "Taiwan's unofficial national dish: red-braised beef and wheat noodles in a star-anise broth."
+  ],
+  "fact": "The red-braised style is credited to Sichuanese veterans in Kaohsiung, which is why broad bean chilli paste is essential to it."
+ },
+ {
+  "name": "Rendang",
+  "aliases": [
+   "beef rendang"
+  ],
+  "cuisine": "Minangkabau",
+  "region": "Southeast Asia",
+  "country": "Indonesia",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "coconut",
+   "festive",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "beef",
+   "coconut milk",
+   "galangal",
+   "lemongrass",
+   "kaffir lime leaf",
+   "turmeric leaf"
+  ],
+  "clues": [
+   "It is technically not a curry at all, because the cooking only finishes once all the liquid has gone.",
+   "Among the Minangkabau it is served at ceremonies in a strict hierarchy, and its keeping quality made it travellers' food.",
+   "Meat cooked for hours in spiced coconut milk until the milk splits and the solids fry the meat dark and dry.",
+   "The dry Sumatran spiced beef braise, cooked down in coconut milk until almost black."
+  ],
+  "fact": "The wetter, paler intermediate stage has its own name, kalio; it only becomes the finished dish once the oil separates and darkens it."
+ },
+ {
+  "name": "Gado-Gado",
+  "aliases": [
+   "gado gado"
+  ],
+  "cuisine": "Indonesian",
+  "region": "Southeast Asia",
+  "country": "Indonesia",
+  "course": "salad",
+  "protein": "tofu",
+  "carb": "potato",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "saucy",
+   "nuts",
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "peanut sauce",
+   "tempeh",
+   "tofu",
+   "long beans",
+   "boiled egg",
+   "krupuk"
+  ],
+  "clues": [
+   "Its name is essentially a shrug — a word meaning mix-mix, or hotchpotch.",
+   "The vendor grinds the dressing to order in a stone mortar, adjusting sweetness and heat for each customer.",
+   "Blanched vegetables, bean curd and egg under a thick nut dressing, with a puffed cracker snapped over the top.",
+   "The Indonesian composed vegetable salad bound in peanut sauce, topped with tempeh and a hard-boiled egg."
+  ],
+  "fact": "The dressing is ground fresh in a cobek with palm sugar, tamarind, garlic and chilli — never poured from a jar in a good warung."
+ },
+ {
+  "name": "Nasi Lemak",
+  "aliases": [
+   "coconut rice"
+  ],
+  "cuisine": "Malay",
+  "region": "Southeast Asia",
+  "country": "Malaysia",
+  "course": "breakfast",
+  "protein": "fish",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "coconut",
+   "street_food",
+   "nuts",
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "coconut rice",
+   "pandan",
+   "sambal",
+   "anchovies",
+   "roasted peanuts",
+   "cucumber"
+  ],
+  "clues": [
+   "Its name means rich or fatty, and refers to the grain rather than any of the things heaped beside it.",
+   "It is wrapped in a banana leaf and folded into a pyramid for the morning commute.",
+   "Fragrant rice cooked in coconut milk with a screwpine leaf, ringed by a dark chilli relish, tiny dried fish and nuts.",
+   "Malaysia's national breakfast: pandan-scented coconut rice with sambal, crisp anchovies, peanuts, cucumber and egg."
+  ],
+  "fact": "The dried anchovies are ikan bilis, and getting them crisp without bitterness is the mark of a good cook."
+ },
+ {
+  "name": "Hainanese Chicken Rice",
+  "aliases": [
+   "chicken rice",
+   "wenchang chicken"
+  ],
+  "cuisine": "Singaporean",
+  "region": "Southeast Asia",
+  "country": "Singapore",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "poached chicken",
+   "chicken fat rice",
+   "ginger",
+   "pandan",
+   "chilli-garlic sauce",
+   "dark soy"
+  ],
+  "clues": [
+   "The bird is plunged into iced water the moment it is cooked, which is what produces the prized jellied layer under the skin.",
+   "It travelled south from an island province of China with immigrant cooks and became a hawker centre institution.",
+   "Gently poached poultry served at room temperature over grains cooked in its own fat and stock, with three sauces on the side.",
+   "Singapore's hawker staple of silky poached chicken with fragrant fat-cooked rice, ginger paste and chilli sauce."
+  ],
+  "fact": "The rice is the real test: raw grains are fried in rendered chicken fat with garlic and ginger before being cooked in the poaching stock."
+ },
+ {
+  "name": "Kaya Toast",
+  "aliases": [
+   "kaya"
+  ],
+  "cuisine": "Singaporean",
+  "region": "Southeast Asia",
+  "country": "Singapore",
+  "course": "breakfast",
+  "protein": "egg",
+  "carb": "bread",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "vegetarian",
+   "dairy",
+   "bread_based",
+   "egg_based",
+   "coconut"
+  ],
+  "key_ingredients": [
+   "coconut jam",
+   "pandan",
+   "white bread",
+   "cold butter",
+   "soft-boiled eggs",
+   "dark soy sauce"
+  ],
+  "clues": [
+   "It is ordered alongside two barely-set eggs in a saucer and a cup of coffee thickened with condensed milk.",
+   "It is the ritual breakfast of the old kopitiam, where the bread is toasted over charcoal and the coffee sock-filtered.",
+   "Thin crisp slices sandwiching a green-gold coconut-and-egg curd and a cold slab of butter that never quite melts.",
+   "The Singaporean coffee shop breakfast of charcoal-toasted bread with pandan coconut jam and butter."
+  ],
+  "fact": "The eggs alongside are cracked into a saucer, seasoned with dark soy and white pepper, and drunk rather than eaten."
+ },
+ {
+  "name": "Sisig",
+  "aliases": [
+   "sizzling sisig"
+  ],
+  "cuisine": "Kapampangan",
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "offal",
+   "spicy",
+   "chilli",
+   "smoky",
+   "crispy",
+   "egg_based",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "pig's cheek",
+   "pig's ear",
+   "chicken liver",
+   "calamansi",
+   "onion",
+   "bird's eye chilli"
+  ],
+  "clues": [
+   "The word originally described a way of eating sour green fruit with salt; the meat came much later.",
+   "Its modern form is credited to a woman in Angeles City who bought cheap offcuts discarded by a nearby American airbase.",
+   "Boiled then grilled then chopped, arriving on a cast-iron plate still spitting, with a raw egg stirred through at the table.",
+   "The Filipino sizzling plate of chopped pig's face and ear, sharpened with citrus and chilli."
+  ],
+  "fact": "Lucia Cunanan of Angeles City is generally credited with the sizzling-plate version served since the 1970s."
+ },
+ {
+  "name": "Kare-Kare",
+  "aliases": [
+   "oxtail peanut stew"
+  ],
+  "cuisine": "Filipino",
+  "region": "Southeast Asia",
+  "country": "Philippines",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "saucy",
+   "nuts",
+   "one_pot",
+   "festive",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "oxtail",
+   "ground peanuts",
+   "toasted rice",
+   "annatto",
+   "banana heart",
+   "bagoong"
+  ],
+  "clues": [
+   "It is deliberately cooked without salt, because the seasoning arrives in a separate dish on the side.",
+   "It is a fiesta centrepiece, and one theory traces it to Indian sepoys who settled near Manila after the British occupation.",
+   "Oxtail simmered until gelatinous in a thick orange gravy of ground nuts and toasted rice, with aubergine and banana blossom.",
+   "The Filipino peanut stew of oxtail and vegetables, eaten with fermented shrimp paste stirred in by the diner."
+  ],
+  "fact": "The colour comes from annatto seed, and the sauce is thickened with toasted ground rice rather than flour."
+ },
+ {
+  "name": "Bánh Xèo",
+  "aliases": [
+   "banh xeo",
+   "sizzling cake"
+  ],
+  "cuisine": "Vietnamese",
+  "region": "Southeast Asia",
+  "country": "Vietnam",
+  "course": "main",
+  "protein": "pork",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "crispy",
+   "street_food",
+   "handheld",
+   "coconut",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "rice flour",
+   "turmeric",
+   "coconut milk",
+   "pork belly",
+   "prawns",
+   "bean sprouts"
+  ],
+  "clues": [
+   "It is named onomatopoeically, for the noise the batter makes when it hits the hot pan.",
+   "You are meant to tear it apart and roll the pieces in lettuce and a fistful of herbs before dipping.",
+   "A thin yellow crepe, shatteringly crisp at the edges, folded over prawns, pork and raw sprouts.",
+   "The Vietnamese turmeric-tinted rice-flour crepe, wrapped in herbs and dipped in sweet fish sauce."
+  ],
+  "fact": "The yellow is turmeric, not egg — the batter is rice flour, water and coconut milk with no egg at all."
+ },
+ {
+  "name": "Khao Soi",
+  "aliases": [
+   "khao soy",
+   "chiang mai curry noodles"
+  ],
+  "cuisine": "Northern Thai",
+  "region": "Southeast Asia",
+  "country": "Thailand",
+  "course": "soup",
+  "protein": "chicken",
+  "carb": "noodle",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "coconut",
+   "noodle",
+   "soup",
+   "crispy",
+   "pickled",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "egg noodles",
+   "coconut curry",
+   "chicken leg",
+   "pickled mustard greens",
+   "shallot",
+   "lime"
+  ],
+  "clues": [
+   "It arrived over the mountains with Muslim traders from Yunnan, which is why its spicing leans on turmeric and cardamom.",
+   "It belongs to the old Lanna kingdom in the north, not to the Bangkok repertoire most foreigners know.",
+   "Soft strands sit in a mild coconut curry broth, with a tangle of the same noodles deep-fried and piled on top.",
+   "The northern Thai coconut curry noodle soup topped with crisp fried noodles, pickled greens and shallots."
+  ],
+  "fact": "The name traces to a Burmese-Yunnanese term meaning cut rice, from an older version made with sheets of rice dough."
+ },
+ {
+  "name": "Mohinga",
+  "aliases": [
+   "mont hin gar"
+  ],
+  "cuisine": "Burmese",
+  "region": "Southeast Asia",
+  "country": "Myanmar",
+  "course": "breakfast",
+  "protein": "fish",
+  "carb": "noodle",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "soup",
+   "noodle",
+   "street_food",
+   "crispy",
+   "one_pot",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "catfish",
+   "banana stem",
+   "rice vermicelli",
+   "chickpea flour",
+   "lemongrass",
+   "fish sauce"
+  ],
+  "clues": [
+   "The stock is thickened not with cream or flour but with the pith of a tree trunk and toasted pulse flour.",
+   "It is sold from shoulder poles at dawn and is widely treated as the national dish of its country.",
+   "Thin rice strands in a murky, deeply savoury fish broth, with a split-pea fritter crumbled over the top.",
+   "Myanmar's breakfast noodle soup of catfish and banana stem, served with fritters, egg and lime."
+  ],
+  "fact": "The banana stem core is both thickener and vegetable, and its faint astringency is what keeps the fish broth from cloying."
+ },
+ {
+  "name": "Lahpet Thoke",
+  "aliases": [
+   "laphet thoke",
+   "tea leaf salad"
+  ],
+  "cuisine": "Burmese",
+  "region": "Southeast Asia",
+  "country": "Myanmar",
+  "course": "salad",
+  "protein": "legume",
+  "carb": "none",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "fermented",
+   "crispy",
+   "nuts",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "fermented tea leaves",
+   "fried broad beans",
+   "peanuts",
+   "sesame seeds",
+   "dried shrimp",
+   "garlic oil"
+  ],
+  "clues": [
+   "Its main ingredient is normally drunk rather than chewed; here it is buried in a pit and left to sour instead.",
+   "It was once exchanged between warring kingdoms as a peace offering, and is still offered to guests and to monks.",
+   "A pile of bitter, tannic leaves surrounded by separate mounds of crunchy fried pulses, seeds and nuts, mixed at the table.",
+   "The Burmese salad of fermented tea leaves tossed with fried beans, peanuts, sesame and garlic oil."
+  ],
+  "fact": "It is one of very few dishes in the world in which tea is eaten as a food rather than infused as a drink."
+ },
+ {
+  "name": "Amok Trey",
+  "aliases": [
+   "fish amok",
+   "amok"
+  ],
+  "cuisine": "Khmer",
+  "region": "Southeast Asia",
+  "country": "Cambodia",
+  "course": "main",
+  "protein": "fish",
+  "carb": "none",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "coconut",
+   "egg_based",
+   "festive"
+  ],
+  "key_ingredients": [
+   "freshwater fish",
+   "kroeung paste",
+   "coconut cream",
+   "egg",
+   "noni leaves",
+   "banana leaf"
+  ],
+  "clues": [
+   "It is cooked and served in a vessel the cook folds by hand from a leaf, which is never eaten.",
+   "Its spice paste is the backbone of the Khmer kitchen, and the dish is a fixture of the water festival.",
+   "Not a curry but a set custard: coconut cream and egg steamed with lemongrass paste until it holds a wobble.",
+   "The Cambodian steamed fish mousse in a banana-leaf cup, perfumed with lemongrass, galangal and turmeric."
+  ],
+  "fact": "Authentic versions line the leaf cup with slightly bitter noni leaves, which most tourist restaurants leave out."
+ },
+ {
+  "name": "Chow Mein",
+  "aliases": [
+   "Chao Mian"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "noodle",
+   "crispy",
+   "street_food",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "egg noodles",
+   "cabbage",
+   "bean sprouts",
+   "carrot",
+   "soy sauce",
+   "scallion"
+  ],
+  "clues": [
+   "Thin strands of egg-based dough hit a screaming-hot wok until their edges go brittle and gold, turning a boiled starch into something you can hear crunch.",
+   "Cantonese cooks brought this stir-fried favorite across the Pacific over a century ago, and it became one of the first dishes Americans learned to order by name from a Chinese menu.",
+   "Unlike its softer, saucier noodle cousin, this version is pressed into a pancake-like tangle and pan-fried on both sides until it crackles under the fork.",
+   "The crispy, pan-fried Cantonese noodle dish whose name simply means 'stir-fried noodles.'"
+  ],
+  "fact": "Chow mein arrived in America with Chinese railroad workers in the 1800s and, alongside chop suey, became one of the first Chinese dishes fully assimilated into American cuisine."
+ },
+ {
+  "name": "Lo Mein",
+  "aliases": [
+   "Lou Mein"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "noodle",
+   "saucy",
+   "street_food",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "egg noodles",
+   "soy sauce",
+   "sesame oil",
+   "scallion",
+   "bok choy",
+   "chicken or shrimp"
+  ],
+  "clues": [
+   "Long, springy strands are boiled until tender, then tossed — never fried crisp — in a glossy dark sauce with just enough oil to make them shine.",
+   "This Cantonese-American takeout staple gets its name from a Cantonese verb meaning simply 'to toss.'",
+   "Where its crunchy stir-fried cousin is pressed flat and browned in the pan, this one stays soft and slurpable, closer to a dressed pasta than a fried cake.",
+   "The soft, tossed Cantonese noodle dish whose name literally means 'tossed noodles.'"
+  ],
+  "fact": "The name 'lo mein' is Cantonese for 'tossed noodles,' describing how the boiled strands are folded through sauce by hand rather than crisped in the wok."
+ },
+ {
+  "name": "Beef Chow Fun",
+  "aliases": [
+   "Chow Fun",
+   "Beef Ho Fun"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "noodle",
+   "smoky",
+   "saucy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "flat rice noodles",
+   "beef",
+   "bean sprouts",
+   "scallion",
+   "dark soy sauce",
+   "garlic"
+  ],
+  "clues": [
+   "Wide, ribbon-like rice noodles get tossed in an intensely hot wok until they pick up a smoky perfume that connoisseurs chase almost more than the toppings.",
+   "Slices of tender beef and crunchy bean sprouts ride along with these broad noodles, which are stained a deep brown by a splash of dark soy.",
+   "The best versions are judged by a whiff of charred, wok-kissed aroma that no amount of home-stove heat can quite replicate.",
+   "The Cantonese beef and flat rice-noodle stir-fry famous for its elusive 'wok hei' smokiness."
+  ],
+  "fact": "Hong Kong food critics take the dish seriously enough to rate restaurants specifically on how well they achieve 'wok hei,' the smoky breath only extreme wok heat can produce."
+ },
+ {
+  "name": "Zhajiangmian",
+  "aliases": [
+   "Fried Sauce Noodles",
+   "Zha Jiang Mian"
+  ],
+  "cuisine": "Northern Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "noodle",
+   "saucy",
+   "fermented",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "wheat noodles",
+   "ground pork",
+   "fermented soybean paste",
+   "cucumber",
+   "scallion"
+  ],
+  "clues": [
+   "A thick, savory-salty paste of fermented soybeans is stir-fried with minced pork until it turns deep brown, then ladled generously over a bed of thick wheat strands.",
+   "Julienned cucumber, and sometimes radish, is scattered on top raw, offering a cool, crunchy contrast to the rich topping underneath.",
+   "This home-style noodle dish from China's north inspired a wildly popular Korean cousin made with a blacker, sweeter caramelized bean sauce.",
+   "The Northern Chinese noodle dish whose name literally translates to 'fried sauce noodles.'"
+  ],
+  "fact": "Korean-Chinese jajangmyeon, topped with a jet-black caramelized bean sauce, evolved directly from this dish after Shandong immigrants brought it to Incheon in the early 1900s."
+ },
+ {
+  "name": "Biang Biang Noodles",
+  "aliases": [
+   "Biangbiang Mian",
+   "Youpo Noodles"
+  ],
+  "cuisine": "Shaanxi",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "none",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "noodle",
+   "spicy",
+   "chilli",
+   "saucy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "hand-pulled wheat noodles",
+   "chili flakes",
+   "garlic",
+   "scallion",
+   "hot oil",
+   "vinegar"
+  ],
+  "clues": [
+   "Belt-wide ribbons of hand-pulled wheat dough, each strand thick enough to be its own meal, get draped with a shower of chili flakes and scallion before hot oil is poured directly on top, sizzling as it hits.",
+   "From China's northwest, this rustic street food is named after the slapping sound the dough supposedly makes as it's stretched and beaten against the counter.",
+   "Its written name uses a character so complicated, with dozens of strokes, that it can't be typed on a standard keyboard and barely fits on restaurant signs.",
+   "The Shaanxi hand-pulled noodle dish named for the onomatopoeic sound of dough being slapped on a countertop."
+  ],
+  "fact": "The character used to write 'biang' is one of the most complex in the Chinese language, requiring over fifty strokes and appearing in no standard dictionary."
+ },
+ {
+  "name": "Wonton Noodles",
+  "aliases": [
+   "Wonton Mein",
+   "Yun Tun Min"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "soup",
+  "protein": "mixed",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "noodle",
+   "soup",
+   "seafood",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "thin egg noodles",
+   "shrimp",
+   "pork",
+   "wonton wrappers",
+   "chicken broth",
+   "chives"
+  ],
+  "clues": [
+   "Springy, thin egg strands sit in a clear, umami-rich broth alongside delicate parcels of shrimp and pork wrapped in a paper-thin skin.",
+   "Hong Kong tea houses often simmer their broth for hours with dried flounder and pork bones to coax out a deep savory backbone.",
+   "The little stuffed parcels are typically served just a few to a bowl, more of a garnish for the noodles than a meal on their own.",
+   "The Cantonese noodle soup topped with shrimp-and-pork dumplings, its name translating loosely to 'swallowing clouds.'"
+  ],
+  "fact": "The broth is traditionally simmered for hours with dried flounder, shrimp roe, and pork bones to build the deep savory backbone Cantonese cooks prize as umami."
+ },
+ {
+  "name": "Lanzhou Beef Noodle Soup",
+  "aliases": [
+   "Lanzhou Lamian",
+   "Beef Lamian"
+  ],
+  "cuisine": "Northwestern Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "soup",
+  "protein": "beef",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "noodle",
+   "soup",
+   "chilli",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "hand-pulled wheat noodles",
+   "beef shank",
+   "beef broth",
+   "chili oil",
+   "daikon radish",
+   "cilantro"
+  ],
+  "clues": [
+   "Noodles here aren't cut with a knife — they're stretched and pulled by hand to an order-specific thickness, from hair-thin to wide as a belt.",
+   "A clear, peppery broth simmered from beef bones is traditionally judged against five specific standards: a clear soup, white radish, red chili oil, green cilantro, and yellow noodles.",
+   "This dish comes from a Hui Muslim culinary tradition in China's northwest, and its noodle shops have since spread to nearly every major city in the country.",
+   "The northwestern Chinese beef noodle soup famous for its hand-pulled strands and its 'one clear, two white, three red, four green, five yellow' rule."
+  ],
+  "fact": "Authentic Lanzhou noodle shops let diners specify noodle width and shape from more than half a dozen options, all pulled fresh by hand to order."
+ },
+ {
+  "name": "Singapore Style Noodles",
+  "aliases": [
+   "Singapore Noodles",
+   "Singapore Fried Noodles",
+   "Xingzhou Mifen"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "noodle",
+   "seafood",
+   "egg_based",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "rice vermicelli",
+   "curry powder",
+   "shrimp",
+   "char siu pork",
+   "egg",
+   "bean sprouts"
+  ],
+  "clues": [
+   "Thin rice vermicelli is stir-fried with curry powder until every strand turns a warm turmeric-yellow, then tossed with shrimp, barbecued pork, and shredded egg.",
+   "Food historians largely trace this dish's invention to Hong Kong kitchens, not the Southeast Asian city it's named after.",
+   "It was likely created to give diners a taste of the 'exotic tropics' without anyone actually needing a passport.",
+   "The curry-yellow rice vermicelli stir-fry whose name points at a country that, despite popular belief, most food historians say had nothing to do with inventing it — credit instead goes to Hong Kong kitchens."
+  ],
+  "fact": "Despite its name, food historians generally agree this dish was invented in Hong Kong, likely to lend an exotic, curry-spiced appeal to an otherwise ordinary stir-fry."
+ },
+ {
+  "name": "Glass Noodles",
+  "aliases": [
+   "Cellophane Noodles",
+   "Fensi",
+   "Mung Bean Noodles"
+  ],
+  "cuisine": "Sichuan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "noodle",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "noodle",
+   "spicy",
+   "chilli",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "mung bean starch noodles",
+   "minced pork",
+   "chili bean paste",
+   "garlic",
+   "scallion"
+  ],
+  "clues": [
+   "Nearly transparent when cooked, these springy strands are spun not from wheat but from the starch of a small green legume.",
+   "They famously star in a fiery Sichuan stir-fry where minced pork clings to each translucent strand, resembling insects scaling a branch.",
+   "Because they carry almost no flavor of their own, they're prized instead for slurping up whatever spicy, garlicky sauce surrounds them.",
+   "The see-through, starch-based noodle nicknamed for the way meat bits cling to it like ants climbing a tree."
+  ],
+  "fact": "In its most famous incarnation, Sichuan's 'Ants Climbing a Tree,' these noodles are named for how bits of minced pork cling to the translucent strands like insects on a branch."
+ },
+ {
+  "name": "Scallion Pancakes",
+  "aliases": [
+   "Congyoubing",
+   "Cong You Bing"
+  ],
+  "cuisine": "Shanghainese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "snack",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "street_food",
+   "crispy",
+   "bread_based",
+   "layered"
+  ],
+  "key_ingredients": [
+   "wheat flour dough",
+   "scallions",
+   "sesame oil",
+   "salt"
+  ],
+  "clues": [
+   "A simple dough gets brushed with oil, scattered with chopped alliums, then rolled up like a cinnamon bun and coiled before being flattened again — all to build dozens of flaky layers.",
+   "Cooked on a griddle until deeply golden, its exterior shatters into crisp shards while the inside stays soft and slightly chewy.",
+   "It's one of the most common breakfast grabs at street carts across China, often eaten plain or dipped in a simple soy-vinegar sauce.",
+   "The flaky, pan-fried Chinese flatbread laced with chopped green onion, its Mandarin name literally meaning 'green-onion oil cake.'"
+  ],
+  "fact": "The dish's many flaky layers come from rolling an oiled, scallion-flecked dough into a coil before flattening it again, a technique borrowed from laminated pastry-making."
+ },
+ {
+  "name": "Moo Shu Pancakes",
+  "aliases": [
+   "Moo Shu Pork",
+   "Mu Xu Rou"
+  ],
+  "cuisine": "Northern Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "egg_based",
+   "handheld",
+   "saucy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "shredded pork",
+   "scrambled egg",
+   "wood ear mushroom",
+   "day lily buds",
+   "thin wheat wrappers",
+   "hoisin sauce"
+  ],
+  "clues": [
+   "Shredded pork, scrambled egg, wood ear mushroom, and day lily buds are stir-fried together, then rolled up in a paper-thin wheat wrapper you assemble yourself at the table.",
+   "A sweet, dark bean sauce gets brushed inside the wrapper first, adding a sticky-savory note before the filling goes in.",
+   "The scrambled egg bits scattered through the stir-fry are named in Chinese after a small golden flower they're said to resemble.",
+   "The build-your-own wrapped stir-fry dish named in Chinese after osmanthus blossoms, thanks to its scrambled egg flecks."
+  ],
+  "fact": "The dish's Chinese name references osmanthus flowers, because the scrambled egg bits scattered through the stir-fry resemble the tiny golden blossoms."
+ },
+ {
+  "name": "Egg Fried Rice",
+  "aliases": [
+   "Egg Rice",
+   "Dan Chao Fan"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "egg",
+  "carb": "rice",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "egg_based",
+   "one_pot",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "day-old rice",
+   "egg",
+   "scallion",
+   "soy sauce",
+   "oil"
+  ],
+  "clues": [
+   "Cold, leftover grains are the secret here — day-old starch fries up dry and separate, while fresh-cooked grains turn to mush in the wok.",
+   "This is the plainest, fastest version of a wok classic, needing little more than beaten egg, a few green flecks of allium, and a splash of soy.",
+   "It's often the first dish new cooks learn precisely because it has so few ingredients to get wrong, and so little room to hide mistakes.",
+   "The simplest classic wok dish of egg folded through stir-fried grains, unadorned by meat, shrimp, or fruit."
+  ],
+  "fact": "Day-old refrigerated rice fries better than freshly cooked rice because its lower moisture content keeps individual grains separate instead of clumping."
+ },
+ {
+  "name": "Yangchow Fried Rice",
+  "aliases": [
+   "Yangzhou Fried Rice"
+  ],
+  "cuisine": "Huaiyang",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "rice",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "egg_based",
+   "seafood",
+   "one_pot",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "rice",
+   "shrimp",
+   "char siu pork",
+   "egg",
+   "peas",
+   "carrot"
+  ],
+  "clues": [
+   "This version throws everything into the wok at once, diced barbecued pork, shrimp, egg, and peas, making it the most lavish member of its family.",
+   "It's named for a canal city in eastern China long celebrated for refined, delicate banquet cooking.",
+   "Chefs consider it a benchmark dish: keeping the shrimp, meat, and rice grains all separately distinct yet harmonious tests real wok skill.",
+   "The deluxe, shrimp-and-diced-meat version of Chinese fried rice named for a historic canal city famed for its refined Huaiyang cuisine."
+  ],
+  "fact": "Named for the canal city of Yangzhou, celebrated for its refined Huaiyang cuisine, this is considered the most elaborate, 'deluxe' style of Chinese fried rice."
+ },
+ {
+  "name": "Pineapple Fried Rice",
+  "aliases": [
+   "Pineapple Rice"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "seafood",
+  "carb": "rice",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "sweet",
+   "seafood",
+   "nuts",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "rice",
+   "pineapple chunks",
+   "shrimp",
+   "egg",
+   "cashews",
+   "curry powder"
+  ],
+  "clues": [
+   "A tropical fruit adds bursts of sweet-tart juiciness to an otherwise savory wok classic, often alongside shrimp, cashews, and raisins.",
+   "For extra table drama, many restaurants serve this dish hollowed out and presented inside its own spiky, golden shell.",
+   "Curry powder or turmeric sometimes gets stirred in too, deepening the color to a warm golden hue that plays off the fruit's sweetness.",
+   "The sweet-and-savory fried rice studded with tropical fruit and often served inside its own hollowed shell."
+  ],
+  "fact": "Restaurants often hollow out an actual pineapple to serve the rice inside it, turning the dish into a piece of tableside theater."
+ },
+ {
+  "name": "Claypot Rice",
+  "aliases": [
+   "Clay Pot Rice",
+   "Bo Zai Fan"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "one_pot",
+   "crispy",
+   "smoky",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "rice",
+   "chinese sausage",
+   "chicken",
+   "soy sauce",
+   "ginger",
+   "scallion"
+  ],
+  "clues": [
+   "Rice and its toppings cook together in the same vessel they're served in, set directly over a live flame until the bottom forms a deeply golden, crackling layer.",
+   "Cured sausage and marinated chicken are common toppings, their rendered fat and juices seeping down to flavor every grain beneath.",
+   "In Hong Kong, this dish is especially popular in the cooler months, ladled straight from roadside stalls into disposable containers.",
+   "The Cantonese rice dish cooked and served in the same earthenware pot, prized for the crispy, scorched layer, called 'guo ba,' clinging to its bottom."
+  ],
+  "fact": "The prized crust of toasted rice that forms against the pot's hot walls is called 'guo ba,' and diners will scrape the pot clean to get it."
+ },
+ {
+  "name": "Congee",
+  "aliases": [
+   "Rice Porridge",
+   "Zhou",
+   "Jook"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "soup",
+   "one_pot",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "rice",
+   "water or broth",
+   "ginger",
+   "scallion",
+   "century egg"
+  ],
+  "clues": [
+   "Rice is simmered for hours in far more water than usual, until the grains break down completely into a thick, silky gruel.",
+   "It's a breakfast staple across China, commonly eaten alongside crunchy, deep-fried dough sticks for dipping.",
+   "Cantonese cooks sometimes freeze or oil the raw grains beforehand, a trick that helps them burst open faster and blend into a smoother texture.",
+   "The slow-simmered rice porridge eaten for breakfast across China, often called 'jook' in Cantonese kitchens."
+  ],
+  "fact": "Cantonese cooks sometimes freeze raw rice grains before cooking, a trick that helps them burst open faster and dissolve into an ultra-silky porridge."
+ },
+ {
+  "name": "Lo Mai Gai",
+  "aliases": [
+   "Sticky Rice in Lotus Leaf",
+   "No Mai Gai"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "snack",
+  "protein": "chicken",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sticky",
+   "stuffed",
+   "festive",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "glutinous rice",
+   "chicken",
+   "lotus leaf",
+   "shiitake mushroom",
+   "chinese sausage",
+   "dried shrimp"
+  ],
+  "clues": [
+   "Glutinous rice, studded with chicken, dried shrimp, mushroom, and sausage, is packed into a large green wrapper and steamed until fragrant.",
+   "The wrapper itself isn't meant to be eaten; its only job is to perfume the rice with a subtle, grassy aroma as it cooks.",
+   "This dim sum trolley regular is unwrapped tableside, releasing a puff of fragrant steam the moment the parcel is opened.",
+   "The Cantonese steamed rice parcel wrapped and perfumed in a broad green leaf, its name simply meaning 'glutinous rice chicken.'"
+  ],
+  "fact": "The lotus leaf wrapping is purely aromatic and never eaten; its only job is to perfume the sticky rice with a subtle grassy fragrance as it steams."
+ },
+ {
+  "name": "Zongzi",
+  "aliases": [
+   "Bamboo-Wrapped Glutinous Rice",
+   "Rice Dumpling",
+   "Zong"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "snack",
+  "protein": "pork",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sticky",
+   "stuffed",
+   "festive",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "glutinous rice",
+   "bamboo leaves",
+   "pork belly",
+   "salted egg yolk",
+   "mung bean or red bean paste"
+  ],
+  "clues": [
+   "Sticky short-grain rice, often studded with pork belly, salted egg yolk, or sweet red bean, is packed into a pyramid-shaped parcel using broad green leaves and tied tightly with string.",
+   "These bundles are boiled or steamed for hours, letting the leaf's grassy fragrance seep deep into every grain.",
+   "Tradition ties this food to a poet-statesman who drowned himself in a river out of despair, with villagers said to have tossed these parcels into the water to keep fish away from his body.",
+   "The bamboo-leaf-wrapped rice parcel eaten each year during the Dragon Boat Festival in memory of the poet Qu Yuan."
+  ],
+  "fact": "Zongzi is traditionally linked to the legend of Qu Yuan, a poet-statesman who drowned himself in a river, with villagers said to have thrown rice parcels into the water to keep fish from his body, an act still commemorated every year during the Dragon Boat Festival."
+ },
+ {
+  "name": "Har Gow",
+  "aliases": [
+   "Steamed Shrimp Dumplings",
+   "Har Gau",
+   "Crystal Shrimp Dumplings"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "seafood",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "seafood",
+   "stuffed",
+   "handheld",
+   "festive"
+  ],
+  "key_ingredients": [
+   "shrimp",
+   "wheat starch",
+   "tapioca starch",
+   "bamboo shoots",
+   "pork fat"
+  ],
+  "clues": [
+   "Its wrapper is made from a starch rather than ordinary flour, so it turns delicately see-through once cooked, showing the pink of the filling right through the skin.",
+   "A skilled cook pleats the wrapper into a tight little purse with a dozen or so folds along one side, a technique dim sum apprentices train for years to master.",
+   "This is often held up as the benchmark by which a whole dim sum kitchen's skill gets judged — a torn wrapper or a lump of filling showing through is a mark of a sloppy cook.",
+   "The pleated, translucent-skinned dumpling built around a whole piece of shrimp, considered the gold standard of the dim sum trolley."
+  ],
+  "fact": "Traditional recipes call for at least seven pleats along the wrapper's edge, since an odd, generous fold count is seen as proof of a dim sum chef's skilled hands."
+ },
+ {
+  "name": "Shumai",
+  "aliases": [
+   "Siumai",
+   "Shaomai",
+   "Pork and Shrimp Dumplings"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "mixed",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "stuffed",
+   "handheld",
+   "seafood",
+   "festive"
+  ],
+  "key_ingredients": [
+   "pork",
+   "shrimp",
+   "wheat wrapper",
+   "shiitake mushroom",
+   "crab roe"
+  ],
+  "clues": [
+   "Left open at the top rather than sealed shut, this one shows off a golden or orange fleck of roe pressed into its center before it ever hits the steamer.",
+   "Its wrapper is a simple round sheet gathered loosely up the sides into a short cylinder, cinched at the waist rather than pleated into a closed purse.",
+   "Order a plate at a dim sum trolley and you'll typically get four to a small bamboo basket, coarser and heartier in texture than its sealed, prawn-only cousin.",
+   "The open-topped, cylindrical pork and shrimp dumpling topped with a fleck of crab roe or a single green pea, often called siumai in Cantonese."
+  ],
+  "fact": "The single green pea or dab of roe on top isn't just decoration — it's a traditional visual cue that lets a busy dim sum server spot the right basket from across a crowded floor."
+ },
+ {
+  "name": "Baozi",
+  "aliases": [
+   "Steamed Buns",
+   "Bao"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "breakfast",
+  "protein": "pork",
+  "carb": "bread",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "handheld",
+   "street_food",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "pork",
+   "napa cabbage",
+   "leavened wheat dough",
+   "ginger",
+   "scallion"
+  ],
+  "clues": [
+   "Puffy and pillow-soft, this whole savory package is built from a yeasted dough left to rise before it ever meets the steamer basket.",
+   "Unlike its dumpling cousins with thin, delicate skins, this one is fully sealed inside a thick, fluffy casing you can eat one-handed, no chopsticks required.",
+   "A pleated twist at the top seals in the juices of the pork and cabbage filling, and that same twisted knot is usually left standing as a little topknot once it's cooked.",
+   "The fist-sized, fully sealed savory steamed package of Chinese breakfast carts and dim sum trolleys alike, known in Mandarin simply as bao."
+  ],
+  "fact": "In parts of northern China, the plain unfilled version of this bun is called mantou, and street vendors sell both side by side so customers can choose stuffed or plain."
+ },
+ {
+  "name": "Char Siu Bao",
+  "aliases": [
+   "BBQ Pork Buns",
+   "Cha Siu Bao",
+   "Barbecue Pork Buns"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "pork",
+  "carb": "bread",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "sweet",
+   "handheld",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "char siu pork",
+   "leavened wheat dough",
+   "oyster sauce",
+   "hoisin sauce",
+   "sugar"
+  ],
+  "clues": [
+   "The filling is a sweet, glossy roast pork traditionally cooked in a red-tinged glaze of hoisin, sugar, and soy before being diced and folded into the dough.",
+   "Color gives it away on a dim sum trolley before you even taste it — the soft white dough gives way to a filling stained deep red-brown, with a little pool of sticky sauce inside.",
+   "A version of this bun baked instead of steamed gets a shiny egg wash and a top that splits open in the oven, revealing the sweet filling beneath — a bakery favorite distinct from the plain steamed original.",
+   "The sweet roast pork-filled bun, glazed and diced, sealed inside a soft steamed bread pocket — a dim sum menu fixture."
+  ],
+  "fact": "The name refers to the roasting method behind the filling — pork skewered and rotated over an open flame with a sweet marinade — which gives the meat its signature red edge and lacquered shine."
+ },
+ {
+  "name": "Shengjianbao",
+  "aliases": [
+   "Pan-Fried Pork Buns",
+   "Sheng Jian Bao",
+   "Shanghai Fried Buns"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "breakfast",
+  "protein": "pork",
+  "carb": "bread",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "stuffed",
+   "street_food",
+   "crispy",
+   "handheld",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "pork",
+   "gelatinised aspic",
+   "leavened wheat dough",
+   "sesame seeds",
+   "scallion"
+  ],
+  "clues": [
+   "Cooked in a wide flat pan with a splash of water and a lid clamped on top, this bun ends up steamed and soft on top but deep golden and crackling-crisp on the bottom, all in a single pan.",
+   "Like its more famous soup-filled steamed cousin, the pork filling hides a spoonful of savory jellied stock that melts into broth as it cooks — but here it's a hot pan, not a bamboo basket, doing the work.",
+   "Street vendors in one great eastern port city sell these by the batch straight from a giant cast-iron pan, finishing each one with a scatter of sesame seeds and scallion before handing it over hot in a paper box.",
+   "The pan-fried, broth-filled bun with a crisp fried base and a doughy steamed crown, a beloved breakfast street food of eastern China."
+  ],
+  "fact": "Despite the crispy fried bottom, this bun is technically cooked by a hybrid method — part frying, part steaming — since water is added to the pan and covered to finish the top half by steam."
+ },
+ {
+  "name": "Jiaozi",
+  "aliases": [
+   "Boiled Dumplings",
+   "Steamed Dumplings",
+   "Chinese Dumplings",
+   "Shui Jiao"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "handheld",
+   "festive"
+  ],
+  "key_ingredients": [
+   "pork",
+   "napa cabbage",
+   "chives",
+   "unleavened wheat dough",
+   "ginger"
+  ],
+  "clues": [
+   "Rolled from a simple unleavened dough of just flour and water, no yeast involved, so the wrapper stays thin, chewy, and slightly translucent once cooked.",
+   "Half-moon shaped and crimped along one curved edge, a family will often gather round a table folding hundreds of these together the night before Lunar New Year.",
+   "Dropped straight into a pot of boiling water until they float to the surface, then usually served with a dipping sauce of vinegar and soy rather than any sauce cooked in.",
+   "The crescent-shaped dumpling boiled in a simple flour-and-water wrapper, a Lunar New Year tradition often eaten as a full meal rather than a small bite in northern homes."
+  ],
+  "fact": "Their crescent shape is said to resemble old-style Chinese gold and silver ingots, which is why families eat them at Lunar New Year to invite good fortune in the year ahead."
+ },
+ {
+  "name": "Guotie",
+  "aliases": [
+   "Potstickers",
+   "Pan-Fried Dumplings",
+   "Guo Tie"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "snack",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "stuffed",
+   "handheld",
+   "crispy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "pork",
+   "cabbage",
+   "wheat dumpling wrapper",
+   "garlic",
+   "sesame oil"
+  ],
+  "clues": [
+   "The same crescent-folded dumpling as its boiled cousin, but this time it starts life in a hot, oiled skillet rather than a bath of simmering water.",
+   "Water gets added partway through cooking and a lid clamped over the skillet, so the tops steam soft while the bottoms fry into one long, connected sheet of golden lace.",
+   "Traditionally these are lined up in neat rows in the pan so their crisp undersides can be lifted out together and flipped onto a plate as a single crackling slab.",
+   "The pan-fried dumpling with a lacy, crisp-bottomed crust and a soft steamed top, often called a potsticker in English."
+  ],
+  "fact": "Despite the English nickname suggesting a kitchen mishap, the crisp, lacy bottom is entirely intentional — cooks in northern China developed the technique to fry up leftover boiled dumplings the next day."
+ },
+ {
+  "name": "Wontons",
+  "aliases": [
+   "Wonton",
+   "Huntun"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "soup",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "soup",
+   "stuffed",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "pork",
+   "shrimp",
+   "thin wheat wrapper",
+   "scallion",
+   "sesame oil"
+  ],
+  "clues": [
+   "Its wrapper is rolled thinner and more delicate than a boiled dumpling's, often square instead of round, and gathered loosely rather than pleated into tight folds.",
+   "Most often you'll find a handful of these bobbing in a bowl of hot broth rather than served dry on a plate, floating alongside noodles or bok choy.",
+   "The filling is typically minced pork blended with shrimp, wrapped with just a light twist so the corners flare out like little ears, or a nun's habit depending who's describing the shape.",
+   "The delicate, thin-skinned dumpling classically served afloat in a bowl of clear broth, called huntun in Mandarin."
+  ],
+  "fact": "In Cantonese the name sounds like 'swallowing clouds,' a poetic nod to how the thin, translucent wrapper billows like a cloud once it's floating in soup."
+ },
+ {
+  "name": "Cheung Fun",
+  "aliases": [
+   "Rice Noodle Rolls",
+   "Chee Cheong Fun",
+   "Rice Rolls"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "appetizer",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "sticky",
+   "street_food",
+   "noodle"
+  ],
+  "key_ingredients": [
+   "rice flour batter",
+   "soy sauce",
+   "sesame seeds",
+   "scallion",
+   "sugar"
+  ],
+  "clues": [
+   "A thin batter of rice flour and water is spread across a steaming tray until it sets into a silky, almost see-through sheet, then rolled up while it's still warm.",
+   "It arrives at the table cut into short, glistening segments, doused in a thin, sweet-salty soy sauce and often scattered with toasted sesame seeds.",
+   "Texture is the whole point here — soft, slippery, and a little chewy, closer to a noodle than to any risen dough, with barely any flavor of its own beyond what the sauce brings.",
+   "The soft steamed sheet of rice batter, rolled and sliced into segments and bathed in sweet soy sauce, sometimes stuffed with shrimp or barbecued pork — the classic rice noodle roll of the dim sum cart."
+  ],
+  "fact": "Despite looking like a noodle dish, no noodles are involved at all — the sheet is steamed as a single batter and only sliced into strips afterward, making it closer to a rolled rice crepe."
+ },
+ {
+  "name": "Turnip Cake",
+  "aliases": [
+   "Radish Cake",
+   "Lo Bak Go",
+   "Law Bok Gou"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "side",
+  "protein": "mixed",
+  "carb": "root",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "crispy",
+   "festive",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "daikon radish",
+   "rice flour",
+   "dried shrimp",
+   "Chinese sausage",
+   "shiitake mushroom"
+  ],
+  "clues": [
+   "Grated daikon, a long white root vegetable, is stirred into a rice flour batter along with bits of dried shrimp and cured sausage, then steamed until it firms into a solid block.",
+   "Once cooled and sliced, it gets a second life in a hot oiled pan, fried until the cut edges turn deep golden and crisp while the inside stays soft and a little starchy.",
+   "You'll often see this piled high on dim sum carts around Lunar New Year, since its Cantonese name contains a pun on 'good fortune,' making it a dish people eat on purpose for luck.",
+   "The pan-fried savory loaf of steamed grated daikon and rice flour, studded with dried shrimp and sausage — its Cantonese name literally translates to radish cake."
+  ],
+  "fact": "Its Cantonese name, law bok gou, contains a pun: 'gou' sounds like the word for 'higher' or 'prosperity,' which is why the dish is considered auspicious to eat at Lunar New Year."
+ },
+ {
+  "name": "Taro Cake",
+  "aliases": [
+   "Wu Tau Go",
+   "Woo Tau Gou",
+   "Yam Cake"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "snack",
+  "protein": "mixed",
+  "carb": "root",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "crispy",
+   "street_food",
+   "festive"
+  ],
+  "key_ingredients": [
+   "taro root",
+   "rice flour",
+   "dried shrimp",
+   "Chinese sausage",
+   "shiitake mushroom"
+  ],
+  "clues": [
+   "A starchy, purple-flecked root vegetable is diced small and folded into a rice flour batter along with dried shrimp, mushroom, and bits of cured sausage before steaming into a firm block.",
+   "It shares a technique and dim sum trolley with a paler, crunchier cousin made from a white root vegetable, but this version has a distinctly nuttier, earthier flavor and a faint lavender-grey tint.",
+   "After steaming, slices are pan-fried until the surface crisps into a lacy golden crust while the interior stays soft, starchy, and studded with visible flecks of dried shrimp and mushroom.",
+   "The pan-fried savory loaf built from diced, starchy purple-fleshed root rather than a white one, sometimes called yam cake in English."
+  ],
+  "fact": "Hong Kong dim sum kitchens sometimes work in extra purple coloring to exaggerate the natural lavender-grey hue, since a paler-than-usual block is seen as a sign the taro wasn't used generously."
+ },
+ {
+  "name": "General Tso's Chicken",
+  "aliases": [
+   "General Tso Chicken",
+   "Governor Tso's Chicken"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "sweet",
+   "crispy",
+   "saucy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "chicken thigh",
+   "cornstarch batter",
+   "dried chilies",
+   "garlic",
+   "soy sauce",
+   "sugar"
+  ],
+  "clues": [
+   "Named after a Qing-dynasty military leader from Hunan, though he almost certainly never tasted the dish that carries his title.",
+   "Bite-sized pieces are double-fried until shatteringly crisp, then tossed in a glossy sauce built on sugar, vinegar, and soy.",
+   "Dried red chilies are scattered through the dish more for smoky heat and aroma than to actually be eaten.",
+   "Created by a Hunanese chef in exile and popularized in 1970s New York, this crispy, sweet-spicy chicken outsold nearly every other dish on American Chinese-restaurant menus."
+  ],
+  "fact": "The dish is named after Zuo Zongtang (General Tso), a 19th-century Qing military leader, but was actually invented by Taiwan-based chef Peng Chang-kuei in the 1950s."
+ },
+ {
+  "name": "Kung Pao Chicken",
+  "aliases": [
+   "Gong Bao Chicken",
+   "Kung Po Chicken"
+  ],
+  "cuisine": "Sichuan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "chilli",
+   "nuts",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "roasted peanuts",
+   "dried chilies",
+   "sichuan peppercorn",
+   "scallion",
+   "black vinegar"
+  ],
+  "clues": [
+   "A handful of roasted peanuts adds crunch to a stir-fry that balances numbing spice with a touch of sweetness and vinegar.",
+   "Named after a Qing-dynasty provincial governor's honorary title, though the fiery mix of peppercorns is pure Sichuan.",
+   "Sichuan peppercorns give the tongue a tingling, almost electric numbness alongside the chili heat.",
+   "This peanut-studded Sichuan stir-fry, its name borrowed from a palace guardian's title, is one of the most-ordered dishes on Chinese menus worldwide."
+  ],
+  "fact": "The dish is named after Ding Baozhen, a Qing-dynasty official whose honorific title was 'Gong Bao' (Palace Guardian)."
+ },
+ {
+  "name": "Orange Chicken",
+  "aliases": [
+   "Mandarin Chicken"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "sweet",
+   "crispy",
+   "saucy",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "cornstarch batter",
+   "citrus zest",
+   "sugar",
+   "vinegar",
+   "garlic"
+  ],
+  "clues": [
+   "A citrus peel, candied and simmered into the glaze, gives this crispy chicken dish its signature tang.",
+   "Popularized by a chef working for a fast-casual chain in the 1980s, it became one of the best-selling items in American Chinese-restaurant history.",
+   "The batter-fried chicken pieces are tossed in a syrupy, tangy-sweet glaze rather than a thin stir-fry sauce.",
+   "This citrus-glazed fried chicken, invented for a Panda Express test kitchen, gets its bright color and tang from candied peel rather than any actual fruit segments."
+  ],
+  "fact": "Orange Chicken was created in 1987 by chef Andy Kao for Panda Express and remains the chain's single best-selling dish."
+ },
+ {
+  "name": "Sweet and Sour Chicken",
+  "aliases": [
+   "Sweet & Sour Chicken"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "sweet",
+   "crispy",
+   "saucy",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "pineapple",
+   "bell pepper",
+   "ketchup",
+   "vinegar",
+   "cornstarch batter"
+  ],
+  "clues": [
+   "Chunks of pineapple and bell pepper add bright color and fruity contrast to this fried chicken dish.",
+   "Its balance of tang and sugar reputedly traces back to a Cantonese technique adapted for Western palates craving bold contrasts.",
+   "The thick red glaze gets its color from ketchup and vinegar rather than any chili.",
+   "One of the first Chinese dishes embraced by Western diners, this fruit-studded fried chicken pairs a tangy vinegar kick with a heavy dose of sugar."
+  ],
+  "fact": "Sweet and Sour dishes trace back to a Cantonese sauce called 'tang cu', adapted and sweetened dramatically for Western tastes over a century ago."
+ },
+ {
+  "name": "Peking Duck",
+  "aliases": [
+   "Beijing Duck",
+   "Bei Jing Kao Ya"
+  ],
+  "cuisine": "Beijing",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "crispy",
+   "festive",
+   "handheld",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "duck",
+   "thin wheat pancakes",
+   "hoisin sauce",
+   "scallion",
+   "cucumber"
+  ],
+  "clues": [
+   "Whole birds are air-dried, then hung and roasted until the skin turns a deep lacquered mahogany and shatters like glass.",
+   "The skin gets brushed with a sugar-water glaze days in advance to help it crisp without tasting of the meat's fat.",
+   "Diners wrap crackling skin and thin slices of meat in a delicate wheat pancake, along with scallion brushes, cucumber, and a sweet bean sauce.",
+   "This imperial capital's signature roasted bird is carved tableside by tradition, its crackling skin considered the prized part, sometimes served before the meat itself."
+  ],
+  "fact": "Traditionally, the skin is served first, sometimes dipped in sugar, before the meat is carved and wrapped separately."
+ },
+ {
+  "name": "Sesame Chicken",
+  "aliases": [],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "sweet",
+   "crispy",
+   "saucy",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "toasted seeds",
+   "soy sauce",
+   "sugar",
+   "garlic",
+   "cornstarch batter"
+  ],
+  "clues": [
+   "Toasted seeds are scattered generously over the glaze right before serving, giving a nutty crunch and fragrance.",
+   "Similar to its citrus-glazed cousin but milder and less tangy, relying on soy and sugar rather than fruit zest for the glaze.",
+   "The seeds toasted on top are the same ones used in tahini and hummus, though here purely for garnish and aroma.",
+   "This American-Chinese menu staple is essentially a soy-sweetened version of its citrus-glazed cousin, finished with a shower of toasted seeds instead of peel."
+  ],
+  "fact": "Despite feeling like a Chinese classic, Sesame Chicken barely exists in China and was popularized almost entirely by American Chinese-American restaurants."
+ },
+ {
+  "name": "Lemon Chicken",
+  "aliases": [],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "crispy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "citrus juice",
+   "sugar",
+   "cornstarch batter",
+   "chicken stock",
+   "citrus zest"
+  ],
+  "clues": [
+   "A pale yellow, glassy glaze coats crispy fried cutlets, its tartness coming from a citrus fruit rather than vinegar.",
+   "Unlike its heavier, opaque orange-glazed cousin, this version's sauce is thin, clear, and sharply tart rather than deeply caramelized.",
+   "Often served with the fried cutlet left whole and sliced, with sauce poured over rather than tossed through.",
+   "This citrus-glazed fried cutlet favors a sharp yellow fruit's tartness over the deeper, sweeter glaze of its citrus-based cousins."
+  ],
+  "fact": "Lemon Chicken became a Cantonese-American restaurant staple in the mid-20th century, prized for its lighter, tangier glaze compared to other fried chicken dishes."
+ },
+ {
+  "name": "Cashew Chicken",
+  "aliases": [
+   "Springfield-Style Cashew Chicken"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "nuts",
+   "crispy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "whole nuts",
+   "brown gravy",
+   "soy sauce",
+   "scallion",
+   "garlic"
+  ],
+  "clues": [
+   "Whole toasted nuts, buttery and mild, are stirred through a savory brown sauce rather than a sweet glaze.",
+   "A Missouri diner in the 1960s is often credited with turning this into a thick, gravy-like dish unlike its lighter Cantonese stir-fry cousins.",
+   "Unlike its sugar-glazed relatives, this dish leans savory, closer to a soy-and-garlic stir-fry than a candy-sweet coating.",
+   "This nut-studded stir-fry comes in two very different forms: a light Cantonese version, and a heavier, deep-fried Ozark diner variant smothered in brown gravy."
+  ],
+  "fact": "The thick, breaded 'Springfield-style' version of this dish was invented in Springfield, Missouri, not China, by chef David Leong in the 1960s."
+ },
+ {
+  "name": "White Cut Chicken",
+  "aliases": [
+   "Bai Qie Ji",
+   "White Chopped Chicken"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "festive",
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "whole chicken",
+   "ginger",
+   "scallion",
+   "sesame oil",
+   "ice bath",
+   "light soy sauce"
+  ],
+  "clues": [
+   "A whole bird is gently poached in barely-simmering water, then shocked in an ice bath to firm the skin into a delicate jelly-like layer.",
+   "Served cool or at room temperature, it's prized for how plainly it lets the meat's natural flavor and silky texture shine.",
+   "A dip of minced ginger, scallion, and hot oil is the traditional companion, since the poaching liquid itself carries almost no seasoning.",
+   "This unseasoned, poached Cantonese classic is deliberately plain, precisely so its pale skin and tender meat can be judged on quality alone."
+  ],
+  "fact": "The chicken is traditionally judged by the quality of its skin and bone, so it's often made with prized breeds like Hainanese or free-range village chickens."
+ },
+ {
+  "name": "Beggar's Chicken",
+  "aliases": [
+   "Jiaohua Ji",
+   "Jiao Hua Ji"
+  ],
+  "cuisine": "Zhejiang",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "festive",
+   "smoky",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "whole chicken",
+   "lotus leaf",
+   "clay wrapping",
+   "shiitake mushroom",
+   "pork belly",
+   "shaoxing wine"
+  ],
+  "clues": [
+   "A whole bird is stuffed with mushrooms and cured pork, wrapped in lotus leaves, then encased entirely in wet clay before going into the fire.",
+   "Diners crack open the hardened shell with a mallet at the table, releasing a burst of lotus-leaf fragrance and steam.",
+   "Legend says a poor wanderer with no proper kitchen once cooked a stolen bird this way, packing it in mud and burying it beneath a campfire.",
+   "Named for the folk story of an impoverished thief who cooked his stolen bird packed in clay and embers, this Hangzhou specialty still arrives at the table as a hardened shell to be smashed open."
+  ],
+  "fact": "According to legend, the dish was invented by a beggar who stole a chicken, lacked cooking tools, and wrapped it in clay to bake it in a fire pit; the technique stuck even after a famous chef supposedly refined it."
+ },
+ {
+  "name": "Three Cup Chicken",
+  "aliases": [
+   "Sanbeiji",
+   "San Bei Ji"
+  ],
+  "cuisine": "Taiwanese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "contains_alcohol",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "sesame oil",
+   "soy sauce",
+   "rice wine",
+   "garlic",
+   "thai basil"
+  ],
+  "clues": [
+   "Named for the equal measures of rice wine, sesame oil, and soy sauce that form its glossy braising liquid.",
+   "A generous handful of fresh basil leaves is stirred in right at the end, wilting into the thick sauce for a distinct herbal punch.",
+   "Traditionally cooked in a clay pot, letting the sauce reduce until it clings thickly to bone-in chicken pieces.",
+   "This Taiwanese clay-pot classic gets its name from the trio of equal-part liquids, wine, oil, and soy, that braise the chicken down to a sticky, basil-scented glaze."
+  ],
+  "fact": "The dish is said to have originated with a version cooked for the Song-dynasty patriot Wen Tianxiang using the three household staples a prison cook had on hand, though today it's most strongly associated with Taiwan."
+ },
+ {
+  "name": "Moo Goo Gai Pan",
+  "aliases": [
+   "Mu Gu Gai Pin"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "mushroom",
+   "snow peas",
+   "water chestnuts",
+   "chicken stock",
+   "cornstarch"
+  ],
+  "clues": [
+   "Thin slices of chicken and mushroom are stir-fried quickly in a pale, delicate sauce thickened just enough to cling to the ingredients.",
+   "Snow peas and water chestnuts add crunch to what is otherwise a soft, mild dish with almost no chili or dark soy.",
+   "It's often held up as an example of Cantonese cooking's philosophy of restraint, favoring clean flavors over heavy sauce or spice.",
+   "This mild Cantonese-American stir-fry's name is literally a Cantonese description of its two main ingredients: mushrooms and sliced chicken."
+  ],
+  "fact": "Despite sounding exotic to English speakers, the name is simply Cantonese for 'mushroom chicken slices', a literal description, not a fancy title."
+ },
+ {
+  "name": "Saliva Chicken",
+  "aliases": [
+   "Kou Shui Ji",
+   "Mouthwatering Chicken"
+  ],
+  "cuisine": "Sichuan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 4,
+  "flags": [
+   "spicy",
+   "chilli",
+   "saucy",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "poached chicken",
+   "chili oil",
+   "sichuan peppercorn",
+   "garlic",
+   "peanuts",
+   "sesame paste"
+  ],
+  "clues": [
+   "Poached chicken is sliced and served cold, drowned in a glossy, numbing chili oil sauce studded with crushed peanuts.",
+   "Its Sichuan name literally describes an involuntary reaction your mouth has just thinking about it, an unusually blunt and evocative title for a menu item.",
+   "Sichuan peppercorns and chili oil combine for the region's signature 'ma la', numbing and fiery in the same bite.",
+   "This cold, chili-oil-drenched sliced chicken takes its evocative English name from a literal translation of a Sichuanese phrase for anticipatory drooling."
+  ],
+  "fact": "The name comes from a line by Chinese writer Guo Moruo, who described being unable to stop salivating at the memory of the dish from his hometown of Leshan, Sichuan."
+ },
+ {
+  "name": "Sweet and Sour Pork",
+  "aliases": [
+   "gu lao rou"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "sweet",
+   "crispy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "pork",
+   "pineapple",
+   "bell pepper",
+   "batter",
+   "vinegar",
+   "sugar"
+  ],
+  "clues": [
+   "A Cantonese invention from the 19th century, this deep-fried dish was designed to appeal to Western palates working the trade ports of Guangzhou.",
+   "Bite-sized chunks of battered meat are fried until brittle, then tossed in a glossy, tangy-bright sauce built on vinegar and sugar.",
+   "Pineapple chunks and red bell pepper ride along in the sauce, adding bursts of juicy contrast to the crunchy meat.",
+   "The most famous Cantonese battered pork dish, coated in a bright orange-red tangy glaze — sometimes still called by its Cantonese name, gu lao rou."
+  ],
+  "fact": "Its now-iconic combo of pineapple and bell pepper was largely a later addition — the original Cantonese gu lao rou relied on just sugar, vinegar, and hawthorn or plum sauce for its tang."
+ },
+ {
+  "name": "Char Siu",
+  "aliases": [
+   "Chinese BBQ Pork",
+   "cha siu"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "sweet",
+   "sticky",
+   "smoky",
+   "festive"
+  ],
+  "key_ingredients": [
+   "pork shoulder",
+   "honey",
+   "five-spice",
+   "hoisin sauce",
+   "red fermented bean curd"
+  ],
+  "clues": [
+   "Strips of pork are marinated in a red-tinted glaze of honey, five-spice, and fermented bean curd before roasting on hooks in a blazing oven.",
+   "The meat comes out with a lacquered, almost sticky-sweet crust and a signature reddish tint that has nothing to do with the meat itself.",
+   "You'll find slabs of it hanging in restaurant windows across Cantonese neighborhoods, ready to be chopped to order over rice.",
+   "The classic Cantonese roast pork with a honeyed, red-glazed crust, often labeled on menus simply as barbecue pork."
+  ],
+  "fact": "Its red color traditionally came from red fermented bean curd or red yeast rice rather than dye, though many modern restaurant versions now rely on food coloring for that signature glow."
+ },
+ {
+  "name": "Dongpo Pork",
+  "aliases": [
+   "Dongpo rou"
+  ],
+  "cuisine": "Zhejiang",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "sticky",
+   "festive",
+   "layered",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "pork belly",
+   "Shaoxing wine",
+   "soy sauce",
+   "rock sugar",
+   "ginger",
+   "scallion"
+  ],
+  "clues": [
+   "Legend credits this dish to an exiled Song-dynasty poet-official who, short on ingredients, simmered a fatty cut low and slow until it turned meltingly tender.",
+   "A whole square block of belly, skin still on, is browned then braised for hours in equal parts wine and soy until the fat turns almost jelly-soft.",
+   "It's traditionally tied with kitchen string to hold its shape, then served as a single glistening square in its own small bowl.",
+   "The poet-named braised pork square, cooked until a chopstick can slice through the skin, named for the celebrated Song-dynasty writer said to have created it while exiled in Huangzhou."
+  ],
+  "fact": "It's named after Su Dongpo, an 11th-century poet and governor who reportedly created the dish while overseeing water-conservancy work in Hangzhou, then handed it out to the laborers who helped him."
+ },
+ {
+  "name": "Red Braised Pork Belly",
+  "aliases": [
+   "Hong Shao Rou"
+  ],
+  "cuisine": "Shanghainese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "sticky",
+   "saucy",
+   "one_pot",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "pork belly",
+   "rock sugar",
+   "soy sauce",
+   "Shaoxing wine",
+   "star anise",
+   "ginger"
+  ],
+  "clues": [
+   "Cubes of a fatty cut are simmered in a dark, glossy liquid until they turn a deep mahogany-red, one of the most common comfort dishes in home kitchens across the Yangtze delta.",
+   "The color comes from caramelizing rock sugar into a near-black syrup before the meat and soy sauce even go in the pot.",
+   "Unlike its poet-named cousin, which arrives as one whole tied square, this everyday version is cut into bite-sized cubes and stewed until the fat turns soft and the skin turns sticky.",
+   "The everyday Shanghainese-style stewed pork cube dish, glazed dark red from caramelized sugar and soy — literally 'red-cooked meat' in Chinese."
+  ],
+  "fact": "Despite the shared cooking style, this humble stewed version is what most Chinese families mean by 'hongshaorou' day to day — the whole-square, poet-named Dongpo Pork is considered its fancier, ceremonial cousin."
+ },
+ {
+  "name": "Twice Cooked Pork",
+  "aliases": [
+   "Hui Guo Rou",
+   "double cooked pork"
+  ],
+  "cuisine": "Sichuan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "saucy",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "pork belly",
+   "doubanjiang",
+   "garlic",
+   "leek",
+   "ginger",
+   "Sichuan peppercorn"
+  ],
+  "clues": [
+   "A whole piece of a fatty cut is simmered in water until just done, then cooled, thinly sliced, and sent into a screaming-hot wok for a second round of heat.",
+   "Fermented broad bean and chili paste turns the slices a deep red-brown as they curl at the edges into little cups, sometimes called 'lamp-shade' pieces by cooks.",
+   "Leek or cabbage gets stir-fried alongside, soaking up the funky, spicy fat rendered from the meat — this one skips any sugar-and-soy braising liquid entirely.",
+   "The Sichuan stir-fry that simmers a pork belly slab first, then slices and wok-fries it a second time — home cooks in Sichuan call it hui guo rou, 'back-to-the-pot meat.'"
+  ],
+  "fact": "Its Chinese name, hui guo rou ('return-to-the-pot meat'), refers to the pork going back into the wok for a second cooking after being poached whole and sliced by hand."
+ },
+ {
+  "name": "Beef and Broccoli",
+  "aliases": [
+   "beef with broccoli"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "beef",
+   "broccoli",
+   "garlic",
+   "ginger",
+   "oyster sauce",
+   "cornstarch"
+  ],
+  "clues": [
+   "Thin-sliced strips of meat are velveted in cornstarch and egg white before a quick trip through hot oil, keeping them silky rather than tough.",
+   "A green, tree-shaped vegetable is blanched bright and glossy, then folded into a brown, oyster-sauce glaze alongside the meat.",
+   "It's a staple of American Chinese takeout menus, rarely found in this exact combination back in mainland China.",
+   "The takeout classic pairing tender strips of beef with bright green florets in a glossy brown sauce."
+  ],
+  "fact": "Despite feeling like an age-old Cantonese pairing, this exact combination was popularized by Chinese-American restaurants — broccoli itself was barely cultivated in China until relatively recently."
+ },
+ {
+  "name": "Mongolian Beef",
+  "aliases": [],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "sweet",
+   "saucy",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "beef",
+   "scallion",
+   "garlic",
+   "soy sauce",
+   "brown sugar",
+   "cornstarch"
+  ],
+  "clues": [
+   "Thin-sliced strips of meat are dredged in cornstarch and flash-fried until the edges turn crackly, before being tossed in a dark, sweetened soy glaze.",
+   "Fistfuls of scallion cut into long batons are tossed in at the very end, just long enough to wilt without going limp.",
+   "Despite the name on the menu, this dish has no real roots on the actual steppe — it's widely believed to have been invented by a Taiwanese restaurateur riffing on a grill-restaurant concept.",
+   "The Chinese-American takeout staple named for a country it has no real culinary connection to, dressed in a sweet, dark soy glaze with scallions."
+  ],
+  "fact": "Despite its name, it has no real connection to Mongolia or its cuisine — it likely originated in Taiwanese 'Mongolian barbecue' grill restaurants in the mid-20th century, a stir-fry concept unrelated to actual Mongolian food."
+ },
+ {
+  "name": "Pepper Steak",
+  "aliases": [
+   "green pepper steak"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "beef",
+   "bell pepper",
+   "onion",
+   "soy sauce",
+   "garlic",
+   "cornstarch"
+  ],
+  "clues": [
+   "Strips of meat are quickly seared in a hot wok alongside crunchy strips of a mild, boxy-shaped vegetable from the nightshade family.",
+   "Sliced onion adds a sweetness that balances the slightly bitter snap of the vegetable, all bound in a thin, glossy brown sauce.",
+   "It became a fixture of American Chinese restaurant menus in the mid-20th century, one of the first stir-fries many Western diners ever tried.",
+   "The classic Chinese-American stir-fry of beef strips with capsicum and onion in a light soy glaze."
+  ],
+  "fact": "It likely traces back to a mid-20th-century American adaptation of Cantonese stir-fry technique, built around bell peppers, which were far easier to source in the US than many traditional Chinese vegetables."
+ },
+ {
+  "name": "Crispy Shredded Beef",
+  "aliases": [
+   "Sichuan shredded beef"
+  ],
+  "cuisine": "American-Chinese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "crispy",
+   "sweet",
+   "spicy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "beef",
+   "carrot",
+   "dried chili",
+   "cornstarch",
+   "sugar",
+   "garlic"
+  ],
+  "clues": [
+   "Thin strips of meat are coated in a dry starch, then double-fried until they turn brittle and almost hollow, like little dark twigs.",
+   "Once fried, the strands are tossed in a sticky, chili-flecked sauce that clings to every crackly ridge without softening it.",
+   "Julienned carrot and a fistful of dried chilies usually ride along, adding color and a slow-building heat that doesn't fully register until the second bite.",
+   "The takeaway favorite of impossibly thin, brittle strands of beef in a sweet, chili-hot glaze — often billed on menus as a spicy regional specialty."
+  ],
+  "fact": "Despite often being billed as a Sichuan specialty on menus, this ultra-crispy version is largely a British and American Chinese-restaurant invention, rarely served in this form in Sichuan itself."
+ },
+ {
+  "name": "Moo Shu Pork",
+  "aliases": [
+   "mu xu rou",
+   "moo shu"
+  ],
+  "cuisine": "Shandong",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "egg_based",
+   "handheld",
+   "stuffed",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "pork",
+   "egg",
+   "wood ear mushroom",
+   "day lily buds",
+   "cabbage",
+   "mandarin pancake"
+  ],
+  "clues": [
+   "Shredded meat is stir-fried together with scrambled egg, cloud-ear fungus, and slivers of a tawny dried flower bud that adds a faint tang.",
+   "The whole mixture is spooned into the center of a thin, wheat-flour wrapper brushed with a sweet, dark bean sauce and rolled up by hand at the table.",
+   "It hails from Shandong cuisine in northern China, where wheat wrappers rather than rice are the everyday starch.",
+   "The northern Chinese stir-fry of shredded meat, egg, and wood ear mushroom, rolled tableside into a thin pancake with hoisin — its name literally references the tiny golden flecks of scrambled egg."
+  ],
+  "fact": "Its name, 'moo shu' (mu xu), refers to osmanthus blossoms — a poetic stand-in cooks used for scrambled egg, since some considered the everyday word for egg indelicate to say at the dinner table."
+ },
+ {
+  "name": "Pork Chop with Salt and Pepper",
+  "aliases": [
+   "Salt and Pepper Pork Chop",
+   "jiao yan zhu pa"
+  ],
+  "cuisine": "Cantonese",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "crispy",
+   "spicy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "pork chop",
+   "five-spice salt",
+   "garlic",
+   "chili",
+   "scallion",
+   "cornstarch"
+  ],
+  "clues": [
+   "A thick cut of bone-in meat is marinated, dusted in starch, then fried until it forms a shatteringly crisp crust, one that holds its crunch even after seasoning goes on top.",
+   "Instead of a wet sauce, it gets showered in a dry, aromatic mix of minced garlic, chili, and scallion, added just before serving.",
+   "A fixture of Hong Kong cha chaan teng cafes and Cantonese seafood restaurants, it arrives finished tableside, a five-spice seasoning rubbed straight onto the crust rather than mixed into a bowl.",
+   "The double-fried, bone-in cutlet finished dry with garlic, chili, and scallion instead of a wet sauce — the Cantonese answer to a schnitzel."
+  ],
+  "fact": "In Hong Kong cha chaan teng shorthand, it's often just called 'salt and pepper chop' — the same dry-seasoning technique cooks apply to shrimp, squid, and chicken wings across Cantonese menus."
+ },
+ {
+  "name": "Sichuan Boiled Beef",
+  "aliases": [
+   "Shui Zhu Niu Rou"
+  ],
+  "cuisine": "Sichuan",
+  "region": "East Asia",
+  "country": "China",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "saucy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "beef",
+   "doubanjiang",
+   "dried chili",
+   "Sichuan peppercorn",
+   "garlic",
+   "bean sprouts"
+  ],
+  "clues": [
+   "Paper-thin slices of meat are dusted in starch, then dropped for just seconds into a fiery, dark broth so they stay silky rather than toughening.",
+   "A thick layer of dried chilies and numbing peppercorns from a mountainous western province is scattered on top, then scalding oil is poured directly over it tableside, making it sizzle and bloom.",
+   "Underneath the meat sits a bed of bean sprouts or leafy greens, soaking up the crimson, mouth-numbing broth.",
+   "The fiery, numbing western Chinese dish of thin-sliced beef poached briefly in chili broth, finished with a dramatic pour of scalding oil — literally 'water-cooked beef.'"
+  ],
+  "fact": "Its name, shui zhu niu rou ('water-boiled beef'), almost undersells the cooking — the beef itself is barely simmered for seconds, while the real transformation happens when blistering hot chili oil is poured over it tableside."
+ }
+]

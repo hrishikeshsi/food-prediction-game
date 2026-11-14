@@ -1,0 +1,1889 @@
+[
+ {
+  "name": "Bigos",
+  "aliases": [
+   "hunter's stew"
+  ],
+  "cuisine": "Polish",
+  "region": "Eastern Europe",
+  "country": "Poland",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "fermented",
+   "smoky",
+   "one_pot",
+   "saucy",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "sauerkraut",
+   "fresh cabbage",
+   "kielbasa",
+   "smoked bacon",
+   "dried mushrooms",
+   "prunes"
+  ],
+  "clues": [
+   "It is said to improve every time it is reheated, so cooks deliberately make it days before it is eaten.",
+   "It is the food of the winter forest and the aristocratic hunt, and gets a passage of its own in Poland's national epic.",
+   "Soured shredded cabbage stewed for hours with several smoked meats, dried mushrooms and a handful of prunes.",
+   "Poland's long-simmered hunter's stew, built on sauerkraut and whatever game or sausage the household has."
+  ],
+  "fact": "Adam Mickiewicz devoted lines of Pan Tadeusz to it, which helped cement its status as a national dish."
+ },
+ {
+  "name": "Żurek",
+  "aliases": [
+   "zurek",
+   "sour rye soup"
+  ],
+  "cuisine": "Polish",
+  "region": "Eastern Europe",
+  "country": "Poland",
+  "course": "soup",
+  "protein": "pork",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "soup",
+   "fermented",
+   "smoky",
+   "egg_based",
+   "festive",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "soured rye starter",
+   "white sausage",
+   "marjoram",
+   "smoked bacon",
+   "boiled egg",
+   "horseradish"
+  ],
+  "clues": [
+   "It depends on a jar of grain and water left to go sour on the windowsill for several days.",
+   "It is the Easter breakfast soup of Poland, sometimes served inside a hollowed loaf of bread.",
+   "A cloudy, tart, gently thickened broth heavy with marjoram, holding halved eggs and pale sausage.",
+   "The Polish sour rye soup with white sausage, egg and marjoram."
+  ],
+  "fact": "The starter, zakwas, is fermented rye flour and water — the same principle as sourdough, but used as a liquid seasoning."
+ },
+ {
+  "name": "Pierogi",
+  "aliases": [
+   "pierogy",
+   "polish dumplings"
+  ],
+  "cuisine": "Polish",
+  "region": "Eastern Europe",
+  "country": "Poland",
+  "course": "main",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "festive"
+  ],
+  "key_ingredients": [
+   "wheat dough",
+   "twaróg curd cheese",
+   "potato",
+   "fried onion",
+   "butter",
+   "soured cream"
+  ],
+  "clues": [
+   "The most classic filling is named after a Ukrainian city, though the dish is claimed firmly by its western neighbour.",
+   "They are boiled first and very often fried afterwards in butter, and a dozen fillings from savoury to sweet exist.",
+   "Half-moons of soft dough crimped by hand around a mash of potato and fresh curd, served with browned onion and cream.",
+   "The Polish filled dumpling, boiled then buttered, with the classic potato-and-curd filling named for Ruthenia."
+  ],
+  "fact": "Ruskie pierogi are named for Red Ruthenia, not Russia — a distinction Poles are careful to make."
+ },
+ {
+  "name": "Lángos",
+  "aliases": [
+   "langos"
+  ],
+  "cuisine": "Hungarian",
+  "region": "Eastern Europe",
+  "country": "Hungary",
+  "course": "snack",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "handheld",
+   "dairy",
+   "cheese",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "yeasted dough",
+   "garlic water",
+   "soured cream",
+   "grated cheese",
+   "sunflower oil",
+   "potato"
+  ],
+  "clues": [
+   "Its name comes from the word for flame, because it was once baked at the mouth of the bread oven while it was still roaring.",
+   "It is the food of the summer lakeside and the winter market stall, sold on a paper plate that immediately goes translucent.",
+   "A plate-sized round of yeasted dough deep-fried until blistered, rubbed with garlic and buried in cream and cheese.",
+   "The Hungarian deep-fried flatbread topped with soured cream and grated cheese."
+  ],
+  "fact": "Adding mashed potato to the dough is the trick that keeps it soft inside rather than turning into a hard crust."
+ },
+ {
+  "name": "Chicken Paprikash",
+  "aliases": [
+   "paprikás csirke",
+   "csirkepaprikás"
+  ],
+  "cuisine": "Hungarian",
+  "region": "Eastern Europe",
+  "country": "Hungary",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "wheat",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "dairy",
+   "saucy",
+   "one_pot",
+   "noodle"
+  ],
+  "key_ingredients": [
+   "sweet paprika",
+   "chicken",
+   "onion",
+   "soured cream",
+   "lard",
+   "nokedli dumplings"
+  ],
+  "clues": [
+   "The defining spice must never touch a hot pan directly or it turns irreversibly bitter — the pot comes off the heat first.",
+   "It is served with small torn egg dumplings that exist mainly to carry the sauce.",
+   "Poultry braised in an enormous quantity of onion and sweet ground pepper, finished with soured cream stirred in off the heat.",
+   "The Hungarian chicken stew in sweet paprika and soured cream, served with nokedli."
+  ],
+  "fact": "Paprika arrived in Hungary via the Ottomans, and only became central to the national cuisine in the nineteenth century."
+ },
+ {
+  "name": "Sauerbraten",
+  "aliases": [
+   "german pot roast"
+  ],
+  "cuisine": "German",
+  "region": "Western Europe",
+  "country": "Germany",
+  "course": "main",
+  "protein": "beef",
+  "carb": "potato",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "pickled",
+   "saucy",
+   "sweet",
+   "one_pot",
+   "festive"
+  ],
+  "key_ingredients": [
+   "beef rump",
+   "red wine vinegar",
+   "juniper",
+   "cloves",
+   "raisins",
+   "lebkuchen or gingerbread"
+  ],
+  "clues": [
+   "Before any heat is applied it spends up to a week submerged, and that soak is the entire point.",
+   "The Rhineland version thickens its sauce with a crushed spiced Christmas biscuit, which sounds like a mistake and is not.",
+   "A joint made tender and distinctly sour by long marination, served in a dark sweet-sour gravy with raisins.",
+   "Germany's marinated pot roast, soured with vinegar and served with red cabbage and potato dumplings."
+  ],
+  "fact": "The Rhenish version was historically made with horse meat, and some Cologne butchers still offer it that way."
+ },
+ {
+  "name": "Spätzle",
+  "aliases": [
+   "spaetzle",
+   "knöpfle"
+  ],
+  "cuisine": "Swabian",
+  "region": "Western Europe",
+  "country": "Germany",
+  "course": "side",
+  "protein": "none",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "noodle",
+   "egg_based",
+   "dairy",
+   "cheese"
+  ],
+  "key_ingredients": [
+   "flour",
+   "eggs",
+   "nutmeg",
+   "butter",
+   "emmental",
+   "fried onions"
+  ],
+  "clues": [
+   "The name means little sparrows, and traditionally the batter is scraped off a wet board straight into boiling water.",
+   "A regional law of sorts insists the real thing has a rough, irregular surface, because that is what holds sauce.",
+   "Soft irregular egg-rich squiggles, boiled briefly then tossed in butter, sometimes layered with cheese and onions.",
+   "The Swabian soft egg noodle, served as a side or baked in a cheese-and-onion casserole."
+  ],
+  "fact": "Swabian brides were once judged on whether their scraped noodles were thin enough to let light through."
+ },
+ {
+  "name": "Rösti",
+  "aliases": [
+   "roesti",
+   "rosti"
+  ],
+  "cuisine": "Swiss",
+  "region": "Western Europe",
+  "country": "Switzerland",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "potato",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "crispy",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "waxy potatoes",
+   "butter",
+   "salt",
+   "clarified butter"
+  ],
+  "clues": [
+   "The linguistic border of its home country is named after it, dividing those who eat it from those who do not.",
+   "It began as a farmer's breakfast in the canton of Bern, made from the previous day's boiled leftovers.",
+   "Coarsely grated tuber pressed into a pan and fried in butter until a deep golden crust forms on both faces.",
+   "The Swiss crisp grated potato cake, flipped whole and served in a wedge."
+  ],
+  "fact": "The Röstigraben, or rösti ditch, is the informal name for the cultural divide between German- and French-speaking Switzerland."
+ },
+ {
+  "name": "Tartiflette",
+  "aliases": [],
+  "cuisine": "Savoyard",
+  "region": "Western Europe",
+  "country": "France",
+  "course": "main",
+  "protein": "pork",
+  "carb": "potato",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "dairy",
+   "cheese",
+   "smoky",
+   "one_pot",
+   "layered",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "reblochon",
+   "potato",
+   "lardons",
+   "onion",
+   "white wine",
+   "cream"
+  ],
+  "clues": [
+   "It looks ancient but was essentially invented in the 1980s by a cheese marketing board to sell more of one specific wheel.",
+   "It belongs to the ski slopes of the French Alps, and one half of a washed-rind cheese is laid crust-up over the top.",
+   "Sliced potatoes baked with bacon, onion and white wine under a cheese that collapses into the dish as it melts.",
+   "The Savoyard baked potato and bacon gratin sealed with a whole halved reblochon."
+  ],
+  "fact": "The Syndicat Interprofessionnel du Reblochon promoted the recipe in the 1980s, adapting an older dish called péla."
+ },
+ {
+  "name": "Cassoulet",
+  "aliases": [],
+  "cuisine": "Occitan",
+  "region": "Western Europe",
+  "country": "France",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "none",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "one_pot",
+   "festive",
+   "crispy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "tarbais beans",
+   "duck confit",
+   "toulouse sausage",
+   "pork rind",
+   "garlic",
+   "duck fat"
+  ],
+  "clues": [
+   "Three towns each claim their version is the true one, and locals speak of them as father, son and holy spirit.",
+   "It is named after the glazed earthenware vessel it is baked in, which slopes so the top can crust.",
+   "White beans baked for hours with preserved poultry and sausage until a skin forms, which is broken back in repeatedly.",
+   "The slow-baked bean and confit casserole of Castelnaudary, Carcassonne and Toulouse."
+  ],
+  "fact": "Tradition says the crust should be broken and stirred back in seven times during baking."
+ },
+ {
+  "name": "Bouillabaisse",
+  "aliases": [],
+  "cuisine": "Provençal",
+  "region": "Southern Europe",
+  "country": "France",
+  "course": "soup",
+  "protein": "fish",
+  "carb": "bread",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "seafood",
+   "saucy",
+   "bread_based",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "rascasse",
+   "saffron",
+   "fennel",
+   "orange peel",
+   "rouille",
+   "tomato"
+  ],
+  "clues": [
+   "Its name is a compressed instruction: bring it to the boil, then lower it.",
+   "It began as the Marseille fisherman's way of using the spiny rockfish nobody would buy at market.",
+   "The broth is strained off and served first with garlicky rust-coloured sauce on toast; the fish follows on a separate plate.",
+   "The Marseille fish soup, scented with saffron, fennel and orange peel, served with rouille and croutons."
+  ],
+  "fact": "A 1980 charter signed by Marseille restaurateurs specifies which rockfish must be present for it to be sold under the name."
+ },
+ {
+  "name": "Pissaladière",
+  "aliases": [
+   "pissaladiere"
+  ],
+  "cuisine": "Niçoise",
+  "region": "Southern Europe",
+  "country": "France",
+  "course": "snack",
+  "protein": "fish",
+  "carb": "bread",
+  "method": "baked",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "street_food",
+   "bread_based",
+   "handheld",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "onions",
+   "anchovies",
+   "black olives",
+   "bread dough",
+   "thyme",
+   "olive oil"
+  ],
+  "clues": [
+   "It is named after a fermented fish paste that most modern versions no longer contain.",
+   "It is sold by the slab in the markets of the old town of a Riviera city that was Italian until 1860.",
+   "A bread base under a deep layer of onions cooked to jam, latticed with salted fillets and studded with olives.",
+   "The Niçoise onion tart with anchovies and black olives, eaten at room temperature."
+  ],
+  "fact": "Pissalat, the original anchovy condiment, gave the dish its name and is now made by only a handful of producers."
+ },
+ {
+  "name": "Fabada Asturiana",
+  "aliases": [
+   "fabada"
+  ],
+  "cuisine": "Asturian",
+  "region": "Southern Europe",
+  "country": "Spain",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "one_pot",
+   "smoky",
+   "saucy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "faba asturiana beans",
+   "chorizo",
+   "morcilla",
+   "lacón",
+   "saffron",
+   "pork shoulder"
+  ],
+  "clues": [
+   "The beans have their own protected designation, and they must never be stirred with a spoon — the pot is shaken instead.",
+   "It comes from a green, rainy, cider-drinking region on Spain's northern coast that feels nothing like the Mediterranean.",
+   "Large buttery white beans stewed with smoked blood sausage and paprika sausage until the broth goes orange and unctuous.",
+   "The Asturian bean stew with chorizo, morcilla and cured pork shoulder."
+  ],
+  "fact": "The compango — the trio of cured meats — is sold as a matched set specifically for this dish."
+ },
+ {
+  "name": "Pulpo a la Gallega",
+  "aliases": [
+   "polbo á feira",
+   "galician octopus"
+  ],
+  "cuisine": "Galician",
+  "region": "Southern Europe",
+  "country": "Spain",
+  "course": "appetizer",
+  "protein": "seafood",
+  "carb": "potato",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "seafood",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "octopus",
+   "smoked paprika",
+   "coarse salt",
+   "olive oil",
+   "potato"
+  ],
+  "clues": [
+   "The cook dips it into boiling water three times before letting it cook, a ritual said to stop the skin from tearing.",
+   "It is festival food in Spain's rainy north-west, served on round wooden plates by specialist cooks called pulpeiras.",
+   "Thick tender rounds cut with scissors, laid over potato and dusted with smoked pepper, with a slick of good oil.",
+   "The Galician dish of boiled octopus with paprika and olive oil, served on a wooden plate."
+  ],
+  "fact": "Copper pots are traditional, and a wine cork is often dropped in — folklore says it helps tenderise the octopus."
+ },
+ {
+  "name": "Gazpacho",
+  "aliases": [
+   "gaspacho"
+  ],
+  "cuisine": "Andalusian",
+  "region": "Southern Europe",
+  "country": "Spain",
+  "course": "soup",
+  "protein": "none",
+  "carb": "bread",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "soup",
+   "raw",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "tomato",
+   "cucumber",
+   "green pepper",
+   "stale bread",
+   "sherry vinegar",
+   "olive oil"
+  ],
+  "clues": [
+   "It predates the arrival of its now-defining red ingredient from the Americas by centuries — the original was white.",
+   "It is drunk as much as eaten, sometimes from a glass, during the ferocious southern Spanish summer.",
+   "Raw vegetables and soaked bread blended cold and emulsified with oil until smooth and faintly pink-orange.",
+   "The chilled raw Andalusian tomato and bread soup, sharpened with sherry vinegar."
+  ],
+  "fact": "Ajo blanco, the older almond-and-garlic version, survives as its own dish in Málaga."
+ },
+ {
+  "name": "Bacalhau à Brás",
+  "aliases": [
+   "bacalhau a bras",
+   "bras style cod"
+  ],
+  "cuisine": "Portuguese",
+  "region": "Southern Europe",
+  "country": "Portugal",
+  "course": "main",
+  "protein": "fish",
+  "carb": "potato",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "egg_based",
+   "crispy",
+   "one_pot",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "salt cod",
+   "matchstick potatoes",
+   "eggs",
+   "onion",
+   "black olives",
+   "parsley"
+  ],
+  "clues": [
+   "Its main ingredient is preserved in a way that requires two days of soaking with several water changes before it can be used.",
+   "It is named after a tavern keeper from the Bairro Alto district of Lisbon.",
+   "Shredded fish, straw-thin fried potato and egg stirred together over low heat so the egg binds but never sets into an omelette.",
+   "The Lisbon dish of shredded salt cod with matchstick potatoes bound in soft scrambled egg."
+  ],
+  "fact": "Portugal claims a different salt cod recipe for every day of the year, and this is among the most ordered."
+ },
+ {
+  "name": "Francesinha",
+  "aliases": [],
+  "cuisine": "Portuguese",
+  "region": "Southern Europe",
+  "country": "Portugal",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "bread",
+  "method": "assembled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "dairy",
+   "cheese",
+   "saucy",
+   "bread_based",
+   "layered",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "white bread",
+   "steak",
+   "linguiça",
+   "ham",
+   "melted cheese",
+   "beer and tomato sauce"
+  ],
+  "clues": [
+   "Its name means little French girl, and it is an emigrant's attempt to reproduce a croque-monsieur with local ambition.",
+   "It belongs to Porto, and is usually surrounded by a moat of chips to soak up what runs off it.",
+   "A stacked sandwich of three or four meats, sealed under melted cheese and flooded with a hot beer-and-tomato sauce.",
+   "Porto's cheese-covered meat sandwich drowned in spiced beer sauce, served with chips."
+  ],
+  "fact": "Daniel da Silva, a returning emigrant from France and Belgium, is credited with creating it in the 1950s."
+ },
+ {
+  "name": "Cacio e Pepe",
+  "aliases": [
+   "cheese and pepper pasta"
+  ],
+  "cuisine": "Roman",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "none",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "noodle",
+   "dairy",
+   "cheese",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "pecorino romano",
+   "black pepper",
+   "tonnarelli",
+   "starchy pasta water"
+  ],
+  "clues": [
+   "It has only three components, and precisely that is what makes it one of the hardest things in its cuisine to get right.",
+   "It was shepherds' food: everything in it keeps for weeks in a saddlebag without refrigeration.",
+   "A sauce made from nothing but grated sheep's cheese, cracked pepper and starchy cooking water emulsified into a cream.",
+   "The Roman pasta of pecorino and black pepper, with no cream, butter or garlic whatsoever."
+  ],
+  "fact": "Overheating the cheese makes it seize into strings, which is why the pan must come off the heat before it goes in."
+ },
+ {
+  "name": "Vitello Tonnato",
+  "aliases": [
+   "vitel tonné"
+  ],
+  "cuisine": "Piedmontese",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "appetizer",
+  "protein": "mixed",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 4,
+  "flags": [
+   "saucy",
+   "egg_based",
+   "pickled",
+   "festive"
+  ],
+  "key_ingredients": [
+   "veal round",
+   "tinned tuna",
+   "anchovy",
+   "capers",
+   "egg yolk",
+   "lemon"
+  ],
+  "clues": [
+   "It pairs a land animal with a sea one in a way that sounds wrong on paper and is a classic in practice.",
+   "It is the standard opener of a Piedmontese Christmas lunch, served cold and sliced paper-thin.",
+   "Pale poached meat under a pourable pale sauce built on preserved fish, capers and egg yolk.",
+   "The Piedmontese cold dish of thinly sliced veal under a tuna and caper sauce."
+  ],
+  "fact": "The oldest versions had no tuna at all — the name likely came from a term for the way the meat was preserved in oil."
+ },
+ {
+  "name": "Risotto alla Milanese",
+  "aliases": [
+   "saffron risotto"
+  ],
+  "cuisine": "Lombard",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "none",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "saucy",
+   "festive",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "carnaroli rice",
+   "saffron",
+   "beef marrow",
+   "white wine",
+   "parmesan",
+   "butter"
+  ],
+  "clues": [
+   "Legend blames a glassmaker's apprentice who used a pigment from his master's workshop as a prank at a wedding feast.",
+   "It is the traditional partner to a bone-in braised veal shin from the same city.",
+   "Short grains cooked slowly with stock until creamy but still firm at the core, turned gold by a single costly spice.",
+   "Lombardy's saffron rice dish, finished with butter and parmesan and traditionally enriched with marrow."
+  ],
+  "fact": "The final vigorous beating in of cold butter and cheese off the heat is called the mantecatura, and it makes the texture."
+ },
+ {
+  "name": "Ribollita",
+  "aliases": [
+   "reboiled soup"
+  ],
+  "cuisine": "Tuscan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "legume",
+  "carb": "bread",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "soup",
+   "bread_based",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "cavolo nero",
+   "cannellini beans",
+   "stale unsalted bread",
+   "tomato",
+   "carrot",
+   "olive oil"
+  ],
+  "clues": [
+   "Its name refers to what happens on the second day, which is when it is considered ready.",
+   "It depends on a famously saltless local loaf, and on a dark crinkled winter cabbage that needs frost to sweeten.",
+   "So thick with soaked bread and pulses that a spoon stands up in it, finished with raw green oil poured over.",
+   "The Tuscan peasant soup of black cabbage, beans and stale bread, reheated and thickened the next day."
+  ],
+  "fact": "Tuscan bread is made without salt, which is why it goes stale rather than mouldy and works so well soaked in soup."
+ },
+ {
+  "name": "Arancini",
+  "aliases": [
+   "arancine",
+   "rice balls"
+  ],
+  "cuisine": "Sicilian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "snack",
+  "protein": "beef",
+  "carb": "rice",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "street_food",
+   "handheld",
+   "crispy",
+   "stuffed",
+   "cheese",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "saffron risotto rice",
+   "ragù",
+   "peas",
+   "mozzarella",
+   "breadcrumbs",
+   "caciocavallo"
+  ],
+  "clues": [
+   "Its name means little oranges, for the colour and shape it takes once fried.",
+   "One half of its island argues for a feminine name and a round shape, the other for a masculine name and a cone.",
+   "A breaded and fried sphere of saffron rice hiding a pocket of meat sauce, peas and melting cheese.",
+   "The Sicilian deep-fried stuffed rice ball, filled with ragù and mozzarella."
+  ],
+  "fact": "The conical eastern Sicilian shape is said to imitate Mount Etna, complete with a lava-like meat filling."
+ },
+ {
+  "name": "Avgolemono",
+  "aliases": [
+   "kotosoupa avgolemono",
+   "egg lemon soup"
+  ],
+  "cuisine": "Greek",
+  "region": "Southern Europe",
+  "country": "Greece",
+  "course": "soup",
+  "protein": "chicken",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "egg_based",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "eggs",
+   "lemon juice",
+   "chicken broth",
+   "rice",
+   "orzo",
+   "dill"
+  ],
+  "clues": [
+   "The technique at its heart is a nervous one: hot liquid must be dribbled into the eggs, never the reverse.",
+   "It is the standard convalescent food of Greek households and the traditional Easter soup in a lamb-based version.",
+   "A pale, velvety, sharply citrus broth thickened without any flour or cream at all.",
+   "The Greek chicken soup thickened with an emulsion of beaten egg and lemon juice."
+  ],
+  "fact": "It is likely descended from the Sephardic agristada, a sauce of egg and sour juice carried into Greece from Spain."
+ },
+ {
+  "name": "Spanakopita",
+  "aliases": [
+   "spinach pie"
+  ],
+  "cuisine": "Greek",
+  "region": "Southern Europe",
+  "country": "Greece",
+  "course": "snack",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "crispy",
+   "layered",
+   "stuffed",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "filo pastry",
+   "spinach",
+   "feta",
+   "dill",
+   "spring onion",
+   "olive oil"
+  ],
+  "clues": [
+   "The greens must be salted and wrung out hard, or the whole structure collapses into a soggy failure.",
+   "It belongs to a huge family of Greek pies, and in Epirus wild foraged greens replace the cultivated leaf.",
+   "Layer upon layer of brushed tissue pastry enclosing greens bound with a salty white brined cheese and dill.",
+   "The Greek filo pie filled with spinach and feta."
+  ],
+  "fact": "Its wild-greens cousin, hortopita, uses a foraged mix that can include nettle, dandelion and fennel fronds."
+ },
+ {
+  "name": "Smørrebrød",
+  "aliases": [
+   "smorrebrod",
+   "danish open sandwich"
+  ],
+  "cuisine": "Danish",
+  "region": "Northern Europe",
+  "country": "Denmark",
+  "course": "main",
+  "protein": "fish",
+  "carb": "bread",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 3,
+  "flags": [
+   "bread_based",
+   "pickled",
+   "dairy",
+   "layered"
+  ],
+  "key_ingredients": [
+   "rye bread",
+   "butter",
+   "pickled herring",
+   "remoulade",
+   "dill",
+   "crispy onions"
+  ],
+  "clues": [
+   "There is an etiquette to the order in which you eat them, and using a top slice of bread is considered wrong.",
+   "It is lunch in Denmark, taken with cold beer and a shot of caraway spirit.",
+   "A dense dark sour loaf, buttered to the very edges, carrying a carefully composed single layer of toppings.",
+   "The Danish open-faced rye sandwich, most classically topped with pickled herring or prawns."
+  ],
+  "fact": "The butter layer is functional, not decorative: it waterproofs the rye against the wet toppings."
+ },
+ {
+  "name": "Gravlax",
+  "aliases": [
+   "gravadlax",
+   "gravad lax"
+  ],
+  "cuisine": "Nordic",
+  "region": "Northern Europe",
+  "country": "Sweden",
+  "course": "appetizer",
+  "protein": "fish",
+  "carb": "none",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "raw",
+   "pickled",
+   "saucy",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "salmon fillet",
+   "salt",
+   "sugar",
+   "dill",
+   "white pepper",
+   "aquavit"
+  ],
+  "clues": [
+   "Its name literally means buried, because medieval fishermen packed it in sand above the tideline to ferment.",
+   "It is served at the Nordic Christmas table with a sweet mustard and dill sauce.",
+   "Never cooked and never smoked, just weighted under salt, sugar and herbs for a couple of days until firm and translucent.",
+   "The Scandinavian salmon cured with salt, sugar and dill, sliced thin and served with mustard sauce."
+  ],
+  "fact": "The medieval original really was lightly fermented; the modern version is a straightforward cure with no fermentation at all."
+ },
+ {
+  "name": "Surströmming",
+  "aliases": [
+   "fermented herring"
+  ],
+  "cuisine": "Swedish",
+  "region": "Northern Europe",
+  "country": "Sweden",
+  "course": "main",
+  "protein": "fish",
+  "carb": "bread",
+  "method": "fermented",
+  "temp": "cold",
+  "difficulty": 3,
+  "flags": [
+   "fermented",
+   "raw",
+   "bread_based",
+   "dairy",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "baltic herring",
+   "brine",
+   "tunnbröd flatbread",
+   "almond potatoes",
+   "red onion",
+   "sour cream"
+  ],
+  "clues": [
+   "Several airlines have banned it from cabins on the grounds that the containers can burst.",
+   "It is traditionally opened outdoors, under water, on the third Thursday of August.",
+   "Small fish left in weak brine to ferment for months until the tin bulges and the smell precedes it by some distance.",
+   "The Swedish fermented Baltic herring, eaten in a flatbread roll with potato, onion and sour cream."
+  ],
+  "fact": "The tin continues to ferment on the shelf, which is why it swells — and why it is opened submerged in water."
+ },
+ {
+  "name": "Haggis",
+  "aliases": [],
+  "cuisine": "Scottish",
+  "region": "British Isles",
+  "country": "Scotland",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "root",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "offal",
+   "festive",
+   "stuffed",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "sheep's pluck",
+   "oatmeal",
+   "suet",
+   "onion",
+   "black pepper",
+   "stomach lining"
+  ],
+  "clues": [
+   "A poem is recited to it and a knife plunged into it before anyone is allowed to eat, every January.",
+   "Despite its national associations, the earliest written recipes for something like it are English.",
+   "Minced offal bound with toasted oats and suet, heavily peppered, cooked inside a natural casing until it can be cut open.",
+   "Scotland's pudding of sheep's offal and oatmeal, served with mashed neeps and tatties."
+  ],
+  "fact": "Robert Burns' 1786 Address to a Haggis is what turned a common peasant dish into a national symbol."
+ },
+ {
+  "name": "Cullen Skink",
+  "aliases": [],
+  "cuisine": "Scottish",
+  "region": "British Isles",
+  "country": "Scotland",
+  "course": "soup",
+  "protein": "fish",
+  "carb": "potato",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "soup",
+   "smoky",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "smoked haddock",
+   "potato",
+   "onion",
+   "whole milk",
+   "butter",
+   "parsley"
+  ],
+  "clues": [
+   "The second half of its name is an old Scots word for shin or broth, not a comment on its smell.",
+   "It is named after a fishing town on the Moray Firth, which hosts an annual championship for making it.",
+   "A thick pale soup of milk and floury potato carrying flakes of pale gold smoked fish.",
+   "The Scottish soup of smoked haddock, potato and onion in milk."
+  ],
+  "fact": "Proper versions use Finnan haddie — cold-smoked undyed haddock — rather than the bright yellow dyed fillets."
+ },
+ {
+  "name": "Toad in the Hole",
+  "aliases": [],
+  "cuisine": "English",
+  "region": "British Isles",
+  "country": "England",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "egg_based",
+   "saucy",
+   "one_pot",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "sausages",
+   "plain flour",
+   "eggs",
+   "milk",
+   "beef dripping",
+   "onion gravy"
+  ],
+  "clues": [
+   "Its name imagines small creatures peeking out of a burrow, which is roughly what the finished dish looks like.",
+   "It began as a way of stretching a little meat with a lot of cheap batter, and eighteenth-century versions used any leftover joint.",
+   "A batter of flour, egg and milk poured over meat into a smoking-hot fatted tin, where it climbs the sides as it bakes.",
+   "The English dish of sausages baked into Yorkshire pudding batter, served with onion gravy."
+  ],
+  "fact": "The tin and fat must be genuinely smoking before the batter goes in, or the pudding will not rise around the sausages."
+ },
+ {
+  "name": "Borscht",
+  "aliases": [
+   "borsch",
+   "barszcz"
+  ],
+  "cuisine": "Ukrainian",
+  "region": "Eastern Europe",
+  "country": "Ukraine",
+  "course": "soup",
+  "protein": "beef",
+  "carb": "root",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "soup",
+   "dairy",
+   "fermented",
+   "one_pot",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "beetroot",
+   "cabbage",
+   "beef stock",
+   "soured cream",
+   "dill",
+   "garlic pampushky"
+  ],
+  "clues": [
+   "UNESCO placed it on a list of endangered cultural heritage in 2022, which was itself a political act.",
+   "It is served with small garlic rolls, and the deepest colour is preserved by adding acid near the end of cooking.",
+   "A crimson soup of root vegetables and cabbage, sharp as well as sweet, finished with a white swirl and dill.",
+   "The Ukrainian beetroot soup served with soured cream and garlic bread rolls."
+  ],
+  "fact": "The earliest versions were made from fermented hogweed, and beetroot only became standard much later."
+ },
+ {
+  "name": "Adjaruli Khachapuri",
+  "aliases": [
+   "khachapuri",
+   "acharuli"
+  ],
+  "cuisine": "Georgian",
+  "region": "Eastern Europe",
+  "country": "Georgia",
+  "course": "main",
+  "protein": "egg",
+  "carb": "bread",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "bread_based",
+   "egg_based",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "imeruli cheese",
+   "sulguni",
+   "yeasted dough",
+   "egg yolk",
+   "butter",
+   "flour"
+  ],
+  "clues": [
+   "Its shape is meant to evoke a boat on the Black Sea, with the yolk standing in for the setting sun.",
+   "Its home region on the coast gives it its name, and the country has an index that tracks its cost as a measure of inflation.",
+   "An open bread vessel filled with molten brined cheese, finished with a raw yolk and butter stirred in at the table.",
+   "The boat-shaped Georgian cheese bread from Adjara, topped with an egg yolk and butter."
+  ],
+  "fact": "You eat it by tearing off the pointed ends and using them to stir the yolk and butter into the cheese."
+ },
+ {
+  "name": "Khinkali",
+  "aliases": [
+   "georgian dumplings"
+  ],
+  "cuisine": "Georgian",
+  "region": "Eastern Europe",
+  "country": "Georgia",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "wheat",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "stuffed",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "minced pork and beef",
+   "wheat dough",
+   "caraway",
+   "coriander",
+   "black pepper",
+   "onion"
+  ],
+  "clues": [
+   "The twisted knot on top is a handle, not part of the meal, and leaving a pile of them is how you count what you ate.",
+   "It comes from the mountain regions of a Caucasus country, and pepper is the only correct condiment.",
+   "A thick pleated pouch holding spiced raw mince that releases a mouthful of broth when you bite the side.",
+   "The Georgian soup dumpling, held by its topknot and eaten from the hand."
+  ],
+  "fact": "Eating the doughy topknot is considered bad form; the discarded stems are counted at the end of the meal."
+ },
+ {
+  "name": "Ćevapi",
+  "aliases": [
+   "cevapcici",
+   "cevapi"
+  ],
+  "cuisine": "Bosnian",
+  "region": "Eastern Europe",
+  "country": "Bosnia and Herzegovina",
+  "course": "main",
+  "protein": "beef",
+  "carb": "bread",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "smoky",
+   "street_food",
+   "handheld",
+   "bread_based",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "minced beef",
+   "lamb",
+   "somun flatbread",
+   "raw onion",
+   "kajmak",
+   "ajvar"
+  ],
+  "clues": [
+   "They descend from the Ottoman kebab tradition and are always ordered in odd numbers, five or ten at a time.",
+   "The bread they come in is held over the grill first so it soaks up the fat dripping from them.",
+   "Small skinless fingers of minced meat grilled over charcoal, packed into a puffy flatbread with raw onion.",
+   "The Balkan grilled minced-meat fingers served in somun with onion and clotted cream."
+  ],
+  "fact": "Sarajevo's version is beef-only and traditionally served in tens, while Banja Luka's are grilled in joined groups of four."
+ },
+ {
+  "name": "Chicken Parmigiana",
+  "aliases": [
+   "Chicken Parmesan",
+   "Pollo alla Parmigiana"
+  ],
+  "cuisine": "Italian-American",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "cheese",
+   "dairy",
+   "saucy",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "chicken breast",
+   "breadcrumbs",
+   "egg",
+   "tomato sauce",
+   "mozzarella",
+   "parmesan"
+  ],
+  "clues": [
+   "A breaded, pan-fried cutlet gets baked beneath a blanket of tomato sauce and melted cheese until bubbling — a dish born more in immigrant kitchens abroad than in Italy itself.",
+   "The cutlet is pounded thin, dredged in egg and crumbs, fried until golden, then finished under the broiler so the cheese melts into a bubbling crust.",
+   "Its name nods to a hard, nutty grating cheese from a specific Italian region — ironic, since the cheese actually melted on top is usually a stretchier, milder one instead.",
+   "The Italian-American classic of a breaded, fried chicken cutlet baked under tomato sauce and melted cheese, named for a cheese from the city of Parma."
+  ],
+  "fact": "Despite its Italian name honoring Parmigiano cheese, the dish as we know it — breaded chicken drowned in tomato sauce and mozzarella — was invented by Italian immigrants in the United States, not in Italy."
+ },
+ {
+  "name": "Chicken Marsala",
+  "aliases": [
+   "Pollo alla Marsala"
+  ],
+  "cuisine": "Italian-American",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "contains_alcohol",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "chicken breast",
+   "flour",
+   "fortified wine",
+   "mushrooms",
+   "butter",
+   "chicken stock"
+  ],
+  "clues": [
+   "A thin cutlet simmers in a glossy sauce built from a fortified wine and mushrooms, with no tomato in sight.",
+   "The cutlet is lightly dusted in flour rather than crusted in crumbs, then pan-seared before the sauce reduces around it.",
+   "The sauce's signature comes from a Sicilian fortified wine named after its port city, mixed with sautéed mushrooms and a knob of butter.",
+   "The Italian-American dish of a flour-dusted chicken cutlet napped in a mushroom sauce built on a fortified Sicilian wine."
+  ],
+  "fact": "Marsala wine, the fortified base of this dish's sauce, was originally developed in the 18th century by a British merchant trying to compete with Spanish sherry and Portuguese port."
+ },
+ {
+  "name": "Chicken Piccata",
+  "aliases": [
+   "Pollo al Limone"
+  ],
+  "cuisine": "Italian-American",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "dairy",
+   "pickled",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "chicken breast",
+   "flour",
+   "lemon",
+   "capers",
+   "butter",
+   "white wine"
+  ],
+  "clues": [
+   "A thin, quickly pan-fried cutlet is finished in a bright, tangy pan sauce built on citrus and small pickled buds, with no cheese or tomato involved.",
+   "The cutlet is pounded thin and dredged lightly in flour, then a fast sauce is built right in the same pan from butter, wine, and a sharp yellow citrus.",
+   "Its name comes from an Italian word describing a piquant, sharp style of preparation — sour and salty in careful balance.",
+   "The lemon-and-caper pan sauce classic, made with a quickly seared, flour-dusted chicken cutlet and a splash of white wine."
+  ],
+  "fact": "The word 'piccata' describes a cooking style — sliced, sautéed, and served in a piquant sauce — that was originally applied to veal long before chicken became the more common, budget-friendly substitute."
+ },
+ {
+  "name": "Chicken Cacciatore",
+  "aliases": [
+   "Hunter's Chicken",
+   "Pollo alla Cacciatora"
+  ],
+  "cuisine": "Tuscan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "one_pot",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "chicken pieces",
+   "tomatoes",
+   "bell peppers",
+   "onions",
+   "red wine",
+   "mushrooms"
+  ],
+  "clues": [
+   "Bone-in pieces of poultry braise low and slow in a rustic stew of tomatoes, peppers, onions, and herbs — no breading, no delicate cutlet here.",
+   "Its Italian name describes a rustic, forager's approach to supper, cooked the way someone returning from a day in the woods might improvise a meal from whatever was on hand.",
+   "Mushrooms, red wine, and bay leaf often join the pot, simmering until the meat falls easily from the bone.",
+   "The rustic Italian braise known in English by a name meaning 'hunter-style,' simmered with tomatoes, peppers, and onions."
+  ],
+  "fact": "Cacciatore dishes have no single fixed recipe in Italy — some regions add tomatoes, others skip them entirely in favor of a white-wine-and-herb version, since the name only describes the rustic cooking style, not specific ingredients."
+ },
+ {
+  "name": "Ossobuco alla Milanese",
+  "aliases": [
+   "Braised Veal Shanks",
+   "Osso Buco"
+  ],
+  "cuisine": "Milanese",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "festive",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "veal shank",
+   "white wine",
+   "broth",
+   "gremolata",
+   "carrot",
+   "celery"
+  ],
+  "clues": [
+   "A cross-cut section of leg, bone and marrow still in the center, braises for hours in wine and broth until the meat surrenders to a fork.",
+   "It's traditionally eaten with a special narrow implement used just to scoop out the prized marrow at the bone's center.",
+   "It's finished with a raw garnish of lemon zest, garlic, and parsley chopped fine, scattered on top just before serving.",
+   "This braised veal shank, marrow still in the bone, is a specialty of Northern Italy's fashion capital, traditionally served with saffron risotto and a lemon-garlic-parsley garnish."
+  ],
+  "fact": "The dish's name literally means 'bone with a hole,' referring to the marrow-filled cavity at the center of the cross-cut shank, which is traditionally eaten with a small specialized spoon."
+ },
+ {
+  "name": "Cotoletta alla Milanese",
+  "aliases": [
+   "Veal Milanese",
+   "Veal Cutlet Milanese-Style"
+  ],
+  "cuisine": "Milanese",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "crispy",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "veal chop",
+   "breadcrumbs",
+   "egg",
+   "butter",
+   "lemon"
+  ],
+  "clues": [
+   "A rib chop, bone left attached, is coated in golden crumbs and fried in butter until the crust shatters at the first bite.",
+   "Historians have long argued whether this crumbed, fried chop or a famous Austrian schnitzel came first, given centuries of trade between the two cities.",
+   "The bone is traditionally left in as a handle, and the meat is pounded thin while the rib stays intact, unlike a boneless escalope.",
+   "A bone-in, butter-fried breaded veal chop from the city famous for fashion and risotto, often set beside a wedge of lemon."
+  ],
+  "fact": "A centuries-old rivalry claims this breaded veal chop predates Vienna's famous schnitzel, with some historians pointing to 12th-century Milanese monastery records as evidence, though the debate remains unresolved."
+ },
+ {
+  "name": "Saltimbocca alla Romana",
+  "aliases": [
+   "Roman Saltimbocca",
+   "Veal Saltimbocca"
+  ],
+  "cuisine": "Roman",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "contains_alcohol",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "veal cutlet",
+   "prosciutto",
+   "sage",
+   "butter",
+   "white wine",
+   "flour"
+  ],
+  "clues": [
+   "A thin escalope is topped with a slice of cured ham and a single fresh herb leaf, pinned in place before a quick sear in butter.",
+   "Its name translates loosely to 'jumps in the mouth,' a nod to how fast and vivid the flavor hits once it's plated.",
+   "No breadcrumb crust here — the herb and cured meat are seared directly onto the surface, then a splash of wine deglazes the pan into a light sauce.",
+   "A veal escalope from central Italy, topped with prosciutto and a sage leaf, pan-seared and finished with a wine sauce, whose name literally means 'jumps in the mouth.'"
+  ],
+  "fact": "Legend holds the dish got its name from diners at a Roman restaurant reacting so quickly and enthusiastically to its flavor that a poet exclaimed it truly 'jumped in the mouth.'"
+ },
+ {
+  "name": "Bistecca alla Fiorentina",
+  "aliases": [
+   "Florentine Steak",
+   "Florentine T-bone"
+  ],
+  "cuisine": "Tuscan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "smoky",
+   "festive"
+  ],
+  "key_ingredients": [
+   "T-bone steak",
+   "olive oil",
+   "rosemary",
+   "coarse salt",
+   "black pepper"
+  ],
+  "clues": [
+   "A thick, hefty cut of beef from a prized white cattle breed is grilled hard and fast over hardwood embers, served intensely rare no matter what you ask for.",
+   "Seasoning stays deliberately minimal — coarse salt, cracked pepper, and a drizzle of good olive oil added only after it leaves the fire.",
+   "The cut includes both the tenderloin and the strip of loin on either side of a distinctive T-shaped divider, and it's traditionally priced and sold by weight per person.",
+   "The Tuscan grilled T-bone, cut thick from prized white cattle and served bone-in, rare, with nothing more than salt and olive oil."
+  ],
+  "fact": "Traditionalists insist the steak must come from the Chianina, one of the oldest and largest cattle breeds in the world, and that asking for it well-done is close to a culinary crime in Florence."
+ },
+ {
+  "name": "Polpette",
+  "aliases": [
+   "Italian Meatballs",
+   "Polpette al Sugo"
+  ],
+  "cuisine": "Neapolitan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "egg_based",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "ground beef",
+   "stale bread",
+   "egg",
+   "parmesan",
+   "garlic",
+   "tomato sauce"
+  ],
+  "clues": [
+   "Small hand-rolled balls of ground meat, bound with stale bread soaked in milk and a beaten egg, get browned before finishing in a simmering red sauce.",
+   "In their homeland they're rarely piled onto a plate of long strands the way abroad they famously are — that pairing is largely a foreign invention.",
+   "Grated hard cheese and a fistful of chopped parsley usually go into the mixture itself, not just sprinkled on top at the end.",
+   "Italy's version of hand-rolled meatballs, simmered in tomato sauce and rarely served atop spaghetti the way immigrants popularized abroad."
+  ],
+  "fact": "In Italy, meatballs are traditionally served on their own as a second course, often smaller than a golf ball — the giant meatball perched on a mountain of spaghetti is largely an Italian-American creation."
+ },
+ {
+  "name": "Porchetta",
+  "aliases": [
+   "Italian Roast Pork",
+   "Porchetta di Maiale"
+  ],
+  "cuisine": "Umbrian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "crispy",
+   "festive",
+   "street_food",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "whole pig",
+   "garlic",
+   "rosemary",
+   "fennel pollen",
+   "salt",
+   "black pepper"
+  ],
+  "clues": [
+   "An entire deboned animal is butterflied, seasoned deep inside with garlic and wild herbs, then rolled tight and slow-roasted until the skin turns to shattering crackling.",
+   "Its aroma often comes from a golden pollen harvested from a feathery herb plant, rubbed generously into the meat before rolling.",
+   "Street vendors at countryside festivals slice it thin and stuff it straight into a crusty bread roll, crackling included in every bite.",
+   "Central Italy's whole roasted, herb-stuffed pork roll, famous for its crackling skin and sold sliced into sandwiches at festivals."
+  ],
+  "fact": "Porchetta traces back over two thousand years to pre-Roman central Italy, where whole roasted, herb-stuffed pig was already a festival centerpiece long before it became a beloved street food."
+ },
+ {
+  "name": "Veal Scaloppine",
+  "aliases": [
+   "Scaloppine",
+   "Veal Scallopini"
+  ],
+  "cuisine": "Northern Italian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "beef",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "dairy",
+   "contains_alcohol"
+  ],
+  "key_ingredients": [
+   "veal",
+   "flour",
+   "butter",
+   "white wine",
+   "lemon",
+   "stock"
+  ],
+  "clues": [
+   "Thin slices of meat are pounded even thinner, dusted lightly in flour, and seared for barely a minute per side in a hot pan.",
+   "This is the base technique behind several fancier-named dishes — strip away the capers, the cured ham, or the mushrooms, and what's left is this simple preparation.",
+   "A quick pan sauce, often just butter, a splash of wine, and pan drippings, gets spooned over the top just before serving.",
+   "The foundational Italian technique of a thin, quickly pan-fried cutlet of meat finished in a light butter-and-wine sauce, the base for many dressed-up cousins."
+  ],
+  "fact": "The word 'scaloppine' simply means 'small escalopes' in Italian and describes a technique, not a fixed recipe — nearly every sauced veal dish on this list is technically a variation of it."
+ },
+ {
+  "name": "Pollo Arrosto",
+  "aliases": [
+   "Italian Roast Chicken",
+   "Roast Chicken Italian Style"
+  ],
+  "cuisine": "Italian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "crispy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "whole chicken",
+   "rosemary",
+   "garlic",
+   "lemon",
+   "olive oil",
+   "potatoes"
+  ],
+  "clues": [
+   "A whole bird is stuffed with citrus and herbs, trussed, and roasted until the skin crisps deep golden and the meat pulls easily from the bone.",
+   "Potatoes often roast alongside in the same pan, soaking up the rendered fat and pan juices as the bird cooks.",
+   "Unlike its breaded or sauced cousins, this version relies on nothing more than olive oil, garlic, lemon, and a sprig of herb tucked inside the cavity.",
+   "Italy's classic whole roasted chicken, stuffed with lemon and rosemary and often roasted beside potatoes in its own juices."
+  ],
+  "fact": "In much of Italy, a whole roast chicken is traditionally a Sunday lunch centerpiece, often picked up already cooked from a rosticceria rather than made at home."
+ },
+ {
+  "name": "Minestrone",
+  "aliases": [],
+  "cuisine": "Italian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "soup",
+   "one_pot",
+   "cheese"
+  ],
+  "key_ingredients": [
+   "cannellini beans",
+   "carrots",
+   "celery",
+   "onion",
+   "tomato",
+   "parmesan rind"
+  ],
+  "clues": [
+   "This Italian vegetable stew has no single fixed recipe — cooks build it from whatever beans, greens and roots are in season, always simmered low and slow.",
+   "A rind of hard aged cheese is often dropped into the pot while it cooks, then fished out before serving to add a savory depth.",
+   "It's thick enough to stand a spoon in, commonly finished with a drizzle of olive oil and sometimes short pasta or rice stirred in near the end.",
+   "The classic Italian mixed-vegetable-and-bean soup, cooked slow and often finished with a parmesan rind."
+  ],
+  "fact": "The name comes from the Italian verb 'minestrare,' meaning 'to serve' — it began as a catch-all peasant dish rather than a fixed recipe."
+ },
+ {
+  "name": "Pasta e Fagioli",
+  "aliases": [
+   "Pasta and Beans",
+   "pasta fazool"
+  ],
+  "cuisine": "Italian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "legume",
+  "carb": "noodle",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "soup",
+   "one_pot",
+   "noodle"
+  ],
+  "key_ingredients": [
+   "borlotti beans",
+   "small pasta",
+   "tomato",
+   "garlic",
+   "rosemary",
+   "olive oil"
+  ],
+  "clues": [
+   "Small pasta shapes are simmered directly in a thick bean broth until they're barely tender, thickening the whole pot as their starch is released.",
+   "Italian immigrants carried a version of this dish to America, where it picked up an anglicized nickname among diners at old-school red-sauce restaurants.",
+   "A soffritto of garlic, rosemary and olive oil forms its backbone, and it's often finished with a hard grated cheese and a crack of black pepper.",
+   "Literally 'pasta and beans' in Italian, this rustic peasant classic simmers noodles right in the bean broth."
+  ],
+  "fact": "In Italian-American communities the dish earned the nickname 'pasta fazool,' popularized in songs and mob movies from a dialect pronunciation of its second word."
+ },
+ {
+  "name": "Pappa al Pomodoro",
+  "aliases": [
+   "Tomato and Bread Soup"
+  ],
+  "cuisine": "Tuscan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "none",
+  "carb": "bread",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "soup",
+   "one_pot",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "stale bread",
+   "ripe tomatoes",
+   "garlic",
+   "basil",
+   "olive oil"
+  ],
+  "clues": [
+   "Born from Tuscan thrift, this dish exists to rescue stale, day-old loaves rather than waste them.",
+   "Chunks of dry bread are torn into a garlicky simmer of ripe summer produce until they dissolve into a thick, rustic mash.",
+   "It's traditionally served lukewarm rather than piping hot, generously drizzled with fruity olive oil and torn basil leaves.",
+   "A humble Tuscan bread-and-tomato mash, traditionally drizzled with olive oil and eaten just warm."
+  ],
+  "fact": "The dish is immortalized in a beloved 1965 Italian pop song, 'Viva la pappa col pomodoro,' sung by child star Rita Pavone."
+ },
+ {
+  "name": "Stracciatella",
+  "aliases": [
+   "Egg Drop Soup",
+   "Stracciatella alla Romana"
+  ],
+  "cuisine": "Roman",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "egg",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "soup",
+   "one_pot",
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "eggs",
+   "parmesan cheese",
+   "chicken broth",
+   "nutmeg",
+   "semolina"
+  ],
+  "clues": [
+   "A beaten mixture of eggs, hard cheese and a pinch of nutmeg is whisked into simmering broth, where it sets into fine, ragged shreds within seconds.",
+   "Its name in Italian describes something 'torn into little rags,' referring to the delicate strands the egg forms as it cooks.",
+   "This quick classic from central Italy is a cousin to a well-known East Asian soup that uses the identical whisked-egg-into-broth technique.",
+   "Rome's whisked-egg broth soup, its name meaning 'little rags' for the shredded egg ribbons it forms — the Italian cousin of egg drop soup."
+  ],
+  "fact": "This soup shares its name — and its 'shredded rag' technique — with the famous stracciatella gelato and cheese, all named for the same fine, torn strands."
+ },
+ {
+  "name": "Zuppa Toscana",
+  "aliases": [
+   "Tuscan Soup",
+   "Tuscan Sausage and Kale Soup"
+  ],
+  "cuisine": "Tuscan",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "mixed",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "soup",
+   "one_pot",
+   "dairy",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "Italian sausage",
+   "kale",
+   "potatoes",
+   "cannellini beans",
+   "cream",
+   "pancetta"
+  ],
+  "clues": [
+   "Crumbled spicy cured pork is browned first, then simmered with cubed potatoes, dark leafy greens and a splash of cream for richness.",
+   "This central Italian soup shares its home region with hearty bread soups and bean stews, and leans on rustic, cold-weather farmhouse ingredients.",
+   "It became a runaway hit at a popular American chain restaurant, where bottomless bowls of it are served alongside breadsticks and salad.",
+   "The creamy Italian sausage, potato and kale soup made famous stateside by Olive Garden."
+  ],
+  "fact": "Though its name simply means 'Tuscan soup,' this creamy sausage-and-kale version was largely popularized by the American chain Olive Garden and is barely recognized by that name in Tuscany itself."
+ },
+ {
+  "name": "Tortellini in Brodo",
+  "aliases": [
+   "Tortellini in Broth"
+  ],
+  "cuisine": "Emilian",
+  "region": "Southern Europe",
+  "country": "Italy",
+  "course": "soup",
+  "protein": "mixed",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "one_pot",
+   "noodle",
+   "stuffed",
+   "festive"
+  ],
+  "key_ingredients": [
+   "tortellini pasta",
+   "pork loin",
+   "prosciutto",
+   "mortadella",
+   "parmesan",
+   "capon broth"
+  ],
+  "clues": [
+   "Tiny ring-shaped pasta parcels are stuffed with a rich mix of three meats and cheese, then pinched closed by hand around a fingertip.",
+   "Legend says a Bolognese innkeeper spied Venus's navel through a keyhole and shaped this pasta to imitate it.",
+   "It's a treasured Christmas Eve tradition in Emilia-Romagna, where the little stuffed pasta rings are served floating in a clear, slow-simmered capon or beef stock.",
+   "Emilia-Romagna's stuffed pasta rings, traditionally served floating in a clear meat broth at Christmas."
+  ],
+  "fact": "According to Bolognese legend, this pasta's navel-like shape was inspired by an innkeeper glimpsing the goddess Venus's belly button through a keyhole."
+ }
+]

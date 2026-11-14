@@ -1,0 +1,19 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# datasets (large; download from Kaggle)
+data/recipes.csv
+data/reviews.csv
+data/foodcom/
+*.sqlite
+*.parquet
+
+# generated
+data/artifacts/
+data/game.db
+data/game.db-wal
+data/game.db-shm
+.pytest_cache/
+.DS_Store

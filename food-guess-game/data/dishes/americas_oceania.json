@@ -1,0 +1,1073 @@
+[
+ {
+  "name": "Mole Poblano",
+  "aliases": [
+   "mole"
+  ],
+  "cuisine": "Mexican",
+  "region": "North America",
+  "country": "Mexico",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "saucy",
+   "festive",
+   "nuts",
+   "sweet"
+  ],
+  "key_ingredients": [
+   "ancho chilli",
+   "mulato chilli",
+   "mexican chocolate",
+   "sesame seeds",
+   "toasted bread",
+   "cinnamon"
+  ],
+  "clues": [
+   "Legend blames a panicking convent cook who emptied her whole pantry into one pot for a visiting archbishop.",
+   "It is the pride of Puebla, served at weddings and christenings, and traditionally ground by hand on a volcanic stone slab.",
+   "A dark, glossy sauce of two dozen components: several dried chillies, nuts, seeds, spices and a little bitter chocolate.",
+   "Mexico's celebrated near-black chilli-and-chocolate sauce, ladled over turkey or chicken and dusted with sesame."
+  ],
+  "fact": "A traditional recipe can run past thirty ingredients, each toasted or fried separately before being ground together."
+ },
+ {
+  "name": "Cochinita Pibil",
+  "aliases": [
+   "cochinita",
+   "puerco pibil"
+  ],
+  "cuisine": "Yucatecan",
+  "region": "North America",
+  "country": "Mexico",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "pickled",
+   "smoky",
+   "saucy",
+   "festive",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "achiote paste",
+   "sour orange",
+   "banana leaf",
+   "pork shoulder",
+   "habanero",
+   "red onion"
+  ],
+  "clues": [
+   "The second word of its name comes from a Maya term for a pit dug in the earth, which is how it was always cooked.",
+   "It is wrapped in a leaf, buried with hot stones, and left overnight before being served with pickled onion at dawn.",
+   "Meat stained brick-red by a seed paste and tenderised by a sharp citrus that is neither lemon nor orange.",
+   "The Yucatán pit-roasted pork marinated in achiote and sour orange, wrapped in banana leaf."
+  ],
+  "fact": "Naranja agria, the bitter Seville-type orange used in the marinade, is what distinguishes Yucatecan cooking from central Mexican."
+ },
+ {
+  "name": "Chiles en Nogada",
+  "aliases": [
+   "chiles nogada"
+  ],
+  "cuisine": "Mexican",
+  "region": "North America",
+  "country": "Mexico",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "sweet",
+   "nuts",
+   "dairy",
+   "festive",
+   "stuffed",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "poblano chilli",
+   "picadillo",
+   "walnut cream sauce",
+   "pomegranate seeds",
+   "parsley",
+   "candied fruit"
+  ],
+  "clues": [
+   "Its three colours are not an accident: they were chosen to match a newly independent nation's flag.",
+   "It is available for only a few weeks a year, when one specific soft-skinned nut is fresh enough to peel.",
+   "A roasted green chilli stuffed with sweet-savoury spiced mince and fruit, blanketed in a pale nut cream and jewelled with red seeds.",
+   "The Pueblan stuffed poblano under walnut cream and pomegranate, served in the independence season."
+  ],
+  "fact": "The walnuts must be fresh castañas de Castilla, laboriously peeled one by one so the sauce stays white rather than grey."
+ },
+ {
+  "name": "Pozole",
+  "aliases": [
+   "posole"
+  ],
+  "cuisine": "Mexican",
+  "region": "North America",
+  "country": "Mexico",
+  "course": "soup",
+  "protein": "pork",
+  "carb": "corn",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "soup",
+   "spicy",
+   "chilli",
+   "festive",
+   "one_pot",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "hominy",
+   "pork shoulder",
+   "guajillo chilli",
+   "shredded cabbage",
+   "radish",
+   "oregano"
+  ],
+  "clues": [
+   "Its defining grain is treated with an alkali until the hulls slip off and the kernels bloom open like flowers.",
+   "Its pre-Columbian ancestor was ritual food, and the meat it used originally was not pork.",
+   "A long-simmered broth of puffed corn kernels and shredded meat, finished at the table with raw cabbage, radish and lime.",
+   "The Mexican hominy and pork soup, served red, white or green, with a plate of raw garnishes."
+  ],
+  "fact": "Nixtamalisation, the lime treatment that makes hominy, also unlocks the corn's niacin — which is why maize-based diets in the Americas avoided pellagra."
+ },
+ {
+  "name": "Tlayuda",
+  "aliases": [
+   "clayuda",
+   "mexican pizza"
+  ],
+  "cuisine": "Oaxacan",
+  "region": "North America",
+  "country": "Mexico",
+  "course": "main",
+  "protein": "pork",
+  "carb": "corn",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "street_food",
+   "crispy",
+   "cheese",
+   "dairy",
+   "smoky",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "large corn tortilla",
+   "asiento pork lard",
+   "refried black beans",
+   "quesillo",
+   "cabbage",
+   "tasajo"
+  ],
+  "clues": [
+   "The base is a specially made disc nearly the size of a bicycle wheel, dried so it keeps for weeks.",
+   "It is night food in a southern Mexican city famous for its moles and its string cheese.",
+   "A huge thin corn round toasted over coals until leathery-crisp, smeared with unrefined lard and bean paste, then folded over.",
+   "Oaxaca's giant grilled tortilla topped with beans, cabbage, quesillo and grilled meat."
+  ],
+  "fact": "Asiento — the cloudy sediment left after rendering pork lard — is the ingredient that makes the real thing taste of Oaxaca."
+ },
+ {
+  "name": "Pupusas",
+  "aliases": [
+   "pupusa"
+  ],
+  "cuisine": "Salvadoran",
+  "region": "Central America",
+  "country": "El Salvador",
+  "course": "main",
+  "protein": "legume",
+  "carb": "corn",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "street_food",
+   "handheld",
+   "stuffed",
+   "cheese",
+   "dairy",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "masa harina",
+   "refried beans",
+   "quesillo",
+   "chicharrón",
+   "curtido",
+   "loroco"
+  ],
+  "clues": [
+   "Its country has a national day for it, on the second Sunday of November, written into law.",
+   "It always arrives with a tangy fermented cabbage relish and a thin tomato sauce poured over.",
+   "A thick hand-patted corn cake sealed around its filling before cooking, so the cheese oozes out at the seam.",
+   "El Salvador's stuffed griddled corn cake, served with curtido and salsa."
+  ],
+  "fact": "Loroco, an edible flower bud with a faintly herbal, artichoke-like flavour, is the most distinctively Salvadoran filling."
+ },
+ {
+  "name": "Ceviche",
+  "aliases": [
+   "cebiche",
+   "seviche"
+  ],
+  "cuisine": "Peruvian",
+  "region": "South America",
+  "country": "Peru",
+  "course": "appetizer",
+  "protein": "fish",
+  "carb": "corn",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "raw",
+   "spicy",
+   "chilli",
+   "seafood",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "sea bass",
+   "lime juice",
+   "ají limo",
+   "red onion",
+   "sweet potato",
+   "choclo corn"
+  ],
+  "clues": [
+   "The marinade left in the bowl has its own name and is drunk afterwards as a restorative, sometimes with a shot of spirit.",
+   "Modern practice cures it for minutes rather than hours, a change credited to a Japanese-Peruvian chef in the 1970s.",
+   "Raw fish cut into cubes and firmed by acid alone, with sliced onion, chilli and a wedge of sweet tuber to cool it.",
+   "Peru's raw fish cured in lime juice with chilli and onion, served with sweet potato and giant corn."
+  ],
+  "fact": "Leche de tigre, the leftover marinade, is served as a shot and is widely believed to cure hangovers."
+ },
+ {
+  "name": "Lomo Saltado",
+  "aliases": [
+   "lomito saltado"
+  ],
+  "cuisine": "Chifa",
+  "region": "South America",
+  "country": "Peru",
+  "course": "main",
+  "protein": "beef",
+  "carb": "potato",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "one_pot",
+   "spicy",
+   "chilli",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "beef sirloin",
+   "red onion",
+   "tomato",
+   "soy sauce",
+   "chips",
+   "ají amarillo"
+  ],
+  "clues": [
+   "It is the flagship of a hybrid cuisine born when Cantonese labourers arrived in South America in the nineteenth century.",
+   "It is the rare dish that serves two starches at once and is unapologetic about it.",
+   "Strips of beef seared hard in a wok with onion and tomato, deglazed with vinegar and soy, and tossed with fried potatoes.",
+   "Peru's Chinese-influenced stir-fried beef with onion, tomato and chips, served with rice."
+  ],
+  "fact": "Chifa, the name for Peruvian-Chinese cooking, comes from the Cantonese for eat rice."
+ },
+ {
+  "name": "Ají de Gallina",
+  "aliases": [
+   "aji de gallina"
+  ],
+  "cuisine": "Peruvian",
+  "region": "South America",
+  "country": "Peru",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "potato",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "saucy",
+   "nuts",
+   "dairy",
+   "spicy",
+   "chilli",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "yellow chilli paste",
+   "shredded hen",
+   "walnuts",
+   "evaporated milk",
+   "bread soaked in milk",
+   "parmesan"
+  ],
+  "clues": [
+   "It descends from a medieval Spanish sweet-savoury dish of pounded almonds and poultry brought over by the colonisers.",
+   "It is always plated with boiled potato slices, a black olive and half a hard-boiled egg.",
+   "Shredded bird in a thick, mild yellow sauce thickened with bread and ground nuts rather than flour.",
+   "Peru's creamy yellow chilli chicken, thickened with bread and walnuts and served over potatoes and rice."
+  ],
+  "fact": "Ají amarillo is fruity rather than fiercely hot, and its colour rather than its heat is what defines the dish."
+ },
+ {
+  "name": "Causa Limeña",
+  "aliases": [
+   "causa"
+  ],
+  "cuisine": "Peruvian",
+  "region": "South America",
+  "country": "Peru",
+  "course": "appetizer",
+  "protein": "chicken",
+  "carb": "potato",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 4,
+  "flags": [
+   "layered",
+   "spicy",
+   "chilli",
+   "egg_based",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "yellow potato",
+   "ají amarillo",
+   "lime",
+   "mayonnaise",
+   "avocado",
+   "chicken or tuna"
+  ],
+  "clues": [
+   "One story says it was sold to raise funds during a nineteenth-century war, giving it a name that means the cause.",
+   "It relies on a specific waxy yellow tuber from a country with thousands of potato varieties.",
+   "A chilled terrine: seasoned yellow mash pressed into layers around a filling, sliced to show the stripes.",
+   "The Peruvian cold layered potato cake filled with chicken or tuna and avocado."
+  ],
+  "fact": "The mash is kneaded, not whipped — it must be dense enough to hold a clean edge when sliced cold."
+ },
+ {
+  "name": "Anticuchos",
+  "aliases": [
+   "anticucho"
+  ],
+  "cuisine": "Peruvian",
+  "region": "South America",
+  "country": "Peru",
+  "course": "snack",
+  "protein": "beef",
+  "carb": "potato",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "offal",
+   "street_food",
+   "smoky",
+   "spicy",
+   "chilli",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "beef heart",
+   "ají panca",
+   "cumin",
+   "red wine vinegar",
+   "garlic",
+   "boiled potato"
+  ],
+  "clues": [
+   "The cut used was originally what enslaved workers were given after the better parts of the animal had been taken.",
+   "It is grilled on street corners at dusk in Lima, fanned over coals in a cloud of smoke.",
+   "Dark, lean, iron-rich cubes marinated in a mild dried chilli paste and vinegar, skewered and grilled hard and fast.",
+   "The Peruvian street skewer of marinated beef heart, served with potato and chilli sauce."
+  ],
+  "fact": "Beef heart is a muscle, not an organ in the offal sense, which is why it grills like steak rather than liver."
+ },
+ {
+  "name": "Feijoada",
+  "aliases": [
+   "feijoada completa"
+  ],
+  "cuisine": "Brazilian",
+  "region": "South America",
+  "country": "Brazil",
+  "course": "main",
+  "protein": "pork",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "one_pot",
+   "smoky",
+   "offal",
+   "festive",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "black beans",
+   "smoked pork ribs",
+   "carne seca",
+   "linguiça",
+   "orange slices",
+   "farofa"
+  ],
+  "clues": [
+   "It is traditionally eaten on Wednesdays and Saturdays, and nobody is expected to do much afterwards.",
+   "Citrus is served alongside not as a garnish but as a digestive aid, and toasted cassava flour is scattered over everything.",
+   "A very dark bean stew carrying every part of the pig, from ribs to ears, served with rice and sautéed greens.",
+   "Brazil's black bean and pork stew, served with rice, collard greens, farofa and orange."
+  ],
+  "fact": "The romantic claim that it was invented in slave quarters is disputed by historians, who trace it to European bean-and-meat stews."
+ },
+ {
+  "name": "Moqueca",
+  "aliases": [
+   "moqueca baiana",
+   "moqueca capixaba"
+  ],
+  "cuisine": "Brazilian",
+  "region": "South America",
+  "country": "Brazil",
+  "course": "main",
+  "protein": "fish",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "coconut",
+   "seafood",
+   "saucy",
+   "one_pot",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "white fish",
+   "coconut milk",
+   "dendê palm oil",
+   "coriander",
+   "peppers",
+   "lime"
+  ],
+  "clues": [
+   "Two coastal states fight over it: one version glows orange from an African oil, the other is pale and uses none.",
+   "It is cooked and served in a black clay pot made by hand from river mud and mangrove bark.",
+   "Fish simmered without browning in coconut milk with peppers, onion and coriander until the sauce goes silky.",
+   "Brazil's coastal fish stew, made either with coconut milk and palm oil or plain in a clay pot."
+  ],
+  "fact": "The Bahian version uses dendê palm oil and coconut milk; the Espírito Santo version uses neither and gets its colour from annatto."
+ },
+ {
+  "name": "Pão de Queijo",
+  "aliases": [
+   "pao de queijo",
+   "cheese bread"
+  ],
+  "cuisine": "Mineiro",
+  "region": "South America",
+  "country": "Brazil",
+  "course": "snack",
+  "protein": "none",
+  "carb": "root",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "handheld",
+   "bread_based",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "sour cassava starch",
+   "minas cheese",
+   "eggs",
+   "milk",
+   "oil"
+  ],
+  "clues": [
+   "It contains no wheat at all, and the starch it uses must be scalded with hot liquid before anything else happens.",
+   "It comes from the old mining region inland from Rio, and is sold hot from every bakery counter by mid-morning.",
+   "Small crackly-shelled rounds that are hollow and stretchy inside, salty from a fresh white curd cheese.",
+   "The Brazilian gluten-free cheese roll made from cassava starch."
+  ],
+  "fact": "The chew comes from polvilho azedo, a soured fermented cassava starch that behaves quite differently from the sweet kind."
+ },
+ {
+  "name": "Coxinha",
+  "aliases": [
+   "coxinha de galinha"
+  ],
+  "cuisine": "Brazilian",
+  "region": "South America",
+  "country": "Brazil",
+  "course": "snack",
+  "protein": "chicken",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "street_food",
+   "handheld",
+   "crispy",
+   "stuffed",
+   "cheese",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "shredded chicken",
+   "wheat dough cooked in broth",
+   "catupiry cheese",
+   "breadcrumbs",
+   "onion",
+   "parsley"
+  ],
+  "clues": [
+   "Its shape imitates the part of the bird it is filled with, right down to a tapered point standing in for the bone.",
+   "One story has it invented for an imperial prince who would eat nothing else.",
+   "A cooked dough moulded around shredded poultry and soft cheese, breaded and fried into a teardrop.",
+   "Brazil's deep-fried chicken croquette shaped like a drumstick."
+  ],
+  "fact": "The dough is cooked in the chicken broth before shaping, which is why it is pliable enough to mould by hand."
+ },
+ {
+  "name": "Milanesa a la Napolitana",
+  "aliases": [
+   "milanesa napolitana"
+  ],
+  "cuisine": "Argentine",
+  "region": "South America",
+  "country": "Argentina",
+  "course": "main",
+  "protein": "beef",
+  "carb": "potato",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "cheese",
+   "dairy",
+   "crispy",
+   "layered",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "beef escalope",
+   "breadcrumbs",
+   "ham",
+   "tomato sauce",
+   "mozzarella",
+   "oregano"
+  ],
+  "clues": [
+   "Its name references two Italian cities but the dish is from neither; it is named after a Buenos Aires restaurant.",
+   "The story goes that a cook burned one, and covered the damage with whatever was to hand.",
+   "A breaded, fried escalope topped with ham, tomato and cheese and finished under heat until it bubbles.",
+   "Argentina's breaded beef cutlet topped with ham, tomato sauce and melted mozzarella."
+  ],
+  "fact": "The name comes from Nápoli, a restaurant near the Luna Park stadium in Buenos Aires, not from Naples."
+ },
+ {
+  "name": "Arepas",
+  "aliases": [
+   "arepa"
+  ],
+  "cuisine": "Venezuelan",
+  "region": "South America",
+  "country": "Venezuela",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "corn",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "handheld",
+   "stuffed",
+   "cheese"
+  ],
+  "key_ingredients": [
+   "precooked maize flour",
+   "water",
+   "salt",
+   "queso blanco",
+   "black beans",
+   "shredded beef"
+  ],
+  "clues": [
+   "It predates the arrival of Europeans, and the industrial flour that made it easy to cook was patented in 1960.",
+   "Two neighbouring countries claim it; in one it is split and stuffed, in the other usually eaten flat with things on top.",
+   "A round patty of maize dough with a crisp shell and a soft steamy interior, sliced open like a pocket.",
+   "The Venezuelan and Colombian maize cake, split and filled with cheese, beans or shredded beef."
+  ],
+  "fact": "Harina P.A.N., the precooked maize flour invented in Venezuela, transformed a laborious dish into a fifteen-minute one."
+ },
+ {
+  "name": "Pabellón Criollo",
+  "aliases": [
+   "pabellon criollo"
+  ],
+  "cuisine": "Venezuelan",
+  "region": "South America",
+  "country": "Venezuela",
+  "course": "main",
+  "protein": "beef",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "one_pot",
+   "layered",
+   "festive"
+  ],
+  "key_ingredients": [
+   "shredded flank steak",
+   "black beans",
+   "white rice",
+   "fried plantain",
+   "onion",
+   "sofrito"
+  ],
+  "clues": [
+   "Its name refers to a flag, and the components are arranged side by side rather than mixed for exactly that reason.",
+   "Adding a fried egg on top earns it an extra word in its name — a horseman.",
+   "Four things on one plate: shredded stewed beef, black beans, white grains and sweet fried banana.",
+   "Venezuela's national plate of shredded beef, black beans, rice and fried plantain."
+  ],
+  "fact": "With a fried egg it becomes pabellón a caballo, literally on horseback."
+ },
+ {
+  "name": "Ajiaco",
+  "aliases": [
+   "ajiaco santafereño"
+  ],
+  "cuisine": "Colombian",
+  "region": "South America",
+  "country": "Colombia",
+  "course": "soup",
+  "protein": "chicken",
+  "carb": "potato",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "soup",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "three potato varieties",
+   "guasca herb",
+   "corn on the cob",
+   "chicken",
+   "capers",
+   "double cream"
+  ],
+  "clues": [
+   "One of its three tubers is chosen specifically because it disintegrates, thickening the pot as it cooks.",
+   "It is the signature soup of a high Andean capital, and depends on a herb that grows elsewhere as a common weed.",
+   "A thick pale chicken soup with corn cobs floating in it, finished at the table with cream and capers.",
+   "Bogotá's three-potato chicken soup flavoured with guascas, served with cream and capers."
+  ],
+  "fact": "Guascas, known elsewhere as gallant soldier, is an invasive garden weed in Europe and indispensable here."
+ },
+ {
+  "name": "Ropa Vieja",
+  "aliases": [
+   "old clothes"
+  ],
+  "cuisine": "Cuban",
+  "region": "Caribbean",
+  "country": "Cuba",
+  "course": "main",
+  "protein": "beef",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "one_pot",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "flank steak",
+   "sofrito",
+   "bell peppers",
+   "cumin",
+   "green olives",
+   "white wine"
+  ],
+  "clues": [
+   "Its name is a joke about how the finished dish looks, and a Canarian legend has a poor man's clothes turning into a meal.",
+   "It is the national dish of an island, always served with white rice and often with fried plantain.",
+   "Beef simmered until it falls into long threads, then stewed again in peppers, onion and tomato with briny olives.",
+   "Cuba's shredded beef stew in tomato and pepper sofrito, served with rice and plantains."
+  ],
+  "fact": "The dish's roots are Sephardic, from the Canary Islands, where a slow-cooked shredded meat stew served the same Sabbath purpose."
+ },
+ {
+  "name": "Mofongo",
+  "aliases": [],
+  "cuisine": "Puerto Rican",
+  "region": "Caribbean",
+  "country": "Puerto Rico",
+  "course": "main",
+  "protein": "pork",
+  "carb": "root",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "crispy",
+   "one_pot",
+   "saucy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "green plantain",
+   "pork crackling",
+   "garlic",
+   "olive oil",
+   "chicken broth",
+   "sofrito"
+  ],
+  "clues": [
+   "Its technique and its name both cross the Atlantic from West Africa, where the same pounding motion makes a different staple.",
+   "It is served pressed into a dome from the wooden mortar it was made in, sometimes hollowed to hold a stew.",
+   "Twice-fried green banana pounded with garlic and crisp pork skin until dense, savoury and slightly fibrous.",
+   "Puerto Rico's mashed fried plantain dome with garlic and chicharrón."
+  ],
+  "fact": "The pilón, a heavy wooden mortar and pestle, is the one tool the dish genuinely cannot be made without."
+ },
+ {
+  "name": "Poutine",
+  "aliases": [],
+  "cuisine": "Québécois",
+  "region": "North America",
+  "country": "Canada",
+  "course": "snack",
+  "protein": "none",
+  "carb": "potato",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "street_food",
+   "saucy",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "chips",
+   "cheese curds",
+   "brown gravy",
+   "salt"
+  ],
+  "clues": [
+   "The dairy component must squeak against the teeth; if it does not, it is too old and the dish is compromised.",
+   "Several small towns in rural Quebec claim to have invented it in the late 1950s, and one word for it meant a mess.",
+   "Fried potatoes layered with fresh unaged curds, then flooded with hot gravy so the curds soften without fully melting.",
+   "Quebec's dish of chips, cheese curds and gravy."
+  ],
+  "fact": "The curds must be same-day fresh and never refrigerated, which is why the squeak is treated as a quality test."
+ },
+ {
+  "name": "Tourtière",
+  "aliases": [
+   "tourtiere",
+   "meat pie"
+  ],
+  "cuisine": "Québécois",
+  "region": "North America",
+  "country": "Canada",
+  "course": "main",
+  "protein": "pork",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "festive",
+   "stuffed",
+   "crispy",
+   "layered"
+  ],
+  "key_ingredients": [
+   "minced pork",
+   "cinnamon",
+   "cloves",
+   "allspice",
+   "shortcrust pastry",
+   "potato"
+  ],
+  "clues": [
+   "It is named after the dish it was baked in, which was itself named after a bird that is now extinct.",
+   "It is eaten after midnight mass on Christmas Eve, at a meal called the réveillon.",
+   "A double-crusted pie of finely minced meat bound with grated potato and warmly spiced with clove and cinnamon.",
+   "Quebec's spiced pork pie, traditionally served at the Christmas Eve réveillon."
+  ],
+  "fact": "The original tourte was the passenger pigeon; the pie kept the name long after the bird was hunted to extinction."
+ },
+ {
+  "name": "Gumbo",
+  "aliases": [],
+  "cuisine": "Louisiana Creole",
+  "region": "North America",
+  "country": "United States",
+  "course": "soup",
+  "protein": "mixed",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "soup",
+   "spicy",
+   "one_pot",
+   "seafood",
+   "smoky",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "dark roux",
+   "okra or filé powder",
+   "andouille",
+   "the holy trinity",
+   "shrimp",
+   "bay leaf"
+  ],
+  "clues": [
+   "Its name most likely comes from a West African word for one of the two things that can thicken it.",
+   "The first step is a nerve-wracking one: flour and fat stirred continuously until they go the colour of dark chocolate.",
+   "A deeply browned base holding celery, onion and green pepper, with either a pod vegetable or a ground sassafras leaf giving it body.",
+   "Louisiana's Creole and Cajun stew over rice, thickened with roux and either okra or filé."
+  ],
+  "fact": "Okra and filé are traditionally never used together — you pick one thickener and commit to it."
+ },
+ {
+  "name": "Muffuletta",
+  "aliases": [
+   "muffaletta"
+  ],
+  "cuisine": "Louisiana Italian",
+  "region": "North America",
+  "country": "United States",
+  "course": "main",
+  "protein": "pork",
+  "carb": "bread",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "bread_based",
+   "cheese",
+   "dairy",
+   "handheld",
+   "pickled",
+   "layered"
+  ],
+  "key_ingredients": [
+   "sesame round loaf",
+   "olive salad",
+   "mortadella",
+   "capicola",
+   "provolone",
+   "giardiniera"
+  ],
+  "clues": [
+   "It is named after the round Sicilian loaf it is built on, and is meant to sit for hours before being cut.",
+   "It was created for Sicilian farmers at a New Orleans market who were juggling their bread, meat and pickles separately.",
+   "A wide sesame-crusted round, split and packed with cured meats, sliced cheese and a chopped marinated vegetable relish.",
+   "New Orleans' round Sicilian sandwich of cold cuts, provolone and olive salad."
+  ],
+  "fact": "Central Grocery on Decatur Street claims its invention in 1906, and the olive salad is what makes or breaks it."
+ },
+ {
+  "name": "Hot Brown",
+  "aliases": [
+   "kentucky hot brown"
+  ],
+  "cuisine": "American",
+  "region": "North America",
+  "country": "United States",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "bread",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "dairy",
+   "cheese",
+   "saucy",
+   "bread_based",
+   "layered",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "roast turkey",
+   "texas toast",
+   "mornay sauce",
+   "bacon",
+   "tomato",
+   "pecorino"
+  ],
+  "clues": [
+   "It was invented at two in the morning to feed dancers coming off the floor of a hotel ballroom in the 1920s.",
+   "It comes from a Kentucky city better known for a horse race, and is served open-faced under a grill.",
+   "Toast under sliced roast bird, blanketed in a cheese sauce and browned, with bacon crossed over the top.",
+   "Louisville's open-faced turkey sandwich under Mornay sauce with bacon and tomato."
+  ],
+  "fact": "Fred Schmidt created it at the Brown Hotel in 1926, where it is still on the menu."
+ },
+ {
+  "name": "Loco Moco",
+  "aliases": [],
+  "cuisine": "Hawaiian",
+  "region": "Oceania",
+  "country": "United States",
+  "course": "main",
+  "protein": "beef",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "egg_based",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "hamburger patty",
+   "white rice",
+   "brown gravy",
+   "fried egg",
+   "onion"
+  ],
+  "clues": [
+   "It was invented in 1949 for teenage surfers who wanted something cheap, fast and not a sandwich.",
+   "It comes from Hilo on the Big Island, and the name was reportedly borrowed from a boy in the group who was a bit crazy.",
+   "Rice at the base, a beef patty on top, brown gravy over both and a fried egg with a running yolk to finish.",
+   "Hawaii's plate of rice, hamburger patty, gravy and a fried egg."
+  ],
+  "fact": "The Lincoln Grill in Hilo is credited with the original, made for the Lincoln Wreckers surf club."
+ },
+ {
+  "name": "Kokoda",
+  "aliases": [
+   "kokonda"
+  ],
+  "cuisine": "Fijian",
+  "region": "Oceania",
+  "country": "Fiji",
+  "course": "appetizer",
+  "protein": "fish",
+  "carb": "none",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 5,
+  "flags": [
+   "raw",
+   "coconut",
+   "seafood",
+   "spicy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "white fish",
+   "lime juice",
+   "coconut cream",
+   "chilli",
+   "tomato",
+   "spring onion"
+  ],
+  "clues": [
+   "It shares its technique with a South American classic, but adds one rich white liquid the original would never allow.",
+   "It is often served in a half shell of the same fruit that provides that liquid, at Pacific island feasts.",
+   "Raw fish firmed in citrus and then folded into thick coconut cream with tomato, onion and chilli.",
+   "Fiji's raw fish cured in lime and dressed in coconut cream."
+  ],
+  "fact": "Walu, a Spanish mackerel, is the traditional fish, and it is cured only until opaque so the flesh stays silky."
+ },
+ {
+  "name": "Pavlova",
+  "aliases": [
+   "pav"
+  ],
+  "cuisine": "Antipodean",
+  "region": "Oceania",
+  "country": "New Zealand",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "baked",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "sweet",
+   "vegetarian",
+   "dairy",
+   "crispy",
+   "egg_based",
+   "festive"
+  ],
+  "key_ingredients": [
+   "egg whites",
+   "caster sugar",
+   "cornflour",
+   "white vinegar",
+   "whipped cream",
+   "passionfruit"
+  ],
+  "clues": [
+   "It is named after a Russian ballerina who toured the southern hemisphere in the 1920s.",
+   "Two countries have argued over its parentage for decades, and a dictionary ruling once settled it in favour of one of them.",
+   "A crisp white shell that must shatter under the spoon and give way to a soft marshmallow centre, piled with cream and fruit.",
+   "The Antipodean meringue dessert topped with whipped cream, kiwifruit, berries and passionfruit."
+  ],
+  "fact": "Cornflour and a splash of vinegar are what keep the inside soft rather than drying to a hard meringue all the way through."
+ }
+]

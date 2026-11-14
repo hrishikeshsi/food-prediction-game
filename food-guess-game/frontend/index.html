@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Chef Mystico — part chef, part magician. Think of a dish and watch it get named before you finish craving it.">
+<meta name="theme-color" content="#0a0710">
+<title>Chef Mystico — The Mind-Reading Chef</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 100 100%27%3E%3Ccircle cx=%2750%27 cy=%2750%27 r=%2748%27 fill=%27%23171426%27/%3E%3Cpath d=%27M30 44c0-11 9-19 20-19s20 8 20 19v6H30z%27 fill=%27%23f4f1ff%27/%3E%3Ccircle cx=%2734%27 cy=%2729%27 r=%2710%27 fill=%27%23f4f1ff%27/%3E%3Ccircle cx=%2750%27 cy=%2723%27 r=%2712%27 fill=%27%23f4f1ff%27/%3E%3Ccircle cx=%2766%27 cy=%2729%27 r=%2710%27 fill=%27%23f4f1ff%27/%3E%3Crect x=%2734%27 y=%2749%27 width=%2732%27 height=%2722%27 rx=%278%27 fill=%27%23e8b44a%27/%3E%3C/svg%3E">
+<style>
+  :root{
+    --void:#0a0710;
+    --curtain:#1c1230;
+    --curtain-2:#140b24;
+    --ink:#f6eeff;
+    --muted:#b6a8d9;
+    --dim:#7c6fa3;
+    --gold:#e8b44a;
+    --gold-2:#ffdd94;
+    --plum:#8b5cf6;
+    --plum-deep:#4c1d95;
+    --line:rgba(232,180,74,.22);
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  html,body{height:100%}
+  body{
+    margin:0;
+    background:var(--void);
+    color:var(--ink);
+    font:16px/1.65 ui-sans-serif,-apple-system,"Segoe UI",Roboto,sans-serif;
+    -webkit-font-smoothing:antialiased;
+    overflow-x:hidden;
+  }
+  .serif{font-family:Palatino,"Palatino Linotype","Iowan Old Style","Book Antiqua",Georgia,ui-serif,serif}
+  a{color:inherit;text-decoration:none}
+  h1,h2,p{margin:0}
+
+  /* ---------- grain + vignette (shared atmosphere) ---------- */
+  .grain{
+    position:fixed;inset:0;z-index:80;pointer-events:none;opacity:.05;mix-blend-mode:overlay;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  }
+
+  /* ---------- curtain load animation ---------- */
+  .curtain{position:fixed;top:0;bottom:0;width:51%;z-index:90;
+    background:
+      repeating-linear-gradient(90deg, rgba(0,0,0,.22) 0 3px, transparent 3px 26px),
+      linear-gradient(180deg,var(--curtain) 0%,var(--curtain-2) 100%);
+    box-shadow:0 0 60px 10px #000 inset;
+  }
+  .curtain.l{left:0;animation:openL .9s .35s cubic-bezier(.7,0,.2,1) forwards}
+  .curtain.r{right:0;animation:openR .9s .35s cubic-bezier(.7,0,.2,1) forwards}
+  @keyframes openL{to{transform:translateX(-100%)}}
+  @keyframes openR{to{transform:translateX(100%)}}
+
+  /* ---------- reveal stagger ---------- */
+  .rise{opacity:0;transform:translateY(16px);animation:rise .8s cubic-bezier(.16,.8,.3,1) forwards}
+  @keyframes rise{to{opacity:1;transform:translateY(0)}}
+
+  @media (prefers-reduced-motion:reduce){
+    .curtain{display:none}
+    .rise{opacity:1;transform:none;animation:none}
+    *{scroll-behavior:auto!important}
+  }
+
+  /* ---------- topbar ---------- */
+  .topbar{position:absolute;top:0;left:0;right:0;z-index:20;
+    display:flex;align-items:center;justify-content:space-between;
+    padding:26px clamp(20px,5vw,64px)}
+  .mark{display:flex;align-items:center;gap:10px;font-size:13px;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-2)}
+  .mark svg{width:22px;height:22px}
+
+  /* ---------- hero ---------- */
+  .hero{position:relative;min-height:100svh;display:flex;flex-direction:column;
+    align-items:center;justify-content:center;overflow:hidden;padding:120px 20px 40px}
+  .bgvideo-wrap{position:absolute;inset:-6% 0 0 0;overflow:hidden;will-change:transform}
+  .bgvideo{position:absolute;inset:0;width:100%;height:106%;object-fit:cover;
+    opacity:0;transform:scale(1.18);
+    filter:saturate(1.05) brightness(.5) blur(10px);
+    will-change:transform,filter,opacity}
+  .bgvideo.reveal{
+    animation:
+      bgReveal 1.9s .4s cubic-bezier(.16,.8,.3,1) forwards,
+      kenburns 24s 2.3s ease-in-out infinite alternate;
+  }
+  @keyframes bgReveal{
+    0%{opacity:0;transform:scale(1.18);filter:saturate(1.05) brightness(.5) blur(10px)}
+    60%{opacity:1}
+    100%{opacity:1;transform:scale(1.06);filter:saturate(1.05) brightness(.72) blur(0)}
+  }
+  @keyframes kenburns{
+    0%{transform:scale(1.06) translate(0,0)}
+    50%{transform:scale(1.14) translate(-1.4%,-1.2%)}
+    100%{transform:scale(1.06) translate(.8%,.6%)}
+  }
+  .spotlight{position:absolute;inset:0;z-index:1;pointer-events:none;mix-blend-mode:screen;opacity:0;
+    background:radial-gradient(280px 800px at 50% -10%, rgba(255,221,148,.35), transparent 70%);
+    transform:translateX(-60%) rotate(8deg);
+    animation:sweep 2.6s 1.05s cubic-bezier(.4,0,.2,1) forwards}
+  @keyframes sweep{
+    0%{opacity:0;transform:translateX(-60%) rotate(8deg)}
+    12%{opacity:.9}
+    70%{opacity:.5}
+    100%{opacity:0;transform:translateX(60%) rotate(8deg)}
+  }
+  .vignette{position:absolute;inset:0;z-index:1;
+    background:
+      radial-gradient(120% 90% at 50% 38%, transparent 30%, rgba(10,7,16,.55) 78%, var(--void) 100%),
+      linear-gradient(180deg, rgba(10,7,16,.35) 0%, rgba(10,7,16,.15) 30%, rgba(10,7,16,.75) 100%);
+  }
+  @media (prefers-reduced-motion:reduce){
+    .bgvideo{opacity:1;transform:none;filter:saturate(1.05) brightness(.72);animation:none}
+    .spotlight{display:none}
+  }
+  .stage-frame{position:absolute;inset:18px;z-index:2;border:1px solid var(--line);border-radius:2px;
+    pointer-events:none}
+  .stage-frame i{position:absolute;width:26px;height:26px;border:1px solid var(--gold);opacity:.75}
+  .stage-frame i.tl{top:-1px;left:-1px;border-right:0;border-bottom:0}
+  .stage-frame i.tr{top:-1px;right:-1px;border-left:0;border-bottom:0}
+  .stage-frame i.bl{bottom:-1px;left:-1px;border-right:0;border-top:0}
+  .stage-frame i.br{bottom:-1px;right:-1px;border-left:0;border-top:0}
+
+  .hero-content{position:relative;z-index:5;max-width:760px;text-align:center;
+    display:flex;flex-direction:column;align-items:center;gap:20px}
+  .kicker{font-size:12.5px;letter-spacing:.34em;text-transform:uppercase;color:var(--gold);
+    display:flex;align-items:center;gap:10px}
+  .kicker::before,.kicker::after{content:"";width:26px;height:1px;background:var(--gold);opacity:.6}
+  .headline{font-size:clamp(2.4rem,7vw,4.6rem);font-weight:700;font-style:italic;letter-spacing:-.01em;
+    line-height:1.06;text-wrap:balance;color:var(--ink)}
+  .headline .name{position:relative;white-space:nowrap;
+    background:linear-gradient(100deg,var(--gold-2),var(--gold) 45%,var(--gold-2));
+    -webkit-background-clip:text;background-clip:text;color:transparent}
+  .headline .name .spark{position:absolute;width:5px;height:5px;border-radius:50%;background:var(--gold-2);
+    box-shadow:0 0 8px 2px var(--gold-2);animation:sparkle 2.6s ease-in-out infinite}
+  .headline .name .spark:nth-child(1){top:-6px;left:6%;animation-delay:.1s}
+  .headline .name .spark:nth-child(2){top:60%;right:2%;animation-delay:.9s}
+  .headline .name .spark:nth-child(3){bottom:-10px;left:42%;animation-delay:1.7s}
+  @keyframes sparkle{0%,100%{opacity:0;transform:scale(.4)}50%{opacity:1;transform:scale(1)}}
+  @media (prefers-reduced-motion:reduce){ .spark{animation:none;opacity:.7} }
+
+  .tagline{font-size:clamp(1rem,2.4vw,1.2rem);color:var(--muted);max-width:52ch;line-height:1.7}
+  .tagline em{color:var(--ink);font-style:normal;border-bottom:1px dashed var(--line)}
+
+  .cta-row{display:flex;flex-wrap:wrap;gap:14px;justify-content:center;margin-top:8px}
+  .cta-primary{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:10px;
+    padding:16px 30px;border-radius:4px;font:inherit;font-family:inherit;font-style:italic;font-weight:700;
+    font-size:17px;color:#241a05;background:linear-gradient(135deg,var(--gold-2),var(--gold));
+    box-shadow:0 0 0 1px #ffe9b6 inset, 0 18px 40px -14px #000;
+    animation:glow 3.4s ease-in-out infinite}
+  .cta-primary svg{transition:.25s transform}
+  .cta-primary:hover svg{transform:translateX(5px)}
+  .cta-primary::after{content:"";position:absolute;inset:0;
+    background:linear-gradient(115deg,transparent 40%,rgba(255,255,255,.65) 50%,transparent 60%);
+    transform:translateX(-120%);transition:transform .7s ease}
+  .cta-primary:hover::after{transform:translateX(120%)}
+  @keyframes glow{0%,100%{box-shadow:0 0 0 1px #ffe9b6 inset,0 18px 40px -14px #000,0 0 0 rgba(232,180,74,0)}
+    50%{box-shadow:0 0 0 1px #ffe9b6 inset,0 18px 40px -14px #000,0 0 26px 3px rgba(232,180,74,.45)}}
+  @media (prefers-reduced-motion:reduce){ .cta-primary{animation:none} }
+
+  .cta-secondary{position:relative;overflow:hidden;display:inline-flex;align-items:center;gap:10px;
+    padding:16px 30px;border-radius:4px;font:inherit;font-family:inherit;font-style:italic;font-weight:700;
+    font-size:17px;color:var(--gold-2);background:rgba(139,92,246,.14);
+    border:1px solid var(--line);transition:.2s}
+  .cta-secondary:hover{border-color:var(--gold);background:rgba(139,92,246,.22)}
+  .cta-secondary svg{transition:.25s transform}
+  .cta-secondary:hover svg{transform:translateX(5px)}
+
+  /* ---------- marquee ticker ---------- */
+  .ticker{position:relative;z-index:5;margin-top:56px;width:100%;max-width:920px;
+    border-top:1px solid var(--line);border-bottom:1px solid var(--line);
+    padding:12px 0;overflow:hidden;-webkit-mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent);
+    mask-image:linear-gradient(90deg,transparent,#000 8%,#000 92%,transparent)}
+  .ticker-track{display:flex;width:max-content;gap:0;animation:scroll 30s linear infinite}
+  @media (prefers-reduced-motion:reduce){ .ticker-track{animation:none} .ticker{overflow-x:auto} }
+  @keyframes scroll{to{transform:translateX(-50%)}}
+  .ticker-item{display:flex;align-items:center;gap:22px;padding:0 22px;
+    font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--dim);white-space:nowrap}
+  .ticker-item b{color:var(--gold-2);font-weight:600}
+  .ticker-dot{width:4px;height:4px;border-radius:50%;background:var(--gold);opacity:.7}
+</style>
+</head>
+<body>
+
+<div class="grain"></div>
+<div class="curtain l"></div>
+<div class="curtain r"></div>
+
+<div class="topbar">
+  <div class="mark">
+    <svg viewBox="0 0 100 100" aria-hidden="true">
+      <circle cx="50" cy="46" r="30" fill="#2a1f52"/>
+      <path d="M30 40c0-11 9-19 20-19s20 8 20 19v6H30z" fill="#efeaff"/>
+      <circle cx="36" cy="26" r="9" fill="#efeaff"/><circle cx="50" cy="21" r="11" fill="#efeaff"/>
+      <circle cx="64" cy="26" r="9" fill="#efeaff"/>
+      <rect x="32" y="46" width="36" height="24" rx="9" fill="#f2c8a0"/>
+    </svg>
+    Chef Mystico
+  </div>
+</div>
+
+<section class="hero">
+  <div class="bgvideo-wrap">
+    <video class="bgvideo" autoplay muted loop playsinline preload="auto">
+      <source src="/static/assets/hero.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="spotlight"></div>
+  <div class="vignette"></div>
+  <div class="stage-frame"><i class="tl"></i><i class="tr"></i><i class="bl"></i><i class="br"></i></div>
+
+  <div class="hero-content">
+    <div class="kicker rise" style="animation-delay:1.15s">Tonight's Act</div>
+    <h1 class="headline rise" style="animation-delay:1.3s">
+      Hi, I'm <span class="name">Chef Mystico<i class="spark"></i><i class="spark"></i><i class="spark"></i></span>
+    </h1>
+    <p class="tagline rise" style="animation-delay:1.45s">
+      Part chef, part magician. <em>Think of any dish</em> — don't say it out loud — and I'll tease it out of your mind before you finish craving it.
+    </p>
+    <div class="cta-row rise" style="animation-delay:1.6s">
+      <a class="cta-primary" href="../../data/you-guess.html">
+        🧑 You Guess
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+      <a class="cta-secondary" href="../../data/chef-guess.html">
+        🔮 Chef Guesses
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+      </a>
+    </div>
+  </div>
+
+  <div class="ticker rise" style="animation-delay:1.75s">
+    <div class="ticker-track" id="tickerTrack"></div>
+  </div>
+</section>
+
+<script>
+"use strict";
+var DISHES = ["Ramen","Biryani","Tiramisu","Pho","Tacos al Pastor","Paneer Tikka","Croissant","Kimchi Jjigae","Paella","Shakshuka","Pad Thai","Moussaka"];
+var track = document.getElementById("tickerTrack");
+function makeItems(){
+  return DISHES.map(function(d){
+    return '<span class="ticker-item"><span class="ticker-dot"></span>Could it be <b>'+d+'</b>?</span>';
+  }).join("");
+}
+track.innerHTML = makeItems() + makeItems();
+
+var video = document.querySelector(".bgvideo");
+video.addEventListener("error", function(){
+  document.querySelector(".hero").style.background =
+    "radial-gradient(1200px 700px at 50% 20%, #2a1f52, transparent 60%), var(--void)";
+  video.classList.remove("reveal");
+});
+
+var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+if (!reduceMotion){
+  requestAnimationFrame(function(){ video.classList.add("reveal"); });
+} else {
+  video.classList.add("reveal");
+}
+</script>
+</body>
+</html>

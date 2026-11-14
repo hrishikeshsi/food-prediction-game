@@ -1,0 +1,5837 @@
+[
+ {
+  "name": "Dhokla",
+  "aliases": [
+   "khaman",
+   "khaman dhokla"
+  ],
+  "cuisine": "Gujarati",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "none",
+  "method": "steamed",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "fermented",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "yogurt",
+   "mustard seeds",
+   "green chilli",
+   "curry leaves",
+   "coconut"
+  ],
+  "clues": [
+   "Time does most of the work: the batter must sour overnight before it ever meets heat.",
+   "A teatime fixture of India's western coast, cut into neat pale squares and sold by the tray from glass cabinets.",
+   "Spongy and faintly tangy, made from ground pulse flour, then doused in a tempering of popping seeds and slit chillies.",
+   "The steamed, fermented savoury cake of Gujarat, scattered with coriander and grated coconut."
+  ],
+  "fact": "The airy crumb comes from acid in the soured batter reacting with a pinch of eno or soda seconds before it goes into the steamer."
+ },
+ {
+  "name": "Pesarattu",
+  "aliases": [
+   "pesara attu",
+   "moong dal dosa"
+  ],
+  "cuisine": "Andhra",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "legume",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "crispy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "whole green gram",
+   "ginger",
+   "green chilli",
+   "cumin",
+   "upma",
+   "allam pachadi"
+  ],
+  "clues": [
+   "Unlike its more famous cousin, this batter is never left to ferment and contains no rice at all.",
+   "In its home state it is often served folded over a mound of semolina porridge, with a fiery ginger relish alongside.",
+   "A thin green-flecked crepe from soaked whole pulses, crisp at the rim, studded with raw onion and cumin.",
+   "The Andhra green-gram crepe, eaten at breakfast with ginger chutney rather than the usual coconut one."
+  ],
+  "fact": "Because the pulse is used whole with its skin on, the batter is naturally green and higher in protein than a rice-based dosa."
+ },
+ {
+  "name": "Rogan Josh",
+  "aliases": [
+   "roghan josh"
+  ],
+  "cuisine": "Kashmiri",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "festive",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "lamb",
+   "kashmiri chilli",
+   "fennel powder",
+   "dried ginger",
+   "asafoetida",
+   "ratanjot"
+  ],
+  "clues": [
+   "Its name is Persian and describes heat and oil, not chilli — the redness is largely cosmetic.",
+   "The Kashmiri Pandit version uses neither onion nor garlic, relying on asafoetida instead.",
+   "Mutton braised slowly until the fat rises red to the surface, spiced with fennel and dried ginger rather than garam masala.",
+   "The signature red Kashmiri lamb braise, part of the ceremonial wazwan feast."
+  ],
+  "fact": "The deep colour traditionally comes from alkanet root and mild Kashmiri chillies, not from tomato or heat."
+ },
+ {
+  "name": "Hyderabadi Biryani",
+  "aliases": [
+   "kacchi biryani",
+   "dum biryani",
+   "biryani"
+  ],
+  "cuisine": "Hyderabadi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "festive",
+   "one_pot",
+   "layered",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "marinated mutton",
+   "saffron",
+   "fried onions",
+   "yogurt",
+   "mint"
+  ],
+  "clues": [
+   "The pot is sealed with dough so that nothing escapes, and once sealed it must not be opened to check.",
+   "It descends from the kitchens of a Deccan court where Mughal and Telugu cooking met.",
+   "Raw marinated meat and half-cooked long grains layered together and cooked in their own trapped steam, streaked saffron-gold.",
+   "The Deccan's sealed-pot layered rice dish, served with a sour tamarind-and-peanut gravy on the side."
+  ],
+  "fact": "In the kacchi method the meat goes in raw, so the rice and the mutton must be timed to finish in the same instant."
+ },
+ {
+  "name": "Misal Pav",
+  "aliases": [
+   "misal"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "legume",
+  "carb": "bread",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "chilli",
+   "street_food",
+   "crispy",
+   "saucy",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "sprouted moth beans",
+   "goda masala",
+   "farsan",
+   "onion",
+   "pav rolls",
+   "lemon"
+  ],
+  "clues": [
+   "Its name simply means a mixture, and a fiery orange oil is ladled over it as a separate, optional layer.",
+   "Rival towns in the western Ghats each claim the definitive version, and one city's variant is famous for reducing visitors to tears.",
+   "Sprouted pulses in a thin spiced gravy, buried under crunchy fried snack mix, raw onion and coriander, with soft rolls to mop it up.",
+   "The Maharashtrian breakfast of sprouted-bean curry, savoury crunch and buttered bread rolls, topped with a slick of red oil."
+  ],
+  "fact": "The fiery layer poured on top is called kat or tarri, and how much of it you take is how you set your own heat level."
+ },
+ {
+  "name": "Puttu",
+  "aliases": [
+   "pittu"
+  ],
+  "cuisine": "Keralan",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "coconut",
+   "layered"
+  ],
+  "key_ingredients": [
+   "coarse rice flour",
+   "grated coconut",
+   "salt",
+   "water"
+  ],
+  "clues": [
+   "It is shaped entirely by the vessel it is cooked in — a hollow tube that gives it its cylinder.",
+   "In its home state it is eaten with black chickpea curry, or crushed into a bowl with mashed banana and sugar.",
+   "Alternating pale layers of moistened ground grain and white shreds, steamed until it just holds together and crumbles at a touch.",
+   "The Keralan steamed cylinder of rice flour layered with fresh coconut, eaten at breakfast with kadala curry."
+  ],
+  "fact": "Getting the flour to exactly the right dampness — enough to clump when squeezed, loose enough to crumble — is the whole skill of the dish."
+ },
+ {
+  "name": "Appam",
+  "aliases": [
+   "hoppers",
+   "palappam"
+  ],
+  "cuisine": "Keralan",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "fermented",
+   "coconut",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "rice batter",
+   "coconut milk",
+   "toddy",
+   "sugar",
+   "cooked rice"
+  ],
+  "clues": [
+   "The pan is swirled the moment the batter goes in, which is what gives it two textures in one piece.",
+   "It is shared by the Malabar coast and the island to its south, where it is often ordered with an egg dropped in the middle.",
+   "Lace-thin and crisp at the rim, thick and spongy in the middle, faintly sweet and sour from an overnight rise.",
+   "The bowl-shaped fermented rice pancake of Kerala and Sri Lanka, served with coconut milk or stew."
+  ],
+  "fact": "Traditionally the batter was leavened with palm toddy; most cooks now use yeast or a spoonful of cooked rice instead."
+ },
+ {
+  "name": "Litti Chokha",
+  "aliases": [
+   "litti"
+  ],
+  "cuisine": "Bihari",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 5,
+  "flags": [
+   "vegetarian",
+   "smoky",
+   "stuffed",
+   "street_food",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "sattu",
+   "wholewheat dough",
+   "ajwain",
+   "roasted aubergine",
+   "mustard oil",
+   "ghee"
+  ],
+  "clues": [
+   "It was soldiers' and travellers' food precisely because it keeps for days and needs no pot to cook in.",
+   "It belongs to the eastern Gangetic plain, and is cooked directly in cow-dung cakes or coals rather than an oven.",
+   "Dough balls roasted in embers until blistered, cracked open and drowned in clarified butter, with smoky mashed vegetables alongside.",
+   "The Bihari coal-roasted wheat ball stuffed with spiced roasted gram flour, served with mashed aubergine and potato."
+  ],
+  "fact": "Sattu, the roasted gram flour filling, is itself a staple of the region, also drunk as a cooling summer beverage."
+ },
+ {
+  "name": "Chole Bhature",
+  "aliases": [
+   "chana bhatura"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "street_food",
+   "saucy",
+   "bread_based",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "chickpeas",
+   "black tea",
+   "amchur",
+   "maida dough",
+   "yogurt",
+   "anardana"
+  ],
+  "clues": [
+   "The stew is often simmered with a muslin bag of tea leaves, purely to darken it.",
+   "It is the great weekend indulgence of north Indian breakfast, ordered with a glass of salted buttermilk.",
+   "A dark, sour-spiced pulse curry served with an enormous balloon of leavened dough, fried until it inflates.",
+   "The Punjabi pairing of tangy chickpea curry with a puffed deep-fried bread."
+  ],
+  "fact": "The bread's dough is leavened with yogurt or a little semolina and rested for hours, which is why it balloons rather than merely puffs."
+ },
+ {
+  "name": "Undhiyu",
+  "aliases": [
+   "umbadiyu"
+  ],
+  "cuisine": "Gujarati",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "root",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 5,
+  "flags": [
+   "vegetarian",
+   "festive",
+   "one_pot",
+   "coconut",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "surti papdi",
+   "purple yam",
+   "muthiya dumplings",
+   "green garlic",
+   "coriander",
+   "coconut"
+  ],
+  "clues": [
+   "Its name comes from a word meaning upside down, because it was buried and cooked inverted in an earthen pot underground.",
+   "It appears only in winter, when the specific beans and tubers it needs are in season, and it anchors the kite festival table.",
+   "A dozen root vegetables and pods slow-cooked with a green paste, along with small fried dumplings of fenugreek and gram flour.",
+   "The Gujarati winter casserole of mixed vegetables and spiced dumplings, traditionally cooked in a buried pot."
+  ],
+  "fact": "The traditional matlu undhiyu is cooked in a clay pot inverted over a fire pit, which steams the vegetables in their own moisture."
+ },
+ {
+  "name": "Bisi Bele Bath",
+  "aliases": [
+   "bisibelebath",
+   "bisi bele huliyanna"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "one_pot",
+   "saucy",
+   "nuts",
+   "coconut"
+  ],
+  "key_ingredients": [
+   "rice",
+   "toor dal",
+   "tamarind",
+   "bisi bele bath powder",
+   "cashews",
+   "ghee"
+  ],
+  "clues": [
+   "Its name is a plain description in Kannada: hot lentil rice.",
+   "It is said to have originated in the Mysore palace kitchens, and is served with a crisp fried accompaniment and a spoon of ghee.",
+   "Grains and split pulses cooked together to a thick porridge, soured with tamarind and heavy with a specific roasted spice blend.",
+   "The Karnataka one-pot of rice and lentils in tamarind and a coconut-heavy masala, served with boondi and ghee."
+  ],
+  "fact": "Unlike khichdi, the rice and dal are deliberately cooked past separateness — it should be soft enough to eat without chewing."
+ },
+ {
+  "name": "Shorshe Ilish",
+  "aliases": [
+   "sorshe ilish",
+   "hilsa in mustard"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "fish",
+  "carb": "none",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 5,
+  "flags": [
+   "spicy",
+   "saucy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "hilsa",
+   "yellow mustard seeds",
+   "green chilli",
+   "mustard oil",
+   "turmeric",
+   "nigella"
+  ],
+  "clues": [
+   "The fish at its centre is famously bony, and eating it properly is treated as a regional skill.",
+   "It is the dish that arrives at Bengali weddings and at the first monsoon rains, on both sides of a border.",
+   "Oily river fish steamed in a pungent, faintly bitter paste of ground seeds and raw green chillies, slicked with a sharp oil.",
+   "Bengal's monsoon delicacy: hilsa steamed in a fiery ground mustard paste."
+  ],
+  "fact": "The mustard must be ground with a little salt and green chilli to stop it turning bitter — a classic Bengali kitchen rule."
+ },
+ {
+  "name": "Nihari",
+  "aliases": [
+   "nehari"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "Pakistan",
+  "course": "breakfast",
+  "protein": "beef",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "saucy",
+   "one_pot",
+   "offal"
+  ],
+  "key_ingredients": [
+   "beef shank",
+   "bone marrow",
+   "wheat flour slurry",
+   "long pepper",
+   "ginger",
+   "atta"
+  ],
+  "clues": [
+   "Its name comes from the Arabic for morning, because it was eaten at dawn after prayers.",
+   "Old Delhi and Karachi houses keep a portion back each night to seed the next day's pot, some claiming an unbroken chain of decades.",
+   "Shin cooked overnight until the collagen dissolves, thickened with a flour slurry, with marrow scooped from the bone into the bowl.",
+   "The overnight-simmered spiced shank stew of Delhi and Karachi, eaten for breakfast with naan, ginger julienne and lemon."
+  ],
+  "fact": "The reserved starter portion is called taar, and restaurants that keep one going for years advertise it as a mark of pedigree."
+ },
+ {
+  "name": "Haleem",
+  "aliases": [
+   "hareesa",
+   "khichra"
+  ],
+  "cuisine": "Hyderabadi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "wheat",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "one_pot",
+   "festive",
+   "crispy",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "cracked wheat",
+   "mutton",
+   "lentils",
+   "ghee",
+   "fried onions",
+   "garam masala"
+  ],
+  "clues": [
+   "It is beaten with a wooden paddle for hours until no strand of meat can be told from the grain around it.",
+   "It appears in the streets of the Deccan only during one month of the lunar calendar, sold by the kilo after sunset.",
+   "A dense, glossy, almost pasty stew of pounded grain and shredded meat, topped with fried onion, mint and a squeeze of lemon.",
+   "The Ramadan porridge-stew of wheat, lentils and mutton pounded to a smooth paste, famous in Hyderabad."
+  ],
+  "fact": "Hyderabad's version holds a Geographical Indication tag, the first prepared dish in India ever to receive one."
+ },
+ {
+  "name": "Vada Pav",
+  "aliases": [
+   "wada pav",
+   "bombay burger"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "bread",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "chilli",
+   "street_food",
+   "handheld",
+   "crispy",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "potato",
+   "gram flour batter",
+   "pav roll",
+   "dry garlic chutney",
+   "green chilli",
+   "curry leaves"
+  ],
+  "clues": [
+   "It was created in the 1960s outside a railway station to feed mill workers something cheap they could eat in one hand.",
+   "It is inseparable from one particular city's commuter rush, and a fried green chilli is handed over with it.",
+   "A spiced mashed tuber ball in a gram-flour crust, crushed into a soft bun with a gritty red garlic powder.",
+   "Mumbai's handheld snack: a deep-fried potato fritter in a bread roll with dry garlic chutney."
+  ],
+  "fact": "Ashok Vaidya's stall outside Dadar station in 1966 is the origin most often credited."
+ },
+ {
+  "name": "Pani Puri",
+  "aliases": [
+   "golgappa",
+   "puchka",
+   "gupchup"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "street_food",
+   "handheld",
+   "crispy",
+   "sweet"
+  ],
+  "key_ingredients": [
+   "semolina shells",
+   "tamarind water",
+   "mint",
+   "black salt",
+   "boiled potato",
+   "chickpeas"
+  ],
+  "clues": [
+   "It has more regional names than almost any other Indian snack, and arguing about which name is correct is part of eating it.",
+   "The vendor hands them over one at a time and keeps count, and the last one is traditionally given dry and free.",
+   "A hollow fried sphere punched open, filled with spiced potato, then flooded with cold sour-mint liquid and eaten whole.",
+   "The Indian street snack of crisp hollow shells filled with tangy spiced water, eaten in a single mouthful."
+  ],
+  "fact": "The complimentary last one, filled with dry filling and no water, is called sukha puri."
+ },
+ {
+  "name": "Rasgulla",
+  "aliases": [
+   "roshogolla",
+   "rasagola"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "chhena",
+   "semolina",
+   "sugar syrup",
+   "cardamom",
+   "lemon juice"
+  ],
+  "clues": [
+   "Two Indian states fought a formal legal battle over which of them invented it.",
+   "It is a triumph of a technique that older Hindu orthodoxy frowned upon: deliberately splitting milk.",
+   "Spongy white spheres of fresh curd cheese, boiled in thin syrup until they swell and turn translucent.",
+   "The Bengali and Odia sweet of chhena balls simmered in light sugar syrup, served chilled and dripping."
+  ],
+  "fact": "Odisha and West Bengal both won Geographical Indication tags — for Odisha's Rasagola and Banglar Rosogolla respectively."
+ },
+ {
+  "name": "Mysore Pak",
+  "aliases": [
+   "mysore paak"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "fried",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "ghee",
+   "sugar",
+   "cardamom"
+  ],
+  "clues": [
+   "It was improvised by a palace cook for a maharaja, and the recipe stayed a family secret for generations afterwards.",
+   "The second word of its name simply means a sweet confection or syrup in the local tongue.",
+   "Only three ingredients, cooked to a precise thread of syrup, poured out to set porous and melting — or dense and fudgy.",
+   "The Karnataka sweet of gram flour cooked in extravagant amounts of clarified butter with sugar."
+  ],
+  "fact": "Kakasura Madappa created it in the Mysore Palace kitchen; his descendants still run the Guru Sweet Mart that sells it."
+ },
+ {
+  "name": "Momo",
+  "aliases": [
+   "momos",
+   "nepali dumpling"
+  ],
+  "cuisine": "Nepali",
+  "region": "South Asia",
+  "country": "Nepal",
+  "course": "snack",
+  "protein": "mixed",
+  "carb": "wheat",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "stuffed",
+   "street_food",
+   "spicy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "buffalo mince",
+   "wheat dough",
+   "timur pepper",
+   "sesame",
+   "tomato achar",
+   "coriander"
+  ],
+  "clues": [
+   "The word came down from Tibet, and the dipping sauce is what distinguishes the Himalayan foothill version from its ancestors.",
+   "Kathmandu argues over whether it should be pleated into a crescent or gathered into a round purse.",
+   "Thin steamed pockets of minced meat and onion, dipped in a soupy tomato-and-sesame relish sharpened with a citrusy pepper.",
+   "Nepal's steamed dumpling, served with a ground tomato and sesame chutney."
+  ],
+  "fact": "Timur, the Nepali sibling of Sichuan pepper, is what gives the dipping achar its faint numbing lemon note."
+ },
+ {
+  "name": "Thukpa",
+  "aliases": [
+   "gyathuk"
+  ],
+  "cuisine": "Tibetan",
+  "region": "South Asia",
+  "country": "Nepal",
+  "course": "soup",
+  "protein": "chicken",
+  "carb": "noodle",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "soup",
+   "noodle",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "wheat noodles",
+   "chicken",
+   "carrot",
+   "cabbage",
+   "ginger",
+   "sichuan pepper"
+  ],
+  "clues": [
+   "Its name comes from a Tibetan word for the strands themselves, and it travelled with traders across high passes.",
+   "It is the standard cold-weather meal of the eastern Himalaya, from Lhasa to Darjeeling to Kathmandu.",
+   "A clear broth crowded with hand-pulled strands, shredded vegetables and meat, warming rather than fiery.",
+   "The Himalayan noodle soup of Tibetan origin, eaten across Nepal, Sikkim and Bhutan."
+  ],
+  "fact": "A thicker variant called thenthuk uses torn sheets of dough instead of cut noodles, dropped straight into the boiling broth."
+ },
+ {
+  "name": "Kottu Roti",
+  "aliases": [
+   "kothu roti",
+   "kottu"
+  ],
+  "cuisine": "Sri Lankan",
+  "region": "South Asia",
+  "country": "Sri Lanka",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "bread",
+  "method": "fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "spicy",
+   "chilli",
+   "street_food",
+   "saucy",
+   "bread_based",
+   "egg_based"
+  ],
+  "key_ingredients": [
+   "godamba roti",
+   "egg",
+   "leeks",
+   "curry sauce",
+   "chicken",
+   "chilli"
+  ],
+  "clues": [
+   "You hear it before you see it: two metal blades beat out a rhythm on the griddle that carries down the street.",
+   "It began as a way of using up yesterday's flatbread, and is now the definitive late-night meal of Colombo.",
+   "Flatbread chopped into ribbons on the hotplate with egg, vegetables and meat, then moistened with leftover curry gravy.",
+   "The Sri Lankan street dish of shredded flatbread stir-fried with egg, leeks and curry, chopped with paired cleavers."
+  ],
+  "fact": "Cooks develop a signature rhythm on the griddle, and regulars can identify a favourite stall by sound alone."
+ },
+ {
+  "name": "Pol Sambol",
+  "aliases": [
+   "pol sambola",
+   "coconut sambol"
+  ],
+  "cuisine": "Sri Lankan",
+  "region": "South Asia",
+  "country": "Sri Lanka",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "raw",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "chilli",
+   "coconut",
+   "raw"
+  ],
+  "key_ingredients": [
+   "grated coconut",
+   "dried chilli",
+   "maldive fish",
+   "lime",
+   "shallot",
+   "salt"
+  ],
+  "clues": [
+   "It is pounded rather than cooked, and the colour tells you exactly how much punishment to expect.",
+   "It sits beside almost every plate on the island, from breakfast string hoppers to rice and curry.",
+   "Fresh white shreds bruised in a mortar with dried chillies until they stain deep red, sharpened with lime and shallot.",
+   "The Sri Lankan raw relish of grated coconut pounded with chilli, lime and dried fish flakes."
+  ],
+  "fact": "Maldive fish — cured, smoked and rock-hard tuna — is the umami backbone, and leaving it out makes the relish taste flat."
+ },
+ {
+  "name": "Butter Chicken",
+  "aliases": [
+   "murgh makhani",
+   "chicken makhani"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "dairy",
+   "saucy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "tomato",
+   "butter",
+   "cream",
+   "fenugreek",
+   "garam masala"
+  ],
+  "clues": [
+   "A tandoor-charred protein is finished a second time, simmered low in a rich orange-red sauce until it turns almost sweet.",
+   "It was invented in Delhi in the 1950s, reputedly to rescue leftover skewers from drying out overnight.",
+   "Ground fenugreek leaves are the secret behind its unmistakable aroma, stirred in right at the end.",
+   "The classic Punjabi makhani curry of tandoor-cooked chicken finished in a velvety tomato-cream gravy."
+  ],
+  "fact": "Its invention is credited to Kundan Lal Gujral of Moti Mahal, who first mixed the sauce to keep leftover tandoori chicken moist."
+ },
+ {
+  "name": "Paneer Tikka",
+  "aliases": [
+   "panir tikka"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "none",
+  "carb": "none",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "paneer",
+   "yogurt",
+   "bell pepper",
+   "onion",
+   "tandoori masala",
+   "lemon"
+  ],
+  "clues": [
+   "Cubes of a fresh, unaged milk curd are steeped in a bright red spiced yogurt marinade before hitting the tandoor.",
+   "It began life as a vegetarian answer to a smoky charred meat skewer sharing the same grill.",
+   "Charred at the edges yet squeaky and soft within, it is often served with a wedge of lime and sliced onion rings.",
+   "The classic Punjabi tandoor-grilled skewers of marinated Indian cottage cheese with peppers and onion."
+  ],
+  "fact": "The word for this milk curd, paneer, comes from a Persian root, though the cheese-making technique likely reached India via Portuguese traders in Bengal."
+ },
+ {
+  "name": "Palak Paneer",
+  "aliases": [
+   "saag paneer"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "cheese",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "spinach",
+   "paneer",
+   "cream",
+   "garlic",
+   "cumin",
+   "garam masala"
+  ],
+  "clues": [
+   "A leafy green vegetable is blanched, blended to a smooth puree, and used as the base of a rich vegetarian gravy.",
+   "Restaurants often finish it with a swirl of cream to soften the vegetable's slightly earthy, mineral edge.",
+   "Cubes of a mild fresh curd cheese are folded gently into the puree just before serving, so they warm through without melting.",
+   "The North Indian curry of pureed spinach with cubes of soft cottage cheese."
+  ],
+  "fact": "Its bright green colour makes it one of the most photographed dishes on Indian restaurant menus outside the country."
+ },
+ {
+  "name": "Dal Makhani",
+  "aliases": [
+   "kali dal",
+   "black dal"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "one_pot",
+   "festive"
+  ],
+  "key_ingredients": [
+   "black lentils",
+   "kidney beans",
+   "butter",
+   "cream",
+   "tomato",
+   "ginger"
+  ],
+  "clues": [
+   "Whole black lentils simmer for hours on a low flame, sometimes literally on the embers of a tandoor, until they turn creamy.",
+   "A generous final swirl of dairy fat and cream is what turns humble lentils into a restaurant favourite.",
+   "It's said to have been created at a famous Delhi kitchen also credited with a well-known buttery chicken dish.",
+   "The Punjabi black lentil dal, slow-cooked with kidney beans and enriched with butter and cream."
+  ],
+  "fact": "At Moti Mahal, the restaurant credited with inventing butter chicken, leftover tandoori marinade and butter sauce were originally poured over dal to avoid waste."
+ },
+ {
+  "name": "Tandoori Chicken",
+  "aliases": [
+   "tandoori murgh"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "smoky",
+   "festive"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "yogurt",
+   "kashmiri chilli",
+   "garlic",
+   "ginger",
+   "lemon"
+  ],
+  "clues": [
+   "A whole bird or its legs are slashed to the bone so a bright red marinade can penetrate all the way through.",
+   "Its signature colour traditionally came from a food dye added purely for show, though paprika does most of the real work today.",
+   "Cooked upright in a cylindrical clay oven fired by charcoal, which chars the skin while keeping the inside succulent.",
+   "The classic yogurt-and-chilli marinated bird, cooked in a charcoal clay oven until charred and smoky."
+  ],
+  "fact": "The dish is credited to Kundan Lal Gujral's Moti Mahal restaurant, first in Peshawar and later Delhi after Partition — the same lineage that gave the world butter chicken."
+ },
+ {
+  "name": "Samosa",
+  "aliases": [
+   "samosas"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "potato",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "handheld",
+   "crispy",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "potato",
+   "peas",
+   "cumin seeds",
+   "wheat pastry",
+   "green chilli",
+   "coriander"
+  ],
+  "clues": [
+   "A thin dough is folded into a cone, packed with a spiced filling, then sealed and dropped into hot oil.",
+   "Its ancestor travelled west from Central Asia centuries ago as a savoury pastry filled with meat, long before a New World tuber took over the filling.",
+   "It's the single most-ordered item at tea stalls and railway platforms across the subcontinent, always served with a tangy dip.",
+   "The deep-fried triangular pastry stuffed with spiced potato and peas, a subcontinent-wide teatime staple."
+  ],
+  "fact": "Its name traces back through the Persian 'sanbosag' to a stuffed pastry that reached India via Middle Eastern traders centuries before the potato became its default filling."
+ },
+ {
+  "name": "Masala Dosa",
+  "aliases": [
+   "dosa"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "crispy",
+   "street_food",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "rice batter",
+   "urad dal",
+   "potato",
+   "mustard seeds",
+   "curry leaves",
+   "turmeric"
+  ],
+  "clues": [
+   "A thin batter of soaked, fermented rice and split black gram is ladled onto a hot griddle and spread into a wide, paper-thin round.",
+   "The whole thing hinges on an overnight ferment, which gives the batter its faint sourness and the finished round its lacy crispness.",
+   "Its centre is loaded with a mildly spiced, turmeric-yellow potato mixture before the edges are folded over into a long cylinder.",
+   "The South Indian fermented rice-and-lentil crepe, folded around a spiced potato filling."
+  ],
+  "fact": "The fold-and-stuff format is a relatively recent, Bangalore-linked innovation — the plain, unstuffed crepe it's based on is centuries older."
+ },
+ {
+  "name": "Idli",
+  "aliases": [
+   "idly"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "rice",
+   "urad dal",
+   "fenugreek seeds",
+   "salt",
+   "water"
+  ],
+  "clues": [
+   "A batter of rice and split black gram is left to ferment overnight until it visibly doubles in a warm kitchen corner.",
+   "It is steamed, not fried or baked, in a stacked mould of shallow discs, needing no oil at all.",
+   "Soft, spongy and almost neutral in flavour on its own, it depends entirely on a lentil stew and a coconut chutney served alongside.",
+   "The steamed, fermented rice-and-lentil cake of South India, a breakfast staple eaten with lentil stew and chutney."
+  ],
+  "fact": "Food historians trace steamed rice-cake techniques to Indonesian influence centuries ago, though the exact lineage is debated."
+ },
+ {
+  "name": "Sambar",
+  "aliases": [
+   "sambhar"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "soup",
+  "protein": "legume",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "soup",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "toor dal",
+   "tamarind",
+   "drumstick",
+   "tomato",
+   "sambar powder",
+   "curry leaves"
+  ],
+  "clues": [
+   "Split pigeon peas are boiled soft, then simmered with a handful of vegetables and a sour fruit pulp for tang.",
+   "A tempering of mustard seeds, dried chillies and curry leaves is fried in oil and poured sizzling over the top just before serving.",
+   "It appears at nearly every South Indian meal, ladled generously over rice or used as a dip for steamed cakes and crepes.",
+   "The South Indian tamarind-and-lentil vegetable stew, tempered with mustard seeds and curry leaves."
+  ],
+  "fact": "One popular legend credits its invention to a Maratha king's chef improvising with tamarind after running out of the usual souring agent."
+ },
+ {
+  "name": "Rajma Chawal",
+  "aliases": [
+   "rajma rice"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "rice",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "kidney beans",
+   "onion",
+   "tomato",
+   "ginger",
+   "garlic",
+   "garam masala"
+  ],
+  "clues": [
+   "Dried red beans are soaked overnight, then simmered for hours in an onion-tomato base until the gravy turns thick and dark.",
+   "It's the definitive Sunday lunch of North Indian households, usually paired with a plain cooked grain rather than any bread.",
+   "Hostel and college canteens across the country rely on this pairing as their most reliably comforting, inexpensive combo meal.",
+   "The North Indian red kidney bean curry, ladled generously over plain steamed rice."
+  ],
+  "fact": "The name simply combines the Hindi words for the bean and for cooked rice, with no more poetic origin than that."
+ },
+ {
+  "name": "Aloo Paratha",
+  "aliases": [
+   "potato paratha"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "wheat flour",
+   "potato",
+   "green chilli",
+   "coriander",
+   "ghee",
+   "carom seeds"
+  ],
+  "clues": [
+   "A whole-wheat dough is rolled out, packed with a mashed and spiced filling, then rolled flat again so the filling disappears completely.",
+   "It's fried on a flat griddle with a generous smear of clarified butter until both sides turn golden and blistered.",
+   "Truck drivers on India's longest highway treat roadside versions of this stuffed flatbread as an institution, always served with butter, pickle and yogurt.",
+   "The North Indian whole-wheat flatbread stuffed with spiced mashed potato, pan-fried in ghee."
+  ],
+  "fact": "Punjab's dhaba culture — roadside truck-stop kitchens — is largely responsible for turning this into India's most famous stuffed bread."
+ },
+ {
+  "name": "Naan",
+  "aliases": [
+   "naan bread"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "yogurt",
+   "yeast",
+   "milk",
+   "butter"
+  ],
+  "clues": [
+   "A soft leavened dough is slapped by hand onto the scorching inner wall of a clay oven, where it puffs and blisters in under a minute.",
+   "Unlike its thinner, unleavened cousins, this one gets its lightness from yogurt or yeast worked into the dough.",
+   "It's often brushed with melted fat the moment it's peeled off the oven wall, sometimes stuffed with garlic or cheese.",
+   "The leavened, tandoor-baked wheat flatbread served alongside North Indian curries."
+  ],
+  "fact": "Despite feeling quintessentially Indian today, its name and technique trace back through Persian bakeries, and it only became a common home-cooked bread once clay ovens were replaced by stovetop substitutes."
+ },
+ {
+  "name": "Gulab Jamun",
+  "aliases": [
+   "gulab jamon"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "fried",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "milk solids",
+   "sugar syrup",
+   "cardamom",
+   "rose water",
+   "ghee"
+  ],
+  "clues": [
+   "Small balls of reduced, browned milk solids are deep-fried gently until mahogany-dark, then dropped straight into warm sugar syrup.",
+   "The syrup is almost always perfumed with cardamom or a few drops of rose or screwpine essence.",
+   "It appears at nearly every festival and wedding table, sometimes served warm with a scoop of vanilla ice cream on the side.",
+   "The syrup-soaked fried milk-solid balls, India's most ubiquitous festive sweet."
+  ],
+  "fact": "The name borrows from Persian — one half for rose, and the other after an Indian berry the fried balls resemble in size and colour."
+ },
+ {
+  "name": "Jalebi",
+  "aliases": [
+   "zalabia"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "crispy",
+   "street_food",
+   "festive"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "sugar syrup",
+   "saffron",
+   "yogurt",
+   "ghee"
+  ],
+  "clues": [
+   "A fermented batter is piped in continuous spiral loops straight into hot oil, then plunged into sugar syrup while still crackling.",
+   "It's one of the few sweets eaten for breakfast in parts of the country, often alongside a savoury lentil fritter dish.",
+   "Its coiled shape means every bite gets a mix of a crisp shell and a syrup-soaked, almost hollow centre.",
+   "The spiral-shaped, syrup-soaked fried batter sweet, bright orange and crisp."
+  ],
+  "fact": "Persian and Arab origins are likely, with an early version recorded in a 13th-century Arabic cookbook long before it reached India."
+ },
+ {
+  "name": "Pav Bhaji",
+  "aliases": [
+   "pao bhaji"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "potato",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "saucy",
+   "bread_based",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "potato",
+   "tomato",
+   "butter",
+   "bell pepper",
+   "pav rolls",
+   "spice blend"
+  ],
+  "clues": [
+   "A medley of vegetables is boiled down and mashed together on a flat griddle with a generous, almost excessive amount of dairy fat.",
+   "It was invented as a quick lunch for Mumbai's textile mill workers, designed to be eaten fast on a short break.",
+   "A soft white roll, toasted on the same buttery griddle, is the designated scoop — cutlery is basically optional.",
+   "The Mumbai street classic of a buttery mashed-vegetable mash, scooped up with a toasted bread roll."
+  ],
+  "fact": "Its bright red-orange colour traditionally came as much from a generous hand with butter and food colouring as from the tomatoes themselves."
+ },
+ {
+  "name": "Bhel Puri",
+  "aliases": [
+   "bhelpuri"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "street_food",
+   "crispy",
+   "sweet",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "puffed rice",
+   "tamarind chutney",
+   "mint chutney",
+   "onion",
+   "tomato",
+   "sev"
+  ],
+  "clues": [
+   "Light, air-puffed grains are tossed cold with a chopped raw vegetable medley and two contrasting chutneys, one sweet-sour and one fiery green.",
+   "It has to be eaten within minutes of mixing, or the crunch that defines it collapses into a soggy mess.",
+   "Beachside vendors in one coastal city are especially famous for tossing it together in large brass bowls to order.",
+   "The Mumbai beach snack of puffed rice tossed with chutneys, raw vegetables and crunchy noodle strands."
+  ],
+  "fact": "Its combination of textures and flavours is often cited as a textbook example of what Indian food writers call chatpata — a tongue-tingling balance of sweet, sour, salty and spicy all at once."
+ },
+ {
+  "name": "Shahi Paneer",
+  "aliases": [
+   "shahi panir"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "festive",
+   "sweet",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "cashew paste",
+   "cream",
+   "tomato",
+   "onion",
+   "cardamom"
+  ],
+  "clues": [
+   "Cubes of a fresh milk curd bathe in a pale, blush-colored gravy thickened almost entirely with ground nuts rather than tomato puree.",
+   "Its name simply means 'royal,' a nod to the rich Mughal court kitchens that favored cream and cashew over tang and heat.",
+   "A pinch of sugar and a whisper of cardamom keep the sauce mellow and slightly sweet, distinguishing it from its spicier cousins.",
+   "The regal, cashew-cream curry of soft milk cheese that gets its name from the imperial kitchens it hails from."
+  ],
+  "fact": "Despite its 'royal' name, Shahi Paneer is a fixture of everyday North Indian restaurant menus, born from Mughlai court cuisine's love of nuts and cream."
+ },
+ {
+  "name": "Paneer Butter Masala",
+  "aliases": [
+   "paneer makhani"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "saucy",
+   "sweet"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "tomato",
+   "butter",
+   "cream",
+   "cashew",
+   "kasuri methi"
+  ],
+  "clues": [
+   "This is the vegetarian sibling of a world-famous tandoori chicken curry, swapping charred meat for soft milk-cheese cubes.",
+   "A jammy tomato puree is enriched with a generous knob of dairy fat and cream until the color turns a warm, glossy orange-red.",
+   "Restaurant chefs finish it with a scatter of dried fenugreek leaves crushed between the palms, echoing the rich, dairy-forward gravy beneath.",
+   "The creamy tomato-and-dairy-fat classic built for cheese cubes, essentially the meat-free cousin of the country's most famous chicken curry."
+  ],
+  "fact": "Paneer Butter Masala became a staple largely because it let vegetarian diners order the same rich, tomato-butter experience as Butter Chicken."
+ },
+ {
+  "name": "Kadai Paneer",
+  "aliases": [
+   "karahi paneer",
+   "kadhai paneer"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "spicy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "bell pepper",
+   "onion",
+   "coriander seeds",
+   "dried red chili",
+   "tomato"
+  ],
+  "clues": [
+   "Named for the wide, curved wok it's tossed in, this dish leans on freshly crushed coriander seeds and whole dried chilies rather than a smooth cream base.",
+   "Chunks of bell pepper and onion are seared hard and fast, kept crisp rather than melted into the sauce, giving every bite a bit of crunch.",
+   "The masala here is coarse and rustic, pounded rather than blended, so flecks of spice cling visibly to the milk-cheese cubes.",
+   "The wok-tossed cheese-and-pepper classic named for the pan it's cooked in, finished with a coarse, hand-pounded masala."
+  ],
+  "fact": "Kadai Paneer takes its name from the kadai, a wok-like pan, and its signature masala is traditionally pounded coarse rather than ground smooth."
+ },
+ {
+  "name": "Matar Paneer",
+  "aliases": [
+   "mutter paneer",
+   "matar panir"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "green peas",
+   "tomato",
+   "onion",
+   "cumin",
+   "garam masala"
+  ],
+  "clues": [
+   "Sweet green legume-pods and cubes of fresh milk cheese share a humble onion-tomato gravy that's a weeknight staple across North Indian homes.",
+   "Unlike its richer, cashew-thickened cousins, this version stays light, just onion, tomato, and everyday spices, no cream required.",
+   "The little green spheres inside it release their own sugars as they simmer, giving the sauce a faint natural sweetness.",
+   "The everyday North Indian curry pairing milk-cheese cubes with green peas in a simple tomato gravy."
+  ],
+  "fact": "Matar Paneer is considered one of the most home-style of all paneer curries, often made with far less cream or nuts than restaurant versions."
+ },
+ {
+  "name": "Paneer Tikka Masala",
+  "aliases": [
+   "paneer tikka"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "smoky",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "yogurt",
+   "bell pepper",
+   "tomato",
+   "cream",
+   "tandoori spices"
+  ],
+  "clues": [
+   "Skewer-sized chunks of a fresh milk cheese are first marinated in spiced yogurt and charred over intense heat before they ever meet a sauce.",
+   "That initial blackened, smoky crust is deliberately built in, then partly softened again as the cubes finish simmering in a creamy tomato gravy.",
+   "It's essentially a two-stage cooking trick borrowed from tandoori technique, applied to cheese instead of meat.",
+   "The char-grilled cheese cubes finished in a creamy tomato gravy, tandoor technique applied to a vegetarian classic."
+  ],
+  "fact": "Paneer Tikka Masala adapts the tandoori charring technique used for meat tikka, giving vegetarian cheese cubes the same smoky edge before they're bathed in gravy."
+ },
+ {
+  "name": "Aloo Gobi",
+  "aliases": [
+   "aloo gobhi"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "potato",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "potato",
+   "cauliflower",
+   "turmeric",
+   "cumin seeds",
+   "ginger",
+   "coriander leaves"
+  ],
+  "clues": [
+   "Golden root chunks and pale cruciferous florets are tossed together dry in a single pan, no gravy required.",
+   "Turmeric alone gives the whole dish its sunny yellow hue, with cumin seeds crackling in hot oil as the base.",
+   "It's one of the simplest home-style vegetable stir-fries in the North Indian repertoire, often the first dish a beginner cook learns.",
+   "The classic dry-sauteed potato-and-cauliflower sabzi seasoned simply with turmeric and cumin."
+  ],
+  "fact": "Aloo Gobi is so fundamental to North Indian home cooking that it's often the very first dish taught to new cooks, requiring no marination or gravy-making skill."
+ },
+ {
+  "name": "Dum Aloo",
+  "aliases": [
+   "dum aalu"
+  ],
+  "cuisine": "Kashmiri",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "potato",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "spicy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "baby potato",
+   "yogurt",
+   "kashmiri chili",
+   "fennel",
+   "asafoetida",
+   "mustard oil"
+  ],
+  "clues": [
+   "Whole baby roots are fried until blistered, then finished slow, sealed in their own steam under a tight lid over low heat.",
+   "The Kashmiri version skips onion and garlic entirely, leaning on fennel, dried ginger powder, and asafoetida for depth instead.",
+   "A deep red hue comes from a mild chili powder that colors more than it burns, with tiny pricked holes letting the sauce seep inside each piece.",
+   "The slow-sealed baby potato curry named for its signature covered-pot cooking method."
+  ],
+  "fact": "The dum technique originally meant sealing a pot with dough so no steam could escape, letting whole baby potatoes cook gently in their own spiced juices."
+ },
+ {
+  "name": "Jeera Aloo",
+  "aliases": [
+   "jeera aalu",
+   "cumin potato"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "potato",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "potato",
+   "cumin seeds",
+   "turmeric",
+   "green chili",
+   "coriander leaves",
+   "asafoetida"
+  ],
+  "clues": [
+   "Diced roots are tossed dry in hot oil with whole toasted seeds that give the dish its entire flavor profile in one ingredient.",
+   "There's no onion, garlic, or tomato here, just turmeric, a pinch of asafoetida, and those crackling seeds carrying the whole dish.",
+   "It's often the plainest, quickest side on a North Indian thali, ready in the time it takes to boil the roots.",
+   "The simple cumin-tossed potato side, named for the toasted seed that flavors it."
+  ],
+  "fact": "Jeera Aloo is prized for its simplicity, essentially a five-ingredient dish built entirely around the aroma of toasted cumin seeds."
+ },
+ {
+  "name": "Baingan Bharta",
+  "aliases": [
+   "baingan ka bharta",
+   "eggplant bharta"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "eggplant",
+   "tomato",
+   "onion",
+   "garlic",
+   "green chili",
+   "mustard oil"
+  ],
+  "clues": [
+   "A whole purple nightshade vegetable is charred directly over an open flame until its skin blackens and blisters completely.",
+   "Once the char cools, the vegetable is peeled and hand-mashed, carrying a deep smokiness straight into the sauteed onion-tomato base.",
+   "That live-fire step is non-negotiable for purists, cooking it any other way is considered a shortcut that loses the whole point.",
+   "The smoky mashed eggplant dish, roasted whole over open flame before mashing into an onion-tomato base."
+  ],
+  "fact": "Baingan Bharta gets its signature smokiness from roasting the eggplant directly on a stovetop flame or coals until the skin chars and blisters."
+ },
+ {
+  "name": "Bhindi Masala",
+  "aliases": [
+   "bhindi fry",
+   "okra masala"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "okra",
+   "onion",
+   "tomato",
+   "turmeric",
+   "coriander powder",
+   "amchur"
+  ],
+  "clues": [
+   "This ridged green pod turns notoriously slimy if you rush it, so cooks slice it thin and dry-fry it hard before any liquid touches the pan.",
+   "A pinch of dried mango powder or a squeeze of lime at the end cuts through its natural stickiness with a sour finish.",
+   "Getting it properly crisp rather than gooey is considered a small badge of honor in North Indian home kitchens.",
+   "The dry-fried okra sabzi seasoned with onion, tomato, and a souring agent to tame its natural slickness."
+  ],
+  "fact": "Okra's tendency to turn slimy when cooked comes from a natural mucilage, which is why cooks dry the pods thoroughly and fry them on high heat to avoid it."
+ },
+ {
+  "name": "Chana Masala",
+  "aliases": [
+   "chole",
+   "chana masala curry"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "chickpeas",
+   "tomato",
+   "onion",
+   "ginger",
+   "dried mango powder",
+   "garam masala"
+  ],
+  "clues": [
+   "Round beige legumes are simmered until tender in a tangy, tomato-heavy gravy loaded with dried pomegranate or mango powder for sourness.",
+   "Street carts across North India pair it with fluffy fried bread, a combo eaten for breakfast as often as lunch.",
+   "A dark, almost brown gravy color in some regional versions comes from black tea bags simmered right in the pot.",
+   "The tangy North Indian chickpea curry, often called chole, served alongside fried bread."
+  ],
+  "fact": "In Punjabi cooking, black tea bags or dried amla are sometimes boiled with the chickpeas to give the gravy its characteristic deep brown color."
+ },
+ {
+  "name": "Pindi Chole",
+  "aliases": [
+   "pindi choley",
+   "rawalpindi chole"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "chickpeas",
+   "black tea",
+   "pomegranate seed powder",
+   "dried ginger",
+   "whole spices",
+   "onion"
+  ],
+  "clues": [
+   "This version of a beloved legume dish skips onion and garlic entirely and comes out dry, dark, and matte rather than glossy and saucy.",
+   "It takes its name from a city now in Pakistan, a legacy of Partition-era Punjabi families who carried the recipe across the new border.",
+   "The beans are boiled with tea leaves and whole dried spices until they turn a deep brownish-grey, almost looking bruised.",
+   "The dry, dark, tangy chickpea dish named for the Punjabi city of Rawalpindi."
+  ],
+  "fact": "Pindi Chole is named after Rawalpindi (once part of undivided Punjab) and is traditionally made without onion or garlic, relying on dried ginger and pomegranate seed powder for flavor."
+ },
+ {
+  "name": "Dal Tadka",
+  "aliases": [
+   "dal fry",
+   "tadka dal"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "yellow lentils",
+   "cumin seeds",
+   "garlic",
+   "dried red chili",
+   "ghee",
+   "turmeric"
+  ],
+  "clues": [
+   "A simple pot of split yellow lentils gets its personality entirely from a last-minute step: hot ghee poured over cumin, garlic, and dried chilies until they sizzle audibly.",
+   "That sizzling infusion is added right before serving, so it hits the bowl still crackling and instantly perfumes the kitchen.",
+   "It's the most everyday dish on this list, comfort food eaten with rice or bread in nearly every North Indian household, nearly every single day.",
+   "The everyday lentil dish finished with a sizzling ghee-and-spice tempering poured on right before serving."
+  ],
+  "fact": "The finishing step of pouring hot spiced ghee over cooked lentils is called a 'tadka' or tempering, a technique used across nearly all Indian dal preparations."
+ },
+ {
+  "name": "Rajma Masala",
+  "aliases": [
+   "rajma curry",
+   "rajma chawal"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "saucy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "kidney beans",
+   "tomato",
+   "onion",
+   "ginger-garlic",
+   "garam masala",
+   "cumin"
+  ],
+  "clues": [
+   "Deep red kidney-shaped beans are soaked overnight, then simmered for hours in a thick onion-tomato gravy until they turn creamy inside.",
+   "Its most famous pairing is steamed rice, a combo so iconic in North Indian and Kashmiri households that the two words are almost never said apart.",
+   "Sunday lunches across Punjabi and Delhi households are practically built around this slow-simmered bean stew.",
+   "The slow-cooked kidney bean curry traditionally paired with steamed rice, a North Indian Sunday staple."
+  ],
+  "fact": "Rajma Masala paired with rice, known as 'rajma chawal,' is considered a quintessential comfort-food combination across North India, especially on lazy Sunday afternoons."
+ },
+ {
+  "name": "Kadhi Pakora",
+  "aliases": [
+   "kadhi pakoda",
+   "besan kadhi"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "crispy",
+   "fermented"
+  ],
+  "key_ingredients": [
+   "yogurt",
+   "gram flour",
+   "onion fritters",
+   "turmeric",
+   "mustard seeds",
+   "curry leaves"
+  ],
+  "clues": [
+   "A tangy, whisked yogurt-and-chickpea-flour sauce is simmered slow until it thickens, then studded with crisp little onion fritters dropped in just before serving.",
+   "The sauce is deliberately sour, often made with yogurt left a day or two past fresh, its tang balanced by a tempering of mustard seeds and curry leaves.",
+   "Those little fried dumplings soften as they soak, turning almost spongy while still holding a bit of their crunch at the core.",
+   "The tangy yogurt-gram-flour curry studded with crisp fried fritters, a Punjabi and Rajasthani comfort classic."
+  ],
+  "fact": "Kadhi Pakora varies by region, Punjabi versions are thick and mildly sweet-sour, while Rajasthani and Sindhi versions lean tangier and thinner."
+ },
+ {
+  "name": "Malai Kofta",
+  "aliases": [
+   "malai kofta curry"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "stuffed",
+   "sweet",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "cottage cheese",
+   "potato",
+   "cashew",
+   "raisins",
+   "cream",
+   "tomato"
+  ],
+  "clues": [
+   "Instead of plain cubes, the dairy-based centerpiece here is grated, mixed with mashed roots, and shaped into stuffed dumplings before hitting hot oil.",
+   "Inside each fried ball hides a small surprise, chopped nuts and dried fruit tucked into the center like a savory truffle.",
+   "The gravy that cradles them is deliberately extra-rich, its name literally translating to 'creamy,' thickened with cashew paste until velvety.",
+   "The deep-fried, nut-stuffed cheese-and-potato dumplings served in a rich, cashew-cream gravy."
+  ],
+  "fact": "Malai Kofta's dumplings are typically fried just before serving so they hold their shape, then bathed in gravy at the last minute to keep them from turning soggy."
+ },
+ {
+  "name": "Navratan Korma",
+  "aliases": [
+   "navratan korma curry",
+   "nine jewel korma"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "sweet",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "mixed vegetables",
+   "paneer",
+   "pineapple",
+   "cashew",
+   "cream",
+   "raisins"
+  ],
+  "clues": [
+   "A medley of a full dozen or so vegetables, fruits, and nuts is simmered together in a pale, creamy sauce meant to celebrate abundance rather than a single star ingredient.",
+   "Chunks of pineapple or grapes often sneak in alongside the vegetables, giving the whole pot an unexpected sweet note.",
+   "Its name references a mythic set of precious court gemstones, each ingredient historically standing in for one stone in that royal set.",
+   "The royal, nine-ingredient mixed vegetable-and-fruit curry named for a set of nine legendary jewels."
+  ],
+  "fact": "Navratan Korma's name references 'nauratna,' the nine gems said to have adorned Mughal emperor Akbar's court, with each ingredient symbolically standing in for one."
+ },
+ {
+  "name": "Mushroom Masala",
+  "aliases": [
+   "mushroom curry",
+   "khumb masala"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "saucy",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "mushroom",
+   "onion",
+   "tomato",
+   "ginger-garlic",
+   "garam masala",
+   "cream"
+  ],
+  "clues": [
+   "Meaty little fungi caps soak up a spiced onion-tomato gravy almost like a sponge, releasing their own earthy juices as they cook.",
+   "It's a favorite stand-in for meat curries among vegetarians craving something with a similarly dense, chewy bite.",
+   "Unlike leafy or root vegetables, this ingredient needs almost no prep beyond a wipe and a slice, cooking down fast once it hits the hot pan.",
+   "The earthy, spiced curry built around button fungi simmered in a North Indian tomato-onion gravy."
+  ],
+  "fact": "Mushroom Masala is popular among vegetarians partly because mushrooms' dense, chewy texture mimics meat more closely than most other vegetables."
+ },
+ {
+  "name": "Gatte Ki Sabzi",
+  "aliases": [
+   "gatte ki sabji",
+   "besan gatta curry"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "yogurt",
+   "turmeric",
+   "asafoetida",
+   "fenugreek seeds",
+   "red chili"
+  ],
+  "clues": [
+   "Firm little chickpea-flour dumplings are first poached whole in water until cooked through, then sliced into rounds and simmered again in a tangy yogurt gravy.",
+   "This dish hails from Rajasthan's arid Marwar region, born of a desert cuisine that historically had little fresh produce to work with.",
+   "Cooking the dumplings twice, boiled, then simmered, is what keeps them from falling apart in the sauce.",
+   "The Rajasthani chickpea-flour dumpling curry, boiled then simmered in a tangy spiced yogurt sauce."
+  ],
+  "fact": "Gatte Ki Sabzi is a signature dish of Rajasthan's desert Marwar region, developed to rely on shelf-stable gram flour rather than fresh vegetables scarce in that climate."
+ },
+ {
+  "name": "Lauki Kofta",
+  "aliases": [
+   "lauki kofta curry",
+   "bottle gourd kofta"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "bottle gourd",
+   "gram flour",
+   "tomato",
+   "cream",
+   "cumin",
+   "ginger"
+  ],
+  "clues": [
+   "A pale green squash, mostly water by weight, is grated, squeezed dry, and bound into little balls before frying, a real technical feat given how much liquid it holds.",
+   "Getting the moisture out just right is the whole challenge; too wet and the dumplings disintegrate the moment they hit the oil.",
+   "It's a clever way to make a famously bland, watery vegetable into something rich and dumpling-shaped, floated in a creamy tomato gravy.",
+   "The bottle gourd dumpling curry, a tricky fried-vegetable-ball dish that turns a watery squash rich and satisfying."
+  ],
+  "fact": "Lauki Kofta is considered a test of a cook's skill because bottle gourd's high water content makes the dumplings prone to falling apart unless properly drained first."
+ },
+ {
+  "name": "Aloo Matar",
+  "aliases": [
+   "aloo mutter",
+   "potato peas curry"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "potato",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "one_pot",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "potato",
+   "green peas",
+   "tomato",
+   "cumin",
+   "turmeric",
+   "ginger"
+  ],
+  "clues": [
+   "Cubed roots and sweet green legume-pods share a light, cumin-scented tomato gravy that's rarely fancy but always familiar.",
+   "It's a fixture of school lunchboxes and roadside dhabas alike, cheap enough to make daily and simple enough for a beginner cook.",
+   "The gravy here stays thin and brothy rather than thick, making it a natural match for soaking into flatbread.",
+   "The humble everyday curry pairing potato with green peas in a light tomato-cumin gravy."
+  ],
+  "fact": "Aloo Matar is one of the most economical curries in North Indian cooking, relying on just two cheap vegetables and pantry spices, which is why it's so ubiquitous."
+ },
+ {
+  "name": "Sarson Da Saag",
+  "aliases": [
+   "sarson ka saag",
+   "mustard greens curry"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "none",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "festive",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "mustard greens",
+   "spinach",
+   "corn flour",
+   "ginger",
+   "garlic",
+   "ghee"
+  ],
+  "clues": [
+   "A pungent winter leaf vegetable is slow-cooked for hours, mashed coarse, and thickened with a bit of corn flour until the whole pot turns a deep, glossy shade.",
+   "It's a strictly seasonal dish, traditionally made only in the coldest winter months when its signature leafy green is at its peak.",
+   "A generous dollop of white butter melting on top just before serving is considered non-negotiable by Punjabi households.",
+   "The slow-cooked Punjabi mustard-greens dish, classically paired with cornmeal flatbread and a knob of white butter."
+  ],
+  "fact": "Sarson Da Saag is traditionally eaten only in winter, paired with makki di roti (cornmeal flatbread), since fresh mustard greens are a cold-season crop in Punjab."
+ },
+ {
+  "name": "Garlic Naan",
+  "aliases": [
+   "garlic bread naan",
+   "lehsuni naan"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "yogurt",
+   "garlic",
+   "butter",
+   "yeast"
+  ],
+  "clues": [
+   "This tandoor-baked North Indian flatbread comes studded with a pungent, minced bulb worked right into the leavened dough or scattered over the top just before it hits the oven wall.",
+   "Cilantro often joins the aromatic topping, and a final brush of ghee locks in the flavor as it's pulled hot from the clay oven.",
+   "It's a savory riff on a classic leavened Punjabi bread, distinguished from its plain version purely by this one pungent addition.",
+   "The version of tandoor bread topped with crushed, pungent alliums and herbs, brushed with ghee straight from the oven wall."
+  ],
+  "fact": "Garlic naan became a diaspora favorite largely because it travels well - the aromatic hit stays potent even after the bread cools, unlike its more delicate buttered cousin."
+ },
+ {
+  "name": "Butter Naan",
+  "aliases": [
+   "makhani naan"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "yogurt",
+   "butter",
+   "yeast",
+   "milk"
+  ],
+  "clues": [
+   "This version of a classic leavened tandoor bread gets brushed with a generous, glistening coat of golden dairy fat the instant it's pulled from the oven.",
+   "It's richer and glossier than its plain cousin, often the first thing ordered alongside a creamy lentil or paneer curry.",
+   "No stuffing, no herbs - just a soft leavened dough getting an indulgent fat bath right after baking.",
+   "The rich, fat-glazed version of the leavened tandoor bread, glossy and soft straight off the oven wall."
+  ],
+  "fact": "In many Indian restaurants abroad, this became the default order whenever a menu simply said 'naan,' its glossy sheen making it instantly recognizable on a table."
+ },
+ {
+  "name": "Tandoori Roti",
+  "aliases": [
+   "tandoori chapati"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "water",
+   "salt",
+   "ghee"
+  ],
+  "clues": [
+   "Whole wheat dough, unleavened and simple, gets slapped onto the scorching inner wall of a clay oven until it puffs and chars at the edges.",
+   "Unlike its leavened, restaurant-glossy cousin, this one skips yeast and yogurt entirely - just flour, water, and salt.",
+   "It's the everyday, healthier counterpart served in Punjabi dhabas, valued for its rustic char and whole-grain bite.",
+   "The clay-oven baked whole wheat bread, unleavened and simply flavored, the everyday alternative to naan."
+  ],
+  "fact": "Because it uses only whole wheat and no enriching yogurt or refined flour, this bread is often the default order for anyone trying to eat lighter at an Indian restaurant."
+ },
+ {
+  "name": "Rumali Roti",
+  "aliases": [
+   "handkerchief bread",
+   "rumali chapati"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "whole wheat flour",
+   "water",
+   "salt"
+  ],
+  "clues": [
+   "Stretched and tossed by hand until it's nearly translucent, this flatbread is cooked in mere seconds on the outside of an inverted, dome-shaped griddle over an open flame.",
+   "It ends up so thin and pliable that it's traditionally folded into a soft square, almost like a piece of cloth, before being served.",
+   "Popular at Mughlai kebab houses, it's prized for wrapping around skewered meats rather than standing on its own.",
+   "Named for its cloth-like thinness, this paper-thin wheat flatbread is folded like a handkerchief before serving."
+  ],
+  "fact": "Skilled cooks can spin and stretch the dough so thin that a single piece weighs only a few grams, cooking in under 15 seconds per side."
+ },
+ {
+  "name": "Plain Paratha",
+  "aliases": [
+   "sada paratha",
+   "plain parantha"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "layered"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "ghee",
+   "water",
+   "salt"
+  ],
+  "clues": [
+   "A whole wheat dough is rolled out, brushed with fat, folded onto itself several times, then rolled flat again before hitting a hot griddle.",
+   "The folding-and-rolling technique creates thin, flaky layers that separate when you tear the cooked bread apart.",
+   "It carries no filling and no fancy lamination flourishes - just the basic layered technique that defines a whole family of Indian flatbreads.",
+   "The unstuffed, everyday version of a layered, pan-fried whole wheat flatbread."
+  ],
+  "fact": "The folding technique used here is the base skill that later gets showpiece treatment in fan-like, multi-layered variants sold at street stalls."
+ },
+ {
+  "name": "Gobi Paratha",
+  "aliases": [
+   "cauliflower paratha"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "cauliflower",
+   "green chili",
+   "ghee",
+   "spices"
+  ],
+  "clues": [
+   "Grated and squeezed-dry vegetable, laced with green chili and spice, gets packed inside a wheat dough before it's rolled flat and griddle-cooked in ghee.",
+   "The stuffing is a pale, crumbly vegetable that must be well-drained first, or the dough tears apart while rolling.",
+   "It's a favorite winter breakfast in North India, when this particular vegetable is at its freshest and most fragrant.",
+   "The cauliflower-stuffed cousin of the classic layered wheat flatbread."
+  ],
+  "fact": "Cooks swear by squeezing out every drop of moisture from the grated vegetable, since excess water is the single biggest reason this stuffed bread rips during rolling."
+ },
+ {
+  "name": "Paneer Paratha",
+  "aliases": [
+   "cheese paratha"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "stuffed",
+   "dairy",
+   "cheese"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "paneer",
+   "green chili",
+   "cumin",
+   "ghee"
+  ],
+  "clues": [
+   "A crumbled, fresh Indian cheese is seasoned with green chili and spice, then sealed inside wheat dough before it's rolled and cooked golden on a griddle.",
+   "Because the filling is a soft, moisture-rich cheese rather than a vegetable, the dough needs extra care to seal shut without tearing or leaking.",
+   "It's a protein-rich breakfast staple, usually served with a dollop of butter, yogurt, and pickle on the side.",
+   "The fresh-cheese-stuffed version of the classic layered wheat flatbread."
+  ],
+  "fact": "The fresh cheese used here is unaged and doesn't melt like Western cheeses, which is exactly why it holds its shape as a stuffing instead of oozing out."
+ },
+ {
+  "name": "Lachha Paratha",
+  "aliases": [
+   "laccha paratha",
+   "lachedar paratha"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "layered",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "ghee",
+   "water",
+   "salt"
+  ],
+  "clues": [
+   "Dough is rolled thin, brushed with fat, then coiled into a tight spiral before being flattened and cooked - a technique built purely to multiply layers.",
+   "Once fried, you can pull it apart strand by strand, revealing dozens of thin, crisp-edged coils rather than just a couple of folds.",
+   "It's the showpiece, restaurant-menu version of a layered flatbread family, prized for its visible spiral pattern and crackly texture.",
+   "The multi-layered, spiral-coiled version of the classic pan-fried wheat flatbread, pulled apart strand by strand."
+  ],
+  "fact": "The name of this bread literally references its 'strands,' a nod to the way its many layers unravel like threads when torn apart."
+ },
+ {
+  "name": "Puri",
+  "aliases": [
+   "Poori"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "festive",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "oil",
+   "water",
+   "salt"
+  ],
+  "clues": [
+   "A small disc of unleavened wheat dough is dropped into hot oil, where it puffs up into a hollow, golden balloon within seconds.",
+   "It deflates almost as soon as it's poked, which is exactly the fun of eating it fresh off the stove.",
+   "It's a festival and Sunday-breakfast staple across North India, often paired with a spiced potato curry.",
+   "The deep-fried, puffed-up wheat bread also called Poori."
+  ],
+  "fact": "The dramatic puff comes from steam trapped inside the sealed dough disc expanding rapidly the instant it hits hot oil."
+ },
+ {
+  "name": "Bhatura",
+  "aliases": [
+   "bhatoora",
+   "batura"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "street_food",
+   "festive"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "yogurt",
+   "baking soda",
+   "oil"
+  ],
+  "clues": [
+   "A leavened dough made with yogurt and a raising agent is deep-fried into a large, pillowy, golden puff.",
+   "Bigger and softer than its unleavened, festival-day cousin, this one relies on fermentation or baking soda for its billowy rise.",
+   "It's inseparable in Delhi food culture from a spicy chickpea curry, together forming one of Punjab's most famous breakfast combos.",
+   "The soft, leavened, deep-fried bread that partners chole in North India's favorite breakfast pairing."
+  ],
+  "fact": "Street vendors in Old Delhi have built entire reputations on the size and softness of this single fried bread, some frying discs as big as a dinner plate."
+ },
+ {
+  "name": "Kulcha",
+  "aliases": [
+   "kulcha bread"
+  ],
+  "cuisine": "Amritsari",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "yogurt",
+   "baking soda",
+   "butter"
+  ],
+  "clues": [
+   "A soft, leavened dough - lightly fermented with yogurt and baking soda rather than yeast - gets baked in a clay oven or on a hot griddle.",
+   "It's a close relative of a more famous tandoor-baked bread, but denser and slightly tangier from its yogurt-based leavening.",
+   "Often plain, though it also comes stuffed with potato or cheese, it's a specialty most associated with the streets of a famous Punjabi city.",
+   "The plain, yogurt-leavened version of Punjab's tandoor-baked bread family, distinct from its stuffed regional cousins."
+  ],
+  "fact": "In Punjab this bread's yogurt-based leavening tradition is considered older than the now-globally-famous tandoor bread it's often compared to."
+ },
+ {
+  "name": "Amritsari Kulcha",
+  "aliases": [
+   "aloo kulcha",
+   "amritsari stuffed kulcha"
+  ],
+  "cuisine": "Amritsari",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "baked",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "stuffed",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "potato",
+   "onion",
+   "spices",
+   "butter"
+  ],
+  "clues": [
+   "A city famous for its food culture lends its name to this stuffed, tandoor-baked bread, packed with spiced mashed potato and onion.",
+   "It's rolled out with the filling sealed inside, then baked in a clay oven until the crust turns golden and slightly crisp.",
+   "Sold at dedicated stalls that do nothing else all day, it's typically topped with a pat of butter and served alongside a spicy chickpea curry.",
+   "The potato-stuffed, tandoor-baked bread named after Amritsar, the Punjabi city where it originated."
+  ],
+  "fact": "The city that lends this bread its name is also home to the Golden Temple, whose community kitchen feeds tens of thousands with a completely different, unleavened flatbread."
+ },
+ {
+  "name": "Thepla",
+  "aliases": [
+   "methi thepla"
+  ],
+  "cuisine": "Gujarati",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "spicy",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "whole wheat flour",
+   "fenugreek leaves",
+   "yogurt",
+   "spices",
+   "oil"
+  ],
+  "clues": [
+   "Bitter, aromatic greens are kneaded straight into a spiced wheat dough, then rolled thin and cooked on a griddle with just a touch of oil.",
+   "Yogurt in the dough keeps it soft for days, which is exactly why this bread became the go-to travel food for long train journeys across India.",
+   "A Gujarati specialty, it's often rolled up around a spoonful of pickle or a smear of yogurt and eaten by hand.",
+   "The fenugreek-spiked, travel-friendly flatbread of Gujarat, kept soft for days thanks to yogurt in the dough."
+  ],
+  "fact": "Its keeping quality is legendary among Gujarati families, who traditionally pack stacks of it for multi-day train trips since it stays soft and edible for nearly a week without refrigeration."
+ },
+ {
+  "name": "Bhakri",
+  "aliases": [
+   "bhakhri"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "sorghum flour",
+   "millet flour",
+   "water",
+   "salt"
+  ],
+  "clues": [
+   "A coarse, gluten-free grain flour - usually sorghum or pearl millet - is kneaded with just water and salt, then patted out by hand instead of rolled with a pin.",
+   "It's thicker and denser than a standard wheat flatbread, often finished by holding it directly over an open flame until it chars and puffs slightly.",
+   "A rustic Maharashtrian and Gujarati staple, it's traditionally paired with a dab of ghee, jaggery, or a fiery chutney.",
+   "The hand-patted, millet-or-sorghum flatbread of western India, thicker and earthier than wheat rotis."
+  ],
+  "fact": "Because sorghum and millet doughs lack gluten, this bread is patted out entirely by hand rather than rolled, giving it a characteristically thick, rustic shape."
+ },
+ {
+  "name": "Makki Di Roti",
+  "aliases": [
+   "makka di roti",
+   "corn flour roti",
+   "maize roti"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "corn",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "corn flour",
+   "water",
+   "salt",
+   "ghee"
+  ],
+  "clues": [
+   "A gluten-free meal ground from a golden grain is patted flat by hand - never rolled with a pin - then cooked slowly on a griddle with ghee.",
+   "It's the classic winter partner to a slow-cooked mustard greens dish, together forming Punjab's most iconic seasonal meal.",
+   "Because the ground grain has no gluten to hold it together, cooks often pat it directly on the hot griddle itself rather than shaping it beforehand.",
+   "The corn flour flatbread of Punjab, traditionally eaten with a mustard greens curry in winter."
+  ],
+  "fact": "This bread and its mustard-greens curry partner are so inseparable in Punjabi culture that the pairing has its own dedicated name, sarson da saag te makki di roti."
+ },
+ {
+  "name": "Missi Roti",
+  "aliases": [
+   "missi chapati",
+   "besan roti"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "bread_based",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "whole wheat flour",
+   "onion",
+   "spices",
+   "ajwain"
+  ],
+  "clues": [
+   "Wheat flour is blended with a nutty, protein-rich legume flour, along with chopped onion, chili, and carom seeds, before being rolled and griddle-cooked.",
+   "The added legume flour makes the dough coarser and more crumbly than a pure wheat one, so it needs a more careful, gentler roll.",
+   "A specialty of Punjab and Rajasthan, it's dense enough to be a filling meal on its own with just a dollop of butter or pickle.",
+   "The gram-flour-and-wheat blended flatbread, studded with onion and spice, popular across Punjab and Rajasthan."
+  ],
+  "fact": "Blending chickpea flour with wheat wasn't just about flavor - it historically made this bread more nutritious and filling for laborers who needed sustained energy."
+ },
+ {
+  "name": "Pathiri",
+  "aliases": [
+   "ari pathiri",
+   "rice pathiri"
+  ],
+  "cuisine": "Kerala",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 5,
+  "flags": [
+   "vegetarian",
+   "bread_based"
+  ],
+  "key_ingredients": [
+   "rice flour",
+   "water",
+   "salt",
+   "oil"
+  ],
+  "clues": [
+   "Made entirely from rice flour rather than wheat, this soft, thin flatbread comes from the Malabar coast's Muslim culinary tradition.",
+   "The rice flour is scalded with boiling water first, then kneaded and rolled - a technique that keeps it pliable despite having no gluten.",
+   "It's the traditional partner to rich meat or fish curries during Kerala's Mappila feasts and Ramadan iftars.",
+   "The soft rice-flour flatbread of Kerala's Mappila Muslim cuisine, cooked without oil on a hot griddle."
+  ],
+  "fact": "This rice bread also has a sweet variant, made with coconut and jaggery and steamed inside little bamboo or banana-leaf molds, quite different from its savory, griddle-cooked everyday form."
+ },
+ {
+  "name": "Kachori",
+  "aliases": [
+   "kachauri",
+   "kachodi"
+  ],
+  "cuisine": "North Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "handheld",
+   "crispy",
+   "stuffed",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "refined flour",
+   "moong dal",
+   "fennel seeds",
+   "asafoetida",
+   "ginger",
+   "red chilli"
+  ],
+  "clues": [
+   "A ball of plain dough is stuffed with a spiced, coarsely ground lentil filling, sealed, and fried low and slow until it puffs into a flaky golden sphere.",
+   "Rajasthani and Uttar Pradesh breakfast stalls fry these before dawn, then split them open and ladle a spicy potato curry over the top for a full meal.",
+   "Unlike its triangular, potato-stuffed cousin, this round snack hides its filling entirely inside the dough rather than folding pastry around it.",
+   "Order it split open and drowned in spiced potato curry at a north Indian breakfast counter, and you're eating this lentil-stuffed fried ball, sometimes spelled 'kachauri'."
+  ],
+  "fact": "Kachori is believed to have originated among Marwari traders in Rajasthan, who needed a filling, long-lasting snack for long trade journeys across the desert."
+ },
+ {
+  "name": "Aloo Tikki",
+  "aliases": [
+   "tikki",
+   "potato tikki",
+   "aloo ki tikki"
+  ],
+  "cuisine": "North Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "potato",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "handheld",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "potato",
+   "green peas",
+   "cumin",
+   "ginger",
+   "cornflour",
+   "coriander"
+  ],
+  "clues": [
+   "Mashed potato is spiced, shaped into a flat patty, and shallow-fried on a griddle until both faces turn deep golden and crisp.",
+   "Street vendors often split it open and pile on yogurt, tamarind sauce, and chickpea curry, turning a simple patty into a full chaat plate.",
+   "It's a fixture of Delhi's winter street corners, sold hot off a flat griddle with a smear of green and tamarind sauce.",
+   "This shallow-fried potato patty, often topped with chutneys and yogurt as a chaat, is one of India's most iconic snacks."
+  ],
+  "fact": "Aloo Tikki became so popular in London's Indian food scene that it's now sold as a standalone burger patty inside a bun at some UK chains."
+ },
+ {
+  "name": "Sev Puri",
+  "aliases": [
+   "sev batata puri"
+  ],
+  "cuisine": "Mumbai street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "crispy",
+   "saucy",
+   "sweet",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "crisp wheat discs",
+   "potato",
+   "onion",
+   "tamarind chutney",
+   "green chutney",
+   "gram flour noodles"
+  ],
+  "clues": [
+   "Bite-sized crisp wheat discs are arranged on a plate and piled high with mashed potato, chopped onion, and a trio of tangy-sweet sauces.",
+   "Unlike its yogurt-drenched cousins, this Mumbai favorite skips the curd entirely, relying instead on a thick blanket of crunchy chickpea-flour strands for texture.",
+   "Fast to assemble and eaten standing at a cart, it's built to be crunched immediately before the toppings turn the crisp bases soft.",
+   "Flat crisp discs topped with potato, onion, chutneys, and a shower of crunchy besan strands — the dry, crunchy member of Mumbai's chaat family, no yogurt required."
+  ],
+  "fact": "Sev Puri is thought to have evolved from the pani puri cart culture of 1930s Bombay, when vendors began topping puris with dry ingredients instead of spiced water."
+ },
+ {
+  "name": "Dahi Puri",
+  "aliases": [
+   "dahi batata puri"
+  ],
+  "cuisine": "Mumbai street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "dairy",
+   "sweet",
+   "crispy",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "puffed semolina shells",
+   "yogurt",
+   "potato",
+   "tamarind chutney",
+   "mint chutney",
+   "sev"
+  ],
+  "clues": [
+   "Small hollow, puffed shells are cracked open, stuffed with diced potato, and then flooded with whisked, chilled curd before a drizzle of sweet and green sauces.",
+   "It's essentially a chilled, creamy cousin of a popular water-filled shell snack, except this one gets filled with tangy dairy instead of spiced water.",
+   "Meant to be popped whole into the mouth in a single bite, so the crisp shell shatters just as the cool, tangy filling hits the tongue.",
+   "Whole hollow shells stuffed with potato and drowned in whisked curd, sweet tamarind, and coriander chutney — the coolest, creamiest member of the chaat family."
+  ],
+  "fact": "Dahi Puri is often called the 'raita of chaats' because its whisked yogurt component is meant to cool the palate between spicier street bites."
+ },
+ {
+  "name": "Papdi Chaat",
+  "aliases": [
+   "papri chaat"
+  ],
+  "cuisine": "North Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "wheat",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "dairy",
+   "crispy",
+   "saucy",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "crisp wheat crackers",
+   "potato",
+   "chickpeas",
+   "yogurt",
+   "tamarind chutney",
+   "sev"
+  ],
+  "clues": [
+   "Flat, crisp fried crackers form the base, layered with boiled potato cubes, whole chickpeas, whisked curd, and two contrasting chutneys.",
+   "It sits between its drier, noodle-topped cousin and its curd-drenched, hollow-shelled cousin, combining a flat crunchy base with a generous ladle of yogurt.",
+   "The base cracker is round and slightly domed, meant to hold its toppings without collapsing, unlike the fully hollow puffed shells used elsewhere in the same family.",
+   "A plate of flat, crisp wheat crackers loaded with potato, chickpeas, yogurt, and chutney — a North Indian teatime classic also spelled 'papri'."
+  ],
+  "fact": "Papdi Chaat is traditionally eaten during Delhi's winter months, when boiled potatoes and fresh yogurt are at their seasonal best."
+ },
+ {
+  "name": "Aloo Chaat",
+  "aliases": [
+   "potato chaat"
+  ],
+  "cuisine": "North Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "potato",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "spicy",
+   "crispy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "potato",
+   "chaat masala",
+   "tamarind chutney",
+   "green chutney",
+   "cumin",
+   "black salt"
+  ],
+  "clues": [
+   "Cubes of potato are deep-fried until the edges crisp, then tossed hot in a tangy, dark spice blend with a smoky black-salt kick.",
+   "There's no cracker, no puffed shell, no lentil batter here — just the fried vegetable itself, dressed with chutneys, standing on its own texture alone.",
+   "Vendors toss the just-fried cubes with chutneys in a battered pan right before handing over the plate, so it's eaten nearly sizzling hot.",
+   "Crisp-fried potato cubes tossed in a tangy, smoky spice blend and chutneys, served hot with no crackers or shells involved — the simplest of that whole snack lineup."
+  ],
+  "fact": "Aloo Chaat is a favorite during Hindu fasting periods in some regions, since it can be made with rock salt and no grains at all."
+ },
+ {
+  "name": "Samosa Chaat",
+  "aliases": [
+   "samosa chat"
+  ],
+  "cuisine": "North Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "potato",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "saucy",
+   "spicy",
+   "crispy",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "fried pastry",
+   "potato filling",
+   "chickpea curry",
+   "yogurt",
+   "tamarind chutney",
+   "sev"
+  ],
+  "clues": [
+   "A crisp, triangular deep-fried pastry is broken up on a plate rather than eaten whole, then buried under a ladle of spiced chickpea curry.",
+   "It repurposes a beloved standalone teatime pastry as a mere base layer, smothered in yogurt and two chutneys the way a flat cracker base normally would be.",
+   "Best made with day-old pastries that have gone slightly soft, since a fresh crisp one only gets crushed under the toppings anyway.",
+   "A crushed, deep-fried potato pastry buried under chickpea curry, yogurt, and chutneys — the fully loaded, knife-and-fork answer to the crisp pastry it borrows from."
+  ],
+  "fact": "Samosa Chaat turns leftover or slightly stale samosas into a fresh dish, making it a practical invention as much as a flavorful one."
+ },
+ {
+  "name": "Pakora",
+  "aliases": [
+   "bhajiya",
+   "bhaji",
+   "pakoda"
+  ],
+  "cuisine": "Indian street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "potato",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "crispy",
+   "spicy",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "mixed vegetables",
+   "carom seeds",
+   "turmeric",
+   "green chilli",
+   "rice flour"
+  ],
+  "clues": [
+   "Vegetables are dipped in a spiced gram-flour batter and dropped into hot oil until the coating turns craggy and golden.",
+   "It's the rain-day snack of the subcontinent, sold hot from roadside carts the moment monsoon clouds gather, paired with tea.",
+   "Nearly anything can go into the batter — sliced onion, potato rounds, spinach leaves, even chili peppers — making it one of the most flexible fried snacks around.",
+   "Vegetables dunked in seasoned chickpea-flour batter and deep-fried until craggy and golden, also called 'bhajiya' — the umbrella term for nearly every besan-battered Indian fritter."
+  ],
+  "fact": "Pakora sales famously spike across India the moment monsoon rains begin, giving rise to the popular phrase 'pakora weather'."
+ },
+ {
+  "name": "Onion Bhaji",
+  "aliases": [
+   "kanda bhaji",
+   "onion pakora",
+   "onion fritters"
+  ],
+  "cuisine": "Gujarati street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "crispy",
+   "spicy",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "sliced onion",
+   "gram flour",
+   "rice flour",
+   "turmeric",
+   "green chilli",
+   "coriander leaves"
+  ],
+  "clues": [
+   "Thin half-moons of a single pungent vegetable are tossed in a well-spiced gram-flour batter, just enough to bind them, then dropped into hot oil as loose clusters rather than smooth rounds.",
+   "Unlike its mixed-vegetable relative, this one uses only one ingredient, sliced thin so hot oil finds every gap and turns the edges lacy and crackling-crisp.",
+   "British curry houses adopted this Gujarati teatime fritter so thoroughly that outside India it's now often assumed to be a starter from a restaurant menu rather than a home-fried snack.",
+   "A tangle of thin-sliced allium bound in spiced gram-flour batter and deep-fried into a lacy, crackling cluster, known in Marathi and Gujarati kitchens by another regional name entirely."
+  ],
+  "fact": "Onion Bhaji became a curry-house staple in the UK, evolving into a denser, ball-shaped starter quite different from the looser, lacier original served in Gujarat."
+ },
+ {
+  "name": "Mirchi Bada",
+  "aliases": [
+   "mirchi vada",
+   "mirch bada",
+   "chilli bada"
+  ],
+  "cuisine": "Rajasthani street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "none",
+  "carb": "potato",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "street_food",
+   "spicy",
+   "crispy",
+   "stuffed",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "large green chilli",
+   "potato filling",
+   "gram flour batter",
+   "fennel",
+   "mango powder",
+   "ajwain"
+  ],
+  "clues": [
+   "A large, mild green pepper is slit open, packed with a tangy spiced potato filling, then dipped whole in gram-flour batter and deep-fried.",
+   "Jodhpur is the undisputed capital of this snack, where certain roadside stalls have built decades-long reputations on this single fried item alone.",
+   "The pepper variety chosen is bred to be long, thick-walled, and far milder than its fiery cousins, so the heat mostly comes from the filling, not the pod.",
+   "A whole mild pepper stuffed with spiced potato, battered in chickpea flour, and deep-fried — a beloved Rajasthani street specialty found at nearly every fritter stall."
+  ],
+  "fact": "Mirchi Bada is so central to Jodhpur's food identity that several stalls in the city have served only this single item, unchanged, for over 50 years."
+ },
+ {
+  "name": "Khandvi",
+  "aliases": [
+   "khandavi",
+   "suralichi wadi"
+  ],
+  "cuisine": "Gujarati",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "legume",
+  "carb": "none",
+  "method": "steamed",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "gram flour",
+   "yogurt",
+   "mustard seeds",
+   "curry leaves",
+   "coconut",
+   "green chilli"
+  ],
+  "clues": [
+   "A thin batter of tangy gram flour and buttermilk is cooked into a paste, spread wafer-thin on a flat surface, then rolled into tight little logs once set.",
+   "Achieving the right texture is famously fussy — undercook the batter and the rolls crack, overcook it and they refuse to peel off the surface at all.",
+   "Bright yellow, bite-sized coils are finished with a sizzling tempering of mustard seeds and curry leaves, then topped with grated coconut.",
+   "Wafer-thin gram-flour and yogurt batter rolled into tight yellow coils and topped with a mustard-seed tempering — a Gujarati snack demanding real technique to get right, sometimes called 'suralichi wadi' in Maharashtra."
+  ],
+  "fact": "Khandvi's name comes from the Gujarati word for a peg or hinge, referencing the thin rolled shape of each individual piece."
+ },
+ {
+  "name": "Kathi Roll",
+  "aliases": [
+   "kati roll",
+   "kolkata roll"
+  ],
+  "cuisine": "Kolkata street food",
+  "region": "South Asia",
+  "country": "India",
+  "course": "snack",
+  "protein": "mixed",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "street_food",
+   "handheld",
+   "egg_based",
+   "spicy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "paratha",
+   "egg",
+   "skewer-grilled meat",
+   "onion",
+   "chutney",
+   "lemon"
+  ],
+  "clues": [
+   "A flaky, layered flatbread is cracked with egg right on the griddle, then wrapped tightly around skewer-charred filling and rolled up in paper for eating on the move.",
+   "It began outside a colonial-era eastern Indian restaurant when English customers wanted their skewer-grilled meat without cutlery, so the cooks wrapped it in flatbread instead.",
+   "Its name comes from the metal skewer originally used to char the meat inside a coal-fired oven, a word that stuck even after the skewer left the recipe.",
+   "Skewer-charred meat and egg wrapped inside a flaky griddle-fried flatbread, rolled tight for eating with one hand — a Kolkata invention that spread across the subcontinent's street stalls."
+  ],
+  "fact": "Kathi Roll was invented at Kolkata's Nizam's restaurant in the 1930s to let British customers eat skewer-grilled kebabs without cutlery."
+ },
+ {
+  "name": "Chicken Tikka",
+  "aliases": [
+   "chicken tikka kebab"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "smoky",
+   "handheld",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "yogurt",
+   "ginger-garlic paste",
+   "red chilli powder",
+   "garam masala",
+   "lemon"
+  ],
+  "clues": [
+   "Boneless meat chunks are marinated overnight in a spiced yogurt paste, then skewered and cooked in a blistering clay oven until charred at the edges.",
+   "It's often the meat used to build a famous curry that some say was invented in Britain when a cook doused the dry grilled pieces in tomato-cream sauce.",
+   "The red-orange hue on the outside is largely down to food coloring or Kashmiri chilli powder, not the fire itself, which just supplies the smoky char.",
+   "Yogurt-marinated boneless chicken chunks skewered and charred in a clay oven — the smoky base meat behind Britain's beloved tomato-cream curry named after this very preparation."
+  ],
+  "fact": "Chicken Tikka is the direct ancestor of chicken tikka masala, a dish whose invention is claimed by several British-Indian restaurants and even debated in the UK Parliament."
+ },
+ {
+  "name": "Seekh Kebab",
+  "aliases": [
+   "seekh kabab",
+   "sikh kebab"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "grilled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "smoky",
+   "handheld",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "minced lamb",
+   "onion",
+   "ginger-garlic paste",
+   "garam masala",
+   "green chilli",
+   "coriander"
+  ],
+  "clues": [
+   "Finely minced meat is hand-mixed with spices and raw onion, then molded by hand around a flat metal skewer and roasted over open coals.",
+   "The flat shape of the skewer isn't decorative — it stops the soft minced meat from slipping around and spinning uselessly while it grills.",
+   "Getting the meat to cling to the skewer without a binder like egg or breadcrumbs takes practiced hands, which is why it's traditionally a specialist's job at a grill counter.",
+   "Spiced minced meat hand-pressed onto flat skewers and roasted over coals until charred — a Mughlai-era classic whose name literally refers to the skewer it's cooked on."
+  ],
+  "fact": "Seekh Kebab takes its name from the Persian and Urdu word for 'skewer,' reflecting its Mughal-era Central Asian origins."
+ },
+ {
+  "name": "Hara Bhara Kebab",
+  "aliases": [
+   "hara bhara tikki"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "legume",
+  "carb": "potato",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "crispy",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "spinach",
+   "green peas",
+   "potato",
+   "coriander",
+   "ginger",
+   "chaat masala"
+  ],
+  "clues": [
+   "Blanched leafy greens and sweet green legumes are mashed together with boiled root vegetable, shaped into patties, and shallow-fried to a deep emerald crust.",
+   "It was created as a vegetarian answer to a minced-meat grilled patty, matching its shape and spice profile using only garden vegetables.",
+   "The vivid green color comes entirely from the vegetables themselves, no food coloring involved, which fades slightly once the crust turns golden-brown in the pan.",
+   "A vegetarian patty of mashed spinach, peas, and potato pan-fried to a green-flecked crust — literally translating to 'green and full', standing in for a minced-meat grilled skewer."
+  ],
+  "fact": "Hara Bhara Kebab was reportedly created as a vegetarian menu addition at a hotel restaurant to give plant-based diners their own version of a grilled kebab."
+ },
+ {
+  "name": "Medu Vada",
+  "aliases": [
+   "medu wada",
+   "uddina vada",
+   "ulundu vadai"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "legume",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "crispy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "urad dal",
+   "black pepper",
+   "curry leaves",
+   "ginger",
+   "green chilli",
+   "asafoetida"
+  ],
+  "clues": [
+   "A thick batter of ground split black lentils is whipped until airy, shaped by hand into a ring with a hole punched in the center, then fried until deep golden.",
+   "The center hole isn't decorative — it lets the hot oil reach the middle so the whole shape fries evenly instead of staying doughy in the core.",
+   "Served with a bowl of steamed lentil-and-vegetable stew and coconut chutney, it's the savory, doughnut-shaped anchor of a South Indian breakfast plate.",
+   "A doughnut-shaped, deep-fried lentil fritter with a crisp shell and fluffy interior, served alongside sambar and coconut chutney — South India's classic savory ring."
+  ],
+  "fact": "Medu Vada's dough is traditionally whipped by hand for several minutes without a mixer, since incorporating air is what gives the fritter its light, fluffy center."
+ },
+ {
+  "name": "Rava Dosa",
+  "aliases": [
+   "rawa dosa",
+   "instant dosa",
+   "semolina dosa"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "semolina",
+   "rice flour",
+   "buttermilk",
+   "cumin",
+   "green chilli",
+   "onion"
+  ],
+  "clues": [
+   "A thin, watery batter of coarsely milled wheat, rice flour, and a little all-purpose flour is poured onto a hot griddle in a lacy, web-like pattern rather than spread thick.",
+   "No fermentation is needed here — mix the batter and cook it within the hour, unlike the overnight-fermented crepe it's often confused with.",
+   "The holes in the lattice aren't a mistake; a thinner, more watery batter is prized because it produces a crisper, more delicate crepe with visible gaps.",
+   "A lacy, see-through crepe made from an unfermented semolina-and-rice batter, cooked thin and crisp on a griddle — the quick-fix cousin of the classic South Indian crepe, no overnight soak required."
+  ],
+  "fact": "Rava Dosa was popularized in South Indian restaurants as a faster alternative to the traditional dosa, since its batter needs no overnight fermentation."
+ },
+ {
+  "name": "Uttapam",
+  "aliases": [
+   "uthappam",
+   "oothappam"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "fermented",
+   "crispy"
+  ],
+  "key_ingredients": [
+   "rice",
+   "urad dal",
+   "onion",
+   "tomato",
+   "green chilli",
+   "coriander"
+  ],
+  "clues": [
+   "The same overnight-fermented rice-and-lentil batter used for a paper-thin South Indian crepe is instead poured thick and left un-spread on the griddle.",
+   "Chopped onion, tomato, and chilli are scattered onto the batter's wet surface while it's still raw, so the toppings cook fused into the pancake rather than sitting on top.",
+   "Thicker and spongier than its crisp, thin-crepe relative, it's closer in texture to a savory, fermented pancake than to a delicate wrap.",
+   "A thick, fermented rice-and-lentil pancake studded with onion and tomato cooked right into the batter — the spongy, topping-loaded relative of the classic South Indian crepe, also spelled 'uthappam'."
+  ],
+  "fact": "Uttapam shares its batter with idli and dosa, making it the thick, topping-loaded member of the same fermented rice-and-lentil family."
+ },
+ {
+  "name": "Upma",
+  "aliases": [
+   "uppuma",
+   "rava upma",
+   "uppittu"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "semolina",
+   "mustard seeds",
+   "curry leaves",
+   "urad dal",
+   "green chilli",
+   "onion"
+  ],
+  "clues": [
+   "Coarse wheat granules are first dry-roasted in a pan until fragrant, then simmered with hot water and a tempering of mustard seeds until they swell into a soft, grainy porridge.",
+   "There's no batter, no fermentation, and no griddle involved — it's a one-pot, spoon-eaten breakfast rather than anything poured or spread flat.",
+   "It's the dish parents make when the fridge is nearly empty, since it needs almost nothing beyond the roasted grain, water, and a quick tempering.",
+   "A savory porridge of dry-roasted semolina simmered with mustard seeds and curry leaves until soft and grainy — South India's humble, no-fuss breakfast staple."
+  ],
+  "fact": "Upma is sometimes jokingly called the dish every South Indian child is served when there's nothing else in the kitchen, thanks to its minimal ingredient list."
+ },
+ {
+  "name": "Kanda Poha",
+  "aliases": [
+   "poha",
+   "batata poha",
+   "kanda batata poha"
+  ],
+  "cuisine": "Maharashtrian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "none",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "one_pot",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "flattened rice",
+   "onion",
+   "turmeric",
+   "peanuts",
+   "mustard seeds",
+   "curry leaves"
+  ],
+  "clues": [
+   "Flattened, pressed grains of rice are rinsed briefly until soft, then tossed in a hot pan with a mustard-seed tempering, turmeric, and a generous handful of onion.",
+   "It needs no boiling at all — the rice was already parboiled and pressed flat at the mill, so a quick rinse is enough to soften it before the pan.",
+   "Maharashtra's most common breakfast, sold from carts with a squeeze of lime and a scatter of roasted peanuts and pomegranate seeds on top.",
+   "Turmeric-tinted flattened rice stir-fried with onion, peanuts, and a mustard-seed tempering — Maharashtra's everyday breakfast, often just called by the rice's own name alone."
+  ],
+  "fact": "Kanda Poha is so beloved in Maharashtra that it's traditionally served to a prospective groom during arranged-marriage introduction meetings, giving rise to the phrase 'poha ceremony'."
+ },
+ {
+  "name": "Rasmalai",
+  "aliases": [
+   "ras malai",
+   "rossomalai"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "fresh cheese discs",
+   "whole milk",
+   "sugar",
+   "cardamom",
+   "saffron",
+   "pistachio"
+  ],
+  "clues": [
+   "Flattened disks of fresh cheese are cooked briefly, then bathed in a chilled, sweetened milk sauce scented with saffron and cardamom.",
+   "It has a spongy, delicate texture from being poached in sugar syrup before ever meeting the milk it's finally served in.",
+   "Often garnished with pistachio slivers, it's eaten from a small bowl with a spoon since the disks sit swimming in liquid.",
+   "Flattened cheese discs afloat in chilled, saffron-scented milk — the name literally translates to 'juice' and 'cream.'"
+  ],
+  "fact": "Rasmalai is essentially a deconstructed rasgulla — the same spongy cheese balls, flattened and set adrift in thickened milk instead of syrup."
+ },
+ {
+  "name": "Imarti",
+  "aliases": [
+   "amriti",
+   "jhangri",
+   "imarati"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "legume",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "festive",
+   "crispy",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "urad dal",
+   "sugar syrup",
+   "saffron",
+   "ghee",
+   "orange food coloring"
+  ],
+  "clues": [
+   "A batter ground from skinned black gram is piped into interlocking rounded loops, resembling a blossom, then fried until crisp.",
+   "Straight from the hot oil it plunges into thin sugar syrup, staying crunchy on the outside while soaking up sweetness within.",
+   "Its deep amber-orange hue historically came from saffron or safflower, setting it apart from its more famous wheat-batter cousin.",
+   "The lentil-batter, flower-coiled cousin of jalebi, fried and syrup-dipped."
+  ],
+  "fact": "Imarti is made from urad dal batter rather than the wheat-flour batter used for jalebi, giving it a denser, less crackly crunch."
+ },
+ {
+  "name": "Kaju Katli",
+  "aliases": [
+   "kaju barfi"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "cashews",
+   "sugar",
+   "ghee",
+   "silver leaf"
+  ],
+  "clues": [
+   "Cashew nuts are ground into a smooth paste, cooked briefly with sugar syrup and ghee until it turns into pliable dough.",
+   "The dough is rolled thin and cut into neat diamond shapes, often finished with a wafer-thin layer of edible silver foil.",
+   "Unlike most Indian milk-based sweets, this one contains no dairy at its core — it's built almost entirely from nuts and sugar.",
+   "The diamond-cut, silver-topped cashew fudge found in every Indian sweet shop's display case."
+  ],
+  "fact": "Kaju Katli is one of the few major Indian sweets with no dairy in its base recipe — it's essentially cashew marzipan finished with silver leaf."
+ },
+ {
+  "name": "Besan Ladoo",
+  "aliases": [
+   "besan laddu"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "legume",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "chickpea flour",
+   "ghee",
+   "powdered sugar",
+   "cardamom",
+   "almonds"
+  ],
+  "clues": [
+   "Coarsely ground chickpea flour is slow-roasted in ghee over low heat until it turns fragrant and golden, releasing a nutty aroma.",
+   "Once cooled slightly, the toasted flour is mixed with powdered sugar and cardamom, then pressed by hand into round balls.",
+   "Its texture is grainy and crumbly rather than smooth, coming apart easily with a slightly sandy bite — no syrup-soaking or deep-frying involved.",
+   "The humble roasted gram-flour ball, one of the most common homemade Indian sweets."
+  ],
+  "fact": "Besan Ladoo is considered one of the simplest Indian sweets since it needs just three ingredients — chickpea flour, ghee, and sugar — yet getting the roast right is a skill passed down through generations."
+ },
+ {
+  "name": "Motichoor Ladoo",
+  "aliases": [
+   "boondi ladoo",
+   "moti ladoo"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "legume",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "chickpea flour",
+   "sugar syrup",
+   "ghee",
+   "cardamom",
+   "pistachio"
+  ],
+  "clues": [
+   "A thin gram-flour batter is pushed through a perforated ladle directly into hot oil, forming hundreds of tiny golden pearls.",
+   "Those pearls are drained, dunked briefly in warm sugar syrup, then bound together while still moist into round balls.",
+   "Because each ball is made of countless soaked droplets rather than a single smooth dough, it feels distinctly granular and slightly wetter than its roasted-flour cousin.",
+   "Wedding banquets in North India sometimes stack giant versions of this syrup-soaked pearl-ball sweet as a centerpiece."
+  ],
+  "fact": "Motichoor Ladoo gets its name from 'moti' (pearl) and 'choor' (broken), describing the countless tiny fried pearls crushed together to form each ball."
+ },
+ {
+  "name": "Peda",
+  "aliases": [
+   "pera",
+   "penda"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "milk solids",
+   "sugar",
+   "cardamom",
+   "pistachio"
+  ],
+  "clues": [
+   "Milk is simmered for a long time until it reduces to a thick, dry solid mass, which is then kneaded with sugar over gentle heat.",
+   "The dough is rolled into small discs by hand, sometimes finished with a thumbprint dent in the center and a light dusting of ground pistachio.",
+   "A temple town in Uttar Pradesh has lent its name to the most famous regional version of this dense, chewy disc.",
+   "A dense, hand-rolled disc of cooked-down milk solids, often stamped with a maker's thumbprint."
+  ],
+  "fact": "Peda takes its name from the Sanskrit word for a lump or clump, referring to the compact hand-rolled shape of the sweet."
+ },
+ {
+  "name": "Gajar Ka Halwa",
+  "aliases": [
+   "gajrela"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "root",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "carrots",
+   "whole milk",
+   "ghee",
+   "sugar",
+   "milk solids",
+   "cashews"
+  ],
+  "clues": [
+   "A grated root vegetable's natural sweetness is slow-cooked down in whole milk until nearly all the liquid evaporates, deepening the orange color.",
+   "Ghee, sugar, and a generous handful of chopped nuts are folded in near the end, along with reduced milk solids for extra richness.",
+   "A beloved cold-weather specialty across North India, it's traditionally served warm, sometimes with a scoop of vanilla ice cream melting on top.",
+   "The classic carrot-based milk pudding of North Indian winters."
+  ],
+  "fact": "Gajar Ka Halwa was originally a Mughal-era creation using the red carrots native to North India in winter, though today it's made year-round with ordinary orange carrots too."
+ },
+ {
+  "name": "Sooji Ka Halwa",
+  "aliases": [
+   "sheera",
+   "rava halwa",
+   "kesari"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "semolina",
+   "ghee",
+   "sugar",
+   "milk or water",
+   "raisins",
+   "cashews"
+  ],
+  "clues": [
+   "Coarse wheat semolina is toasted in ghee until it turns a light golden-brown and smells nutty, well before any liquid is added.",
+   "Hot sugared water or milk is then poured in carefully, and the grains swell almost instantly into a thick, glossy mass studded with raisins and cashews.",
+   "It doubles as a common temple offering across India, frequently paired with a savory chickpea curry as part of a festive breakfast.",
+   "The everyday semolina pudding served warm at temples and breakfast tables alike."
+  ],
+  "fact": "Sooji Ka Halwa is known as 'kesari' in South India and 'sheera' in Maharashtra — nearly every Indian region has its own name and slight twist on this semolina pudding."
+ },
+ {
+  "name": "Moong Dal Halwa",
+  "aliases": [
+   "moong dal ka halwa"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "legume",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "split yellow lentils",
+   "ghee",
+   "sugar",
+   "milk",
+   "cardamom",
+   "almonds"
+  ],
+  "clues": [
+   "Split, husked lentils are soaked, ground into a paste, and then roasted in ghee for a long, patient stretch — sometimes over an hour of continuous stirring.",
+   "That slow roasting is what gives the finished dessert its deep golden color and rich, slightly grainy bite, unlike quicker-cooking counterparts.",
+   "A specialty strongly associated with Rajasthan, it's considered one of the most labor-intensive sweets in the North Indian repertoire, often reserved for special occasions.",
+   "The rich, slow-roasted yellow lentil pudding prized for how much elbow grease it demands."
+  ],
+  "fact": "Moong Dal Halwa is often called one of the most labor-intensive Indian desserts, with some traditional recipes calling for over an hour of continuous stirring so the ghee doesn't separate."
+ },
+ {
+  "name": "Rice Kheer",
+  "aliases": [
+   "chawal ki kheer",
+   "kheer"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "rice",
+   "whole milk",
+   "sugar",
+   "cardamom",
+   "raisins",
+   "almonds"
+  ],
+  "clues": [
+   "Whole grains of a starchy staple are simmered slowly in milk, uncovered and stirred often, until the liquid reduces and thickens naturally around them.",
+   "Cardamom, sometimes saffron, and a scatter of chopped nuts or raisins finish the pot just before it's taken off the heat.",
+   "Nearly every regional cuisine in India has its own version of this milk-and-grain pudding, making it arguably the country's most universal dessert.",
+   "The classic whole-grain milk pudding served at birthdays, festivals, and family dinners across the country."
+  ],
+  "fact": "Rice Kheer likely has roots stretching back over 2,000 years to ancient Indian temple offerings, making it one of the subcontinent's oldest documented desserts."
+ },
+ {
+  "name": "Phirni",
+  "aliases": [
+   "firni"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "ground rice",
+   "milk",
+   "sugar",
+   "saffron",
+   "pistachio",
+   "silver leaf"
+  ],
+  "clues": [
+   "Raw rice is soaked and coarsely ground into a grainy paste rather than left whole, then simmered in milk until it turns into a thick, custard-like pudding.",
+   "After cooking, it's ladled into small earthenware bowls or cups and chilled, where the clay subtly seasons the pudding as it sets.",
+   "Long associated with Mughal courts and North Indian Muslim festive tables, it's traditionally finished with a sheet of edible silver foil and slivered pistachios.",
+   "The smooth, ground-rice pudding set and served cold in individual clay cups."
+  ],
+  "fact": "Phirni is traditionally served in small clay pots called shikoras, sometimes discarded after a single use, echoing an old tradition of eco-friendly, single-use tableware."
+ },
+ {
+  "name": "Shrikhand",
+  "aliases": [
+   "shreekhand"
+  ],
+  "cuisine": "Gujarati",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "raw"
+  ],
+  "key_ingredients": [
+   "hung curd",
+   "sugar",
+   "saffron",
+   "cardamom",
+   "mango pulp"
+  ],
+  "clues": [
+   "Fresh yogurt is hung in muslin cloth for hours to drain off the whey, leaving a thick, dense curd base that requires no cooking at all.",
+   "That strained curd is whipped smooth with sugar, saffron strands, and cardamom, sometimes folded through with pureed mango in season.",
+   "A staple of Gujarati and Maharashtrian festive meals, it's classically eaten scooped up with hot, puffed fried bread rather than with a spoon alone.",
+   "The chilled, saffron-scented strained-yogurt dessert often paired with puri."
+  ],
+  "fact": "Shrikhand requires no cooking at all — the yogurt is strained for hours until thick, then simply whipped with sugar and spices, making it one of the few Indian sweets that's technically a raw preparation."
+ },
+ {
+  "name": "Sandesh",
+  "aliases": [
+   "sondesh"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "fresh cheese",
+   "sugar",
+   "cardamom"
+  ],
+  "clues": [
+   "Milk is curdled fresh with lemon juice or vinegar, and the resulting soft cheese is kneaded — with little to no cooking — until perfectly smooth.",
+   "That kneaded cheese is mixed with fine sugar and pressed into ornate wooden molds shaped like flowers, shells, or fish.",
+   "A signature sweet of Bengal, it's prized for being far less sweet and far more delicate than most other Indian milk-based confections.",
+   "Bengal's iconic molded fresh-cheese sweet, shaped in carved wooden forms."
+  ],
+  "fact": "Sandesh is so central to Bengali culture that specialized artisans called moiras have historically competed over intricate mold designs, some resembling deities or national symbols."
+ },
+ {
+  "name": "Cham Cham",
+  "aliases": [
+   "chomchom",
+   "cham-cham"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "stuffed"
+  ],
+  "key_ingredients": [
+   "fresh cheese",
+   "sugar syrup",
+   "milk solids",
+   "pistachio",
+   "coconut"
+  ],
+  "clues": [
+   "Fresh cheese curd is kneaded into a smooth dough and shaped into oblong cylinders rather than the round balls used for its more famous spongy cousin.",
+   "These cylinders are boiled in sugar syrup until they puff up light and spongy, then sometimes split and filled with sweetened dried-milk cream.",
+   "Originating in Bengal, finished versions are often rolled in desiccated coconut or coated with a thin layer of dried milk solids and colored pastel pink or white.",
+   "The oblong, syrup-soaked spongy cheese dumpling, a cylindrical cousin of rasgulla."
+  ],
+  "fact": "Cham Cham is believed to have originated in Porabazar in West Bengal, and its oblong shape has traditionally been seen as a mark of a sweet-maker's skill in shaping soft cheese dough evenly."
+ },
+ {
+  "name": "Ghevar",
+  "aliases": [
+   "ghewar"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "wheat",
+  "method": "deep-fried",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive",
+   "layered"
+  ],
+  "key_ingredients": [
+   "flour",
+   "ghee",
+   "sugar syrup",
+   "thickened milk",
+   "pistachio"
+  ],
+  "clues": [
+   "A thin batter is poured in a slow, steady stream into a ring mold set in bubbling hot ghee, and it puffs upward into a lace-like, porous disc.",
+   "The finished disc looks almost like a honeycomb, riddled with tiny holes, and is soaked briefly in sugar syrup after frying.",
+   "Closely tied to Rajasthan's monsoon festivals for women, it's traditionally topped with a thick, sweetened cream and a scatter of chopped nuts.",
+   "The lattice-holed, disc-shaped fried sweet that appears every monsoon around Teej."
+  ],
+  "fact": "Ghevar is traditionally made only during the monsoon months around the festivals of Teej and Raksha Bandhan, when Rajasthani sweet shops sell little else."
+ },
+ {
+  "name": "Petha",
+  "aliases": [
+   "kaddu ki mithai"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "sweet",
+   "sticky",
+   "festive"
+  ],
+  "key_ingredients": [
+   "ash gourd",
+   "sugar",
+   "lime water",
+   "rose water"
+  ],
+  "clues": [
+   "Chunks of a pale winter gourd are pricked all over, soaked in lime water to firm them up, then slow-cooked in thick sugar syrup until translucent.",
+   "Unlike most Indian sweets on this list, the base here contains no dairy whatsoever — it's essentially candied vegetable, chewy and jewel-like.",
+   "The city of Agra, better known for the Taj Mahal, is equally famous among Indians for producing this candy in flavors like rose, saffron, and betel leaf.",
+   "Agra's translucent, chewy candied-gourd specialty, sold in dozens of flavors near the Taj Mahal."
+  ],
+  "fact": "Petha is Agra's other claim to fame besides the Taj Mahal — the city produces so much of this candied ash-gourd sweet that it has its own dedicated market lanes."
+ },
+ {
+  "name": "Kalakand",
+  "aliases": [
+   "kalakand barfi"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "milk",
+   "sugar",
+   "lemon juice",
+   "cardamom",
+   "pistachio"
+  ],
+  "clues": [
+   "Milk is deliberately curdled with an acid partway through reduction, then cooked further with sugar so tiny soft curds remain visible in the final texture.",
+   "Poured into a flat tray and left to set, it's cut into small squares or diamonds rather than rolled into balls or discs.",
+   "Its texture stays distinctly moist and grainy — closer to a soft milk cake than the drier, smoother discs of its cousins — and it's often finished with a few pistachio slivers.",
+   "The moist, grainy square milk cake often confused with its drier, disc-shaped cousin."
+  ],
+  "fact": "Kalakand is said to have originated in Alwar, Rajasthan, in the late 19th century, when a sweet-maker accidentally curdled a batch of milk and turned the mistake into a completely new dessert."
+ },
+ {
+  "name": "Kulfi",
+  "aliases": [
+   "kulfee"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "cold",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "nuts",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "whole milk",
+   "sugar",
+   "pistachio",
+   "saffron",
+   "cardamom"
+  ],
+  "clues": [
+   "Whole milk is simmered for hours until it reduces to roughly a third of its original volume, concentrating both sugar and milk fat.",
+   "That thickened milk is poured into narrow conical metal molds or simple sticks and frozen slowly without any churning or stirring.",
+   "Because it's never churned, it comes out noticeably denser and creamier than Western-style frozen desserts, with pistachio and saffron among its most popular flavors.",
+   "The dense, unchurned frozen-milk treat sold on sticks by street vendors across South Asia."
+  ],
+  "fact": "Kulfi predates modern ice cream in India by centuries, with Mughal-era cooks reportedly packing metal cones with sweetened reduced milk and burying them in ice and saltpeter to freeze them."
+ },
+ {
+  "name": "Falooda",
+  "aliases": [
+   "faluda"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "dessert",
+  "protein": "none",
+  "carb": "noodle",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "sweet",
+   "dairy",
+   "layered",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "rose syrup",
+   "vermicelli noodles",
+   "basil seeds",
+   "milk",
+   "kulfi or ice cream"
+  ],
+  "clues": [
+   "Thin, translucent strands of cornstarch vermicelli are layered in a tall glass with rose syrup, milk, and tiny basil seeds that swell up like soft caviar.",
+   "It's built rather than cooked — a drink-dessert hybrid assembled layer by layer and usually crowned with a scoop of frozen milk dessert or a few dried nuts.",
+   "The concept traces back through Persian frozen-noodle sherbets before evolving into the pink, rose-scented glass now iconic on the subcontinent.",
+   "The tall, rose-pink noodle-and-milk sundae topped with kulfi or ice cream."
+  ],
+  "fact": "Falooda descends from the Persian dessert faloodeh, a frozen dish of thin starch noodles and rose syrup that traveled to India via Mughal and Persian trade routes and picked up milk and ice cream along the way."
+ },
+ {
+  "name": "Cucumber Raita",
+  "aliases": [
+   "kheera raita"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "raw",
+  "temp": "cold",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "raw"
+  ],
+  "key_ingredients": [
+   "yogurt",
+   "cucumber",
+   "cumin",
+   "salt",
+   "green chilli"
+  ],
+  "clues": [
+   "A cooling, spoonable side that needs no stove at all — just whisked curd and a few minutes in the fridge.",
+   "Built around a crunchy, pale green garden vegetable that's mostly water, grated fine and folded in raw.",
+   "Finished with a dusting of cumin toasted in a dry pan, sometimes a green chilli or a few mint leaves for lift.",
+   "The garden-vegetable version of India's whisked-curd accompaniment, sometimes called kheera in Hindi, that tames a fiery biryani."
+  ],
+  "fact": "Ayurveda classifies cucumber raita as a cooling food meant to balance body heat, which is part of why it's traditionally paired with fiery Mughlai and biryani dishes across North India."
+ },
+ {
+  "name": "Boondi Raita",
+  "aliases": [
+   "boondi ka raita"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "crispy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "yogurt",
+   "boondi",
+   "cumin",
+   "chilli powder",
+   "coriander leaves"
+  ],
+  "clues": [
+   "Another spoonable yogurt side, but this one turns crunchy nubbins of chickpea-flour batter into little sponges.",
+   "Tiny golden pearls, deep-fried until crisp, are dropped into whisked curd where they plump up and soften at the edges while staying faintly chewy in the centre.",
+   "A wedding-buffet favourite across North India, it lands somewhere between crunchy and squishy in every spoonful, dusted with roasted cumin and red chilli.",
+   "A gram-flour-pearl version of India's whisked-curd side, its tiny fried nuggets soaking up tang as they sit."
+  ],
+  "fact": "The tiny fried droplets are made by pushing gram-flour batter through a perforated ladle straight into hot oil — the same technique used to make the sweet dessert version of the same droplet."
+ },
+ {
+  "name": "Mint Chutney",
+  "aliases": [
+   "pudina chutney"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "raw",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "raw"
+  ],
+  "key_ingredients": [
+   "mint leaves",
+   "coriander leaves",
+   "green chilli",
+   "garlic",
+   "lemon juice"
+  ],
+  "clues": [
+   "A bright, herb-forward blend that needs no flame — everything goes raw into the grinder.",
+   "Built on a cooling green herb prized for its menthol bite, balanced with tart citrus and a raw green chilli or two.",
+   "Ladled onto grilled skewers and stuffed snacks alike, its sharp, palate-cleansing edge cuts through fried and smoky flavours.",
+   "India's herb-based dip, also called pudina after the Hindi word for the leaf that gives it its cooling punch."
+  ],
+  "fact": "This chutney oxidizes and turns brown within hours of blending, which is why street vendors grind it fresh in small batches throughout the day instead of making it ahead."
+ },
+ {
+  "name": "Tamarind Chutney",
+  "aliases": [
+   "imli chutney",
+   "meethi chutney"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "boiled",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "sweet",
+   "sticky"
+  ],
+  "key_ingredients": [
+   "tamarind pulp",
+   "jaggery",
+   "dates",
+   "cumin",
+   "dry ginger",
+   "chilli powder"
+  ],
+  "clues": [
+   "A sweet-and-sour cooked syrup that takes its tang from a sticky brown pod pulp, simmered down slowly on the stove.",
+   "Jaggery and dried ginger get simmered into the sour pulp until it turns thick, dark, and pourable, almost like a fruit syrup.",
+   "An essential drizzle over crisp street snacks and stuffed pastries, adding sweetness where other dips only bring heat.",
+   "The sweet-sour imli version, made from the pulp of a tangy pod, that finishes so many roadside chaat plates."
+  ],
+  "fact": "It's one of the two essential sauces — the other being a green herb blend — that give pani puri and other chaats their signature sweet-sour-spicy balance."
+ },
+ {
+  "name": "Coconut Chutney",
+  "aliases": [
+   "nariyal chutney"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "raw",
+  "temp": "room",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "coconut"
+  ],
+  "key_ingredients": [
+   "fresh coconut",
+   "roasted gram",
+   "green chilli",
+   "curry leaves",
+   "mustard seeds"
+  ],
+  "clues": [
+   "A South Indian staple ground fresh each morning, pale white and flecked with green, served in a small steel bowl beside breakfast.",
+   "Made from the grated white flesh of a hard-shelled tropical fruit, its milk-rich sweetness is cut with raw green chilli and roasted lentils.",
+   "A final tempering of mustard seeds and curry leaves crackled in hot oil is poured over just before it reaches the table.",
+   "The coconut-based dip that rounds out a plate of dosa or idli, all creamy sweetness against the batter's tang."
+  ],
+  "fact": "In much of Tamil Nadu and Kerala it's ground fresh at nearly every meal, since the grated flesh it's built from turns rancid within a day without refrigeration."
+ },
+ {
+  "name": "Tomato Chutney",
+  "aliases": [
+   "thakkali chutney",
+   "tomato pachadi"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "tomatoes",
+   "onion",
+   "garlic",
+   "dried red chilli",
+   "mustard seeds",
+   "curry leaves"
+  ],
+  "clues": [
+   "A cooked-down side with a deep red colour and a savoury-sweet tang, simmered slowly rather than ground raw.",
+   "A juicy, acidic salad fruit — technically a berry — is stewed with onion, garlic, and dried red chillies until it collapses into a jammy paste.",
+   "Popular in South Indian households as a spicier, tangier alternative to the classic coconut-based dip, it pairs beautifully with crisp lentil crepes.",
+   "A stewed red-fruit version of South India's tangy tempered side, cooked down until sweet, sour, and deeply coloured."
+  ],
+  "fact": "It's often finished with a spoonful of jaggery to round out the fruit's acidity, and goes by thakkali chutney in Tamil kitchens."
+ },
+ {
+  "name": "Peanut Chutney",
+  "aliases": [
+   "groundnut chutney"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "roasted peanuts",
+   "dried red chilli",
+   "garlic",
+   "tamarind",
+   "cumin"
+  ],
+  "clues": [
+   "A South Indian favourite made almost entirely from a single roasted legume, ground with dried chillies into something thick and reddish-brown.",
+   "The seeds are dry-roasted in a hot pan until their skins loosen and their aroma turns nutty, then blitzed with garlic and a whisper of sour pulp.",
+   "Coarser and heartier than most South Indian dips, it holds its texture rather than turning silky smooth, and pairs especially well with steamed rice cakes.",
+   "The groundnut version of South India's tempered dip, its roasted, earthy crunch a contrast to the cooling coconut kind."
+  ],
+  "fact": "It's a specialty of Andhra Pradesh, where cooks often reach for it over the coconut version when coconuts are scarce or expensive."
+ },
+ {
+  "name": "Mango Pickle",
+  "aliases": [
+   "aam ka achar",
+   "aam achar"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "fermented",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "spicy",
+   "pickled"
+  ],
+  "key_ingredients": [
+   "raw green mango",
+   "mustard oil",
+   "fenugreek seeds",
+   "nigella seeds",
+   "red chilli powder",
+   "turmeric"
+  ],
+  "clues": [
+   "A preserved condiment that takes weeks, not minutes — jars of it sit in the sun to mature before they're ready to eat.",
+   "Made from a hard, sour stone fruit picked while still green and unripe, chopped into rough pieces and layered with pungent seed spices.",
+   "Mustard oil, fenugreek, and a generous hand of chilli powder coat every piece, turning fiercely sour and hot as it cures.",
+   "The classic green aam achar of Indian households, a jar of sun-cured stone fruit that outlasts entire monsoon seasons in the pantry."
+  ],
+  "fact": "A well-cured batch is traditionally left to mature in a sun-warmed glass or ceramic jar for at least a week, with the mustard oil deepening in colour as it soaks up the chilli and spices."
+ },
+ {
+  "name": "Mixed Pickle",
+  "aliases": [
+   "mixed achar",
+   "sabzi achar"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "fermented",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "pickled",
+   "spicy"
+  ],
+  "key_ingredients": [
+   "carrot",
+   "cauliflower",
+   "turnip",
+   "green chilli",
+   "mustard oil",
+   "fenugreek seeds"
+  ],
+  "clues": [
+   "A preserved jar condiment that isn't built around one single ingredient but a whole medley of chopped vegetables curing together.",
+   "Cauliflower florets, carrot batons, turnip cubes, and slivers of green chilli all share the same pungent mustard-oil bath.",
+   "Each vegetable keeps a bit of its own crunch and colour even after weeks of curing, so no two spoonfuls look quite alike.",
+   "India's assorted vegetable achar, a jumble of textures preserved together in one fiery, oil-slicked jar."
+  ],
+  "fact": "Because it combines vegetables with very different densities and moisture levels, some households still finish it with a few days of direct sun exposure to draw out excess water before sealing the jar."
+ },
+ {
+  "name": "Roasted Papad",
+  "aliases": [
+   "papadum",
+   "papad"
+  ],
+  "cuisine": "Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "vegan",
+   "crispy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "urad dal flour",
+   "black pepper",
+   "cumin",
+   "asafoetida",
+   "salt"
+  ],
+  "clues": [
+   "A paper-thin lentil wafer that puffs and blisters when it meets direct heat, with no oil involved at all.",
+   "Held over an open flame or a bare gas burner with tongs, it crackles, curls, and darkens with faint char spots in seconds.",
+   "Its smoky, slightly bitter edge comes purely from fire, unlike its deep-fried cousin which stays pale and glassy.",
+   "The flame-roasted disc known across India as papadum, snapped into shards alongside a thali."
+  ],
+  "fact": "Holding it over the flame is considered a small kitchen skill in itself: held too close it scorches in seconds, held too far it never blisters properly."
+ },
+ {
+  "name": "Masala Papad",
+  "aliases": [
+   "papad chaat"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "none",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "crispy",
+   "street_food"
+  ],
+  "key_ingredients": [
+   "papad",
+   "onion",
+   "tomato",
+   "chaat masala",
+   "green chilli",
+   "lemon juice"
+  ],
+  "clues": [
+   "A crisp lentil-wafer base gets dressed up like a mini open-faced salad just before it's served, never allowed to sit long.",
+   "Finely chopped onion, tomato, and green chilli are scattered over the fried or flame-cooked disc, with a squeeze of lemon and a dusting of tangy spice blend.",
+   "It must be eaten within moments of assembly, or the topping's moisture turns the crackly base soft and limp.",
+   "The loaded, chaat-style version of India's lentil wafer, its spiced topping turning a plain snack into a five-minute street food."
+  ],
+  "fact": "It became a fixture on Indian restaurant menus as an instant starter precisely because it needs no real cooking beyond crisping the base, so kitchens can plate it almost immediately."
+ },
+ {
+  "name": "Chicken Tikka Masala",
+  "aliases": [
+   "tikka masala"
+  ],
+  "cuisine": "British-Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "saucy",
+   "dairy",
+   "spicy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "tomato",
+   "cream",
+   "garam masala",
+   "ginger-garlic paste",
+   "kasuri methi"
+  ],
+  "clues": [
+   "Born not in a kitchen but a debate — food historians still argue whether this creamy chicken dish is a British invention or a genuine subcontinental creation.",
+   "Legend credits a curry house chef in Glasgow with rescuing a customer's dry send-back by drowning it in a tomato-cream sauce.",
+   "Chunks of chicken, marinated and cooked in a tandoor, are folded into a rich tomato-cream gravy.",
+   "Often called Britain's national dish, this chicken curry pairs char-grilled, marinated chicken pieces with a velvety tomato-cream sauce."
+  ],
+  "fact": "A 2001 UK parliamentary motion half-jokingly declared Chicken Tikka Masala 'a true British national dish,' fueling the origin debate further."
+ },
+ {
+  "name": "Kadai Chicken",
+  "aliases": [
+   "karahi chicken",
+   "kadhai chicken"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "spicy",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "bell pepper",
+   "coriander seeds",
+   "dried red chilli",
+   "tomato",
+   "ginger"
+  ],
+  "clues": [
+   "Named after the thick, wide wok-like pan it's tossed in over high flame, not after any spice or region.",
+   "Coarsely pounded coriander seeds and dried red chillies give this dish its rustic, flecked masala rather than a smooth puree.",
+   "Bell peppers and onions are cut into chunky diamonds and stir-fried fast at high heat, keeping the dish semi-dry rather than swimming in gravy.",
+   "Known in many kitchens as karahi chicken, this dry, chunky curry is finished with julienned ginger and green chillies for a sharp bite."
+  ],
+  "fact": "Kadai Chicken is traditionally finished by drizzling melted butter or ghee over the top just before it leaves the pan."
+ },
+ {
+  "name": "Chicken Chettinad",
+  "aliases": [
+   "chettinad chicken",
+   "chettinad chicken curry"
+  ],
+  "cuisine": "Chettinad",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "coconut",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "kalpasi (stone flower)",
+   "star anise",
+   "fennel seeds",
+   "dried red chilli",
+   "curry leaves"
+  ],
+  "clues": [
+   "Hails from a merchant community in Tamil Nadu famed for pounding a fiery, fragrant spice blend fresh for every pot rather than using a pre-mixed powder.",
+   "A curious lichen called kalpasi, or stone flower, is one of the secret ingredients that gives this curry its distinctive earthy aroma.",
+   "Star anise, fennel seeds, and a fistful of dried red chillies are dry-roasted and ground into a dark, intensely peppery masala for this South Indian chicken curry.",
+   "This peppery, dark chicken curry, named for a spice-trading region of Tamil Nadu famed for its pepper and stone-flower blends, is one of South India's most fiery classics."
+  ],
+  "fact": "Chicken Chettinad can use up to fifteen or twenty different spices, freshly ground for each batch rather than stored as a masala powder."
+ },
+ {
+  "name": "Chicken 65",
+  "aliases": [
+   "chicken sixty-five"
+  ],
+  "cuisine": "Chennai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "appetizer",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "deep-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "crispy",
+   "street_food",
+   "handheld"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "curry leaves",
+   "red chilli powder",
+   "yogurt",
+   "cornstarch",
+   "green chilli"
+  ],
+  "clues": [
+   "A late-night bar snack from Chennai, its numerical name has spawned more origin myths than almost any other Indian dish.",
+   "Some say it began as an item on a hotel menu numbered by year, others claim it needed exactly that many chillies or that many days to marinate — no one agrees.",
+   "Bite-sized pieces of deboned chicken are deep-fried until fiery red and crisp, then flash-tossed with curry leaves, green chillies, and a tempering of mustard seeds.",
+   "Reputedly invented at Chennai's Buhari Hotel, this deep-red, deep-fried chicken starter carries a numeric name whose origin nobody can agree on — some insist it's simply the year 1965."
+  ],
+  "fact": "Chicken 65's name is so contested that even the Buhari Hotel, its reputed birthplace, has offered multiple conflicting explanations over the years."
+ },
+ {
+  "name": "Chicken Korma",
+  "aliases": [
+   "chicken kurma",
+   "chicken qorma"
+  ],
+  "cuisine": "Mughlai",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "saucy",
+   "dairy",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "yogurt",
+   "cashew paste",
+   "cardamom",
+   "fried onions",
+   "cream"
+  ],
+  "clues": [
+   "A Mughlai classic where the meat is braised gently in its own steam with yogurt and ground nuts, never touched by tomato.",
+   "Cashews, almonds, or melon seeds are ground into a paste to thicken this pale, fragrant gravy instead of a chilli-forward masala.",
+   "Famous for its restraint — whole spices like cardamom and mace perfume the dish rather than making it fiery, and the colour stays ivory to golden.",
+   "This mild, creamy braise, sometimes spelled with a q or a k, is a Mughal-court legacy prized for its nutty richness rather than heat."
+  ],
+  "fact": "Chicken Korma traces back to the Mughal kitchens of the sixteenth century, where restraint with chilli was considered refined, not bland."
+ },
+ {
+  "name": "Andhra Chicken Curry",
+  "aliases": [
+   "kodi kura",
+   "andhra kodi kura"
+  ],
+  "cuisine": "Andhra",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "chicken",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "chicken",
+   "guntur chilli",
+   "garlic",
+   "curry leaves",
+   "sesame oil",
+   "tamarind"
+  ],
+  "clues": [
+   "Comes from a coastal state whose chillies are so notoriously potent they're a major chilli-export hub of India.",
+   "Sesame oil and a heavy hand with garlic and red chilli powder define this fiery curry, often cooked in a clay pot for extra smokiness.",
+   "In its home region, this dish is called by a local word for chicken paired with a local word for curry — a fiercely spiced, thin, gravy-forward preparation quite unlike its creamier northern cousins.",
+   "Known locally as kodi kura, this blisteringly hot curry from a southeastern coastal state leans on dried red chillies and curry leaves for its punch."
+  ],
+  "fact": "Andhra Chicken Curry often uses Guntur chillies, grown in a district that supplies a huge share of India's chilli exports."
+ },
+ {
+  "name": "Laal Maas",
+  "aliases": [
+   "lal maas",
+   "laal maans"
+  ],
+  "cuisine": "Rajasthani",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "chilli",
+   "festive"
+  ],
+  "key_ingredients": [
+   "mutton",
+   "mathania chilli",
+   "yogurt",
+   "garlic",
+   "ghee",
+   "red chilli powder"
+  ],
+  "clues": [
+   "A Rajput hunters' dish from the desert state of Rajasthan, traditionally made with wild game before mutton became the norm.",
+   "Its blazing colour comes from a specific variety of dried red chilli grown near Jodhpur, used in eye-watering quantity.",
+   "Yogurt tempers the heat of this thick, fiery mutton curry, which was historically cooked over open fires during royal hunting expeditions.",
+   "Literally translating to 'red meat' in Rajasthani, this fiery mutton curry gets its name from its chilli-soaked colour."
+  ],
+  "fact": "Laal Maas was traditionally a dish for Rajput warriors returning from a hunt, cooked with whatever game they'd brought back that day."
+ },
+ {
+  "name": "Mutton Korma",
+  "aliases": [
+   "mutton kurma",
+   "mutton qorma"
+  ],
+  "cuisine": "Awadhi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "dairy",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "mutton",
+   "yogurt",
+   "fried onions",
+   "cashew paste",
+   "whole garam masala",
+   "ghee"
+  ],
+  "clues": [
+   "This slow-braised, richly spiced curry relies on a base of browned onions and yogurt rather than tomatoes for its body.",
+   "Whole warming spices — cinnamon, cardamom, cloves — steep into the gravy while the meat turns fall-apart tender over a long, low simmer.",
+   "A nut and onion paste thickens this mellow, aromatic goat-meat preparation, keeping the heat gentle even though the meat itself is robust and gamey.",
+   "Often labelled with a q instead of a k, this rich, slow-braised goat-meat dish shares its yogurt-and-nut base with a beloved chicken cousin."
+  ],
+  "fact": "Mutton Korma is a centerpiece of Eid and wedding feasts across North India, often simmered for hours the day before serving."
+ },
+ {
+  "name": "Mutton Sukka",
+  "aliases": [
+   "mutton sukka roast",
+   "sukka mutton"
+  ],
+  "cuisine": "Mangalorean",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "roasted",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "spicy",
+   "coconut",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "mutton",
+   "grated coconut",
+   "black pepper",
+   "curry leaves",
+   "coriander seeds",
+   "red chilli"
+  ],
+  "clues": [
+   "A coastal Karnataka specialty where the meat is cooked down until almost no liquid remains, clinging instead to a dark, roasted coconut coating.",
+   "Freshly grated coconut is dry-roasted until deeply browned before being ground into the masala, giving this preparation its smoky, nutty crust.",
+   "Black pepper rather than red chilli often supplies the heat in this bone-in goat-meat dish, finished almost gravy-free and intensely aromatic.",
+   "This bone-in goat-meat preparation, whose name simply means 'dry' in regional Konkani and Tulu kitchens, is roasted with coconut until nearly no sauce is left."
+  ],
+  "fact": "Mutton Sukka is a signature of Mangalorean and Konkani coastal cooking, where coconut is roasted rather than used raw as in most other curries."
+ },
+ {
+  "name": "Keema Matar",
+  "aliases": [
+   "keema mattar",
+   "kheema matar"
+  ],
+  "cuisine": "Punjabi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "saucy",
+   "spicy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "minced mutton",
+   "green peas",
+   "tomato",
+   "onion",
+   "ginger-garlic paste",
+   "garam masala"
+  ],
+  "clues": [
+   "A humble, home-style curry built from minced meat rather than chunks, simmered until it clings to a thick tomato-onion masala.",
+   "Green peas are folded in toward the end, adding a pop of sweetness and colour to this otherwise deep-brown, spice-heavy skillet dish.",
+   "Because the meat is ground fine, this dish cooks fast and is a weeknight staple often paired with flatbread or pav rather than rice.",
+   "This minced-meat-and-pea skillet dish, its two-word name literally naming its main components, is North Indian comfort food at its simplest."
+  ],
+  "fact": "Keema Matar is one of the few Indian curries commonly eaten stuffed inside a bread roll, as in Mumbai's keema pav."
+ },
+ {
+  "name": "Pork Vindaloo",
+  "aliases": [
+   "vindalho",
+   "pork vindalho"
+  ],
+  "cuisine": "Goan",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "pork",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "spicy",
+   "chilli",
+   "festive"
+  ],
+  "key_ingredients": [
+   "pork",
+   "vinegar",
+   "garlic",
+   "dried red chilli",
+   "cumin",
+   "jaggery"
+  ],
+  "clues": [
+   "Descended from a Portuguese sailors' dish of meat preserved in wine and garlic, adapted in Goa with local vinegar and chillies.",
+   "Its fiery reputation on British curry-house menus overshadows the fact that the original coastal version contains no root vegetable at all.",
+   "Vinegar does double duty here — as a tenderizer marinating the meat overnight and as the tang that cuts through the heat of the final braise.",
+   "Named after a mangled Portuguese phrase for garlic and wine, this vinegar-spiked, chilli-hot Goan pork classic is often wrongly assumed to always include potatoes."
+  ],
+  "fact": "Pork Vindaloo's ancestor, carne de vinha d'alhos, was a Portuguese method of preserving meat with wine and garlic during long sea voyages."
+ },
+ {
+  "name": "Goan Fish Curry",
+  "aliases": [
+   "xit kodi",
+   "fish curry goan style"
+  ],
+  "cuisine": "Goan",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "fish",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "spicy",
+   "coconut",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "fish",
+   "coconut",
+   "kokum",
+   "red chilli",
+   "turmeric",
+   "mustard seeds"
+  ],
+  "clues": [
+   "A coastal curry whose souring agent is often a dried mangosteen-relative fruit called kokum rather than tamarind or lime.",
+   "Ground coconut and a paste of dried red chillies form the base of this curry, traditionally eaten daily with plain steamed rice.",
+   "Mustard seeds and curry leaves crackle in hot oil as the final tempering poured over this tangy, coconut-rich curry from India's smallest state.",
+   "Sometimes called by its Konkani name meaning 'rice curry,' this everyday coconut-and-kokum curry is the backbone of India's western coastal table."
+  ],
+  "fact": "Goan Fish Curry is eaten almost daily in Goan households, with the exact recipe varying noticeably between Hindu and Catholic kitchens."
+ },
+ {
+  "name": "Meen Moilee",
+  "aliases": [
+   "meen moily",
+   "fish molee",
+   "malabar fish curry"
+  ],
+  "cuisine": "Keralite",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "fish",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "coconut",
+   "saucy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "fish",
+   "coconut milk",
+   "turmeric",
+   "green chilli",
+   "curry leaves",
+   "ginger"
+  ],
+  "clues": [
+   "A gently spiced coastal curry from Kerala where coconut milk is added at the very end and never boiled hard, to keep it silky rather than split.",
+   "Turmeric and green chillies do the flavouring here instead of a heavy red chilli powder, giving this curry a pale golden hue.",
+   "Associated with Kerala's Syrian Christian community, this mild curry is a favourite at Sunday lunches and festive spreads alike.",
+   "Known regionally as fish molee, this delicately coconut-milk-based curry from India's southwest coast trades heat for gentle, aromatic sweetness."
+  ],
+  "fact": "Meen Moilee is especially popular among Kerala's Syrian Christian community and is a fixture at their festive Onam and Christmas tables."
+ },
+ {
+  "name": "Fish Tikka Masala",
+  "aliases": [],
+  "cuisine": "British-Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "fish",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "saucy",
+   "dairy",
+   "spicy",
+   "smoky"
+  ],
+  "key_ingredients": [
+   "fish fillet",
+   "tomato",
+   "cream",
+   "garam masala",
+   "yogurt",
+   "kasuri methi"
+  ],
+  "clues": [
+   "A newer spin-off of a wildly popular British curry-house creation, swapping the usual poultry for firm fillets instead.",
+   "Cubes of fish are first char-marinated in yogurt and spices before being folded into a rich tomato-cream gravy, so they hold their shape rather than flaking apart.",
+   "Because delicate flesh cooks fast and breaks easily, chefs sear it hard first, then add it to the sauce right at the end rather than simmering it in from the start.",
+   "This dish takes the beloved tomato-cream tandoori chicken curry template and reimagines it with fish, chunk for chunk."
+  ],
+  "fact": "Fish Tikka Masala is a relatively recent addition to Indian restaurant menus abroad, riding on the coattails of its chicken predecessor's fame."
+ },
+ {
+  "name": "Prawn Balchao",
+  "aliases": [
+   "balchao",
+   "prawn balchão"
+  ],
+  "cuisine": "Goan",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "seafood",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "spicy",
+   "chilli",
+   "pickled",
+   "seafood"
+  ],
+  "key_ingredients": [
+   "prawn",
+   "vinegar",
+   "dried red chilli",
+   "garlic",
+   "tamarind",
+   "jaggery"
+  ],
+  "clues": [
+   "A Goan preserve-style curry so heavily laced with vinegar and chilli that it was designed to keep for weeks without refrigeration.",
+   "Sailors and traders once carried preparations like this one on long voyages, since the acidity acted as a natural preservative for the seafood inside.",
+   "A small amount of jaggery balances the fierce vinegar tang in this thick, deep-red, intensely piquant Goan seafood pickle-curry.",
+   "This tangy, fiery Goan shellfish pickle-curry, whose Portuguese-derived name refers to a spiced vinegar preserve, is eaten sparingly as a condiment rather than a main course."
+  ],
+  "fact": "Prawn Balchao can be stored for weeks without refrigeration thanks to its heavy vinegar content, a trick inherited from Goa's Portuguese past."
+ },
+ {
+  "name": "Chingri Malai Curry",
+  "aliases": [
+   "prawn malai curry",
+   "chingri malaikari"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "seafood",
+  "carb": "none",
+  "method": "stewed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "coconut",
+   "saucy",
+   "festive",
+   "seafood"
+  ],
+  "key_ingredients": [
+   "prawn",
+   "coconut milk",
+   "bay leaf",
+   "cardamom",
+   "ghee",
+   "sugar"
+  ],
+  "clues": [
+   "A festive Bengali curry that looks rich enough for cream but actually gets its silky body from coconut milk, not dairy.",
+   "Jumbo river shellfish, prized and pricier than the small kind, are the traditional choice for this celebratory coastal Bengali curry.",
+   "Bay leaf, cardamom, and a touch of sugar give this mild, fragrant curry a delicate sweetness unusual among Bengali seafood preparations.",
+   "This Bengali wedding-feast shellfish curry gets its silky richness from coconut milk, not the dairy cream its English nickname might suggest."
+  ],
+  "fact": "Chingri Malai Curry is a fixture of Bengali wedding feasts, traditionally made with the prized golda chingri, or giant river prawn."
+ },
+ {
+  "name": "Egg Curry",
+  "aliases": [
+   "anda curry",
+   "egg masala"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "egg",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "saucy",
+   "spicy",
+   "egg_based",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "boiled egg",
+   "onion",
+   "tomato",
+   "ginger-garlic paste",
+   "garam masala",
+   "coriander leaves"
+  ],
+  "clues": [
+   "One of the most common vegetarian-adjacent proteins gets simmered whole or halved in a spiced onion-tomato gravy in kitchens across the country.",
+   "Often the fallback dish for busy weeknights, since its main protein needs only boiling before it goes into the pot.",
+   "Shallow slits or halves are cut into the boiled protein before it's added, letting the gravy's spices seep all the way through.",
+   "This everyday onion-tomato gravy, built around boiled eggs rather than meat, is sometimes called anda curry using the Hindi word for its star ingredient."
+  ],
+  "fact": "Egg Curry is one of India's most improvised dishes — nearly every region and household has its own version of the recipe."
+ },
+ {
+  "name": "Kosha Mangsho",
+  "aliases": [
+   "kosha mangso"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "none",
+  "method": "braised",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "spicy",
+   "smoky",
+   "festive",
+   "saucy"
+  ],
+  "key_ingredients": [
+   "mutton",
+   "mustard oil",
+   "onion",
+   "yogurt",
+   "potato",
+   "garam masala"
+  ],
+  "clues": [
+   "A Bengali Sunday ritual dish, traditionally simmered for hours in mustard oil until the gravy turns almost black and clings thickly to the meat.",
+   "Mountains of sliced onions are browned down slowly to form the base of this dark, intensely reduced mutton preparation.",
+   "The meat is marinated overnight in yogurt and mustard oil, then fried down hard before any water is added, concentrating the flavour into a thick coating rather than a thin gravy.",
+   "This deeply reduced, near-black Bengali mutton preparation, its name literally describing the slow-frying technique used on the meat, is a beloved Sunday lunch classic."
+  ],
+  "fact": "Kosha Mangsho is a beloved Sunday lunch tradition in Bengali households, often paired with luchi, a puffed fried bread, rather than rice."
+ },
+ {
+  "name": "Lucknowi Mutton Biryani",
+  "aliases": [
+   "awadhi biryani",
+   "lucknow biryani",
+   "biryani"
+  ],
+  "cuisine": "Lucknowi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "festive",
+   "layered",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "mutton",
+   "saffron",
+   "kewra water",
+   "fried onions",
+   "yogurt"
+  ],
+  "clues": [
+   "Nawabi kitchens favored a gentler hand with chile and a heavier one with whole spice and rosewater, producing a fragrant meat-and-rice dish milder than its Deccani cousin.",
+   "Here the meat is cooked to tenderness in its own korma-style gravy before ever meeting the rice, a two-pot method different from the raw-marinated approach used further south.",
+   "Threads of saffron and a splash of kewra water perfume layers that are sealed and finished over low coals rather than a fierce flame.",
+   "The nawabi city on the Gomti lent its refined court style to this milder, pakki-layered rice-and-meat classic, finished with rose and saffron perfume."
+  ],
+  "fact": "Lucknowi biryani follows the pakki method, in which the mutton is cooked in its own korma-style gravy before being layered with parboiled rice, giving it a softer, more melded flavor than Hyderabad's raw-marinated kacchi style."
+ },
+ {
+  "name": "Kolkata Biryani",
+  "aliases": [
+   "calcutta biryani",
+   "biryani"
+  ],
+  "cuisine": "Bengali",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "lamb",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "sweet",
+   "festive",
+   "layered",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "mutton",
+   "potato",
+   "boiled egg",
+   "saffron",
+   "kewra water"
+  ],
+  "clues": [
+   "Legend says a deposed king arrived here with his cooks but not his fortune, and one humble tuber was added to stretch the meat further.",
+   "A whole boiled potato, golden and soft, sits nestled among the meat pieces — as essential to fans of this eastern rendition as the meat itself.",
+   "Sweetened lightly with a touch of sugar and perfumed with kewra rather than heavy chile, it favors fragrance over fire.",
+   "The Bengal capital's rendition of the sealed rice-and-meat classic is famous above all for the whole potato hidden in every serving."
+  ],
+  "fact": "Kolkata's version traces to the exiled Nawab Wajid Ali Shah of Awadh, whose limited budget for meat in 1856 Calcutta led his cooks to bulk up the dish with whole potatoes and eggs — a twist that became the dish's signature."
+ },
+ {
+  "name": "Veg Dum Biryani",
+  "aliases": [
+   "vegetable biryani",
+   "veg biryani",
+   "vegetable dum biryani"
+  ],
+  "cuisine": "Hyderabadi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "mixed",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "festive",
+   "layered",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "mixed vegetables",
+   "paneer",
+   "soy chunks",
+   "saffron",
+   "fried onions"
+  ],
+  "clues": [
+   "The meatless version of the sealed-pot classic relies on paneer or soy chunks and a colorful mix of produce to fill in for meat entirely.",
+   "Layers of saffron rice rest over a spiced mix of produce and paneer, and the pot is closed tight so trapped steam does the final cooking.",
+   "Popular at weddings and festive vegetarian spreads, it proves the celebrated layering technique never truly needed meat to shine.",
+   "A fully plant-based, paneer-and-vegetable take on the layered, steam-sealed rice classic served at festive occasions."
+  ],
+  "fact": "Veg Dum Biryani proves the celebrated dum layering technique works just as well without meat, using paneer, soy chunks, or extra vegetables to soak up the saffron and whole-spice perfume."
+ },
+ {
+  "name": "Jeera Rice",
+  "aliases": [
+   "cumin rice",
+   "jeera chawal"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "pan-fried",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "cumin seeds",
+   "ghee",
+   "bay leaf",
+   "green chili"
+  ],
+  "clues": [
+   "Whole aromatic seeds are bloomed in hot ghee until they crackle, then folded through fluffy long-grain rice with barely another spice in sight.",
+   "It's the everyday partner spooned alongside a bowl of creamy black lentils in North Indian home kitchens and restaurants alike.",
+   "Its whole flavor comes from just one toasted spice, letting the seeds' warm, earthy aroma carry the entire plate.",
+   "A simple North Indian side of basmati tempered only with toasted cumin seeds and ghee."
+  ],
+  "fact": "Jeera rice pairs so often with dal makhani in North Indian restaurants that many menus list the two exclusively as a set combo."
+ },
+ {
+  "name": "Ghee Rice",
+  "aliases": [
+   "neychoru",
+   "kuska"
+  ],
+  "cuisine": "Malabar",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "dairy",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "ghee",
+   "cashews",
+   "raisins",
+   "whole spices",
+   "fried onions"
+  ],
+  "clues": [
+   "Clarified butter, cooked slowly until nutty, is the entire soul of this fragrant Malabar accompaniment.",
+   "Whole cinnamon, cloves and cardamom simmer into the fat before the rice ever goes in, along with cashews and raisins fried to a golden crisp.",
+   "A cherished side at Kerala Muslim wedding feasts, it's traditionally paired with a spicy meat or egg curry called salna.",
+   "The Malabar coast's rich, mildly sweet basmati side, cooked in browned clarified butter with whole spices, nuts and raisins."
+  ],
+  "fact": "Known as neychoru in Malayalam, Kerala's ghee rice is a fixture of Malabar Muslim wedding feasts, always served alongside a spicy meat or egg curry called salna."
+ },
+ {
+  "name": "Peas Pulao",
+  "aliases": [
+   "matar pulao",
+   "green peas pulao",
+   "pulao"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "green peas",
+   "whole spices",
+   "ghee",
+   "bay leaf"
+  ],
+  "clues": [
+   "A humble, mildly spiced rice dish studded with tender little orbs that are secretly a legume, cooked together so the rice drinks in their sweetness.",
+   "Whole spices like bay leaf and clove scent the pot, but the real star is a vegetable that's actually a legume in disguise.",
+   "A lunchbox and tiffin staple across North India, often the simplest dish on a wedding buffet table.",
+   "A simple basmati pilaf built around sweet green legume seeds and whole warm spices."
+  ],
+  "fact": "Peas pulao is a fixture of North Indian tiffins and wedding buffets, prized for how the sweetness of green peas balances the whole warm spices."
+ },
+ {
+  "name": "Kashmiri Pulao",
+  "aliases": [
+   "kashmiri pilaf",
+   "mewa pulao"
+  ],
+  "cuisine": "Kashmiri",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 3,
+  "flags": [
+   "sweet",
+   "nuts",
+   "festive",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "dried fruits",
+   "fresh fruit",
+   "saffron",
+   "milk",
+   "nuts"
+  ],
+  "clues": [
+   "Fruit and nuts, not chile, define this festive rice dish — apple, pineapple, pomegranate seeds and dried fruit tumble through the grains.",
+   "Milk and saffron lend it a pale golden hue and a delicate sweetness closer to dessert than dinner.",
+   "Named for a mountain valley famed for its orchards and saffron fields, it turns fruit into the main event on the plate.",
+   "A fruit-and-nut studded, saffron-scented sweet basmati dish from the Himalayan valley renowned for saffron."
+  ],
+  "fact": "Kashmiri pulao often appears as the sweet finale of a Wazwan feast, its fruit and nuts standing in where other pulaos would use meat."
+ },
+ {
+  "name": "Lemon Rice",
+  "aliases": [
+   "chitranna",
+   "elumichai sadam"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "nuts",
+   "chilli"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "lemon juice",
+   "mustard seeds",
+   "curry leaves",
+   "peanuts",
+   "turmeric"
+  ],
+  "clues": [
+   "A South Indian tempered rice dish gets its bright yellow color from turmeric and its tang from a common kitchen citrus fruit.",
+   "Mustard seeds, curry leaves, peanuts and chana dal crackle in hot oil before the cooked rice is tossed through with citrus juice.",
+   "A temple-prasadam favorite in Karnataka, it travels well in tiffin boxes since the acid keeps it fresh for hours.",
+   "A bright citrus-soured, turmeric-yellow tempered rice from South India, crunchy with peanuts and curry leaves."
+  ],
+  "fact": "Lemon rice is offered as prasadam in many South Indian temples, particularly during festivals like Ugadi, prized for staying fresh without refrigeration thanks to its acidity."
+ },
+ {
+  "name": "Tamarind Rice",
+  "aliases": [
+   "puliyogare",
+   "puliodarai"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "nuts",
+   "festive"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "tamarind paste",
+   "sesame oil",
+   "peanuts",
+   "dried red chili",
+   "fenugreek"
+  ],
+  "clues": [
+   "A South Indian tempered rice dish built on a sour fruit-pulp paste that also flavors many chutneys and sambars.",
+   "Sesame oil, red chilies, fenugreek and roasted lentils go into a thick tangy paste that's mixed through cooled rice, often days after cooking without spoiling.",
+   "A festival and travel-friendly favorite in Karnataka and Tamil Nadu, sometimes sold ready-made as a spice-paste mix in jars.",
+   "A deeply tangy, sesame-oil-rich tempered rice soured with a dark fruit pulp paste, a South Indian travel classic."
+  ],
+  "fact": "Tamarind rice is central to Karnataka's Gowri and Ganesha festival offerings, and its tangy sesame-oil masala is sold ready-made in jars across South India as a shortcut mix."
+ },
+ {
+  "name": "Curd Rice",
+  "aliases": [
+   "thayir sadam",
+   "daddojanam",
+   "mosaru anna"
+  ],
+  "cuisine": "South Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "cold",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "yogurt",
+   "milk",
+   "mustard seeds",
+   "curry leaves",
+   "pomegranate"
+  ],
+  "clues": [
+   "The coolest dish on a South Indian thali, this one is finished raw and chilled rather than cooked further.",
+   "Cooked rice is mashed soft and mixed with fermented milk, then tempered with mustard seeds, curry leaves and sometimes pomegranate or grape.",
+   "Served last at traditional meals to soothe the stomach after spicy courses, it's also offered to deities in some South Indian temples.",
+   "A cooling, fermented-dairy-mixed rice from South India, served as the final course to calm the palate."
+  ],
+  "fact": "Curd rice traditionally closes a South Indian meal because its cooling, probiotic-rich yogurt is believed to soothe the stomach after spicy courses."
+ },
+ {
+  "name": "Tomato Rice",
+  "aliases": [
+   "thakkali sadam",
+   "tomato bath"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "tomato",
+   "onion",
+   "green chili",
+   "whole spices",
+   "ghee"
+  ],
+  "clues": [
+   "A one-pot South Indian rice dish where a common red salad fruit is cooked down into a tangy, glossy base before the rice goes in.",
+   "Onion, green chile and whole spices are sautéed until the sauce thickens, then rice is folded in until every grain turns a soft orange-red.",
+   "A quick tiffin-box classic in Karnataka and Tamil Nadu kitchens, often dressed up with a dollop of ghee or a fried egg on top.",
+   "A tangy, orange-red South Indian rice dish built on a thick simmered red-fruit base."
+  ],
+  "fact": "Tomato rice is a quick lunchbox staple across Karnataka and Tamil Nadu, often finished with a fried egg or a dollop of ghee for richness."
+ },
+ {
+  "name": "Coconut Rice",
+  "aliases": [
+   "thengai sadam",
+   "kobbari annam"
+  ],
+  "cuisine": "Tamil",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 3,
+  "flags": [
+   "vegetarian",
+   "coconut",
+   "sweet",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "grated coconut",
+   "mustard seeds",
+   "urad dal",
+   "curry leaves",
+   "cashews"
+  ],
+  "clues": [
+   "A South Indian temple-offering rice dish leans on a tropical fruit's grated white flesh for its richness rather than any dairy.",
+   "Mustard seeds, urad dal, cashews and curry leaves are fried in oil, then tossed with rice and freshly grated coconut for a delicate sweetness.",
+   "Common as prasadam in temples across Tamil Nadu and Karnataka, it's often garnished with fried cashews and raisins.",
+   "A South Indian rice dish enriched with freshly grated coconut and a crunchy tempering of lentils and cashews."
+  ],
+  "fact": "Coconut rice is a common temple prasadam across Tamil Nadu and Karnataka, its natural sweetness needing no added sugar."
+ },
+ {
+  "name": "Moong Dal Khichdi",
+  "aliases": [
+   "khichdi",
+   "moong khichdi",
+   "yellow dal khichdi"
+  ],
+  "cuisine": "North Indian",
+  "region": "South Asia",
+  "country": "India",
+  "course": "main",
+  "protein": "legume",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 1,
+  "flags": [
+   "vegetarian",
+   "one_pot",
+   "dairy"
+  ],
+  "key_ingredients": [
+   "rice",
+   "split moong dal",
+   "turmeric",
+   "cumin",
+   "ghee"
+  ],
+  "clues": [
+   "A one-pot rice-and-split-lentil porridge often called India's ultimate comfort food, gentle enough for infants, invalids and elders alike.",
+   "Golden split lentils and rice cook down together with turmeric and cumin until soft and almost soupy, finished with a pool of melted ghee.",
+   "Ayurveda praises it as the easiest dish to digest, and it's traditionally the first solid food given to babies.",
+   "A soft, one-pot rice-and-lentil porridge, India's classic soothing comfort food."
+  ],
+  "fact": "Khichdi is so deeply woven into Indian identity that in 2017 the government floated it as a candidate for the country's national dish."
+ },
+ {
+  "name": "Ven Pongal",
+  "aliases": [
+   "khara pongal",
+   "pongal"
+  ],
+  "cuisine": "Tamil",
+  "region": "South Asia",
+  "country": "India",
+  "course": "breakfast",
+  "protein": "legume",
+  "carb": "rice",
+  "method": "boiled",
+  "temp": "hot",
+  "difficulty": 2,
+  "flags": [
+   "vegetarian",
+   "dairy",
+   "one_pot"
+  ],
+  "key_ingredients": [
+   "rice",
+   "split moong dal",
+   "black pepper",
+   "cumin",
+   "ghee",
+   "cashews"
+  ],
+  "clues": [
+   "A South Indian breakfast porridge blends rice and yellow split lentils into a soft, savory mash rich with cracked pepper and cumin.",
+   "Ghee-fried cashews and curry leaves crown a dish traditionally cooked in a mud pot as an offering during the harvest festival season.",
+   "Served hot with coconut chutney and a tangy lentil stew, it's a temple and tiffin-counter breakfast staple in Tamil Nadu.",
+   "A savory, pepper-and-cumin spiced rice-and-lentil breakfast mash from Tamil Nadu, garnished with ghee-fried cashews."
+  ],
+  "fact": "Ven pongal is traditionally cooked in a clay pot during the Tamil harvest festival of Pongal, where the pot is allowed to boil over as a symbol of abundance."
+ },
+ {
+  "name": "Vangi Bath",
+  "aliases": [
+   "brinjal rice",
+   "eggplant rice"
+  ],
+  "cuisine": "Karnataka",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "assembled",
+  "temp": "room",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "spicy",
+   "festive"
+  ],
+  "key_ingredients": [
+   "cooked rice",
+   "brinjal",
+   "vangi bath powder",
+   "peanuts",
+   "sesame",
+   "tamarind"
+  ],
+  "clues": [
+   "This Karnataka one-pot rice dish leans on a purple-skinned nightshade vegetable and a special roasted spice blend ground fresh for it.",
+   "Coriander seeds, dried red chilies, chana dal and sesame are dry-roasted and ground into a fragrant powder unique to this dish, then cooked with rice and chunks of the vegetable.",
+   "A festival lunch-box favorite across Karnataka, distinct from the tamarind-based rice mixes because of its own dedicated spice masala.",
+   "A Karnataka rice dish built on chunks of purple brinjal and a dry-roasted spice powder made just for it."
+  ],
+  "fact": "Vangi bath gets its distinct flavor from a dedicated spice blend called Vangi Bath powder, dry-roasted from coriander, chana dal, sesame and red chilies specifically for this dish."
+ },
+ {
+  "name": "Bagara Rice",
+  "aliases": [
+   "baghare chawal",
+   "bagara chawal"
+  ],
+  "cuisine": "Hyderabadi",
+  "region": "South Asia",
+  "country": "India",
+  "course": "side",
+  "protein": "none",
+  "carb": "rice",
+  "method": "steamed",
+  "temp": "hot",
+  "difficulty": 4,
+  "flags": [
+   "vegetarian",
+   "nuts"
+  ],
+  "key_ingredients": [
+   "basmati rice",
+   "peanuts",
+   "sesame seeds",
+   "curry leaves",
+   "whole spices",
+   "cinnamon"
+  ],
+  "clues": [
+   "A Hyderabadi tempered rice dish gets its nutty crunch from roasted peanuts and sesame seeds folded through whole-spice-scented grains.",
+   "Curry leaves, cinnamon, cloves and bay leaf perfume the oil before rice ever touches the pot, yet there's no heavy sauce mixed in — just a light tempering.",
+   "A daily-table companion in Hyderabadi Muslim homes, often paired with a tangy sour lentil stew or a peanut-and-sesame vegetable curry.",
+   "A subtly spiced, peanut-and-sesame tempered basmati side from Hyderabad's home kitchens, distinct from its more famous layered cousin."
+  ],
+  "fact": "Bagara rice is Hyderabad's everyday counterpart to biryani — a lightly spiced, nutty tempered rice usually paired with tangy dishes like mirchi ka salan or khatti dal."
+ }
+]
