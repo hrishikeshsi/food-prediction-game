@@ -331,6 +331,11 @@ One page, three screens, no build step:
   wrong guesses, tilts it while the server thinks, and casts a spell as each
   dish is unveiled from under a lifting cloche.
 - **About · Help · Future scope** — linked from the welcome page.
+- **Sound** — synthesised in the browser by `frontend/sound.js`, no audio files: a
+  heavy, muffled thud on every click or tap, a lighter one on hover, the cloche
+  landing and lifting with a deep boom, a shimmer for the chef's spells and a
+  dull double thud for a wrong guess. Nothing plays before the visitor's first
+  click; the speaker button in the bottom-left corner turns it off.
 
 Palette: black `#000000` / `#09090B`, charcoal `#121215`, white `#FAFAFA`, and
 champagne gold `#C8A96E` kept to hairlines and badges. Type: Instrument Serif,

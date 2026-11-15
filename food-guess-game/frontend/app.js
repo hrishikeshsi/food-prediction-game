@@ -11,6 +11,8 @@
   'use strict';
 
   const { call, waitFor } = window.Mystico;
+  // sound.js plays the clicks and hovers itself; these are the game's own moments
+  const sound = window.MysticoSound || { press() {}, land() {}, boom() {}, wrong() {} };
 
   // ─────────────────────────────── helpers ───────────────────────────────
   const $ = (selector, root = document) => root.querySelector(selector);
@@ -1192,6 +1194,7 @@
         return;
       }
       shake(R.input);
+      sound.wrong();
       if (result.feedback) {
         say(pick(RV_SAYS.broke), 'shake');
         feedback(`<span class="gold">${esc(result.feedback)}</span>`);
@@ -1323,6 +1326,7 @@
     play(V.plate, [{ opacity: 0, transform: 'scaleX(0.6)' }, { opacity: 1, transform: 'scaleX(1)' }], { duration: 700, fill: 'both' });
     await play(V.lid, [{ opacity: 0, transform: 'translateY(-48px)' }, { opacity: 1, transform: 'translateY(0)' }], { duration: 640, fill: 'both' });
     if (token !== reveal.token) return;
+    sound.land();
 
     // 2. a moment of anticipation
     await play(V.lid, [
@@ -1333,6 +1337,7 @@
 
     // 3. the cloche lifts away and the dish rises into the light
     sparkle(V.lid);
+    sound.boom();
     play(V.glow, [{ opacity: 0, transform: 'scale(0.55)' }, { opacity: 1, transform: 'scale(1)' }], { duration: 1300 });
     play(V.lid, [{ opacity: 1, transform: 'translateY(0) rotate(0deg)' }, { opacity: 0, transform: 'translateY(-190px) rotate(-8deg)' }], { duration: 1050 });
     play(V.plate, [{ opacity: 1 }, { opacity: 0 }], { duration: 600, delay: 220 });
@@ -1370,6 +1375,7 @@
       play(V.plate, [{ opacity: 0 }, { opacity: 1 }], { duration: 320 });
       play(V.glow, [{ opacity: 1 }, { opacity: 0 }], { duration: 500 });
       await play(V.lid, [{ opacity: 0, transform: 'translateY(-190px) rotate(-8deg)' }, { opacity: 1, transform: 'translateY(0) rotate(0deg)' }], { duration: 680 });
+      sound.land();
       await sleep(140);
     }
     await play(V.root, [{ opacity: 1 }, { opacity: 0 }], { duration: 340, easing: EASE_IN });
@@ -1409,19 +1415,19 @@
     if (PAGES.has(view.screen) && key === 'escape') { go('welcome'); return; }
     if (reveal.open) {
       const action = reveal.actions.find((a) => a.key === key && !a.button.disabled);
-      if (action) { event.preventDefault(); action.button.click(); }
+      if (action) { event.preventDefault(); sound.press(action.style === 'white'); action.button.click(); }
       return;
     }
     if (view.screen === 'forward' && fw.phase === 'ready') {
-      if (key === 'y' || key === 'enter') { event.preventDefault(); fwStart(); }
-      if (key === 'n') { event.preventDefault(); $('#fw-ready-wait').click(); }
+      if (key === 'y' || key === 'enter') { event.preventDefault(); sound.press(true); fwStart(); }
+      if (key === 'n') { event.preventDefault(); sound.press(); $('#fw-ready-wait').click(); }
     } else if (view.screen === 'reverse' && rv.phase === 'ready') {
-      if (key === 'enter' || key === 'y') { event.preventDefault(); rvStart(); }
+      if (key === 'enter' || key === 'y') { event.preventDefault(); sound.press(true); rvStart(); }
     } else if (view.screen === 'forward' && fw.phase === 'asking') {
       const answer = { y: 'yes', n: 'no', u: 'unsure' }[key];
-      if (answer) { event.preventDefault(); fwAnswer(answer); }
+      if (answer) { event.preventDefault(); sound.press(answer === 'yes'); fwAnswer(answer); }
     } else if (view.screen === 'reverse' && rv.phase === 'playing') {
-      if (key === 'h' && !R.hint.disabled) { event.preventDefault(); rvNextHint(); }
+      if (key === 'h' && !R.hint.disabled) { event.preventDefault(); sound.press(); rvNextHint(); }
       if (key === '/') { event.preventDefault(); R.input.focus(); }
     } else if (view.screen === 'welcome' && key === 'enter' && event.target === document.body) {
       go('forward', $('[data-go="forward"]'));
