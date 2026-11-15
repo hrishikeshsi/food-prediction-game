@@ -338,10 +338,12 @@ Plus Jakarta Sans, JetBrains Mono. Everything respects the system's reduced-moti
 setting.
 
 **To use your own gameplay video**, put the file in `frontend/assets/` and change
-the `<source src="assets/hero.mp4">` line in `frontend/index.html` (it is marked
-`GAMEPLAY VIDEO`). Any `https://` address works too, and a WebM line above it is
-used by browsers that support WebM. Short, compressed clips load fastest; the
-bundled one is a 16-second 4K clip of 87 MB.
+the `<source src="assets/gameplay.mp4">` line in `frontend/index.html` (it is
+marked `GAMEPLAY VIDEO`). Any `https://` address works too, and a WebM line above
+it is used by browsers that support WebM. Short, compressed clips load fastest:
+`gameplay.mp4` is the 16-second 4K `hero.mp4` re-encoded at 1080p, 9 MB instead
+of 87, for example with
+`ffmpeg -i hero.mp4 -an -vf scale=1920:-2 -c:v libx264 -preset slow -crf 28 -pix_fmt yuv420p -movflags +faststart gameplay.mp4`.
 
 Each mode has its own address: `/#forward`, `/#reverse`, `/#about`, `/#help`,
 `/#future`.

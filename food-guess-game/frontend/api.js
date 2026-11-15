@@ -20,6 +20,8 @@
   const ON_THIS_MACHINE = location.protocol === 'file:'
     || ['localhost', '127.0.0.1', '[::1]', ''].includes(location.hostname);
   const FALLBACK = ON_THIS_MACHINE ? LOCAL_API : LIVE_API;
+  // GitHub Pages serves the page but has no game server to ask.
+  const STATIC_HOST = /\.github\.io$/.test(location.hostname);
   const WAKING_AFTER_MS = 3000;   // a free server asleep takes up to a minute
 
   let base = null;
@@ -35,7 +37,7 @@
   async function probe() {
     const candidates = OVERRIDE
       ? [OVERRIDE.replace(/\/+$/, '')]
-      : [...(location.protocol.startsWith('http') ? [''] : []), FALLBACK];
+      : [...(location.protocol.startsWith('http') && !STATIC_HOST ? [''] : []), FALLBACK];
     const slow = setTimeout(() => window.dispatchEvent(new CustomEvent('mystico:waking')), WAKING_AFTER_MS);
     try {
       for (const candidate of candidates) {

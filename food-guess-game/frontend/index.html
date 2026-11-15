@@ -345,11 +345,12 @@
        The looping backdrop behind both game modes. To use your own clip, put
        the file in frontend/assets/ (or use any https:// address) and change
        src below. Uncomment the WebM line to have browsers that can play WebM
-       use that file instead. Short, compressed clips load fastest.
+       use that file instead. Short, compressed clips load fastest:
+       gameplay.mp4 is the 4K hero.mp4 re-encoded at 1080p, 9 MB instead of 87.
        ────────────────────────────────────────────────────────────────────── -->
   <video class="arena-video" id="arena-video" autoplay loop muted playsinline preload="auto" aria-hidden="true">
     <!-- <source src="assets/gameplay.webm" type="video/webm"> -->
-    <source src="assets/hero.mp4" type="video/mp4">
+    <source src="assets/gameplay.mp4" type="video/mp4">
   </video>
   <div class="arena-scrim" aria-hidden="true"></div>
 
