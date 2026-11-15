@@ -278,6 +278,13 @@
   });
   show();
   document.body.appendChild(toggle);
+  // The other pages of the game (the tree, framed in the main page) share the
+  // switch: flipping it in one flips it in all.
+  window.addEventListener('storage', (event) => {
+    if (event.key !== STORE) return;
+    on = event.newValue !== 'off';
+    show();
+  });
 
   window.MysticoSound = {
     press: (strong = false) => play(strong ? 'strong' : 'press'),

@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
+<script>if (new URLSearchParams(location.search).has('embed')) document.documentElement.classList.add('embed');</script>
 <style>
   /* The Culinary Tree — the fitted decision tree as a glowing 3D tree.
      Pure black, neon orange from #FF4D00 at the trunk to #FF7A00 at the tips,
@@ -88,6 +89,9 @@
 
   /* ── the stage ── */
   .stage { position: fixed; inset: 64px 0 0 0; }
+  /* framed in the main page (tree.html?embed), which has the header and the sound switch */
+  .embed .top, .embed .sound-toggle { display: none; }
+  .embed .stage { inset: 0; }
   #scene { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; outline: none; }
   #scene.dragging { cursor: grabbing; }
   #scene.over-leaf { cursor: pointer; }

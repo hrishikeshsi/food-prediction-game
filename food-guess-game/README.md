@@ -35,8 +35,9 @@ cd food-guess-game
 dependencies, validates the dish catalogue, trains the free-text classifier on
 first run (about two minutes on a laptop CPU), then serves the game.
 
-Open **http://127.0.0.1:8000** and pick a mode. The decision tree is at
-**/tree** and the API docs at **/docs**.
+Open **http://127.0.0.1:8000** and pick a mode. The decision tree is the
+**Culinary Tree** tab on the main page (or **/tree** on its own), and the API
+docs are at **/docs**.
 
 The front end also works opened straight from `frontend/index.html`, or from an
 editor preview server such as VS Code's Live Server: it looks for the game
@@ -165,8 +166,9 @@ python3 -m ml.decision_tree      # writes data/artifacts/tree/
 ```
 
 writes the fitted classifier (`.joblib`), a readable outline (`.txt`), Graphviz
-source (`.dot`) and the nested JSON the **/tree** page draws. On that page you
-can open the tree branch by branch or type a dish to see its path.
+source (`.dot`) and the nested JSON the **/tree** page draws. That page draws
+the tree in 3D, with every dish as a leaf at a branch tip: drag to turn it, and
+hover or click a leaf to see the questions that lead to that dish.
 
 Tree 0 is the canonical tree. Reverse mode also fits five randomised variants
 (each split considers a random 40% of the questions) so that successive rounds
@@ -280,9 +282,9 @@ notebooks/
   benchmark.ipynb      the evaluation, with outputs
 data/dishes/*.json     the catalogue
 frontend/
-  index.html           the app: welcome, both game modes, About · Help · Future scope
+  index.html           the app: welcome, both game modes, Culinary Tree · About · Help · Future scope
   styles.css, app.js   its design system and logic; api.js finds the server
-  tree.html            the decision-tree viewer
+  tree.html            the Culinary Tree, the decision tree in 3D (three.js); framed by index.html
   assets/hero.mp4      the gameplay video (see "The front end")
 ../data/               chef-guess.html, you-guess.html — old addresses, now redirects
 tests/                 pytest suite + benchmark CLI

@@ -105,7 +105,7 @@
   const I = {
     root: $('#info'),
     tabs: $('#info-tabs'),
-    pages: { about: $('#page-about'), help: $('#page-help'), future: $('#page-future') },
+    pages: { tree: $('#page-tree'), about: $('#page-about'), help: $('#page-help'), future: $('#page-future') },
   };
   const A = {
     root: $('#arena'),
@@ -522,7 +522,7 @@
   // Screens: the welcome page, the arena in either mode, and the three pages.
   const view = { screen: 'welcome', busy: false };
   const ARENA = new Set(['forward', 'reverse']);
-  const PAGES = new Set(['about', 'help', 'future']);
+  const PAGES = new Set(['tree', 'about', 'help', 'future']);
   const fromHash = () => {
     const name = location.hash.slice(1);
     return ARENA.has(name) || PAGES.has(name) ? name : 'welcome';
@@ -560,9 +560,29 @@
     } finally {
       view.busy = false;
     }
+    if (view.screen !== 'tree') unloadTree();
     if (fromHash() !== view.screen) go(fromHash());
   }
   window.addEventListener('popstate', () => go(fromHash()));
+
+  // The Culinary Tree is its own page, tree.html, framed here while its tab
+  // is open. It is loaded when the tab opens and unloaded when the player
+  // moves on, so its 3D scene never runs in the background.
+  const treeHolder = $('#tree-holder');
+  function loadTree() {
+    if (treeHolder.firstElementChild) return;
+    const frame = document.createElement('iframe');
+    frame.title = 'The Culinary Tree: every dish as a leaf of the decision tree, in 3D';
+    const api = new URLSearchParams(location.search).get('api');
+    frame.src = `tree.html?embed=1${api ? `&api=${encodeURIComponent(api)}` : ''}`;
+    treeHolder.append(frame);
+  }
+  function unloadTree() { treeHolder.replaceChildren(); }
+  // the tree sits right under the pages' header, whatever its height
+  const infoTop = $('.info-top', I.root);
+  new ResizeObserver(() => {
+    if (infoTop.offsetHeight) I.root.style.setProperty('--info-top-h', `${infoTop.offsetHeight}px`);
+  }).observe(infoTop);
   window.addEventListener('hashchange', () => go(fromHash()));
 
   function centreOf(node) {
@@ -636,6 +656,7 @@
       tab.setAttribute('aria-selected', String(tab.dataset.tab === page));
     }
     for (const [name, node] of Object.entries(I.pages)) node.hidden = name !== page;
+    if (page === 'tree') loadTree();
   }
 
   async function enterInfo(page) {

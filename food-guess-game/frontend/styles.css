@@ -230,6 +230,20 @@ button { -webkit-tap-highlight-color: transparent; }
 }
 .welcome-nav a:hover { color: var(--ink); }
 .welcome-nav a:hover::after { transform: scaleX(1); transform-origin: left; }
+.welcome-nav .short { display: none; }
+/* the tree link carries a spark of the tree's own neon orange */
+.welcome-nav .nav-tree { display: inline-flex; align-items: center; gap: 8px; color: var(--ink-2); }
+.welcome-nav .nav-tree::before {
+  content: "";
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #FF7A00;
+  box-shadow: 0 0 6px #FF4D00, 0 0 14px rgba(255, 77, 0, 0.7);
+  animation: tree-spark 2.4s ease-in-out infinite;
+}
+.welcome-nav .nav-tree::after { background: #FF7A00; box-shadow: 0 0 8px #FF4D00; }
+@keyframes tree-spark { 50% { opacity: 0.45; box-shadow: 0 0 4px #FF4D00; } }
 .welcome-center {
   display: flex;
   flex-direction: column;
@@ -271,6 +285,9 @@ button { -webkit-tap-highlight-color: transparent; }
 @media (max-width: 560px) {
   .welcome-top { padding-top: 22px; }
   .welcome-nav { gap: 14px; }
+  .welcome-nav .long { display: none; }
+  .welcome-nav .short { display: inline; }
+  .welcome-nav .nav-tree { gap: 6px; }
   .wordmark { letter-spacing: 0.24em; }
   .cta-row { flex-direction: column; width: 100%; max-width: 340px; }
   .cta-row .pill { width: 100%; }
@@ -437,10 +454,22 @@ a.chip { text-decoration: none; }
 }
 .mode-switch a:hover { color: var(--ink); }
 .mode-switch a[aria-selected="true"] { color: var(--black); }
-.mode-switch.mode-switch--three { grid-template-columns: repeat(3, 1fr); }
-.mode-switch--three .mode-thumb { width: calc((100% - 8px) / 3); }
-.mode-switch--three[data-tab="help"] .mode-thumb { transform: translateX(100%); }
-.mode-switch--three[data-tab="future"] .mode-thumb { transform: translateX(200%); }
+.mode-switch.mode-switch--four { grid-template-columns: repeat(4, 1fr); }
+.mode-switch--four .mode-thumb { width: calc((100% - 8px) / 4); }
+.mode-switch--four[data-tab="about"] .mode-thumb { transform: translateX(100%); }
+.mode-switch--four[data-tab="help"] .mode-thumb { transform: translateX(200%); }
+.mode-switch--four[data-tab="future"] .mode-thumb { transform: translateX(300%); }
+
+/* The Culinary Tree fills everything under the header, edge to edge. */
+.info-page.info-page--tree {
+  position: fixed;
+  inset: var(--info-top-h, 84px) 0 0 0;
+  z-index: 1;
+  width: auto;
+  margin: 0;
+  background: #000;
+}
+.tree-holder, .tree-holder iframe { display: block; width: 100%; height: 100%; border: 0; background: #000; }
 
 .info-panes { display: grid; padding: 28px var(--gutter) 96px; }
 .info-page { grid-area: 1 / 1; width: min(980px, 100%); margin: 0 auto; }
@@ -608,12 +637,23 @@ kbd {
 }
 @media (max-width: 760px) {
   .info-grid { grid-template-columns: minmax(0, 1fr); }
+}
+/* four tabs: the short names, and no wordmark, once the header gets tight */
+@media (max-width: 1040px) {
   .info-wordmark { display: none; }
   .info-top { grid-template-columns: auto 1fr; }
   .info-top > .mode-switch { justify-self: end; }
   .mode-switch a { padding: 0 14px; }
-  .mode-switch.mode-switch--three .long { display: none; }
-  .mode-switch.mode-switch--three .short { display: inline; }
+  .mode-switch.mode-switch--four .long { display: none; }
+  .mode-switch.mode-switch--four .short { display: inline; }
+}
+@media (max-width: 560px) {
+  .info-top .chip-label { display: none; }
+  .info-top .chip { padding: 0 14px; }
+  .mode-switch.mode-switch--four a { padding: 0 10px; }
+}
+@media (max-width: 360px) {
+  .mode-switch.mode-switch--four a { padding: 0 7px; font-size: 12px; }
 }
 @media (max-width: 560px) {
   .info-cta .pill { width: 100%; }

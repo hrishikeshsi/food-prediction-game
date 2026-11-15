@@ -20,9 +20,10 @@
   <header class="welcome-top">
     <span class="wordmark">Chef Mystico</span>
     <nav class="welcome-nav" aria-label="Pages">
+      <a class="nav-tree" href="#tree"><span class="long">Culinary Tree</span><span class="short">Tree</span></a>
       <a href="#about">About</a>
       <a href="#help">Help</a>
-      <a href="#future">Future scope</a>
+      <a href="#future"><span class="long">Future scope</span><span class="short">Future</span></a>
     </nav>
   </header>
 
@@ -153,8 +154,9 @@
 <main class="screen info" id="info" hidden>
   <header class="info-top">
     <a class="chip" href="#" id="info-home"><span aria-hidden="true">←</span><span class="chip-label">Home</span></a>
-    <div class="mode-switch mode-switch--three" id="info-tabs" role="tablist" aria-label="Pages" data-tab="about">
+    <div class="mode-switch mode-switch--four" id="info-tabs" role="tablist" aria-label="Pages" data-tab="about">
       <span class="mode-thumb" aria-hidden="true"></span>
+      <a role="tab" href="#tree" data-tab="tree" aria-selected="false"><span class="long">Culinary Tree</span><span class="short">Tree</span></a>
       <a role="tab" href="#about" data-tab="about" aria-selected="true">About</a>
       <a role="tab" href="#help" data-tab="help" aria-selected="false">Help</a>
       <a role="tab" href="#future" data-tab="future" aria-selected="false"><span class="long">Future scope</span><span class="short">Future</span></a>
@@ -163,6 +165,11 @@
   </header>
 
   <div class="info-panes">
+    <!-- ── The Culinary Tree: tree.html, framed while its tab is open ── -->
+    <article class="info-page info-page--tree" id="page-tree" aria-label="The Culinary Tree" hidden>
+      <div class="tree-holder" id="tree-holder"></div>
+    </article>
+
     <!-- ── About ── -->
     <article class="info-page" id="page-about" aria-labelledby="about-title">
       <p class="info-eyebrow" data-enter>About</p>
@@ -199,7 +206,7 @@
           <h3>The decision tree</h3>
           <p>Both modes share one table of yes/no questions about the dishes. A scikit-learn decision tree fitted on that table
             singles out any dish in 8.6 questions on average, against a theoretical minimum of 8.45.</p>
-          <a class="info-link" href="tree.html">Explore the tree <span aria-hidden="true">→</span></a>
+          <a class="info-link" href="#tree">Explore the tree <span aria-hidden="true">→</span></a>
         </section>
         <section class="info-item" data-enter>
           <p class="n">04</p>
