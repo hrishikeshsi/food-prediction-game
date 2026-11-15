@@ -60,6 +60,10 @@ class GameSession(Base):
     asked_keys: Mapped[list | None] = mapped_column(JSON, default=list)
     rejected: Mapped[list | None] = mapped_column(JSON, default=list)
 
+    # Hint plan and progress for the clue mode: which decision tree the round
+    # draws from, the ordered hints, and which have been revealed.
+    hint_state: Mapped[dict | None] = mapped_column(JSON)
+
     created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=_now)
     finished_at: Mapped[datetime | None] = mapped_column(DateTime(timezone=True))
 

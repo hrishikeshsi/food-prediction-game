@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#000000">
+<title>Chef Mystico — The Decision Tree</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --black: #000000; --charcoal: #121215; --ink: #FAFAFA;
+    --ink-2: rgba(250, 250, 250, 0.68); --ink-3: rgba(250, 250, 250, 0.46); --ink-4: rgba(250, 250, 250, 0.24);
+    --hair: rgba(250, 250, 250, 0.09); --hair-2: rgba(250, 250, 250, 0.18);
+    --gold: #C8A96E; --gold-2: rgba(200, 169, 110, 0.4);
+    --serif: "Instrument Serif", "Playfair Display", Georgia, serif;
+    --sans: "Plus Jakarta Sans", Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --ease: cubic-bezier(0.16, 1, 0.3, 1);
+    color-scheme: dark;
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--black); color: var(--ink); font: 400 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
+  ::selection { background: var(--gold); color: var(--black); }
+  :focus-visible { outline: 1px solid var(--gold); outline-offset: 3px; }
+  .wrap { max-width: 1040px; margin: 0 auto; padding: 28px 16px 80px; }
+  .mono { font: 500 11px var(--mono); letter-spacing: 0.16em; text-transform: uppercase; }
+  .back { color: var(--ink-3); text-decoration: none; transition: color 240ms; }
+  .back:hover { color: var(--ink); }
+  h1 { margin: 40px 0 10px; font: 400 clamp(44px, 7vw, 76px)/1 var(--serif); letter-spacing: -0.018em; }
+  h1 em { font-style: italic; }
+  .lede { max-width: 64ch; margin: 0 0 36px; color: var(--ink-2); }
+  .lede code { padding: 1px 6px; border: 1px solid var(--hair); border-radius: 6px; background: rgba(250, 250, 250, 0.06); color: var(--ink); font: 500 12.5px var(--mono); }
+
+  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; margin-bottom: 44px; border: 1px solid var(--hair); border-radius: 20px; overflow: hidden; background: var(--hair); }
+  .stat { padding: 18px 18px 16px; background: var(--black); }
+  .stat b { display: block; font: 400 34px/1.1 var(--serif); }
+  .stat.gold b { color: var(--gold); }
+  .stat span { display: block; margin-top: 6px; color: var(--ink-3); font: 500 10.5px var(--mono); letter-spacing: 0.12em; text-transform: uppercase; }
+
+  h2 { margin: 40px 0 14px; color: var(--ink-3); }
+  .finder { display: flex; flex-wrap: wrap; gap: 10px; }
+  .finder input { flex: 1; min-width: 220px; height: 50px; padding: 0 20px; border: 1px solid var(--hair-2); border-radius: 999px; background: var(--charcoal); color: var(--ink); font: 500 15px var(--sans); }
+  .finder input:focus { outline: none; border-color: var(--ink); }
+  .finder input::placeholder { color: var(--ink-3); }
+  .finder button { height: 50px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--ink); color: var(--black); font: 600 15px var(--sans); cursor: pointer; transition: transform 300ms var(--ease); }
+  .finder button:hover { transform: translateY(-1px); }
+  .finder button:active { transform: scale(0.97); }
+
+  .path { display: grid; gap: 0; margin: 18px 0 0; padding: 0; list-style: none; }
+  .path li { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: baseline; padding: 12px 4px; border-top: 1px solid var(--hair); }
+  .path li:last-child { border-bottom: 1px solid var(--hair); }
+  .path .n { color: var(--ink-4); font: 500 11px var(--mono); }
+  .path .answer { margin-left: 6px; font: 500 11px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
+  .path .answer.yes { color: var(--ink); } .path .answer.no { color: var(--ink-3); }
+  .path .left { color: var(--gold); font: 500 11px var(--mono); white-space: nowrap; }
+  .note { margin: 12px 0 0; color: var(--ink-3); font: italic 400 18px/1.4 var(--serif); }
+  .error { color: var(--gold); }
+
+  .tree { overflow-x: auto; padding: 18px 18px 18px 8px; border: 1px solid var(--hair); border-radius: 20px; background: var(--charcoal); }
+  details { margin-left: 18px; padding-left: 12px; border-left: 1px solid var(--hair); }
+  .tree > details { margin-left: 6px; border-left: 0; }
+  summary { padding: 4px 6px; border-radius: 8px; white-space: nowrap; cursor: pointer; }
+  summary:hover { background: rgba(250, 250, 250, 0.05); }
+  .tag { display: inline-block; min-width: 34px; font: 500 10.5px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
+  .tag.yes { color: var(--ink); } .tag.no { color: var(--ink-3); }
+  .count { color: var(--ink-4); font: 500 11px var(--mono); }
+  .leaf { margin-left: 18px; padding: 4px 6px 4px 16px; border-left: 1px solid var(--hair); white-space: nowrap; color: var(--ink-2); }
+  .leaf b { color: var(--ink); font: 400 17px var(--serif); }
+  .hit > summary, .leaf.hit { background: rgba(200, 169, 110, 0.12); }
+  .leaf.hit b { color: var(--gold); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back mono" href="index.html">← Chef Mystico</a>
+  <h1>The decision <em>tree</em></h1>
+  <p class="lede">
+    A scikit-learn <code>DecisionTreeClassifier</code> fitted on the same table of yes/no questions the
+    mind-reading engine uses, with every dish as its own class. Each node holds the question that most
+    evenly splits the dishes still in play, so each answer rules out about half of them.
+  </p>
+
+  <div class="stats" id="stats"></div>
+
+  <h2 class="mono">Follow one dish</h2>
+  <div class="finder">
+    <input id="dish" list="dishes" placeholder="Type a dish, e.g. Mole Poblano" autocomplete="off" aria-label="Dish name">
+    <datalist id="dishes"></datalist>
+    <button id="go" type="button">Show its path</button>
+  </div>
+  <ol class="path" id="path"></ol>
+  <p class="note" id="path-note">In the hint game these statements, in this order, are what the chef reveals about a hidden dish.</p>
+
+  <h2 class="mono">The whole tree</h2>
+  <div class="tree" id="tree">Loading…</div>
+</div>
+
+<script src="api.js"></script>
+<script>
+"use strict";
+const el = (tag, cls, text) => {
+  const node = document.createElement(tag);
+  if (cls) node.className = cls;
+  if (text !== undefined) node.textContent = text;
+  return node;
+};
+
+// dish name -> list of {question, answer, before, after} from the root down
+const paths = new Map();
+// dish name -> the DOM nodes on its path, for highlighting
+const trail = new Map();
+
+// How many dishes sit under each branch, so a path can show "180 → 92".
+function count(node) {
+  if (node.dish) return 1;
+  node._yes = count(node.yes);
+  node._no = count(node.no);
+  return node._yes + node._no;
+}
+function walk(node, steps) {
+  if (node.dish) { paths.set(node.dish, steps); return; }
+  walk(node.yes, steps.concat({ question: node.question, answer: "yes", before: node.dishes, after: node._yes }));
+  walk(node.no, steps.concat({ question: node.question, answer: "no", before: node.dishes, after: node._no }));
+}
+
+function render(node, branch, depth, chain) {
+  if (node.dish) {
+    const leaf = el("div", "leaf");
+    if (branch) leaf.append(el("span", "tag " + branch, branch), " ");
+    leaf.append("→ ", el("b", null, node.dish));
+    trail.set(node.dish, chain.concat(leaf));
+    return leaf;
+  }
+  const box = el("details");
+  if (depth < 2) box.open = true;
+  const summary = el("summary");
+  if (branch) summary.append(el("span", "tag " + branch, branch), " ");
+  summary.append(node.question + " ", el("span", "count", "[" + node.dishes + "]"));
+  box.append(summary);
+  const here = chain.concat(box);
+  box.append(render(node.yes, "yes", depth + 1, here), render(node.no, "no", depth + 1, here));
+  return box;
+}
+
+function showPath(name) {
+  const list = document.getElementById("path");
+  const note = document.getElementById("path-note");
+  list.replaceChildren();
+  document.querySelectorAll(".hit").forEach((n) => n.classList.remove("hit"));
+  const match = [...paths.keys()].find((k) => k.toLowerCase() === name.trim().toLowerCase());
+  if (!match) {
+    note.textContent = name.trim() ? "That dish is not in the catalogue — pick one from the suggestions." : "";
+    note.className = "note error";
+    return;
+  }
+  note.className = "note";
+  note.textContent = match + " is isolated after " + paths.get(match).length +
+    " questions. In the hint game these statements, in this order, are what the chef reveals about it.";
+  paths.get(match).forEach((step, i) => {
+    const row = el("li");
+    const text = el("span");
+    text.append(step.question, el("span", "answer " + step.answer, step.answer));
+    row.append(el("span", "n", String(i + 1).padStart(2, "0")), text, el("span", "left", step.before + " → " + step.after));
+    list.append(row);
+  });
+  const nodes = trail.get(match) || [];
+  nodes.forEach((n) => { if (n.tagName === "DETAILS") n.open = true; n.classList.add("hit"); });
+  if (nodes.length) nodes[nodes.length - 1].scrollIntoView({ block: "nearest", behavior: "smooth" });
+}
+
+Mystico.call("/api/tree").then((data) => {
+  const s = data.stats;
+  const tiles = [
+    [s.dishes, "dishes, one leaf each"],
+    [s.mean_depth.toFixed(2), "questions on average", true],
+    [s.ideal_depth.toFixed(2), "theoretical minimum"],
+    [s.max_depth, "questions at most"],
+    [s.questions_used + " / " + s.questions_available, "questions used"],
+    [(100 * s.training_accuracy).toFixed(0) + "%", "reached by honest answers"],
+  ];
+  const stats = document.getElementById("stats");
+  tiles.forEach(([value, label, gold]) => {
+    const tile = el("div", gold ? "stat gold" : "stat");
+    tile.append(el("b", null, String(value)), el("span", null, label));
+    stats.append(tile);
+  });
+
+  count(data.tree);
+  walk(data.tree, []);
+  document.getElementById("tree").replaceChildren(render(data.tree, null, 0, []));
+
+  const options = document.getElementById("dishes");
+  [...paths.keys()].sort().forEach((name) => {
+    const option = el("option");
+    option.value = name;
+    options.append(option);
+  });
+}).catch((err) => {
+  const holder = document.getElementById("tree");
+  holder.textContent = "Could not load the tree (" + err.message + "). Start the game server from the food-guess-game folder: .venv/bin/python -m uvicorn app.main:app";
+  holder.className = "tree error";
+});
+
+document.getElementById("go").addEventListener("click", () => showPath(document.getElementById("dish").value));
+document.getElementById("dish").addEventListener("keydown", (e) => { if (e.key === "Enter") showPath(e.target.value); });
+document.getElementById("dish").addEventListener("change", (e) => showPath(e.target.value));
+</script>
+</body>
+</html>

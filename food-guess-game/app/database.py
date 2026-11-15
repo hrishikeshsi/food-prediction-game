@@ -3,7 +3,7 @@ from __future__ import annotations
 
 from collections.abc import Iterator
 
-from sqlalchemy import create_engine, event
+from sqlalchemy import create_engine, event, inspect, text
 from sqlalchemy.orm import DeclarativeBase, Session, sessionmaker
 
 from app.config import settings
@@ -53,3 +53,10 @@ def init_db() -> None:
     from app import db_models  # noqa: F401  (registers the mappers)
 
     Base.metadata.create_all(bind=engine)
+
+    # create_all never alters an existing table, so a database made by an
+    # earlier version needs the newer column added by hand.
+    columns = {c["name"] for c in inspect(engine).get_columns("game_sessions")}
+    if "hint_state" not in columns:
+        with engine.begin() as connection:
+            connection.execute(text("ALTER TABLE game_sessions ADD COLUMN hint_state JSON"))

@@ -20,11 +20,16 @@ class DishCard(BaseModel):
     difficulty: int
     key_ingredients: list[str]
     fact: str
+    emoji: str = "🍽️"
 
 
 class Candidate(BaseModel):
     dish: str
     probability: float
+
+
+class SessionRef(BaseModel):
+    session_id: str
 
 
 # --------------------------------------------------------------------------- #
@@ -38,19 +43,31 @@ class NewClueGame(BaseModel):
     exclude: list[str] = Field(default_factory=list)
 
 
+class Hint(BaseModel):
+    # "clue" is one of the dish's hand-written clues; "trait" is a statement
+    # read off the decision tree and removes about half the remaining dishes.
+    kind: Literal["clue", "trait"]
+    text: str
+
+
 class ClueGameState(BaseModel):
     session_id: str
     mode: Literal["clue"] = "clue"
     status: str
-    clue: str | None = None
-    clues_revealed: int
+    clue: str | None = None             # the hint revealed by this call, if any
+    hint_kind: Literal["clue", "trait"] | None = None
+    clues_revealed: int                 # hand-written clues shown so far
     clues_available: int
+    hints_used: int                     # generated traits shown so far
+    hints_revealed: int                 # both kinds together
+    hints_total: int
+    candidates_left: int                # dishes still fitting every trait shown
     wrong_guesses: int
-    hints_used: int
     potential_score: int
     difficulty: int
     region_hint: str | None = None
     message: str | None = None
+    history: list[Hint] = Field(default_factory=list)
 
 
 class GuessIn(BaseModel):
@@ -64,6 +81,8 @@ class GuessOut(BaseModel):
     match_score: float
     match_method: str
     near_miss: str | None = None
+    # Set when the guess contradicts a hint the chef has already given.
+    feedback: str | None = None
     state: ClueGameState
     reveal: DishCard | None = None
     score_awarded: int = 0
@@ -92,6 +111,15 @@ class MindQuestion(BaseModel):
     text: str
 
 
+class Disagreement(BaseModel):
+    """An answer the player gave that differs from the catalogue's entry."""
+
+    key: str
+    question: str
+    answered: Answer
+    catalogue: str
+
+
 class MindState(BaseModel):
     session_id: str
     mode: Literal["mind"] = "mind"
@@ -100,10 +128,16 @@ class MindState(BaseModel):
     guess: DishCard | None = None
     questions_asked: int
     max_questions: int
+    guesses_made: int = 0
+    max_guesses: int = 3
     confidence: float
     progress: float
+    effective_candidates: float = 0.0   # 2^entropy of the belief
     top_candidates: list[Candidate]
     message: str | None = None
+    # Filled once the player has said what the dish really was.
+    revealed: DishCard | None = None
+    review: list[Disagreement] | None = None
 
 
 class AnswerIn(BaseModel):
@@ -117,6 +151,11 @@ class VerdictIn(BaseModel):
     correct: bool
     # If the engine was wrong the player can tell it what the dish actually was.
     actual: str | None = None
+
+
+class RevealIn(BaseModel):
+    session_id: str
+    actual: str = Field(min_length=1, max_length=200)
 
 
 # --------------------------------------------------------------------------- #

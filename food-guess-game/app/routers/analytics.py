@@ -5,9 +5,12 @@ from fastapi import APIRouter, Depends
 from sqlalchemy import func, select
 from sqlalchemy.orm import Session
 
+from app.config import settings
 from app.database import get_db
-from app.db_models import DishStat, Feedback, GameSession, Prediction
+from app.db_models import DishStat, Feedback, GameSession, Prediction, Turn
 from app.schemas import AnalyticsOut
+from app.services.catalog import get_catalogue
+from app.services.engine import question_table
 
 router = APIRouter(prefix="/api/analytics", tags=["analytics"])
 
@@ -120,4 +123,88 @@ def export_feedback(db: Session = Depends(get_db)) -> dict:
             for r in rows
         ],
         "count": len(rows),
+    }
+
+
+@router.get("/answer-noise")
+def answer_noise(min_answers: int = 5, db: Session = Depends(get_db)) -> dict:
+    """How players actually answer, against what the catalogue says.
+
+    The engine's accuracy target only holds while its answer-noise model is
+    no more optimistic than real players. This reads every finished
+    mind-reading round whose dish is known — the engine was confirmed right,
+    or the player said what it was — and reports, per kind of question, how
+    often a "yes" came back when the catalogue says yes and when it says no.
+    Compare ``observed`` with ``assumed`` and move the settings in
+    ``app/config.py`` if they have drifted apart.
+    """
+    catalogue = get_catalogue()
+    table = question_table()
+
+    sessions = db.scalars(
+        select(GameSession).where(
+            GameSession.mode == "mind",
+            GameSession.status == "finished",
+            GameSession.secret_dish.in_(catalogue.names),
+        )
+    ).all()
+
+    def blank() -> dict:
+        return {"yes_when_true": 0, "true": 0, "yes_when_false": 0, "false": 0, "unsure": 0}
+
+    by_kind: dict[str, dict] = {}
+    by_question: dict[str, dict] = {}
+    for session in sessions:
+        column = table.name_index[session.secret_dish]
+        answers = db.scalars(
+            select(Turn).where(Turn.session_id == session.id, Turn.kind == "answer")
+        ).all()
+        for turn in answers:
+            key, answer = turn.payload.get("key"), turn.payload.get("answer")
+            index = table.key_index.get(key)
+            if index is None:
+                continue
+            truth = bool(table.truth[index, column])
+            for bucket in (by_kind.setdefault(table.kinds[index], blank()),
+                           by_question.setdefault(key, blank())):
+                if answer == "unsure":
+                    bucket["unsure"] += 1
+                    continue
+                bucket["true" if truth else "false"] += 1
+                if answer == "yes":
+                    bucket["yes_when_true" if truth else "yes_when_false"] += 1
+
+    def rates(bucket: dict) -> dict:
+        answered = bucket["true"] + bucket["false"]
+        wrong = (bucket["true"] - bucket["yes_when_true"]) + bucket["yes_when_false"]
+        return {
+            "answers": answered,
+            "unsure": bucket["unsure"],
+            "p_yes_when_true": _round(bucket["yes_when_true"] / bucket["true"]) if bucket["true"] else None,
+            "p_yes_when_false": _round(bucket["yes_when_false"] / bucket["false"]) if bucket["false"] else None,
+            "wrong_rate": _round(wrong / answered) if answered else None,
+        }
+
+    assumed = {
+        "attribute": [settings.p_correct, settings.p_flip],
+        "origin": [settings.p_correct, settings.p_flip],
+        "cuisine": [settings.cuisine_p_correct, settings.cuisine_p_flip],
+        "ingredient": [settings.ingredient_p_correct, settings.ingredient_p_flip],
+    }
+    noisiest = sorted(
+        (
+            {"key": key, "question": catalogue.question_by_key[key].text, **rates(bucket)}
+            for key, bucket in by_question.items()
+            if bucket["true"] + bucket["false"] >= min_answers
+        ),
+        key=lambda row: -(row["wrong_rate"] or 0.0),
+    )
+    return {
+        "rounds": len(sessions),
+        "observed": {kind: rates(bucket) for kind, bucket in sorted(by_kind.items())},
+        "assumed": {
+            kind: {"p_yes_when_true": pair[0], "p_yes_when_false": pair[1]}
+            for kind, pair in assumed.items()
+        },
+        "noisiest_questions": noisiest[:15],
     }

@@ -3,7 +3,17 @@
 set -euo pipefail
 cd "$(dirname "$0")"
 
-PY=${PYTHON:-python3}
+# Use the project's own virtualenv unless PYTHON says otherwise. Homebrew and
+# recent Debian Pythons refuse `pip install` outside one.
+if [ -n "${PYTHON:-}" ]; then
+  PY=$PYTHON
+else
+  if [ ! -x .venv/bin/python ]; then
+    echo "▸ creating .venv"
+    python3 -m venv .venv
+  fi
+  PY=.venv/bin/python
+fi
 PORT=${PORT:-8000}
 HOST=${HOST:-127.0.0.1}
 
@@ -25,5 +35,5 @@ else
   echo "▸ trained model found at data/artifacts/model.pt"
 fi
 
-echo "▸ serving on http://$HOST:$PORT   (API docs at /docs)"
+echo "▸ serving on http://$HOST:$PORT   (API docs at /docs, the decision tree at /tree)"
 exec $PY -m uvicorn app.main:app --host "$HOST" --port "$PORT" "${@}"
