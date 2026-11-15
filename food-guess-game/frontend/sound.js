@@ -4,7 +4,6 @@
  * download:
  *
  *   press   a heavy, muffled thud when anything pressable is clicked or tapped
- *   hover   a lighter thud when the pointer reaches something pressable
  *   land    the cloche settling onto its plate
  *   boom    a deep thud and a shimmer as the cloche lifts
  *   magic   a soft thud and a shimmer when the chef casts a spell
@@ -155,7 +154,6 @@
     spark,
     press: (c, d, t) => thud(c, d, t, { weight: 0.9, pitch: 1, length: 0.28 }),
     strong: (c, d, t) => thud(c, d, t, { weight: 1.1, pitch: 0.85, length: 0.34 }),
-    hover: (c, d, t) => thud(c, d, t, { weight: 0.2, pitch: 1.7, length: 0.09 }),
     land: (c, d, t) => thud(c, d, t, { weight: 0.75, pitch: 0.8, length: 0.3 }),
     boom: (c, d, t) => { thud(c, d, t, { weight: 1.4, pitch: 0.6, length: 0.75 }); shimmer(c, d, t + 0.12); },
     magic: (c, d, t) => { thud(c, d, t, { weight: 0.45, pitch: 1.25, length: 0.2 }); shimmer(c, d, t); },
@@ -236,21 +234,6 @@
     }
   }, { capture: true });
 
-  // One soft thud as the pointer enters each pressable thing (mouse only).
-  let hovered = null;
-  let hoveredAt = 0;
-  document.addEventListener('pointerover', (event) => {
-    if (event.pointerType !== 'mouse') return;
-    const target = event.target.closest && event.target.closest(PRESSABLE);
-    if (target === hovered) return;
-    hovered = target;
-    if (!target || target.disabled || target.closest('.sound-toggle')) return;
-    const now = performance.now();
-    if (now - hoveredAt < 70) return;   // sweeping across a row stays a patter, not a roll
-    hoveredAt = now;
-    play(target.matches(MAGICAL) ? 'magic' : 'hover');
-  }, { passive: true });
-
   // ─────────────────────────── the switch ────────────────────────────────
   const style = document.createElement('style');
   style.textContent = `
@@ -298,7 +281,6 @@
 
   window.MysticoSound = {
     press: (strong = false) => play(strong ? 'strong' : 'press'),
-    hover: () => play('hover'),
     land: () => play('land'),
     boom: () => play('boom'),
     magic: () => play('magic'),
