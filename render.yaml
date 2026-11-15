@@ -1,0 +1,18 @@
+# Render Blueprint: the Chef Mystico game server.
+# On render.com: New → Blueprint → pick this repository → Apply.
+# The free plan sleeps after 15 idle minutes; the first request after that
+# takes up to a minute while it wakes. Game history lives in SQLite on the
+# server's own disk and starts afresh whenever the service is redeployed.
+services:
+  - type: web
+    name: craving-jadugar
+    runtime: python
+    plan: free
+    rootDir: food-guess-game
+    buildCommand: pip install -r requirements-server.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.8

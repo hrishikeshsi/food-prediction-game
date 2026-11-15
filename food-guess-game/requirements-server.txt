@@ -1,0 +1,10 @@
+# Just what the game server needs to run — used by the Render deployment.
+# The full requirements.txt adds PyTorch and pandas, which are only needed to
+# train the free-text classifier (ml/prepare_data.py, ml/train.py).
+numpy>=1.26
+scikit-learn>=1.4
+joblib>=1.3
+fastapi>=0.110
+uvicorn[standard]>=0.27
+pydantic>=2.6
+sqlalchemy>=2.0
