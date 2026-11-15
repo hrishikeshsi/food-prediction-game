@@ -2,212 +2,1073 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#000000">
-<title>Chef Mystico — The Decision Tree</title>
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath d='M15 42c0-11 7.6-19 17-19s17 8 17 19' fill='none' stroke='%23C8A96E' stroke-width='3'/%3E%3Cpath d='M11 44h42' stroke='%23C8A96E' stroke-width='3' stroke-linecap='round'/%3E%3Ccircle cx='32' cy='19' r='3' fill='none' stroke='%23C8A96E' stroke-width='3'/%3E%3C/svg%3E">
+<title>Chef Mystico — The Culinary Tree</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23000'/%3E%3Cpath d='M32 54V30M32 38 20 24M32 34l12-14M20 24l-6-6M20 24v-9M44 20l7-5M44 20v-9' fill='none' stroke='%23FF5A00' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap">
 <style>
+  /* The Culinary Tree — the fitted decision tree as a glowing 3D tree.
+     Pure black, neon orange from #FF4D00 at the trunk to #FF7A00 at the tips,
+     a deep amber underglow, and dark neon red for the fine accents. */
   :root {
-    --black: #000000; --charcoal: #121215; --ink: #FAFAFA;
-    --ink-2: rgba(250, 250, 250, 0.68); --ink-3: rgba(250, 250, 250, 0.46); --ink-4: rgba(250, 250, 250, 0.24);
-    --hair: rgba(250, 250, 250, 0.09); --hair-2: rgba(250, 250, 250, 0.18);
-    --gold: #C8A96E; --gold-2: rgba(200, 169, 110, 0.4);
-    --serif: "Instrument Serif", "Playfair Display", Georgia, serif;
-    --sans: "Plus Jakarta Sans", Inter, system-ui, -apple-system, "Segoe UI", sans-serif;
-    --mono: "JetBrains Mono", ui-monospace, "SF Mono", Menlo, monospace;
+    --black: #000000;
+    --neon: #FF7A00;
+    --amber-hot: #FFC07A;
+    --ember: #FF2E1F;
+    --ink: #F6EDE4;
+    --ink-2: rgba(246, 237, 228, 0.66);
+    --ink-3: rgba(246, 237, 228, 0.42);
+    --hair: rgba(255, 122, 0, 0.22);
+    --serif: "Instrument Serif", Georgia, serif;
+    --sans: "Plus Jakarta Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: "JetBrains Mono", ui-monospace, Menlo, monospace;
     --ease: cubic-bezier(0.16, 1, 0.3, 1);
     color-scheme: dark;
   }
   * { box-sizing: border-box; }
-  body { margin: 0; background: var(--black); color: var(--ink); font: 400 15px/1.55 var(--sans); -webkit-font-smoothing: antialiased; }
-  ::selection { background: var(--gold); color: var(--black); }
-  :focus-visible { outline: 1px solid var(--gold); outline-offset: 3px; }
-  .wrap { max-width: 1040px; margin: 0 auto; padding: 28px 16px 80px; }
-  .mono { font: 500 11px var(--mono); letter-spacing: 0.16em; text-transform: uppercase; }
-  .back { color: var(--ink-3); text-decoration: none; transition: color 240ms; }
-  .back:hover { color: var(--ink); }
-  h1 { margin: 40px 0 10px; font: 400 clamp(44px, 7vw, 76px)/1 var(--serif); letter-spacing: -0.018em; }
-  h1 em { font-style: italic; }
-  .lede { max-width: 64ch; margin: 0 0 36px; color: var(--ink-2); }
-  .lede code { padding: 1px 6px; border: 1px solid var(--hair); border-radius: 6px; background: rgba(250, 250, 250, 0.06); color: var(--ink); font: 500 12.5px var(--mono); }
+  [hidden] { display: none !important; }
+  html, body { height: 100%; }
+  body {
+    margin: 0;
+    overflow: hidden;
+    background: var(--black);
+    color: var(--ink);
+    font: 400 15px/1.55 var(--sans);
+    -webkit-font-smoothing: antialiased;
+  }
+  ::selection { background: var(--neon); color: var(--black); }
+  :focus-visible { outline: 1px solid var(--neon); outline-offset: 3px; }
 
-  .stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; margin-bottom: 44px; border: 1px solid var(--hair); border-radius: 20px; overflow: hidden; background: var(--hair); }
-  .stat { padding: 18px 18px 16px; background: var(--black); }
-  .stat b { display: block; font: 400 34px/1.1 var(--serif); }
-  .stat.gold b { color: var(--gold); }
-  .stat span { display: block; margin-top: 6px; color: var(--ink-3); font: 500 10.5px var(--mono); letter-spacing: 0.12em; text-transform: uppercase; }
+  /* ── header ── */
+  .top {
+    position: fixed;
+    inset: 0 0 auto 0;
+    z-index: 5;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+    padding: 0 clamp(16px, 3vw, 40px);
+    background: var(--black);
+  }
+  .brand {
+    color: var(--ink);
+    font: 500 11px var(--mono);
+    letter-spacing: 0.34em;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  .top nav { display: flex; gap: clamp(18px, 2.4vw, 32px); }
+  .top nav a {
+    position: relative;
+    padding: 4px 0;
+    color: var(--ink-2);
+    font: 500 14px var(--sans);
+    text-decoration: none;
+    transition: color 240ms;
+  }
+  .top nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 1px;
+    background: var(--neon);
+    box-shadow: 0 0 8px var(--neon);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 420ms var(--ease);
+  }
+  .top nav a:hover { color: var(--ink); }
+  .top nav a:hover::after { transform: scaleX(1); transform-origin: left; }
 
-  h2 { margin: 40px 0 14px; color: var(--ink-3); }
-  .finder { display: flex; flex-wrap: wrap; gap: 10px; }
-  .finder input { flex: 1; min-width: 220px; height: 50px; padding: 0 20px; border: 1px solid var(--hair-2); border-radius: 999px; background: var(--charcoal); color: var(--ink); font: 500 15px var(--sans); }
-  .finder input:focus { outline: none; border-color: var(--ink); }
-  .finder input::placeholder { color: var(--ink-3); }
-  .finder button { height: 50px; padding: 0 24px; border: 0; border-radius: 999px; background: var(--ink); color: var(--black); font: 600 15px var(--sans); cursor: pointer; transition: transform 300ms var(--ease); }
-  .finder button:hover { transform: translateY(-1px); }
-  .finder button:active { transform: scale(0.97); }
+  /* ── the stage ── */
+  .stage { position: fixed; inset: 64px 0 0 0; }
+  #scene { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; outline: none; }
+  #scene.dragging { cursor: grabbing; }
+  #scene.over-leaf { cursor: pointer; }
+  #overlay { position: absolute; inset: 0; z-index: 1; overflow: hidden; pointer-events: none; }
 
-  .path { display: grid; gap: 0; margin: 18px 0 0; padding: 0; list-style: none; }
-  .path li { display: grid; grid-template-columns: 34px 1fr auto; gap: 12px; align-items: baseline; padding: 12px 4px; border-top: 1px solid var(--hair); }
-  .path li:last-child { border-bottom: 1px solid var(--hair); }
-  .path .n { color: var(--ink-4); font: 500 11px var(--mono); }
-  .path .answer { margin-left: 6px; font: 500 11px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
-  .path .answer.yes { color: var(--ink); } .path .answer.no { color: var(--ink-3); }
-  .path .left { color: var(--gold); font: 500 11px var(--mono); white-space: nowrap; }
-  .note { margin: 12px 0 0; color: var(--ink-3); font: italic 400 18px/1.4 var(--serif); }
-  .error { color: var(--gold); }
+  .intro {
+    position: absolute;
+    top: clamp(10px, 3vh, 28px);
+    left: clamp(16px, 3vw, 40px);
+    z-index: 2;
+    max-width: 300px;
+    pointer-events: none;
+  }
+  .eyebrow {
+    margin: 0;
+    color: var(--neon);
+    font: 500 11px var(--mono);
+    letter-spacing: 0.26em;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgba(255, 106, 0, 0.6);
+  }
+  .intro h1 {
+    margin: 10px 0 10px;
+    font: 400 clamp(36px, 4vw, 50px)/0.98 var(--serif);
+    letter-spacing: -0.015em;
+  }
+  .intro h1 em { font-style: italic; color: var(--amber-hot); text-shadow: 0 0 18px rgba(255, 122, 0, 0.45); }
+  .intro .lede { margin: 0; color: var(--ink-2); font-size: 14px; line-height: 1.6; }
+  .intro .stats {
+    margin: 12px 0 0;
+    color: var(--ink-3);
+    font: 500 10.5px var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+  }
+  .intro .stats b { color: var(--neon); font-weight: 500; }
 
-  .tree { overflow-x: auto; padding: 18px 18px 18px 8px; border: 1px solid var(--hair); border-radius: 20px; background: var(--charcoal); }
-  details { margin-left: 18px; padding-left: 12px; border-left: 1px solid var(--hair); }
-  .tree > details { margin-left: 6px; border-left: 0; }
-  summary { padding: 4px 6px; border-radius: 8px; white-space: nowrap; cursor: pointer; }
-  summary:hover { background: rgba(250, 250, 250, 0.05); }
-  .tag { display: inline-block; min-width: 34px; font: 500 10.5px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; }
-  .tag.yes { color: var(--ink); } .tag.no { color: var(--ink-3); }
-  .count { color: var(--ink-4); font: 500 11px var(--mono); }
-  .leaf { margin-left: 18px; padding: 4px 6px 4px 16px; border-left: 1px solid var(--hair); white-space: nowrap; color: var(--ink-2); }
-  .leaf b { color: var(--ink); font: 400 17px var(--serif); }
-  .hit > summary, .leaf.hit { background: rgba(200, 169, 110, 0.12); }
-  .leaf.hit b { color: var(--gold); }
+  .limb3d {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: rgba(255, 205, 160, 0.95);
+    font: 500 10.5px var(--mono);
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    white-space: nowrap;
+    padding: 3px 8px 3px 9px;
+    border: 1px solid rgba(255, 106, 0, 0.3);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.78);
+    box-shadow: 0 0 10px rgba(255, 77, 0, 0.18);
+    text-shadow: 0 0 8px rgba(255, 90, 0, 0.55);
+    transition: opacity 300ms;
+    will-change: transform;
+  }
+  .tip3d {
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #FFEAD6;
+    font: italic 400 20px var(--serif);
+    white-space: nowrap;
+    padding: 2px 14px 4px;
+    border: 1px solid rgba(255, 122, 0, 0.45);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.82);
+    box-shadow: 0 0 18px rgba(255, 77, 0, 0.3);
+    text-shadow: 0 0 14px rgba(255, 106, 0, 0.7);
+    will-change: transform;
+  }
+
+  .controls {
+    position: absolute;
+    right: clamp(16px, 3vw, 40px);
+    bottom: 20px;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+  }
+  .controls .hint {
+    margin: 0;
+    color: var(--ink-3);
+    font: 500 10.5px var(--mono);
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+  .zoom { display: flex; gap: 8px; }
+  .zoom button {
+    min-width: 40px;
+    height: 40px;
+    padding: 0 12px;
+    border: 1px solid var(--hair);
+    border-radius: 999px;
+    background: rgba(0, 0, 0, 0.7);
+    color: var(--amber-hot);
+    font: 500 15px var(--mono);
+    cursor: pointer;
+    transition: border-color 240ms, box-shadow 320ms var(--ease), color 240ms;
+  }
+  .zoom button:hover { border-color: var(--neon); color: var(--ink); box-shadow: 0 0 14px rgba(255, 106, 0, 0.35); }
+  .zoom button:active { transform: scale(0.95); }
+
+  .status {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    z-index: 2;
+    max-width: 80vw;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    color: var(--amber-hot);
+    font: 500 12px var(--mono);
+    letter-spacing: 0.2em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 12px rgba(255, 106, 0, 0.6);
+  }
+
+  /* ── the details card ── */
+  .card {
+    position: absolute;
+    top: 16px;
+    right: clamp(16px, 3vw, 40px);
+    bottom: 96px;
+    z-index: 3;
+    width: 340px;
+    overflow-y: auto;
+    padding: 26px 24px 22px;
+    border: 1px solid var(--hair);
+    border-radius: 22px;
+    background: rgba(8, 3, 0, 0.92);
+    box-shadow: 0 0 40px rgba(255, 77, 0, 0.12), inset 0 0 0 1px rgba(255, 122, 0, 0.04);
+    scrollbar-width: thin;
+    scrollbar-color: var(--hair) transparent;
+    animation: card-in 480ms var(--ease);
+  }
+  @keyframes card-in { from { opacity: 0; transform: translateX(24px); } }
+  .card .eyebrow { padding-right: 40px; }
+  .card-close {
+    position: absolute;
+    top: 14px;
+    right: 14px;
+    width: 32px;
+    height: 32px;
+    border: 1px solid var(--hair);
+    border-radius: 50%;
+    background: none;
+    color: var(--ink-2);
+    font: 400 18px/1 var(--sans);
+    cursor: pointer;
+  }
+  .card-close:hover { color: var(--ink); border-color: var(--neon); }
+  .card h2 {
+    margin: 12px 36px 6px 0;
+    font: 400 34px/1.05 var(--serif);
+    letter-spacing: -0.01em;
+    text-shadow: 0 0 22px rgba(255, 106, 0, 0.35);
+  }
+  .card .meta { margin: 0 0 18px; color: var(--ink-3); font-size: 13px; }
+  .card ol { margin: 0; padding: 0; list-style: none; }
+  .card li {
+    display: grid;
+    grid-template-columns: 26px minmax(0, 1fr) auto;
+    gap: 2px 8px;
+    padding: 11px 0;
+    border-top: 1px solid rgba(255, 122, 0, 0.12);
+  }
+  .card li .n { color: var(--neon); font: 500 10.5px var(--mono); padding-top: 3px; }
+  .card li .q { color: var(--ink-2); font-size: 13.5px; line-height: 1.45; }
+  .card li .a { font: 500 10.5px var(--mono); letter-spacing: 0.14em; text-transform: uppercase; padding-top: 3px; }
+  .card li .a.yes { color: var(--amber-hot); }
+  .card li .a.no { color: var(--ember); }
+  .card li .c { grid-column: 2 / -1; color: var(--ink-3); font: 500 10px var(--mono); letter-spacing: 0.08em; }
+
+  @media (max-width: 760px) {
+    .intro { right: 16px; max-width: none; }
+    .intro .lede { display: none; }
+    .controls .hint { display: none; }
+    .card {
+      top: auto;
+      left: 12px;
+      right: 12px;
+      bottom: 12px;
+      width: auto;
+      max-height: 46%;
+      animation-name: sheet-in;
+    }
+    @keyframes sheet-in { from { opacity: 0; transform: translateY(24px); } }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .card { animation: none; }
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <a class="back mono" href="index.html">← Chef Mystico</a>
-  <h1>The decision <em>tree</em></h1>
-  <p class="lede">
-    A scikit-learn <code>DecisionTreeClassifier</code> fitted on the same table of yes/no questions the
-    mind-reading engine uses, with every dish as its own class. Each node holds the question that most
-    evenly splits the dishes still in play, so each answer rules out about half of them.
-  </p>
 
-  <div class="stats" id="stats"></div>
+<header class="top">
+  <a class="brand" href="index.html">Chef Mystico</a>
+  <nav aria-label="Pages">
+    <a href="index.html#about">About</a>
+    <a href="index.html#help">Help</a>
+  </nav>
+</header>
 
-  <h2 class="mono">Follow one dish</h2>
-  <div class="finder">
-    <input id="dish" list="dishes" placeholder="Type a dish, e.g. Mole Poblano" autocomplete="off" aria-label="Dish name">
-    <datalist id="dishes"></datalist>
-    <button id="go" type="button">Show its path</button>
+<main class="stage" id="stage">
+  <canvas id="scene" aria-label="The Culinary Tree: the decision tree that tells every dish apart, drawn as a glowing 3D tree with one leaf per dish"></canvas>
+  <div id="overlay" aria-hidden="true"></div>
+
+  <div class="intro">
+    <p class="eyebrow">Decision tree</p>
+    <h1>The Culinary <em>Tree</em></h1>
+    <p class="lede">Every fork is one yes-or-no question about the food. Follow a branch from the trunk to its leaf to see how that dish is told apart from all the others.</p>
+    <p class="stats" id="stats"></p>
   </div>
-  <ol class="path" id="path"></ol>
-  <p class="note" id="path-note">In the hint game these statements, in this order, are what the chef reveals about a hidden dish.</p>
 
-  <h2 class="mono">The whole tree</h2>
-  <div class="tree" id="tree">Loading…</div>
-</div>
+  <p class="status" id="status">Growing the tree…</p>
+
+  <aside class="card" id="card" hidden aria-live="polite">
+    <button class="card-close" id="card-close" type="button" aria-label="Close">×</button>
+    <p class="eyebrow" id="card-eyebrow"></p>
+    <h2 id="card-title"></h2>
+    <p class="meta" id="card-meta"></p>
+    <ol id="card-path"></ol>
+  </aside>
+
+  <div class="controls">
+    <p class="hint">Drag to turn · scroll to zoom · click a leaf</p>
+    <div class="zoom">
+      <button type="button" id="zoom-in" aria-label="Zoom in">+</button>
+      <button type="button" id="zoom-out" aria-label="Zoom out">−</button>
+      <button type="button" id="zoom-fit" aria-label="Show the whole tree">Fit</button>
+    </div>
+  </div>
+</main>
 
 <script src="api.js"></script>
 <script src="sound.js"></script>
-<script>
-"use strict";
-const el = (tag, cls, text) => {
-  const node = document.createElement(tag);
-  if (cls) node.className = cls;
-  if (text !== undefined) node.textContent = text;
-  return node;
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+    "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+  }
+}
+</script>
+<script type="module">
+import * as THREE from 'three';
+import { OrbitControls } from 'three/addons/controls/OrbitControls.js';
+import { EffectComposer } from 'three/addons/postprocessing/EffectComposer.js';
+import { RenderPass } from 'three/addons/postprocessing/RenderPass.js';
+import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js';
+import { OutputPass } from 'three/addons/postprocessing/OutputPass.js';
+import { ShaderPass } from 'three/addons/postprocessing/ShaderPass.js';
+import { mergeGeometries } from 'three/addons/utils/BufferGeometryUtils.js';
+
+const $ = (selector) => document.querySelector(selector);
+const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+const ease = (t) => 1 - Math.pow(1 - t, 4);
+const status = $('#status');
+
+// ── the shape, in world units; the ground is y = 0 ──
+const TRUNK = 430;                                         // height of the first fork
+const CROWN = { cy: 1000, rx: 760, ry: 520, rz: 720 };     // the crown: an ellipsoid
+const U_MIN = -0.42;      // leaves cover the top and sides of the crown, not its underside
+const COLOUR = {
+  trunk: new THREE.Color('#FF4D00'),
+  tip: new THREE.Color('#FF7A00'),
+  lit: new THREE.Color('#FFC07A'),
+  root: new THREE.Color('#8A1C00'),
+  leaf: new THREE.Color('#FF9A1F'),
+  leafHot: new THREE.Color('#FFE6C4'),
 };
 
-// dish name -> list of {question, answer, before, after} from the root down
-const paths = new Map();
-// dish name -> the DOM nodes on its path, for highlighting
-const trail = new Map();
+// Short names for the big limbs; any other fork is named after its question.
+const LIMBS = {
+  'protein:meatless': ['Meatless', 'Meat & fish'],
+  'carb:none': ['No starch', 'With starch'],
+  'flag:saucy': ['Saucy', 'Dry'],
+  'temp:hot': ['Served hot', 'Not hot'],
+  'carb:wheat': ['Wheat dough', 'No wheat'],
+  'protein:red': ['Red meat', 'No red meat'],
+  'flag:vegetarian': ['Vegetarian', 'Not vegetarian'],
+  'course:main': ['Mains', 'Not mains'],
+  'group:Asia': ['Asia', 'Beyond Asia'],
+  'flag:dairy': ['Dairy', 'No dairy'],
+  'method:slow': ['Slow-cooked', 'Quick'],
+  'method:fried': ['Fried', 'Not fried'],
+};
+const limbName = (fork, answer) => {
+  const pair = LIMBS[fork.key];
+  if (pair) return pair[answer === 'yes' ? 0 : 1];
+  return `${fork.question.replace(/^(is|are|does|do)\s+(it|there)\s+/i, '').replace(/\?$/, '')}: ${answer}`;
+};
 
-// How many dishes sit under each branch, so a path can show "180 → 92".
-function count(node) {
-  if (node.dish) return 1;
-  node._yes = count(node.yes);
-  node._no = count(node.no);
-  return node._yes + node._no;
+// ── renderer, camera, glow ──
+const stage = $('#stage');
+const canvas = $('#scene');
+const overlay = $('#overlay');
+const card = $('#card');
+
+let renderer;
+try {
+  renderer = new THREE.WebGLRenderer({ canvas, antialias: true, powerPreference: 'high-performance' });
+} catch (err) {
+  status.textContent = 'This page needs WebGL, which this browser has turned off.';
+  throw err;
 }
-function walk(node, steps) {
-  if (node.dish) { paths.set(node.dish, steps); return; }
-  walk(node.yes, steps.concat({ question: node.question, answer: "yes", before: node.dishes, after: node._yes }));
-  walk(node.no, steps.concat({ question: node.question, answer: "no", before: node.dishes, after: node._no }));
-}
+renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
+renderer.setClearColor(0x000000, 1);
 
-function render(node, branch, depth, chain) {
-  if (node.dish) {
-    const leaf = el("div", "leaf");
-    if (branch) leaf.append(el("span", "tag " + branch, branch), " ");
-    leaf.append("→ ", el("b", null, node.dish));
-    trail.set(node.dish, chain.concat(leaf));
-    return leaf;
-  }
-  const box = el("details");
-  if (depth < 2) box.open = true;
-  const summary = el("summary");
-  if (branch) summary.append(el("span", "tag " + branch, branch), " ");
-  summary.append(node.question + " ", el("span", "count", "[" + node.dishes + "]"));
-  box.append(summary);
-  const here = chain.concat(box);
-  box.append(render(node.yes, "yes", depth + 1, here), render(node.no, "no", depth + 1, here));
-  return box;
-}
+const scene = new THREE.Scene();
+const camera = new THREE.PerspectiveCamera(36, 1, 10, 20000);
+const controls = new OrbitControls(camera, canvas);
+controls.enableDamping = true;
+controls.dampingFactor = 0.08;
+controls.enablePan = false;
+controls.rotateSpeed = 0.7;
+controls.minDistance = 600;
+controls.maxDistance = 6500;
+controls.minPolarAngle = 0.3;
+controls.maxPolarAngle = 1.72;
+controls.autoRotateSpeed = 0.55;
 
-function showPath(name) {
-  const list = document.getElementById("path");
-  const note = document.getElementById("path-note");
-  list.replaceChildren();
-  document.querySelectorAll(".hit").forEach((n) => n.classList.remove("hit"));
-  const match = [...paths.keys()].find((k) => k.toLowerCase() === name.trim().toLowerCase());
-  if (!match) {
-    note.textContent = name.trim() ? "That dish is not in the catalogue — pick one from the suggestions." : "";
-    note.className = "note error";
-    return;
-  }
-  note.className = "note";
-  note.textContent = match + " is isolated after " + paths.get(match).length +
-    " questions. In the hint game these statements, in this order, are what the chef reveals about it.";
-  paths.get(match).forEach((step, i) => {
-    const row = el("li");
-    const text = el("span");
-    text.append(step.question, el("span", "answer " + step.answer, step.answer));
-    row.append(el("span", "n", String(i + 1).padStart(2, "0")), text, el("span", "left", step.before + " → " + step.after));
-    list.append(row);
-  });
-  const nodes = trail.get(match) || [];
-  nodes.forEach((n) => { if (n.tagName === "DETAILS") n.open = true; n.classList.add("hit"); });
-  if (nodes.length) nodes[nodes.length - 1].scrollIntoView({ block: "nearest", behavior: "smooth" });
-}
+// The bloom pass is the underglow: anything bright bleeds amber light.
+const composer = new EffectComposer(renderer, new THREE.WebGLRenderTarget(1, 1, { samples: 4, type: THREE.HalfFloatType }));
+composer.addPass(new RenderPass(scene, camera));
+const bloom = new UnrealBloomPass(new THREE.Vector2(1, 1), 0.62, 0.15, 0.3);
+composer.addPass(bloom);
+// Then the faintest light is cut away, so the glow hugs the branches and
+// the background stays pure #000000 instead of a brown haze.
+composer.addPass(new ShaderPass({
+  uniforms: { tDiffuse: { value: null } },
+  vertexShader: /* glsl */`
+    varying vec2 vUv;
+    void main() { vUv = uv; gl_Position = projectionMatrix * modelViewMatrix * vec4(position, 1.0); }`,
+  fragmentShader: /* glsl */`
+    uniform sampler2D tDiffuse;
+    varying vec2 vUv;
+    void main() {
+      vec3 c = texture2D(tDiffuse, vUv).rgb;
+      float light = dot(c, vec3(0.2126, 0.7152, 0.0722));
+      gl_FragColor = vec4(c * smoothstep(0.006, 0.026, light), 1.0);
+    }`,
+}));
+composer.addPass(new OutputPass());
 
-Mystico.call("/api/tree").then((data) => {
-  const s = data.stats;
-  const tiles = [
-    [s.dishes, "dishes, one leaf each"],
-    [s.mean_depth.toFixed(2), "questions on average", true],
-    [s.ideal_depth.toFixed(2), "theoretical minimum"],
-    [s.max_depth, "questions at most"],
-    [s.questions_used + " / " + s.questions_available, "questions used"],
-    [(100 * s.training_accuracy).toFixed(0) + "%", "reached by honest answers"],
-  ];
-  const stats = document.getElementById("stats");
-  tiles.forEach(([value, label, gold]) => {
-    const tile = el("div", gold ? "stat gold" : "stat");
-    tile.append(el("b", null, String(value)), el("span", null, label));
-    stats.append(tile);
-  });
-
-  count(data.tree);
-  walk(data.tree, []);
-  document.getElementById("tree").replaceChildren(render(data.tree, null, 0, []));
-
-  const options = document.getElementById("dishes");
-  [...paths.keys()].sort().forEach((name) => {
-    const option = el("option");
-    option.value = name;
-    options.append(option);
-  });
-}).catch((err) => {
-  const holder = document.getElementById("tree");
-  holder.textContent = "Could not load the tree (" + err.message + "). Start the game server from the food-guess-game folder: .venv/bin/python -m uvicorn app.main:app";
-  holder.className = "tree error";
+// Branches are lit like neon tubes: bright down the middle, darker at the
+// edges, which is what makes them read as round. `dist` is how far along the
+// tree from the ground each point is, so the tree can grow in from the roots.
+const tubeMaterial = new THREE.ShaderMaterial({
+  uniforms: { uGrow: { value: calm ? 1e9 : 0 } },
+  vertexShader: /* glsl */`
+    attribute vec3 tint;
+    attribute float dist;
+    varying vec3 vTint;
+    varying vec3 vNormal;
+    varying vec3 vView;
+    varying float vDist;
+    void main() {
+      vTint = tint;
+      vDist = dist;
+      vec4 mv = modelViewMatrix * vec4(position, 1.0);
+      vNormal = normalize(normalMatrix * normal);
+      vView = normalize(-mv.xyz);
+      gl_Position = projectionMatrix * mv;
+    }`,
+  fragmentShader: /* glsl */`
+    uniform float uGrow;
+    varying vec3 vTint;
+    varying vec3 vNormal;
+    varying vec3 vView;
+    varying float vDist;
+    void main() {
+      if (vDist > uGrow) discard;
+      float facing = clamp(dot(normalize(vNormal), normalize(vView)), 0.0, 1.0);
+      vec3 colour = vTint * (0.16 + 0.7 * facing) + vec3(1.0, 0.78, 0.5) * pow(facing, 8.0) * 0.42;
+      float front = smoothstep(uGrow - 90.0, uGrow, vDist);
+      colour += vec3(1.0, 0.62, 0.22) * front * 1.4;
+      gl_FragColor = vec4(colour, 1.0);
+    }`,
 });
 
-document.getElementById("go").addEventListener("click", () => showPath(document.getElementById("dish").value));
-document.getElementById("dish").addEventListener("keydown", (e) => { if (e.key === "Enter") showPath(e.target.value); });
-document.getElementById("dish").addEventListener("change", (e) => showPath(e.target.value));
+// ── the tree, laid out in 3D ──
+const leaves = [];
+const forks = [];
+
+function annotate(node, depth, parent, answer) {
+  Object.assign(node, { depth, parent, answer });
+  if (node.dish) {
+    node.index = leaves.length;
+    node.n = 1;
+    leaves.push(node);
+    return;
+  }
+  forks.push(node);
+  annotate(node.yes, depth + 1, node, 'yes');
+  annotate(node.no, depth + 1, node, 'no');
+  node.n = node.yes.n + node.no.n;
+}
+
+// Each fork's two answers divide the crown's surface between them, in
+// proportion to how many dishes each holds, so a limb's leaves sit together.
+// The surface is mapped by azimuth and u = cos(angle from the top), which
+// keeps every patch the same area.
+function divide(node, psi0, psi1, u0, u1) {
+  if (node.dish) {
+    node.psi = (psi0 + psi1) / 2;
+    node.u = (u0 + u1) / 2;
+    return;
+  }
+  const share = node.yes.n / node.n;
+  const um = (u0 + u1) / 2;
+  const ring = Math.sqrt(Math.max(0.08, 1 - um * um));
+  if ((psi1 - psi0) * ring >= (u1 - u0) / ring) {
+    const m = psi0 + (psi1 - psi0) * share;
+    divide(node.yes, psi0, m, u0, u1);
+    divide(node.no, m, psi1, u0, u1);
+  } else {
+    const m = u1 - (u1 - u0) * share;
+    divide(node.yes, psi0, psi1, m, u1);      // the upper part of the patch
+    divide(node.no, psi0, psi1, u0, m);
+  }
+}
+
+// A point on the crown, with a few gentle lobes so it is not a perfect egg.
+function crownPoint(psi, u) {
+  const h = Math.sqrt(Math.max(0, 1 - u * u));
+  const lobes = 1 + 0.06 * Math.sin(3 * psi + 0.6) * h + 0.05 * Math.sin(5 * psi + 2 * u) + 0.04 * Math.cos(4 * u * Math.PI);
+  return new THREE.Vector3(
+    CROWN.rx * h * Math.cos(psi) * lobes,
+    CROWN.cy + CROWN.ry * u * lobes,
+    CROWN.rz * h * Math.sin(psi) * lobes,
+  );
+}
+
+function centroid(node) {
+  if (node.dish) return node.pos.clone();
+  if (!node.centre) {
+    node.centre = centroid(node.yes).multiplyScalar(node.yes.n)
+      .add(centroid(node.no).multiplyScalar(node.no.n))
+      .divideScalar(node.n);
+  }
+  return node.centre.clone();
+}
+
+// A fork sits part-way between its parent and the middle of its own leaves;
+// deeper forks move further toward them, so branches spread out like a tree.
+function settle(node) {
+  for (const child of [node.yes, node.no]) {
+    if (!child.dish) {
+      const reach = Math.min(0.62, 0.32 + 0.045 * child.depth);
+      child.pos = node.pos.clone().lerp(centroid(child), reach);
+      settle(child);
+    }
+  }
+}
+
+// A branch leaves its fork the way the fork's own branch was growing, then
+// bends toward its child.
+function bend(from, heading, to) {
+  const d = from.distanceTo(to);
+  const c1 = from.clone().addScaledVector(heading, d * 0.38);
+  const c2 = to.clone().addScaledVector(to.clone().sub(from).normalize(), -d * 0.25);
+  return new THREE.CubicBezierCurve3(from.clone(), c1, c2, to.clone());
+}
+
+let tint = null;          // the merged geometry's colour attribute, for lighting paths
+let maxDist = 1;
+const parts = [];
+let vertices = 0;
+
+function addPart(geometry, colour, distAt) {
+  geometry.deleteAttribute('uv');
+  const count = geometry.attributes.position.count;
+  const tints = new Float32Array(count * 3);
+  const dists = new Float32Array(count);
+  for (let v = 0; v < count; v++) {
+    tints[v * 3] = colour.r;
+    tints[v * 3 + 1] = colour.g;
+    tints[v * 3 + 2] = colour.b;
+    dists[v] = distAt(v);
+  }
+  geometry.setAttribute('tint', new THREE.BufferAttribute(tints, 3));
+  geometry.setAttribute('dist', new THREE.BufferAttribute(dists, 1));
+  parts.push(geometry);
+  const range = { start: vertices, count };
+  vertices += count;
+  return range;
+}
+
+function tube(curve, radius, colour, startDist, radial = 8) {
+  const length = curve.getLength();
+  const segments = Math.max(4, Math.min(18, Math.round(length / 45)));
+  const geometry = new THREE.TubeGeometry(curve, segments, radius, radial, false);
+  const range = addPart(geometry, colour, (v) => startDist + (Math.floor(v / (radial + 1)) / segments) * length);
+  return { range, length };
+}
+
+function joint(at, radius, colour, dist) {
+  const geometry = new THREE.SphereGeometry(radius, 12, 8);
+  geometry.translate(at.x, at.y, at.z);
+  addPart(geometry, colour, () => dist);
+}
+
+function build(root) {
+  annotate(root, 0, null, null);
+  const N = leaves.length;
+  const deepest = Math.max(...leaves.map((leaf) => leaf.depth));
+  const colourAt = (depth) => COLOUR.trunk.clone().lerp(COLOUR.tip, Math.min(1, depth / deepest));
+  const radius = (n) => 1.7 + 15 * Math.pow(n / N, 0.55);
+
+  divide(root, -Math.PI / 2, Math.PI * 1.5, U_MIN, 1);
+  for (const leaf of leaves) leaf.pos = crownPoint(leaf.psi, leaf.u);
+  root.pos = new THREE.Vector3(0, TRUNK, 0);
+  root.heading = new THREE.Vector3(0, 1, 0);
+  settle(root);
+
+  // roots and trunk
+  for (let i = 0; i < 6; i++) {
+    const a = (i / 6) * Math.PI * 2 + 0.4;
+    const curve = new THREE.CubicBezierCurve3(
+      new THREE.Vector3(0, 14, 0),
+      new THREE.Vector3(Math.cos(a) * 70, 22, Math.sin(a) * 70),
+      new THREE.Vector3(Math.cos(a) * 170, 2, Math.sin(a) * 170),
+      new THREE.Vector3(Math.cos(a) * 290, -4, Math.sin(a) * 290),
+    );
+    tube(curve, 3.6, COLOUR.root, 0, 6);
+  }
+  const trunk = new THREE.CatmullRomCurve3([
+    new THREE.Vector3(0, -10, 0), new THREE.Vector3(-14, 130, 8),
+    new THREE.Vector3(14, 300, -6), new THREE.Vector3(0, TRUNK, 0),
+  ]);
+  const { length: trunkLength } = tube(trunk, radius(N) + 3, COLOUR.trunk, 0, 16);
+  root.dist = trunkLength;
+
+  // every branch, fork by fork from the trunk outward
+  const order = [...forks].sort((a, b) => a.depth - b.depth);
+  for (const fork of order) {
+    joint(fork.pos, radius(fork.n) * 1.02, colourAt(fork.depth), fork.dist);
+    for (const child of [fork.yes, fork.no]) {
+      const curve = bend(fork.pos, fork.heading, child.pos);
+      const colour = colourAt(child.depth);
+      const { range, length } = tube(curve, radius(child.n), colour, fork.dist, child.n > 24 ? 10 : 6);
+      child.dist = fork.dist + length;
+      child.heading = curve.getTangent(1).normalize();
+      child.edge = { range, colour };
+      maxDist = Math.max(maxDist, child.dist);
+    }
+  }
+
+  const geometry = mergeGeometries(parts, false);
+  tint = geometry.getAttribute('tint');
+  scene.add(new THREE.Mesh(geometry, tubeMaterial));
+  buildLeaves();
+  buildLabels(order);
+  buildAccents();
+}
+
+// ── leaves: one small glowing leaf at the end of every twig ──
+let leafMesh = null;
+const LEAF = new THREE.Vector3(9, 2.8, 4.2);   // length, thickness, width
+const matrix = new THREE.Matrix4();
+const scaleVec = new THREE.Vector3();
+const centre = new THREE.Vector3();
+const X = new THREE.Vector3(1, 0, 0);
+
+function buildLeaves() {
+  leafMesh = new THREE.InstancedMesh(new THREE.SphereGeometry(1, 12, 8), new THREE.MeshBasicMaterial({ color: 0xffffff }), leaves.length);
+  leafMesh.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+  for (const leaf of leaves) {
+    leaf.quat = new THREE.Quaternion().setFromUnitVectors(X, leaf.heading);
+    leaf.size = calm ? 1 : 0;
+    leaf.grow = 1;
+    placeLeaf(leaf);
+    leafMesh.setColorAt(leaf.index, COLOUR.leaf);
+  }
+  leafMesh.instanceColor.needsUpdate = true;
+  scene.add(leafMesh);
+}
+
+function placeLeaf(leaf) {
+  const s = leaf.size * leaf.grow;
+  // the leaf's base sits exactly on the twig's tip
+  centre.copy(leaf.pos).addScaledVector(leaf.heading, LEAF.x * s * 0.92);
+  matrix.compose(centre, leaf.quat, scaleVec.copy(LEAF).multiplyScalar(Math.max(s, 0.0001)));
+  leafMesh.setMatrixAt(leaf.index, matrix);
+  leafMesh.instanceMatrix.needsUpdate = true;
+}
+
+// ── dark neon accents: a glow on the ground and a few drifting embers ──
+let embers = null;
+function glowTexture(stops) {
+  const c = document.createElement('canvas');
+  c.width = c.height = 256;
+  const g = c.getContext('2d');
+  const gradient = g.createRadialGradient(128, 128, 0, 128, 128, 128);
+  for (const [at, colour] of stops) gradient.addColorStop(at, colour);
+  g.fillStyle = gradient;
+  g.fillRect(0, 0, 256, 256);
+  const texture = new THREE.CanvasTexture(c);
+  texture.colorSpace = THREE.SRGBColorSpace;
+  return texture;
+}
+
+function buildAccents() {
+  const ground = new THREE.Mesh(
+    new THREE.PlaneGeometry(2400, 2400),
+    new THREE.MeshBasicMaterial({
+      map: glowTexture([[0, 'rgba(255,46,31,0.32)'], [0.18, 'rgba(122,21,0,0.12)'], [0.45, 'rgba(60,8,0,0.03)'], [1, 'rgba(0,0,0,0)']]),
+      transparent: true, depthWrite: false, blending: THREE.AdditiveBlending,
+    }),
+  );
+  ground.rotation.x = -Math.PI / 2;
+  ground.position.y = -6;
+  scene.add(ground);
+
+  const count = 150;
+  const positions = new Float32Array(count * 3);
+  for (let i = 0; i < count; i++) {
+    const p = crownPoint(Math.random() * Math.PI * 2, Math.random() * 1.6 - 0.6).lerp(new THREE.Vector3(0, CROWN.cy, 0), Math.random() * 0.8);
+    positions.set([p.x, p.y - Math.random() * 600, p.z], i * 3);
+  }
+  const geometry = new THREE.BufferGeometry();
+  geometry.setAttribute('position', new THREE.BufferAttribute(positions, 3));
+  embers = new THREE.Points(geometry, new THREE.PointsMaterial({
+    size: 10, map: glowTexture([[0, 'rgba(255,255,255,1)'], [0.4, 'rgba(255,255,255,0.35)'], [1, 'rgba(255,255,255,0)']]),
+    color: 0xFF3A14, transparent: true, opacity: 0.4, depthWrite: false, blending: THREE.AdditiveBlending,
+  }));
+  embers.userData.speed = Array.from({ length: count }, () => 8 + Math.random() * 22);
+  scene.add(embers);
+}
+
+// ── labels: the big limbs, and the name of the leaf under the pointer ──
+const labels = [];
+const tipEl = document.createElement('div');
+tipEl.className = 'tip3d';
+tipEl.hidden = true;
+overlay.appendChild(tipEl);
+
+function buildLabels(order) {
+  for (const fork of order.filter((node) => node.depth <= 1)) {
+    for (const answer of ['yes', 'no']) {
+      const child = fork[answer];
+      const el = document.createElement('div');
+      el.className = 'limb3d';
+      el.textContent = limbName(fork, answer);
+      overlay.appendChild(el);
+      labels.push({ el, at: child.pos });
+    }
+  }
+}
+
+const projected = new THREE.Vector3();
+function toScreen(point) {
+  projected.copy(point).project(camera);
+  return {
+    x: ((projected.x + 1) / 2) * canvas.clientWidth,
+    y: ((1 - projected.y) / 2) * canvas.clientHeight,
+    z: projected.z,
+  };
+}
+
+const toCamera = new THREE.Vector3();
+function updateOverlay() {
+  const middle = toCamera.set(0, CROWN.cy, 0).applyMatrix4(camera.matrixWorldInverse).z;
+  for (const label of labels) {
+    const s = toScreen(label.at);
+    const depth = label.at.clone().applyMatrix4(camera.matrixWorldInverse).z;
+    label.el.style.transform = `translate(${s.x.toFixed(1)}px, ${s.y.toFixed(1)}px) translate(-50%, -160%)`;
+    label.el.style.opacity = s.z > 1 || depth < middle ? 0 : 1;   // only the limbs on the near side
+  }
+  const shown = hot || pinned;
+  if (shown) {
+    const s = toScreen(centre.copy(shown.pos).addScaledVector(shown.heading, 26));
+    const right = s.x >= canvas.clientWidth / 2;
+    tipEl.style.transform = `translate(${s.x.toFixed(1)}px, ${s.y.toFixed(1)}px) translate(${right ? '6px' : 'calc(-100% - 6px)'}, -50%)`;
+  }
+}
+
+// ── the view ──
+const DEFAULT = { phi: 1.36, theta: 0.5 };
+const lookAt = new THREE.Vector3(0, (CROWN.cy + CROWN.ry) / 2 + 40, 0);
+let userZoomed = false;
+let offset = { x: 0, y: 0 };
+
+function sizeStage() {
+  const w = stage.clientWidth;
+  const h = stage.clientHeight;
+  renderer.setSize(w, h, false);
+  composer.setSize(w, h);
+  camera.aspect = w / h;
+  applyOffset();
+}
+
+function applyOffset() {
+  const w = stage.clientWidth;
+  const h = stage.clientHeight;
+  if (offset.x || offset.y) camera.setViewOffset(w, h, offset.x, offset.y, w, h);
+  else camera.clearViewOffset();
+  camera.updateProjectionMatrix();
+}
+
+// The part of the stage the tree may use. With the card open on a wide
+// screen that is the space between the title and the card; on a narrow one,
+// the space between the title and the card at the bottom.
+function region() {
+  const w = stage.clientWidth;
+  const h = stage.clientHeight;
+  const box = stage.getBoundingClientRect();
+  const intro = $('.intro').getBoundingClientRect();
+  if (w > 760) {
+    if (card.hidden) return { left: 0, right: w, top: 0, bottom: h };
+    return { left: Math.min(intro.right - box.left + 16, w * 0.3), right: w - card.offsetWidth - 56, top: 0, bottom: h };
+  }
+  const top = intro.bottom - box.top + 8;
+  return { left: 0, right: w, top, bottom: card.hidden ? h : h - card.offsetHeight - 24 };
+}
+
+// The distance at which the whole tree fits that region.
+function fitDistance() {
+  const h = stage.clientHeight;
+  const r = region();
+  const vfov = THREE.MathUtils.degToRad(camera.fov);
+  const halfV = Math.atan(Math.tan(vfov / 2) * ((r.bottom - r.top) / h));
+  const halfH = Math.atan(Math.tan(vfov / 2) * ((r.right - r.left) / h));
+  const size = Math.max(CROWN.rx * 1.12, (CROWN.cy + CROWN.ry * 1.1) / 2 + 30);
+  return (size / Math.sin(Math.min(halfV, halfH))) * 1.02;
+}
+
+// Shift the picture so the tree sits in the middle of that region.
+function wantedOffset() {
+  const r = region();
+  return { x: stage.clientWidth / 2 - (r.left + r.right) / 2, y: stage.clientHeight / 2 - (r.top + r.bottom) / 2 };
+}
+
+let tween = null;
+function moveCamera({ theta, phi, distance, viewOffset }, duration = 900) {
+  const now = new THREE.Spherical().setFromVector3(camera.position.clone().sub(controls.target));
+  const from = { theta: now.theta, phi: now.phi, distance: now.radius, ox: offset.x, oy: offset.y };
+  let to = { theta: theta ?? now.theta, phi: phi ?? now.phi, distance: distance ?? now.radius, ox: viewOffset?.x ?? offset.x, oy: viewOffset?.y ?? offset.y };
+  // the short way round
+  while (to.theta - from.theta > Math.PI) to.theta -= Math.PI * 2;
+  while (to.theta - from.theta < -Math.PI) to.theta += Math.PI * 2;
+  tween = { from, to, start: performance.now(), duration: calm ? 1 : duration };
+}
+
+function stepTween(now) {
+  if (!tween) return;
+  const t = ease(Math.min(1, (now - tween.start) / tween.duration));
+  const { from, to } = tween;
+  const mix = (a, b) => a + (b - a) * t;
+  const s = new THREE.Spherical(mix(from.distance, to.distance), mix(from.phi, to.phi), mix(from.theta, to.theta));
+  camera.position.setFromSpherical(s).add(controls.target);
+  offset = { x: mix(from.ox, to.ox), y: mix(from.oy, to.oy) };
+  applyOffset();
+  if (t >= 1) tween = null;
+}
+
+function fit(animate = true) {
+  userZoomed = false;
+  const target = { ...DEFAULT, distance: fitDistance(), viewOffset: wantedOffset() };
+  if (animate) moveCamera(target);
+  else {
+    camera.position.setFromSpherical(new THREE.Spherical(target.distance, target.phi, target.theta)).add(controls.target);
+    offset = target.viewOffset;
+    applyOffset();
+  }
+}
+
+function dolly(factor) {
+  const now = new THREE.Spherical().setFromVector3(camera.position.clone().sub(controls.target));
+  userZoomed = true;
+  moveCamera({ distance: THREE.MathUtils.clamp(now.radius * factor, controls.minDistance, controls.maxDistance) }, 450);
+}
+
+// ── hover and pin ──
+let hot = null;
+let pinned = null;
+
+function light(leaf, on) {
+  for (let node = leaf; node && node.edge; node = node.parent) {
+    const { start, count } = node.edge.range;
+    const colour = on ? COLOUR.lit : node.edge.colour;
+    for (let v = start; v < start + count; v++) tint.setXYZ(v, colour.r, colour.g, colour.b);
+  }
+  tint.needsUpdate = true;
+}
+
+function setLeafLook(leaf, big) {
+  leaf.grow = big ? 2.6 : 1;
+  placeLeaf(leaf);
+  leafMesh.setColorAt(leaf.index, big ? COLOUR.leafHot : COLOUR.leaf);
+  leafMesh.instanceColor.needsUpdate = true;
+}
+
+function leafAt(px, py) {
+  let best = null;
+  let bestScore = Infinity;
+  for (const leaf of leaves) {
+    if (leaf.size < 0.9) continue;
+    const s = toScreen(leaf.pos);
+    if (s.z > 1) continue;
+    const d = Math.hypot(s.x - px, s.y - py);
+    if (d < 16) {
+      const score = d + s.z * 30;           // nearer leaves win a tie
+      if (score < bestScore) { bestScore = score; best = leaf; }
+    }
+  }
+  return best;
+}
+
+function setHot(leaf) {
+  if (leaf === hot) return;
+  if (hot && hot !== pinned) {
+    setLeafLook(hot, false);
+    light(hot, false);
+    if (pinned) light(pinned, true);
+  }
+  hot = leaf;
+  canvas.classList.toggle('over-leaf', !!leaf);
+  if (leaf) {
+    setLeafLook(leaf, true);
+    light(leaf, true);
+  }
+  const shown = hot || pinned;
+  tipEl.hidden = !shown;
+  if (shown) tipEl.textContent = shown.dish;
+}
+
+function pin(leaf) {
+  if (pinned && pinned !== leaf) {
+    setLeafLook(pinned, false);
+    light(pinned, false);
+  }
+  pinned = leaf;
+  if (!leaf) {
+    card.hidden = true;
+    if (hot) { setLeafLook(hot, true); light(hot, true); }
+    tipEl.hidden = !hot;
+    if (hot) tipEl.textContent = hot.dish;
+    moveCamera({ distance: userZoomed ? undefined : fitDistance(), viewOffset: { x: 0, y: 0 } });
+    return;
+  }
+  window.MysticoSound?.press();
+  setLeafLook(leaf, true);
+  light(leaf, true);
+  tipEl.hidden = false;
+  tipEl.textContent = leaf.dish;
+
+  const steps = [];
+  for (let node = leaf; node.parent; node = node.parent) steps.unshift(node);
+  $('#card-eyebrow').textContent = `Leaf ${leaf.index + 1} of ${leaves.length} · ${steps.length} questions`;
+  $('#card-title').textContent = leaf.dish;
+  $('#card-meta').textContent = `The questions that set ${leaf.dish} apart from the other ${leaves.length - 1} dishes, from trunk to leaf.`;
+  $('#card-path').replaceChildren(...steps.map((node, i) => {
+    const item = document.createElement('li');
+    const fork = node.parent;
+    item.innerHTML = `<span class="n">${String(i + 1).padStart(2, '0')}</span>` +
+      `<span class="q"></span><span class="a ${node.answer}">${node.answer}</span>` +
+      `<span class="c">${fork.n} → ${node.n} ${node.n === 1 ? 'dish' : 'dishes'}</span>`;
+    item.querySelector('.q').textContent = fork.question;
+    return item;
+  }));
+  card.hidden = false;
+  card.scrollTop = 0;
+
+  // turn the tree so the leaf faces the viewer, and make room for the card
+  const facing = Math.atan2(leaf.pos.x, leaf.pos.z);
+  moveCamera({ theta: facing, distance: userZoomed ? undefined : fitDistance(), viewOffset: wantedOffset() });
+}
+
+// ── pointer ──
+let down = null;
+let lastTouch = performance.now();
+const local = (event) => {
+  const box = canvas.getBoundingClientRect();
+  return [event.clientX - box.left, event.clientY - box.top];
+};
+canvas.addEventListener('pointerdown', (event) => {
+  down = local(event);
+  lastTouch = performance.now();
+});
+canvas.addEventListener('pointermove', (event) => {
+  const point = local(event);
+  if (down && Math.hypot(point[0] - down[0], point[1] - down[1]) > 5) {
+    canvas.classList.add('dragging');
+    setHot(null);
+  }
+  if (!down && event.pointerType === 'mouse') setHot(leafAt(...point));
+});
+canvas.addEventListener('pointerup', (event) => {
+  const point = local(event);
+  canvas.classList.remove('dragging');
+  if (down && Math.hypot(point[0] - down[0], point[1] - down[1]) <= 5) {
+    const leaf = leafAt(...point);
+    if (leaf) pin(leaf);
+    else if (pinned) pin(null);
+  }
+  down = null;
+  lastTouch = performance.now();
+});
+canvas.addEventListener('pointerleave', () => { if (!down) setHot(null); });
+canvas.addEventListener('wheel', () => { userZoomed = true; lastTouch = performance.now(); }, { passive: true });
+controls.addEventListener('start', () => { tween = null; lastTouch = performance.now(); });
+
+$('#zoom-in').addEventListener('click', () => dolly(1 / 1.4));
+$('#zoom-out').addEventListener('click', () => dolly(1.4));
+$('#zoom-fit').addEventListener('click', () => fit());
+$('#card-close').addEventListener('click', () => pin(null));
+document.addEventListener('keydown', (event) => {
+  if (event.key === 'Escape' && pinned) pin(null);
+  if (!pinned || (event.key !== 'ArrowLeft' && event.key !== 'ArrowRight')) return;
+  event.preventDefault();
+  const next = leaves[pinned.index + (event.key === 'ArrowRight' ? 1 : -1)];
+  if (next) pin(next);
+});
+window.addEventListener('resize', () => {
+  sizeStage();
+  if (!userZoomed && !tween) fit(false);
+});
+
+// ── the loop ──
+let growStart = 0;
+let growing = !calm;
+let last = performance.now();
+
+function frame(now) {
+  const dt = Math.min(0.05, (now - last) / 1000);
+  last = now;
+  stepTween(now);
+
+  if (growing) {
+    const t = Math.min(1, (now - growStart) / 2600);
+    const reach = ease(t) * (maxDist + 120);
+    tubeMaterial.uniforms.uGrow.value = reach;
+    for (const leaf of leaves) {
+      const s = Math.min(1, Math.max(0, (reach - leaf.dist) / 70));
+      if (s !== leaf.size) { leaf.size = s; placeLeaf(leaf); }
+    }
+    if (t >= 1) {
+      growing = false;
+      tubeMaterial.uniforms.uGrow.value = 1e9;
+    }
+  }
+
+  if (embers && !calm) {
+    const positions = embers.geometry.attributes.position;
+    for (let i = 0; i < positions.count; i++) {
+      let y = positions.getY(i) + embers.userData.speed[i] * dt;
+      if (y > CROWN.cy + CROWN.ry * 1.3) y = 60 + Math.random() * 200;
+      positions.setY(i, y);
+    }
+    positions.needsUpdate = true;
+  }
+
+  controls.autoRotate = !calm && !pinned && !hot && !tween && now - lastTouch > 4500;
+  controls.update();
+  updateOverlay();
+  composer.render();
+  requestAnimationFrame(frame);
+}
+
+// ── start ──
+window.addEventListener('mystico:waking', () => { status.textContent = 'Waking the kitchen — this can take a minute…'; });
+
+window.Mystico.call('/api/tree').then((data) => {
+  build(data.tree);
+  const s = data.stats;
+  $('#stats').innerHTML = `<b>${s.leaves}</b> dishes · <b>${s.mean_depth.toFixed(1)}</b> questions on average · <b>${s.max_depth}</b> at most`;
+  status.hidden = true;
+  controls.target.copy(lookAt);
+  sizeStage();
+  fit(false);
+  growStart = performance.now();
+  requestAnimationFrame(frame);
+}).catch((err) => {
+  status.textContent = `The tree could not load — ${err.message}`;
+  console.error(err);
+});
 </script>
 </body>
 </html>
