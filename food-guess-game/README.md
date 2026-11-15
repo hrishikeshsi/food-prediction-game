@@ -333,8 +333,9 @@ One page, three screens, no build step:
 - **About · Help · Future scope** — linked from the welcome page.
 - **Sound** — synthesised in the browser by `frontend/sound.js`, no audio files: a
   heavy, muffled thud on every click or tap, a lighter one on hover, the cloche
-  landing and lifting with a deep boom, a shimmer for the chef's spells and a
-  dull double thud for a wrong guess. Nothing plays before the visitor's first
+  landing and lifting with a deep boom, a shimmer for the chef's spells, a
+  dull double thud for a wrong guess, and on the welcome page a tiny glassy
+  spark for each speck of stardust behind the cursor. Nothing plays before the visitor's first
   click; the speaker button in the bottom-left corner turns it off.
 
 Palette: black `#000000` / `#09090B`, charcoal `#121215`, white `#FAFAFA`, and

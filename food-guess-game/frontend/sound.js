@@ -9,6 +9,7 @@
  *   boom    a deep thud and a shimmer as the cloche lifts
  *   magic   a soft thud and a shimmer when the chef casts a spell
  *   wrong   a dull double thud for a wrong guess
+ *   spark   a tiny glassy ting for each speck of stardust behind the cursor
  *
  * Browsers only allow sound after the visitor's first click or key press, so
  * nothing plays before that. The button in the corner turns sound off, and the
@@ -109,7 +110,49 @@
     });
   }
 
+  // A spark: one short, high, glassy note with a breath of crackle. The notes
+  // come from one pentatonic scale, so a sweep of the cursor sounds like a wind
+  // chime, and each spark is panned to where the cursor is.
+  const SPARK_NOTES = [1760, 1975.5, 2217.5, 2637, 2960, 3520, 3951];
+  function spark(c, dest, t, { pan = 0, level = 0.03 } = {}) {
+    let target = dest;
+    if (c.createStereoPanner) {
+      const panner = c.createStereoPanner();
+      panner.pan.value = Math.max(-1, Math.min(1, pan));
+      panner.connect(dest);
+      target = panner;
+    }
+    const note = SPARK_NOTES[Math.floor(Math.random() * SPARK_NOTES.length)];
+    const ring = 0.08 + Math.random() * 0.06;
+    [[1, 1], [2.01, 0.35]].forEach(([ratio, share]) => {
+      const tone = c.createOscillator();
+      tone.type = 'sine';
+      tone.frequency.setValueAtTime(note * ratio * 0.985, t);
+      tone.frequency.exponentialRampToValueAtTime(note * ratio, t + 0.015);
+      const gain = c.createGain();
+      gain.gain.setValueAtTime(0.0001, t);
+      gain.gain.exponentialRampToValueAtTime(level * share, t + 0.003);
+      gain.gain.exponentialRampToValueAtTime(0.0001, t + ring / ratio);
+      tone.connect(gain).connect(target);
+      tone.start(t);
+      tone.stop(t + ring + 0.02);
+    });
+    const crackle = c.createBufferSource();
+    crackle.buffer = noise(c);
+    const thin = c.createBiquadFilter();
+    thin.type = 'highpass';
+    thin.frequency.value = 6000;
+    const gain = c.createGain();
+    gain.gain.setValueAtTime(0.0001, t);
+    gain.gain.exponentialRampToValueAtTime(level * 0.6, t + 0.001);
+    gain.gain.exponentialRampToValueAtTime(0.0001, t + 0.012);
+    crackle.connect(thin).connect(gain).connect(target);
+    crackle.start(t);
+    crackle.stop(t + 0.02);
+  }
+
   const VOICES = {
+    spark,
     press: (c, d, t) => thud(c, d, t, { weight: 0.9, pitch: 1, length: 0.28 }),
     strong: (c, d, t) => thud(c, d, t, { weight: 1.1, pitch: 0.85, length: 0.34 }),
     hover: (c, d, t) => thud(c, d, t, { weight: 0.2, pitch: 1.7, length: 0.09 }),
@@ -143,10 +186,19 @@
     return ctx;
   }
 
-  function play(name) {
+  function play(name, options) {
     if (!on) return;
     const c = context();
-    if (c) VOICES[name](c, out, c.currentTime + 0.005);
+    if (c) VOICES[name](c, out, c.currentTime + 0.005, options);
+  }
+
+  // At most one spark every 85 ms, however fast the cursor moves.
+  let sparkedAt = 0;
+  function sparkle(pan = 0, energy = 0.5) {
+    const now = performance.now();
+    if (now - sparkedAt < 85) return;
+    sparkedAt = now;
+    play('spark', { pan: pan * 0.7, level: 0.016 + 0.024 * Math.max(0, Math.min(1, energy)) });
   }
 
   // Render a voice offline, without speakers — for checking how it sounds.
@@ -251,6 +303,7 @@
     boom: () => play('boom'),
     magic: () => play('magic'),
     wrong: () => play('wrong'),
+    spark: sparkle,
     render,
     get on() { return on; },
   };

@@ -12,7 +12,7 @@
 
   const { call, waitFor } = window.Mystico;
   // sound.js plays the clicks and hovers itself; these are the game's own moments
-  const sound = window.MysticoSound || { press() {}, land() {}, boom() {}, wrong() {} };
+  const sound = window.MysticoSound || { press() {}, land() {}, boom() {}, wrong() {}, spark() {} };
 
   // ─────────────────────────────── helpers ───────────────────────────────
   const $ = (selector, root = document) => root.querySelector(selector);
@@ -210,8 +210,12 @@
     // a trail of gold stardust behind the pointer, on the welcome page only
     if (view.screen !== 'welcome' || calm() || event.pointerType !== 'mouse') return;
     const now = performance.now();
-    if (now - dust.t < 40 || Math.hypot(event.clientX - dust.x, event.clientY - dust.y) < 14) return;
+    const travelled = Math.hypot(event.clientX - dust.x, event.clientY - dust.y);
+    if (now - dust.t < 40 || travelled < 14) return;
+    const speed = travelled / Math.max(16, now - dust.t);   // pixels per millisecond
     Object.assign(dust, { t: now, x: event.clientX, y: event.clientY });
+    // each speck chimes, from the side of the screen the cursor is on
+    sound.spark((event.clientX / innerWidth) * 2 - 1, speed / 2);
     if (document.querySelectorAll('.stardust').length > 24) return;
     const speck = document.createElement('span');
     speck.className = 'stardust';
